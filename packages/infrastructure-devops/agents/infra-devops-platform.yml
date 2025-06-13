@@ -14,7 +14,7 @@ agent:
 dependencies:
   persona: infra-devops-platform
   tasks:
-    - create-doc-from-template
+    - create-doc
     - review-infrastructure
     - validate-infrastructure
   templates:

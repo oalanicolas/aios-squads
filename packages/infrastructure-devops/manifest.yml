@@ -46,7 +46,7 @@ team_updates:
 # Dependencies on core BMAD components
 dependencies:
   - architect # Infrastructure design depends on main architecture
-  - create-doc-from-template # Uses template system
+  - create-doc # Uses template system
 
 # Post-install instructions
 post_install_message: |
