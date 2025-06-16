@@ -1,0 +1,12 @@
+bundle:
+  name: Game Development Team
+  icon: 🎮
+  description: Comprehensive game development team specialized in 2D games using Phaser 3 and TypeScript. This team handles the complete game development lifecycle from initial concept brainstorming through detailed design documentation to technical implementation and quality assurance. Specializes in indie games, mobile games, web games, educational games, prototyping, and game feature development with focus on player experience and performance optimization.
+agents:
+  - bmad-orchestrator
+  - game-designer
+  - game-developer
+  - game-sm
+workflows:
+  - game-dev-greenfield
+  - game-prototype
