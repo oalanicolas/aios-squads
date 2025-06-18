@@ -149,7 +149,7 @@ Create `expansion-packs/{pack-name}/plan.md` with:
 ## Approval
 
 User approval received: [ ] Yes
-```text
+```
 
 Important: Wait for user approval before proceeding to Phase 2
 
@@ -282,34 +282,36 @@ IMPORTANT: Only proceed after plan.md is approved
 #### 3.1 Create Directory Structure
 
 ```
+
 expansion-packs/
 └── {pack-name}/
-    ├── plan.md (ALREADY CREATED)
-    ├── manifest.yml
-    ├── README.md
-    ├── agents/
-    │   ├── {pack-name}-orchestrator.md (REQUIRED - Custom themed orchestrator)
-    │   └── {agent-id}.md (YAML-in-Markdown with persona)
-    ├── data/
-    │   ├── {domain}-best-practices.md
-    │   ├── {domain}-terminology.md
-    │   └── {domain}-standards.md
-    ├── tasks/
-    │   ├── create-doc.md (REQUIRED - Core utility)
-    │   ├── execute-checklist.md (REQUIRED - Core utility)
-    │   └── {task-name}.md (Domain-specific tasks)
-    ├── utils/
-    │   ├── template-format.md (REQUIRED - Core utility)
-    │   └── workflow-management.md (REQUIRED - Core utility)
-    ├── templates/
-    │   └── {template-name}.md
-    ├── checklists/
-    │   └── {checklist-name}.md
-    ├── workflows/
-    │   └── {domain}-workflow.md (REQUIRED if multiple agents)
-    └── agent-teams/
-        └── {domain}-team.yml (REQUIRED if multiple agents)
-```text
+├── plan.md (ALREADY CREATED)
+├── manifest.yml
+├── README.md
+├── agents/
+│ ├── {pack-name}-orchestrator.md (REQUIRED - Custom themed orchestrator)
+│ └── {agent-id}.md (YAML-in-Markdown with persona)
+├── data/
+│ ├── {domain}-best-practices.md
+│ ├── {domain}-terminology.md
+│ └── {domain}-standards.md
+├── tasks/
+│ ├── create-doc.md (REQUIRED - Core utility)
+│ ├── execute-checklist.md (REQUIRED - Core utility)
+│ └── {task-name}.md (Domain-specific tasks)
+├── utils/
+│ ├── template-format.md (REQUIRED - Core utility)
+│ └── workflow-management.md (REQUIRED - Core utility)
+├── templates/
+│ └── {template-name}.md
+├── checklists/
+│ └── {checklist-name}.md
+├── workflows/
+│ └── {domain}-workflow.md (REQUIRED if multiple agents)
+└── agent-teams/
+└── {domain}-team.yml (REQUIRED if multiple agents)
+
+```
 
 #### 3.2 Create Manifest
 
@@ -445,7 +447,7 @@ cp bmad-core/tasks/execute-checklist.md expansion-packs/{pack-name}/tasks/
 mkdir -p expansion-packs/{pack-name}/utils
 cp bmad-core/utils/template-format.md expansion-packs/{pack-name}/utils/
 cp bmad-core/utils/workflow-management.md expansion-packs/{pack-name}/utils/
-```text
+```
 
 **Step 3: Technical Implementation**
 
@@ -695,10 +697,10 @@ _{Professional background and expertise}_
    - `{file2}.{ext}` - {description}
 
 2. **Launch Orchestrator**:
+
    ```bash
    npm run agent {pack-name}-orchestrator
    ```
-````
 
 3. **Follow Numbered Options**: {Character Name} will present numbered choices for each decision
 
@@ -728,14 +730,12 @@ _{Professional background and expertise}_
 ### Knowledge Base
 
 [Embedded domain expertise]
-
 ````
 
 #### 6.3 Advanced Data File Documentation with Validation
 
 For each required data file, provide comprehensive guidance:
 
-```markdown
 ## Required User Data Files
 
 ### {filename}.{ext}
@@ -745,7 +745,6 @@ For each required data file, provide comprehensive guidance:
 - **Location**: Place in `bmad-core/data/`
 - **Validation**: {how agents will verify the file is correct}
 - **Example Structure**:
-````
 
 {sample content showing exact format}
 
@@ -1021,3 +1020,11 @@ Embedded knowledge (automatic):
 - [ ] Template conditional content tested with different scenarios
 - [ ] Workflow decision trees validated with sample use cases
 - [ ] Character interactions tested for consistency and professional authenticity
+
+```
+
+```
+
+```
+
+```
