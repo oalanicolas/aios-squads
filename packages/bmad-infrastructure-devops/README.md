@@ -2,11 +2,11 @@
 
 ## Overview
 
-This expansion pack extends BMAD Method with comprehensive infrastructure and DevOps capabilities. It's designed for teams that need to define, implement, and manage cloud infrastructure alongside their application development.
+This expansion pack extends BMad Method with comprehensive infrastructure and DevOps capabilities. It's designed for teams that need to define, implement, and manage cloud infrastructure alongside their application development.
 
 ## Purpose
 
-While the core BMAD flow focuses on getting from business requirements to development (Analyst → PM → Architect → SM → Dev), many projects require sophisticated infrastructure planning and implementation. This expansion pack adds:
+While the core BMad flow focuses on getting from business requirements to development (Analyst → PM → Architect → SM → Dev), many projects require sophisticated infrastructure planning and implementation. This expansion pack adds:
 
 - Infrastructure architecture design capabilities
 - Platform engineering implementation workflows
@@ -52,9 +52,9 @@ Install this expansion pack when your project requires:
 
 - `infrastructure-checklist.md` - Comprehensive 16-section infrastructure validation checklist
 
-## Integration with Core BMAD
+## Integration with Core BMad
 
-This expansion pack integrates with the core BMAD flow at these points:
+This expansion pack integrates with the core BMad flow at these points:
 
 1. **After Architecture Phase**: The Architect can trigger infrastructure architecture design
 2. **Parallel to Development**: Infrastructure implementation can proceed alongside application development
@@ -123,7 +123,7 @@ The DevOps agent can be added to team configurations:
 
 This expansion pack works best when used with:
 
-- Core BMAD agents (especially Architect)
+- Core BMad agents (especially Architect)
 - Technical preferences documentation
 - Approved PRD and system architecture
 
@@ -144,4 +144,4 @@ You can customize this expansion pack by:
 ---
 
 _Version: 1.0_
-_Compatible with: BMAD Method v4_
+_Compatible with: BMad Method v4_

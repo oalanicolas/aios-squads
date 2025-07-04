@@ -1,10 +1,10 @@
 # Create Expansion Pack Task
 
-This task helps you create a sophisticated BMAD expansion pack with advanced agent orchestration, template systems, and quality assurance patterns based on proven best practices.
+This task helps you create a sophisticated BMad expansion pack with advanced agent orchestration, template systems, and quality assurance patterns based on proven best practices.
 
 ## Understanding Expansion Packs
 
-Expansion packs extend BMAD with domain-specific capabilities using sophisticated AI agent orchestration patterns. They are self-contained packages that leverage:
+Expansion packs extend BMad with domain-specific capabilities using sophisticated AI agent orchestration patterns. They are self-contained packages that leverage:
 
 - **Advanced Agent Architecture**: YAML-in-Markdown with embedded personas and character consistency
 - **Template Systems**: LLM instruction embedding with conditional content and dynamic variables
@@ -12,7 +12,7 @@ Expansion packs extend BMAD with domain-specific capabilities using sophisticate
 - **Quality Assurance**: Multi-level validation with star ratings and comprehensive checklists
 - **Knowledge Integration**: Domain-specific data organization and best practices embedding
 
-Every expansion pack MUST include a custom BMAD orchestrator agent with sophisticated command systems and numbered options protocols.
+Every expansion pack MUST include a custom BMad orchestrator agent with sophisticated command systems and numbered options protocols.
 
 ## CRITICAL REQUIREMENTS
 
@@ -83,7 +83,7 @@ Create `expansion-packs/{pack-name}/plan.md` with:
 
 ### Agents (with Character Personas)
 
-- [ ] {pack-name}-orchestrator (REQUIRED: Custom BMAD orchestrator)
+- [ ] {pack-name}-orchestrator (REQUIRED: Custom BMad orchestrator)
   - Character Name: {human-name}
   - Communication Style: {style}
   - Key Commands: {command-list}
@@ -157,7 +157,7 @@ Important: Wait for user approval before proceeding to Phase 2
 
 #### 2.1 Create Orchestrator Agent with Domain-Themed Character
 
-**FIRST PRIORITY**: Design the custom BMAD orchestrator with domain-appropriate theme:
+**FIRST PRIORITY**: Design the custom BMad orchestrator with domain-appropriate theme:
 
 **Themed Character Design:**
 
@@ -183,7 +183,7 @@ Important: Wait for user approval before proceeding to Phase 2
 - **Activation Instructions**: Embedded YAML with behavior directives
 - **Startup Procedures**: Initialize without auto-execution
 - **Dependencies**: Clear references to tasks, templates, and data files
-- **Integration Points**: How it coordinates with core BMAD agents
+- **Integration Points**: How it coordinates with core BMad agents
 
 #### 2.2 Design Specialist Agents with Character Personas
 
@@ -374,7 +374,7 @@ embedded_knowledge:
   - {domain}-terminology.md
   - {domain}-standards.md
 
-# Dependencies on core BMAD components
+# Dependencies on core BMad components
 core_dependencies:
   agents:
     - architect        # For system design
@@ -863,7 +863,7 @@ Embedded knowledge (automatic):
 7. "Where in the workflow should users choose between different paths?"
 8. "How should the orchestrator hand off to specialist agents?"
 9. "What quality gates should be built into the workflow?"
-10. "How should it integrate with core BMAD agents?"
+10. "How should it integrate with core BMad agents?"
 
 ### Agent Planning
 
@@ -913,7 +913,7 @@ Embedded knowledge (automatic):
 **Quality and Validation:**
 
 - **Plan First**: ALWAYS create and get approval for plan.md before implementing
-- **Orchestrator Required**: Every pack MUST have a custom BMAD orchestrator with sophisticated command system
+- **Orchestrator Required**: Every pack MUST have a custom BMad orchestrator with sophisticated command system
 - **Verify References**: ALL referenced tasks/templates MUST exist and be tested
 - **Multi-Level Validation**: Quality systems must provide basic, comprehensive, and expert-level assessment
 - **Domain Expertise**: Ensure accuracy in specialized fields with embedded best practices

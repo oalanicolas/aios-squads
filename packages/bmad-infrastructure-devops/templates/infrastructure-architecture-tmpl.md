@@ -264,9 +264,9 @@ Create pipeline diagram showing:
 - Cost Monitoring & Reporting
 - Optimization Recommendations
 
-## BMAD Integration Architecture
+## BMad Integration Architecture
 
-[[LLM: Design infrastructure to specifically support other BMAD agents and their workflows. This ensures the infrastructure enables the entire BMAD methodology.]]
+[[LLM: Design infrastructure to specifically support other BMad agents and their workflows. This ensures the infrastructure enables the entire BMad methodology.]]
 
 ### Development Agent Support
 

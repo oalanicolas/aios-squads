@@ -55,13 +55,13 @@ To conduct a thorough review of existing infrastructure to identify improvement 
 - Create an improvement roadmap with suggested timelines
 - Highlight cost optimization opportunities
 
-### 5. BMAD Integration Assessment
+### 5. BMad Integration Assessment
 
-- Evaluate how current infrastructure supports other BMAD agents:
+- Evaluate how current infrastructure supports other BMad agents:
   - **Development Support:** Assess how infrastructure enables Frontend Dev (Mira), Backend Dev (Enrique), and Full Stack Dev workflows
   - **Product Alignment:** Verify infrastructure supports PRD requirements from Product Owner (Oli)
   - **Architecture Compliance:** Check if implementation follows Architect (Alphonse) decisions
-  - Document any gaps in BMAD integration
+  - Document any gaps in BMad integration
 
 ### 6. Architectural Escalation Assessment
 
@@ -133,7 +133,7 @@ A comprehensive infrastructure review report that includes:
 2. **Prioritized findings** with severity ratings
 3. **Detailed recommendations** with effort/impact estimates
 4. **Cost optimization opportunities**
-5. **BMAD integration assessment**
+5. **BMad integration assessment**
 6. **Architectural escalation assessment** with clear escalation recommendations
 7. **Action plan** for critical improvements and architectural work
 8. **Escalation documentation** for Architect Agent collaboration (if applicable)

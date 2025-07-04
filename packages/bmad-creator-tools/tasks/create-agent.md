@@ -1,6 +1,6 @@
 # Create Agent Task
 
-This task guides you through creating a new BMAD agent following the standard template.
+This task guides you through creating a new BMad agent following the standard template.
 
 ## Prerequisites
 

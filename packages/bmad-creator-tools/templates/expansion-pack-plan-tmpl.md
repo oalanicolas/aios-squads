@@ -70,7 +70,7 @@ Users must add these files to `bmad-core/data/`:
 
 ## Integration Points
 
-- Depends on core agents: {list any core BMAD agents used}
+- Depends on core agents: {list any core BMad agents used}
 - Extends teams: {which teams to update}
 
 ## Success Criteria

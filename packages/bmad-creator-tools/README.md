@@ -1,6 +1,6 @@
-# BMAD Creator Tools
+# BMad Creator Tools
 
-Tools for creating and extending BMAD framework components.
+Tools for creating and extending BMad framework components.
 
 ## Tasks
 
