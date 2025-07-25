@@ -4,7 +4,7 @@ bundle:
   description: Game Development team specialized in 2D games using Phaser 3 and TypeScript.
 agents:
   - analyst
-  - bmad-orchestrator
+  - aios-orchestrator
   - game-designer
   - game-developer
   - game-sm

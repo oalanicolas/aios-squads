@@ -15,11 +15,11 @@ To comprehensively validate a Unity 2D game development story draft before imple
   - **Story file**: The drafted game story to validate (provided by user or discovered in `devStoryLocation`)
   - **Parent epic**: The epic containing this story's requirements from GDD
   - **Architecture documents**: Based on configuration (sharded or monolithic)
-  - **Game story template**: `expansion-packs/bmad-2d-unity-game-dev/templates/game-story-tmpl.yaml` for completeness validation
+  - **Game story template**: `expansion-packs/aios-2d-unity-game-dev/templates/game-story-tmpl.yaml` for completeness validation
 
 ### 1. Game Story Template Completeness Validation
 
-- Load `expansion-packs/bmad-2d-unity-game-dev/templates/game-story-tmpl.yaml` and extract all required sections
+- Load `expansion-packs/aios-2d-unity-game-dev/templates/game-story-tmpl.yaml` and extract all required sections
 - **Missing sections check**: Compare story sections against game story template sections to verify all Unity-specific sections are present:
   - Unity Technical Context
   - Component Architecture

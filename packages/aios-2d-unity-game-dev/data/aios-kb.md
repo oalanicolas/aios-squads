@@ -111,14 +111,14 @@ You are developing games as a "Player Experience CEO" - thinking like a game dir
 
 ```bash
 # Interactive installation (recommended)
-npx bmad-method install
-# Select the bmad-2d-unity-game-dev expansion pack when prompted
+npx aios-fullstack install
+# Select the aios-2d-unity-game-dev expansion pack when prompted
 ```
 
 **Installation Steps for Game Development**:
 
 - Choose "Install expansion pack" when prompted
-- Select "bmad-2d-unity-game-dev" from the list
+- Select "aios-2d-unity-game-dev" from the list
 - Select your IDE from supported options:
   - **Cursor**: Native AI integration with Unity support
   - **Claude Code**: Anthropic's official IDE
@@ -131,7 +131,7 @@ npx bmad-method install
 **Verify Game Development Installation**:
 
 - `.bmad-core/` folder created with all core agents
-- `.bmad-2d-unity-game-dev/` folder with game development agents
+- `.aios-2d-unity-game-dev/` folder with game development agents
 - IDE-specific integration files created
 - Game development agents available with `/bmad2du` prefix (per config.yaml)
 
@@ -180,11 +180,11 @@ npx bmad-method install
 
 ## Core Configuration for Game Development (core-config.yaml)
 
-**New in V4**: The `expansion-packs/bmad-2d-unity-game-dev/core-config.yaml` file enables BMad to work seamlessly with any Unity project structure, providing maximum flexibility for game development.
+**New in V4**: The `expansion-packs/aios-2d-unity-game-dev/core-config.yaml` file enables AIOS to work seamlessly with any Unity project structure, providing maximum flexibility for game development.
 
 ### Game Development Configuration
 
-The expansion pack follows the standard BMad configuration patterns. Copy your core-config.yaml file to expansion-packs/bmad-2d-unity-game-dev/ and add Game-specific configurations to your project's `core-config.yaml`:
+The expansion pack follows the standard AIOS configuration patterns. Copy your core-config.yaml file to expansion-packs/aios-2d-unity-game-dev/ and add Game-specific configurations to your project's `core-config.yaml`:
 
 ```yaml
 markdownExploder: true

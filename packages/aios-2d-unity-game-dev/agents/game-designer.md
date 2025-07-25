@@ -73,5 +73,5 @@ dependencies:
   checklists:
     - game-design-checklist.md
   data:
-    - bmad-kb.md
+    - aios-kb.md
 ```

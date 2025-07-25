@@ -76,5 +76,5 @@ dependencies:
     - game-architect-checklist.md
   data:
     - development-guidelines.md
-    - bmad-kb.md
+    - aios-kb.md
 ```

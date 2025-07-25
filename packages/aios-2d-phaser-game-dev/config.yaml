@@ -1,0 +1,8 @@
+name: aios-2d-phaser-game-dev
+version: 1.11.0
+short-title: Phaser 3 2D Game Dev Pack
+description: >-
+  2D Game Development expansion pack for AIOS-FULLSTACK - Phaser 3 & TypeScript
+  focused
+author: AIOS Team
+slashPrefix: aios2dp

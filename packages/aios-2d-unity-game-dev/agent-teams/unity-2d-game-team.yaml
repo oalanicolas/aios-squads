@@ -4,7 +4,7 @@ bundle:
   description: Game Development team specialized in 2D games using Unity and C#.
 agents:
   - analyst
-  - bmad-orchestrator
+  - aios-orchestrator
   - game-designer
   - game-architect
   - game-developer
