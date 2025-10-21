@@ -623,7 +623,7 @@ Generates comprehensive axioma report for entire workflow.
 ### Reference
 - Knowledge base: `data/aios-pm-kb.md`
 - Section: Final Review & Approval Best Practices
-- **🆕 Mind artifacts**: `outputs/minds/pedro_valerio/artifacts/`
+- **🆕 Mind artifacts**: `hybrid-ops/minds/pedro_valerio/artifacts/`
 
 ---
 

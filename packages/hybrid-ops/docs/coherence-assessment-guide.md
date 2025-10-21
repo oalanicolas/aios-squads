@@ -706,7 +706,7 @@ Coherence Score: 0.77 (GOOD) → APPROVE with monitoring
 1. **Verify mind loading**
    ```bash
    # Check mind artifacts exist
-   ls outputs/minds/pedro_valerio/
+   ls hybrid-ops/minds/pedro_valerio/
 
    # Verify mind-loader.js functioning
    node -e "const { loadMind } = require('./utils/mind-loader'); loadMind().then(m => console.log('Loaded:', m.loaded));"

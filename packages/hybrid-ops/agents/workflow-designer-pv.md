@@ -571,7 +571,7 @@ Identifies efficiency improvements for existing workflow.
 ### Reference
 - Knowledge base: `data/aios-pm-kb.md`
 - Section: Workflow Design Best Practices
-- **🆕 Mind artifacts**: `outputs/minds/pedro_valerio/artifacts/`
+- **🆕 Mind artifacts**: `hybrid-ops/minds/pedro_valerio/artifacts/`
 
 ---
 

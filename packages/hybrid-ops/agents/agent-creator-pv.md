@@ -641,7 +641,7 @@ Helps determine appropriate truthfulness score for agent.
 ### Reference
 - Knowledge base: `data/aios-pm-kb.md`
 - Section: Agent Design Best Practices
-- **🆕 Mind artifacts**: `outputs/minds/pedro_valerio/artifacts/`
+- **🆕 Mind artifacts**: `hybrid-ops/minds/pedro_valerio/artifacts/`
 
 ---
 

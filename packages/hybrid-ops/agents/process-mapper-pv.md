@@ -501,8 +501,8 @@ if (discoveryValidation.overall_score < 7.0) {
 ### Reference
 - Knowledge base: `data/aios-pm-kb.md`
 - Section: Process Discovery Best Practices
-- **🆕 Mind artifacts**: `outputs/minds/pedro_valerio/artifacts/`
-- **🆕 ClickUp playbook**: `outputs/minds/pedro_valerio/sources/documentos/Gestão ClickUp.md`
+- **🆕 Mind artifacts**: `hybrid-ops/minds/pedro_valerio/artifacts/`
+- **🆕 ClickUp playbook**: `hybrid-ops/minds/pedro_valerio/sources/documentos/Gestão ClickUp.md`
 
 ---
 

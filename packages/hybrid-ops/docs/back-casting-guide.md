@@ -528,7 +528,7 @@ optionality: 0.9  // Very high
    ```
 
 2. **Consult PV Mind Artifacts**:
-   - Path: `outputs/minds/pedro_valerio/artifacts/`
+   - Path: `hybrid-ops/minds/pedro_valerio/artifacts/`
    - Files: `META_AXIOMAS.md`, `heurísticas_de_decisão.md`
    - Look for examples of axioma-compliant architectures
 
@@ -568,7 +568,7 @@ optionality: 0.9  // Very high
 
 1. **Verify Mind Artifacts Exist**:
    ```bash
-   ls outputs/minds/pedro_valerio/
+   ls hybrid-ops/minds/pedro_valerio/
    # Should contain: system_prompts/, artifacts/, heuristics/
    ```
 
@@ -671,7 +671,7 @@ const THRESHOLDS = {
 ## References
 
 - **Story 1.4**: Phase 2 Core Agents - Task Architect Refactoring
-- **PV Mind Artifact**: `outputs/minds/pedro_valerio/artifacts/heurísticas_de_decisão_e_algoritmos_mentais_únicos.md`
+- **PV Mind Artifact**: `hybrid-ops/minds/pedro_valerio/artifacts/heurísticas_de_decisão_e_algoritmos_mentais_únicos.md`
 - **Agent Implementation**: `.claude/commands/hybridOps/agents/process-architect-pv.md`
 - **Test Suite**: `.claude/commands/hybridOps/tests/architect-integration.test.js`
 

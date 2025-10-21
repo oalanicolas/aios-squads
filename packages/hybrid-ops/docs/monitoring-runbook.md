@@ -359,7 +359,7 @@ grep "CRITICAL" logs/hybrid-ops.log | grep "Level -2" | tail -n 50
 1. Check disk I/O performance
 2. Review artifact sizes:
    ```bash
-   du -sh outputs/minds/pedro_valerio/*
+   du -sh hybrid-ops/minds/pedro_valerio/*
    ```
 
 3. Monitor system resources:

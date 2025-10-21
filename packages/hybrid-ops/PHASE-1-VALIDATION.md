@@ -86,7 +86,7 @@
 node --version  # Should be v18.0.0 or higher
 
 # Check if Pedro Valério mind files exist
-ls outputs/minds/pedro_valerio/artifacts/
+ls hybrid-ops/minds/pedro_valerio/artifacts/
 ```
 
 Expected files:
@@ -396,11 +396,11 @@ processDiscovery().catch(console.error);
 
 **Error**:
 ```
-Error: ENOENT: no such file or directory, open 'outputs/minds/pedro_valerio/artifacts/...'
+Error: ENOENT: no such file or directory, open 'hybrid-ops/minds/pedro_valerio/artifacts/...'
 ```
 
 **Solution**:
-1. Check if `outputs/minds/pedro_valerio/` directory exists
+1. Check if `hybrid-ops/minds/pedro_valerio/` directory exists
 2. Verify artifact files are present:
    - `artifacts/META_AXIOMAS_DE_PEDRO_VALÉRIO.md`
    - `artifacts/heurísticas_de_decisão_e_algoritmos_mentais_únicos.md`
@@ -425,7 +425,7 @@ Mind files not available (expected if testing without outputs/)
 ```
 
 **Solution**:
-This is **EXPECTED** if you don't have the `outputs/minds/pedro_valerio/` directory.
+This is **EXPECTED** if you don't have the `hybrid-ops/minds/pedro_valerio/` directory.
 Tests are designed to gracefully skip mind-dependent tests and pass the rest.
 
 **To Run Full Tests**:

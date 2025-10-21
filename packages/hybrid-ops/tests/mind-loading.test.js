@@ -41,10 +41,12 @@ describe('Mind Loader', () => {
   });
 
   it('should have correct mind paths', () => {
-    assert.ok(MIND_PATHS.BASE, 'Should have BASE path');
+    // Note: BASE path removed in Story 1.16 (prioritized path resolution)
+    // MIND_PATHS now contains only relative paths
     assert.ok(MIND_PATHS.META_AXIOMAS, 'Should have META_AXIOMAS path');
     assert.ok(MIND_PATHS.HEURISTICAS, 'Should have HEURISTICAS path');
     assert.ok(MIND_PATHS.CLICKUP_PLAYBOOK, 'Should have CLICKUP_PLAYBOOK path');
+    assert.ok(MIND_PATHS.SYSTEM_PROMPT, 'Should have SYSTEM_PROMPT path');
   });
 
   it('should load mind components (may fail if files not available)', async function() {

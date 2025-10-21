@@ -41,7 +41,7 @@ aios-fullstack/expansion-packs/hybrid-ops/
 
 - Node.js ≥18.0.0
 - AIOS Framework v4.31.0+
-- Pedro Valério Mind artifacts at `outputs/minds/pedro_valerio/`
+- Pedro Valério Mind artifacts at `hybrid-ops/minds/pedro_valerio/`
 
 ### Install Dependencies
 
@@ -104,7 +104,7 @@ All agents are accessible via the junction link:
 
 The expansion pack automatically loads Pedro Valério's mind artifacts from:
 ```
-outputs/minds/pedro_valerio/
+hybrid-ops/minds/pedro_valerio/
 ├── artifacts/
 │   ├── META_AXIOMAS_DE_PEDRO_VALÉRIO.md
 │   └── heurísticas_de_decisão_e_algoritmos_mentais_únicos.md
@@ -208,7 +208,7 @@ ln -s ../../../aios-fullstack/expansion-packs/hybrid-ops .claude/commands/hybrid
 
 Verify mind artifacts exist:
 ```bash
-ls -la outputs/minds/pedro_valerio/artifacts/
+ls -la hybrid-ops/minds/pedro_valerio/artifacts/
 ```
 
 Expected files:

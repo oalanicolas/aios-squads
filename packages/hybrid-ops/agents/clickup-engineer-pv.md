@@ -1240,9 +1240,9 @@ Export configuration in ClickUp import format.
 - **🆕 Guardrails enforcement patterns**
 
 ### PV Mind Artifacts
-- `outputs/minds/pedro_valerio/META_AXIOMAS.md`
-- `outputs/minds/pedro_valerio/artifacts/heurísticas_de_decisão_e_algoritmos_mentais_únicos.md` (PV_PM_001)
-- `outputs/minds/pedro_valerio/behavioral_evidence/automation_decisions.md`
+- `hybrid-ops/minds/pedro_valerio/META_AXIOMAS.md`
+- `hybrid-ops/minds/pedro_valerio/artifacts/heurísticas_de_decisão_e_algoritmos_mentais_únicos.md` (PV_PM_001)
+- `hybrid-ops/minds/pedro_valerio/behavioral_evidence/automation_decisions.md`
 
 ### Reference
 - Knowledge base: `data/aios-pm-kb.md`
@@ -1600,7 +1600,7 @@ Folders per instance → Lists per phase → Multiple concurrent
 This agent operates in **PV Mode** when Pedro Valério's mind artifacts are available:
 
 **PV Mode** (Current):
-- ✅ Mind loaded from `outputs/minds/pedro_valerio/`
+- ✅ Mind loaded from `hybrid-ops/minds/pedro_valerio/`
 - ✅ PV_PM_001 automation tipping point logic active
 - ✅ Task Anatomy enforcement (8 fields)
 - ✅ Guardrails veto power enabled

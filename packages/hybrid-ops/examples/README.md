@@ -25,7 +25,7 @@ node examples/sample-process-mapping.js
 - Summary of validated process
 
 **Prerequisites:**
-- Mind artifacts in `outputs/minds/pedro_valerio/` (49 files)
+- Mind artifacts in `hybrid-ops/minds/pedro_valerio/` (49 files)
 - Dependencies installed: `npm install`
 
 ## Running Examples
@@ -43,7 +43,7 @@ node examples/sample-process-mapping.js
 ## Troubleshooting
 
 **Error: "Mind artifacts not found"**
-- Verify: `ls outputs/minds/pedro_valerio/` shows 49 files
+- Verify: `ls hybrid-ops/minds/pedro_valerio/` shows 49 files
 - If missing, clone mind artifacts repository
 
 **Error: "Cannot find module..."**

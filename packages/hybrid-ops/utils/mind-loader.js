@@ -21,15 +21,58 @@ const { getLogger } = require('./logger');
 const { getMetricsCollector } = require('./metrics-collector');
 
 /**
- * Paths to Pedro Valério's mind components
+ * Prioritized paths for Pedro Valério's mind components
+ *
+ * Priority 1: Co-located within hybrid-ops expansion pack (NEW)
+ * Priority 2: External outputs/minds/ directory (LEGACY - backward compatibility)
+ */
+const MINDS_BASE_PATHS = [
+  path.resolve(__dirname, '../minds/pedro_valerio'),           // NEW: Co-located (priority 1)
+  path.resolve(__dirname, '../../../../outputs/minds/pedro_valerio')  // OLD: External (fallback)
+];
+
+/**
+ * Relative paths to Pedro Valério's mind components
  */
 const MIND_PATHS = {
-  BASE: path.resolve(__dirname, '../../../../outputs/minds/pedro_valerio'),
   META_AXIOMAS: 'artifacts/META_AXIOMAS_DE_PEDRO_VALÉRIO.md',
   HEURISTICAS: 'artifacts/heurísticas_de_decisão_e_algoritmos_mentais_únicos.md',
   CLICKUP_PLAYBOOK: 'sources/documentos/Gestão ClickUp.md',
   SYSTEM_PROMPT: 'system_prompts/System_Prompt.md'
 };
+
+/**
+ * Resolves the base path for Pedro Valério's mind using prioritized path resolution
+ *
+ * Priority 1: Co-located within hybrid-ops expansion pack (NEW)
+ * Priority 2: External outputs/minds/ directory (LEGACY - backward compatibility)
+ *
+ * @returns {string} The resolved base path
+ * @throws {Error} If mind not found in any location
+ */
+function resolveMindBasePath() {
+  for (const basePath of MINDS_BASE_PATHS) {
+    if (require('fs').existsSync(basePath)) {
+      // Deprecation warning for legacy path (normalize path separators for cross-platform compatibility)
+      const normalizedPath = basePath.replace(/\\/g, '/');
+      if (normalizedPath.includes('outputs/minds')) {
+        console.warn('⚠️  DEPRECATION: Mind loaded from external path (outputs/minds/pedro_valerio/).');
+        console.warn('   Consider migrating to co-located path: hybrid-ops/minds/pedro_valerio/');
+        console.warn('   See MIGRATION-REPORT.md for details.');
+      }
+      return basePath;
+    }
+  }
+
+  // Clear error message when neither location exists
+  throw new Error(
+    `Mind 'pedro_valerio' not found in any location.\n` +
+    `Searched paths:\n` +
+    `  1. ${MINDS_BASE_PATHS[0]} (co-located)\n` +
+    `  2. ${MINDS_BASE_PATHS[1]} (legacy)\n` +
+    `Please ensure mind artifacts are installed. See INSTALLATION.md for setup instructions.`
+  );
+}
 
 /**
  * Pedro Valério Mind Class
@@ -387,7 +430,8 @@ class PedroValerioMind {
 
     this.metrics.recordCacheMiss({ component: 'mind-loader', artifact: relativePath });
 
-    const fullPath = path.join(MIND_PATHS.BASE, relativePath);
+    const basePath = resolveMindBasePath();
+    const fullPath = path.join(basePath, relativePath);
     console.log(`   Loading: ${relativePath}`);
 
     const content = await fs.readFile(fullPath, 'utf-8');
@@ -413,7 +457,8 @@ class PedroValerioMind {
 
     this.metrics.recordCacheMiss({ component: 'mind-loader', source: relativePath });
 
-    const fullPath = path.join(MIND_PATHS.BASE, relativePath);
+    const basePath = resolveMindBasePath();
+    const fullPath = path.join(basePath, relativePath);
     console.log(`   Loading: ${relativePath}`);
 
     const content = await fs.readFile(fullPath, 'utf-8');
@@ -431,7 +476,8 @@ class PedroValerioMind {
    * @returns {Promise<string>} System prompt content
    */
   async loadSystemPrompt(relativePath) {
-    const fullPath = path.join(MIND_PATHS.BASE, relativePath);
+    const basePath = resolveMindBasePath();
+    const fullPath = path.join(basePath, relativePath);
     console.log(`   Loading: ${relativePath}`);
 
     return await fs.readFile(fullPath, 'utf-8');

@@ -720,7 +720,7 @@ META_AXIOMAS validation checks for:
 This agent operates in **PV Mode** when Pedro Valério's mind artifacts are available:
 
 **PV Mode** (Current):
-- ✅ Mind loaded from `outputs/minds/pedro_valerio/`
+- ✅ Mind loaded from `hybrid-ops/minds/pedro_valerio/`
 - ✅ PV_PA_001 coherence scan active (weights: 1.0/0.8/0.3)
 - ✅ Veto enforcement enabled (truthfulness <0.7 → REJECT)
 - ✅ Axioma validation enabled (threshold: ≥7.0/10.0)
@@ -827,7 +827,7 @@ if (pvMind && coherenceScan) {
 ### Issue: Generic mode active, need PV mode
 
 **Resolution**:
-- Verify mind artifacts exist at `outputs/minds/pedro_valerio/`
+- Verify mind artifacts exist at `hybrid-ops/minds/pedro_valerio/`
 - Check mind-loader.js is functioning (Story 1.1)
 - Review session initialization logs
 - Confirm heuristic compilation successful
