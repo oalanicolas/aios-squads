@@ -1,0 +1,441 @@
+template:
+  id: clickup-config-template-v1
+  name: ClickUp Implementation Configuration
+  version: 1.0
+  output:
+    format: yaml
+    filename: "{{process_id}}-clickup-config.yaml"
+    title: "ClickUp Config: {{process_name}}"
+
+workflow:
+  mode: interactive
+  elicitation: comprehensive-elicitation
+
+sections:
+  - id: initial-setup
+    instruction: |
+      Initial Setup for ClickUp Configuration
+
+      This template generates the COMPLETE ClickUp setup for a hybrid process.
+
+      Includes:
+      - Space/Folder/List structure
+      - Custom fields (AIOS-PM specific)
+      - Automations
+      - Views
+      - Templates
+
+      Output file location: `output/clickup/{{process_id}}-clickup-config.yaml`
+
+  - id: config-metadata
+    title: Configuration Metadata
+    instruction: |
+      Elicit basic configuration metadata.
+    elicit: true
+    template: |
+      clickup_config:
+        process_id: {{process_id}}
+        process_name: {{process_name}}
+        version: {{version}}
+        created_date: {{created_date}}
+        workspace_id: {{workspace_id}}
+
+  - id: list-configuration
+    title: List Configuration
+    instruction: |
+      Define the ClickUp lists for this process.
+      Typically one list per phase.
+    elicit: true
+    template: |
+        lists:
+          {{#each lists}}
+          - id: {{list_id}}
+            name: {{name}}
+            description: {{description}}
+            phase: {{phase}}
+            color: {{color}}
+            {{#if parent_folder}}
+            folder_id: {{folder_id}}
+            {{/if}}
+            statuses:
+              {{#each statuses}}
+              - name: {{name}}
+                type: {{type}}
+                color: {{color}}
+              {{/each}}
+          {{/each}}
+
+  - id: custom-fields
+    title: Custom Fields (AIOS-PM Standard)
+    instruction: |
+      Define custom fields for AIOS-PM methodology.
+      These are CRITICAL for hybrid human-agent processes.
+    elicit: true
+    template: |
+        custom_fields:
+          # Executor Information
+          - name: Executor Type
+            type: dropdown
+            options:
+              - human
+              - agent
+              - hybrid
+            required: true
+            default: human
+
+          - name: Assigned Executor
+            type: text
+            description: "Human name or Agent ID"
+            required: true
+
+          - name: Primary Executor
+            type: text
+            description: "For hybrid tasks - who executes by default"
+            condition: executor_type == "hybrid"
+
+          - name: Fallback Executor
+            type: text
+            description: "For hybrid tasks - who takes over on escalation"
+            condition: executor_type == "hybrid"
+
+          # Task Classification
+          - name: Task Type
+            type: dropdown
+            options:
+              - operational
+              - development
+              - review
+              - handoff
+            required: true
+
+          - name: Complexity
+            type: dropdown
+            options:
+              - low
+              - medium
+              - high
+              - very-high
+            required: true
+
+          - name: Automation Ready
+            type: checkbox
+            description: "Is this task ready for agent execution?"
+            default: false
+
+          # Data Contracts
+          - name: Input Schema
+            type: url
+            description: "Link to input data schema"
+
+          - name: Output Schema
+            type: url
+            description: "Link to output data schema"
+
+          - name: Data Source
+            type: text
+            description: "Where does input come from?"
+
+          - name: Data Destination
+            type: text
+            description: "Where does output go?"
+
+          # QA & Validation
+          - name: QA Gate Enabled
+            type: checkbox
+            default: false
+
+          - name: QA Gate Type
+            type: dropdown
+            options:
+              - blocking
+              - warning
+              - informational
+            condition: qa_gate_enabled == true
+
+          - name: Validator
+            type: text
+            description: "Who/what validates this task?"
+            condition: qa_gate_enabled == true
+
+          # Workflow & Handoff
+          - name: Workflow ID
+            type: text
+            description: "Link to workflow definition"
+
+          - name: Next Task
+            type: relationship
+            description: "What task comes after this?"
+
+          - name: Handoff Method
+            type: dropdown
+            options:
+              - automatic
+              - manual
+              - qa-gate
+            default: manual
+
+          # Metrics & Monitoring
+          - name: Estimated Duration
+            type: number
+            unit: minutes
+            required: true
+
+          - name: Actual Duration
+            type: number
+            unit: minutes
+            auto_calculated: true
+
+          - name: Cycle Time
+            type: number
+            unit: hours
+            auto_calculated: true
+
+          # Migration Tracking
+          - name: Migration Stage
+            type: dropdown
+            options:
+              - human-only
+              - hybrid-testing
+              - agent-primary
+              - fully-automated
+            default: human-only
+
+          - name: Migration Date
+            type: date
+            description: "When was this migrated to agent?"
+
+  - id: automations
+    title: Automations
+    instruction: |
+      Define ClickUp automations for this process.
+      These automate handoffs and status transitions.
+    elicit: true
+    template: |
+        automations:
+          {{#each automations}}
+          - id: {{automation_id}}
+            name: {{name}}
+            trigger:
+              type: {{trigger_type}}
+              list: {{trigger_list}}
+              {{#if trigger_status}}
+              status: {{trigger_status}}
+              {{/if}}
+              {{#if trigger_field}}
+              field: {{trigger_field}}
+              value: {{trigger_value}}
+              {{/if}}
+
+            conditions:
+              {{#each conditions}}
+              - field: {{field}}
+                operator: {{operator}}
+                value: {{value}}
+              {{/each}}
+
+            actions:
+              {{#each actions}}
+              - type: {{action_type}}
+                {{#if action_type == "move_to_list"}}
+                target_list: {{target_list}}
+                {{/if}}
+                {{#if action_type == "change_status"}}
+                new_status: {{new_status}}
+                {{/if}}
+                {{#if action_type == "assign"}}
+                assignee: {{assignee}}
+                {{/if}}
+                {{#if action_type == "set_custom_field"}}
+                field: {{field}}
+                value: {{value}}
+                {{/if}}
+                {{#if action_type == "webhook"}}
+                url: {{webhook_url}}
+                payload: {{payload_template}}
+                {{/if}}
+              {{/each}}
+          {{/each}}
+
+  - id: views
+    title: Views
+    instruction: |
+      Define custom views for different stakeholders.
+    elicit: true
+    template: |
+        views:
+          {{#each views}}
+          - name: {{view_name}}
+            type: {{view_type}}
+            audience: {{audience}}
+            filters:
+              {{#each filters}}
+              - field: {{field}}
+                operator: {{operator}}
+                value: {{value}}
+              {{/each}}
+            grouping:
+              {{#if grouping}}
+              field: {{grouping_field}}
+              {{/if}}
+            sorting:
+              field: {{sort_field}}
+              direction: {{sort_direction}}
+            columns:
+              {{#each columns}}
+              - {{this}}
+              {{/each}}
+          {{/each}}
+
+  - id: templates-tasks
+    title: Task Templates
+    instruction: |
+      Define task templates for common task types.
+    elicit: true
+    template: |
+        task_templates:
+          {{#each task_templates}}
+          - name: {{template_name}}
+            description: {{description}}
+            default_assignee: {{default_assignee}}
+            default_status: {{default_status}}
+            custom_fields:
+              executor_type: {{executor_type}}
+              complexity: {{complexity}}
+              automation_ready: {{automation_ready}}
+            checklist:
+              {{#each checklist_items}}
+              - {{this}}
+              {{/each}}
+            {{#if subtasks}}
+            subtasks:
+              {{#each subtasks}}
+              - name: {{name}}
+                assignee: {{assignee}}
+              {{/each}}
+            {{/if}}
+          {{/each}}
+
+  - id: permissions
+    title: Permissions & Access
+    instruction: |
+      Define who can access and modify what.
+    elicit: true
+    template: |
+        permissions:
+          lists:
+            {{#each list_permissions}}
+            - list_id: {{list_id}}
+              viewers:
+                {{#each viewers}}
+                - {{this}}
+                {{/each}}
+              editors:
+                {{#each editors}}
+                - {{this}}
+                {{/each}}
+              admins:
+                {{#each admins}}
+                - {{this}}
+                {{/each}}
+            {{/each}}
+
+          custom_fields:
+            {{#each field_permissions}}
+            - field_name: {{field_name}}
+              editable_by:
+                {{#each editable_by}}
+                - {{this}}
+                {{/each}}
+            {{/each}}
+
+  - id: integrations
+    title: Integrations
+    instruction: |
+      Define integrations with external systems.
+    elicit: true
+    template: |
+        integrations:
+          {{#each integrations}}
+          - name: {{integration_name}}
+            type: {{integration_type}}
+            {{#if integration_type == "webhook"}}
+            webhook_url: {{webhook_url}}
+            events:
+              {{#each events}}
+              - {{this}}
+              {{/each}}
+            {{/if}}
+            {{#if integration_type == "api"}}
+            api_endpoint: {{api_endpoint}}
+            auth_method: {{auth_method}}
+            {{/if}}
+            {{#if integration_type == "zapier"}}
+            zap_id: {{zap_id}}
+            {{/if}}
+          {{/each}}
+
+  - id: implementation-steps
+    title: Implementation Steps
+    instruction: |
+      Generate step-by-step implementation guide.
+    template: |
+        implementation:
+          steps:
+            - step: 1
+              action: Create Space
+              details: |
+                Create a new Space in ClickUp named "{{process_name}}"
+                Space ID will be: {{workspace_id}}/{{process_id}}
+
+            - step: 2
+              action: Create Lists
+              details: |
+                Create the following lists:
+                {{#each lists}}
+                - {{name}} ({{description}})
+                {{/each}}
+
+            - step: 3
+              action: Configure Custom Fields
+              details: |
+                Add custom fields to all lists. Use ClickUp's field templates feature.
+                Import from: custom_fields section above.
+
+            - step: 4
+              action: Set Up Statuses
+              details: |
+                Configure statuses per list as defined in list configuration.
+
+            - step: 5
+              action: Create Task Templates
+              details: |
+                For each task template defined, create in ClickUp.
+
+            - step: 6
+              action: Configure Automations
+              details: |
+                Set up automations one by one. Test each before enabling.
+
+            - step: 7
+              action: Create Views
+              details: |
+                Create custom views for different stakeholders.
+
+            - step: 8
+              action: Set Permissions
+              details: |
+                Configure list and field permissions as defined.
+
+            - step: 9
+              action: Configure Integrations
+              details: |
+                Set up webhooks and API integrations.
+
+            - step: 10
+              action: Testing
+              details: |
+                Create test tasks and validate:
+                - Custom fields populate correctly
+                - Automations trigger as expected
+                - Handoffs work smoothly
+                - Views show correct data

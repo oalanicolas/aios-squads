@@ -1,0 +1,2956 @@
+
+> @aios-fullstack/hybrid-ops@1.0.0 test
+> node --test tests/mind-loading.test.js tests/workflow.test.simple.js
+
+TAP version 13
+# ✅ All tests completed
+# 🧪 Testing Mind Loader...
+# 👁️  Watching configuration file for changes
+# ⚠️  Config watcher already active (callback added)
+# ⚠️  Config watcher already active (callback added)
+# ℹ️ [mind-loader] mind_loading_started {}
+# 🧠 Loading Pedro Valério mind components...
+#    Loading heuristics configuration...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_validated { source: 'file' }
+# ✓ Configuration validated successfully
+#   Configuration source: file
+#    Loading: artifacts/META_AXIOMAS_DE_PEDRO_VALÉRIO.md
+# Subtest: Mind Loader
+    # Subtest: should create a PedroValerioMind instance
+    ok 1 - should create a PedroValerioMind instance
+      ---
+      duration_ms: 1.7392
+      type: 'test'
+      ...
+    # Subtest: should get singleton instance
+    ok 2 - should get singleton instance
+      ---
+      duration_ms: 0.1315
+      type: 'test'
+      ...
+    # Subtest: should have correct mind paths
+    ok 3 - should have correct mind paths
+      ---
+      duration_ms: 0.1199
+      type: 'test'
+      ...
+#    Loading: artifacts/heurísticas_de_decisão_e_algoritmos_mentais_únicos.md
+#    Loading: sources/documentos/Gestão ClickUp.md
+#    Loading: system_prompts/System_Prompt.md
+#    Compiling heuristics with configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 1
+# }
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 1,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] mind_loaded {
+#   success: true,
+#   duration_ms: 15,
+#   config_source: 'file',
+#   compiled_heuristics: 3,
+#   cached_artifacts: 3
+# }
+# ✅ Pedro Valério mind loaded successfully
+#    - Configuration Source: file
+#    - META_AXIOMAS: ✓
+#    - Heurísticas: ✓
+#    - ClickUp Playbook: ✓
+#    - Compiled Heuristics: 3
+#   ✓ Mind loaded successfully
+# ✅ Applied Pedro Valério mind to agent: test-agent
+# 🧪 Testing Axioma Validator...
+# ℹ️ [axioma-validator] validation_completed {
+#   overall_score: '7.0',
+#   recommendation: 'APPROVE',
+#   veto: false,
+#   violations_count: 0,
+#   strengths_count: 8,
+#   duration_ms: 0
+# }
+#   ✓ Validation score: 7.0/10.0
+# ℹ️ [axioma-validator] validation_completed {
+#   overall_score: '5.0',
+#   recommendation: 'REJECT_LOW_SCORE',
+#   veto: false,
+#   violations_count: 0,
+#   strengths_count: 0,
+#   duration_ms: 1
+# }
+#   ✓ Social level score: 5.0/10.0
+# ℹ️ [axioma-validator] validation_completed {
+#   overall_score: '5.0',
+#   recommendation: 'APPROVE',
+#   veto: false,
+#   violations_count: 0,
+#   strengths_count: 0,
+#   duration_ms: 0
+# }
+# ℹ️ [axioma-validator] validation_completed {
+#   overall_score: '5.0',
+#   recommendation: 'REJECT_LOW_SCORE',
+#   veto: false,
+#   violations_count: 0,
+#   strengths_count: 0,
+#   duration_ms: 0
+# }
+#   📋 Sample Report:
+#     === AXIOMA VALIDATION REPORT ===
+#     
+#     Overall Score: 5.0/10.0
+#     Recommendation: REJECT_LOW_SCORE
+#     
+#     --- Level Scores ---
+#       EXISTENTIAL: 5.0/10.0
+#       EPISTEMOLOGICAL: 5.0/10.0
+#       SOCIAL: 5.0/10.0
+#       OPERATIONAL: 5.0/10.0
+#     
+#     =================================
+#     
+# ℹ️ [axioma-validator] validation_completed {
+#   overall_score: '5.0',
+#   recommendation: 'REJECT_LOW_SCORE',
+#   veto: false,
+#   violations_count: 0,
+#   strengths_count: 0,
+#   duration_ms: 0
+# }
+# ℹ️ [axioma-validator] validation_completed {
+#   overall_score: '5.0',
+#   recommendation: 'REJECT_LOW_SCORE',
+#   veto: false,
+#   violations_count: 0,
+#   strengths_count: 0,
+#   duration_ms: 0
+# }
+# ℹ️ [axioma-validator] validation_completed {
+#   overall_score: '5.0',
+#   recommendation: 'REJECT_LOW_SCORE',
+#   veto: false,
+#   violations_count: 0,
+#   strengths_count: 0,
+#   duration_ms: 0
+# }
+# 🧪 Testing Heuristic Compiler...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ PV_BS_001 result: Priority=HIGH, Score=0.86
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ PV_PA_001 result: Score=0.83, Recommendation=APPROVE
+# ✓ Using cached heuristic: PV_PA_001
+#   ✓ PV_PA_001 veto: TRUTHFULNESS_BELOW_THRESHOLD (0.50 < 0.7)
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ PV_PM_001 result: Automate=true, Score=0.76
+# ✓ Using cached heuristic: PV_PM_001
+#   ✓ PV_PM_001 veto: MISSING_GUARDRAILS - Cannot automate without safety mechanisms
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Manual cache clear' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Manual cache clear
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+# ✓ Using cached heuristic: PV_BS_001
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 1, reason: 'Manual cache clear' }
+# ✓ Cleared heuristic compilation cache (1 heuristics)
+#   Reason: Manual cache clear
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+# ✓ Registered custom heuristic template: CUSTOM_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'CUSTOM_001',
+#   heuristic_name: 'Custom Test Heuristic',
+#   domain: 'testing',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: CUSTOM_001 (Custom Test Heuristic)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'CUSTOM_001',
+#   heuristic_name: 'Custom Test Heuristic',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+# 🧪 Testing Full Integration...
+#   📋 Integration Test: Complete Pipeline
+#   1️⃣ Loading Pedro Valério mind...
+# ⚠️  Config watcher already active (callback added)
+# ℹ️ [mind-loader] mind_loading_started {}
+# 🧠 Loading Pedro Valério mind components...
+#    Loading heuristics configuration...
+# ℹ️ [mind-loader] config_validated { source: 'file' }
+# ✓ Configuration validated successfully
+#   Configuration source: file
+#    Loading: artifacts/META_AXIOMAS_DE_PEDRO_VALÉRIO.md
+    # Subtest: should load mind components (may fail if files not available)
+    ok 4 - should load mind components (may fail if files not available)
+      ---
+      duration_ms: 16.0089
+      type: 'test'
+      ...
+    # Subtest: should get metadata
+    ok 5 - should get metadata
+      ---
+      duration_ms: 0.1865
+      type: 'test'
+      ...
+    # Subtest: should apply mind to agent
+    ok 6 - should apply mind to agent
+      ---
+      duration_ms: 0.1554
+      type: 'test'
+      ...
+    1..6
+ok 1 - Mind Loader
+  ---
+  duration_ms: 19.1445
+  type: 'suite'
+  ...
+# Subtest: Axioma Validator
+    # Subtest: should create AxiomaValidator instance
+    ok 1 - should create AxiomaValidator instance
+      ---
+      duration_ms: 0.1809
+      type: 'test'
+      ...
+    # Subtest: should have AXIOM_LEVELS defined
+    ok 2 - should have AXIOM_LEVELS defined
+      ---
+      duration_ms: 0.1632
+      type: 'test'
+      ...
+    # Subtest: should have CORE_AXIOMS defined
+    ok 3 - should have CORE_AXIOMS defined
+      ---
+      duration_ms: 0.1059
+      type: 'test'
+      ...
+    # Subtest: should validate content with high score
+    ok 4 - should validate content with high score
+      ---
+      duration_ms: 0.646
+      type: 'test'
+      ...
+    # Subtest: should detect veto condition on incoherence
+    ok 5 - should detect veto condition on incoherence
+      ---
+      duration_ms: 0.1926
+      type: 'test'
+      ...
+    # Subtest: should validate with specific levels only
+    ok 6 - should validate with specific levels only
+      ---
+      duration_ms: 0.193
+      type: 'test'
+      ...
+    # Subtest: should generate validation report
+    ok 7 - should generate validation report
+      ---
+      duration_ms: 0.2838
+      type: 'test'
+      ...
+    # Subtest: should track validation history
+    ok 8 - should track validation history
+      ---
+      duration_ms: 0.4222
+      type: 'test'
+      ...
+    # Subtest: should clear validation history
+    ok 9 - should clear validation history
+      ---
+      duration_ms: 0.2651
+      type: 'test'
+      ...
+    1..9
+ok 2 - Axioma Validator
+  ---
+  duration_ms: 2.8957
+  type: 'suite'
+  ...
+# Subtest: Heuristic Compiler
+    # Subtest: should create HeuristicCompiler instance
+    ok 1 - should create HeuristicCompiler instance
+      ---
+      duration_ms: 0.0949
+      type: 'test'
+      ...
+    # Subtest: should have HEURISTIC_TEMPLATES defined
+    ok 2 - should have HEURISTIC_TEMPLATES defined
+      ---
+      duration_ms: 0.0365
+      type: 'test'
+      ...
+    # Subtest: should compile PV_BS_001 (Future Back-Casting)
+    ok 3 - should compile PV_BS_001 (Future Back-Casting)
+      ---
+      duration_ms: 0.2413
+      type: 'test'
+      ...
+    # Subtest: should compile PV_PA_001 (Coherence Scan)
+    ok 4 - should compile PV_PA_001 (Coherence Scan)
+      ---
+      duration_ms: 0.2103
+      type: 'test'
+      ...
+    # Subtest: should apply veto in PV_PA_001 for low truthfulness
+    ok 5 - should apply veto in PV_PA_001 for low truthfulness
+      ---
+      duration_ms: 0.1101
+      type: 'test'
+      ...
+    # Subtest: should compile PV_PM_001 (Automation Check)
+    ok 6 - should compile PV_PM_001 (Automation Check)
+      ---
+      duration_ms: 0.2995
+      type: 'test'
+      ...
+    # Subtest: should apply veto in PV_PM_001 for missing guardrails
+    ok 7 - should apply veto in PV_PM_001 for missing guardrails
+      ---
+      duration_ms: 0.0966
+      type: 'test'
+      ...
+    # Subtest: should cache compiled heuristics
+    ok 8 - should cache compiled heuristics
+      ---
+      duration_ms: 0.1704
+      type: 'test'
+      ...
+    # Subtest: should compile multiple heuristics
+    ok 9 - should compile multiple heuristics
+      ---
+      duration_ms: 0.3041
+      type: 'test'
+      ...
+    # Subtest: should register custom template
+    ok 10 - should register custom template
+      ---
+      duration_ms: 0.1609
+      type: 'test'
+      ...
+    # Subtest: should get available heuristics
+    ok 11 - should get available heuristics
+      ---
+      duration_ms: 0.0541
+      type: 'test'
+      ...
+    # Subtest: should get heuristic metadata
+    ok 12 - should get heuristic metadata
+      ---
+      duration_ms: 0.0621
+      type: 'test'
+      ...
+    # Subtest: should get compilation stats
+    ok 13 - should get compilation stats
+      ---
+      duration_ms: 0.0443
+      type: 'test'
+      ...
+    1..13
+ok 3 - Heuristic Compiler
+  ---
+  duration_ms: 2.1325
+  type: 'suite'
+  ...
+#    Loading: artifacts/heurísticas_de_decisão_e_algoritmos_mentais_únicos.md
+#    Loading: sources/documentos/Gestão ClickUp.md
+#    Loading: system_prompts/System_Prompt.md
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] mind_loaded {
+#   success: true,
+#   duration_ms: 11,
+#   config_source: 'file',
+#   compiled_heuristics: 3,
+#   cached_artifacts: 3
+# }
+# ✅ Pedro Valério mind loaded successfully
+#    - Configuration Source: file
+#    - META_AXIOMAS: ✓
+#    - Heurísticas: ✓
+#    - ClickUp Playbook: ✓
+#    - Compiled Heuristics: 3
+#      ✓ Mind loaded
+#   2️⃣ Getting compiled heuristics...
+#      ✓ Heuristics ready
+#   3️⃣ Making decisions with heuristics...
+#      ✓ Strategic decision: PROCEED
+#      ✓ Person assessment: APPROVE
+#      ✓ Automation decision: AUTOMATE_NOW
+#   4️⃣ Validating outputs against axioms...
+# ℹ️ [axioma-validator] validation_completed {
+#   overall_score: '5.0',
+#   recommendation: 'REJECT_LOW_SCORE',
+#   veto: false,
+#   violations_count: 0,
+#   strengths_count: 0,
+#   duration_ms: 0
+# }
+#      ✓ Validation score: 5.0/10.0
+#      ✓ Recommendation: REJECT_LOW_SCORE
+#   5️⃣ Generating final report...
+#      ✓ Report generated
+#   ✅ Full integration test passed
+# Subtest: Integration: Full Mind Loading Pipeline
+    # Subtest: should load mind, compile heuristics, and validate output
+    ok 1 - should load mind, compile heuristics, and validate output
+      ---
+      duration_ms: 11.0928
+      type: 'test'
+      ...
+    1..1
+ok 4 - Integration: Full Mind Loading Pipeline
+  ---
+  duration_ms: 11.2298
+  type: 'suite'
+  ...
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 1 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 1
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 1 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 0 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 4 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 1
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 3 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 1 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# 🔄 Configuration file changed, reloading...
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0-test
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0-compiler-test
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0-compiler-test
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0-compiler-test
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0-compiler-test
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0-compiler-test
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0-compiler-test
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0-compiler-test
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0-compiler-test
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0-compiler-test
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0-compiler-test
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ⚠️ [mind-loader] config_reload_validation_failed {
+#   errors: [ 'PV_PA_001.thresholds: veto (0.7) must be < review (0.6)' ],
+#   action: 'keeping_old_config'
+# }
+#   Keeping old configuration
+# 🔄 Configuration file changed, reloading...
+# ⚠️  Falling back to hardcoded defaults
+# ℹ️ [mind-loader] config_change_detected { has_new_config: false }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'defaults' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: false }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'defaults' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: false }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'defaults' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: false }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+# ℹ️ [heuristic-compiler] cache_invalidated { previous_count: 3, recompile: false, duration_ms: 0 }
+#   Cache cleared. Heuristics will recompile on next use.
+#    Compiling heuristics with configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'defaults',
+#   duration_ms: 1,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: defaults)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: false }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'defaults' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: false }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+# ℹ️ [heuristic-compiler] cache_invalidated { previous_count: 3, recompile: false, duration_ms: 0 }
+#   Cache cleared. Heuristics will recompile on next use.
+#    Compiling heuristics with configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'defaults'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Hardcoded defaults
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'defaults',
+#   cached: true,
+#   duration_ms: 0
+# }
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'defaults',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: defaults)
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 0 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 0 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 0 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 0 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# 🔄 Configuration file changed, reloading...
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ New configuration is invalid:
+# ❌ Configuration validation failed with 1 error(s):
+#   1. PV_PA_001.thresholds: veto (0.7) must be < review (0.6)
+# ❌ Failed to load configuration: EBUSY: resource busy or locked, open 'C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml'
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 0 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 0 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 1 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 0 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 1
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 1 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 1,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 1 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 1
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 1
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 2 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 0 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 2 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 1 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 0 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 1,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 0 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# 🔄 Configuration file changed, reloading...
+# ✓ Loaded configuration from: C:\\Users\\AllFluence-User\\Workspaces\\AIOS\\AIOS-V4\\aios-fullstack\\expansion-packs\\hybrid-ops\\config\\heuristics.yaml
+#   Config version: 1.0
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 1 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 1,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)
+# ℹ️ [mind-loader] config_change_detected { has_new_config: true }
+# 🔄 Configuration changed, reloading heuristics...
+# ℹ️ [mind-loader] config_reloaded { source: 'file' }
+# ℹ️ [heuristic-compiler] config_change_detected { recompile_requested: true, has_new_config: true }
+# 🔄 Configuration change detected, invalidating heuristic cache...
+# ℹ️ [heuristic-compiler] cache_cleared { heuristics_count: 3, reason: 'Configuration file changed' }
+# ✓ Cleared heuristic compilation cache (3 heuristics)
+#   Reason: Configuration file changed
+#   Recompiling all heuristics with new configuration...
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   domain: 'business_strategy',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_BS_001 (Future System Back-Casting)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_BS_001',
+#   heuristic_name: 'Future System Back-Casting',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_BS_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   domain: 'people_assessment',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PA_001 (Systemic Coherence Scan)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PA_001',
+#   heuristic_name: 'Systemic Coherence Scan',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PA_001
+# ℹ️ [heuristic-compiler] compilation_started {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   domain: 'process_management',
+#   config_source: 'file'
+# }
+# 🔧 Compiling heuristic: PV_PM_001 (Automation Tipping Point)
+#    Source: Configuration file
+# ℹ️ [heuristic-compiler] compilation_completed {
+#   heuristic_id: 'PV_PM_001',
+#   heuristic_name: 'Automation Tipping Point',
+#   config_source: 'file',
+#   cached: true,
+#   duration_ms: 0
+# }
+#   ✓ Recompiled PV_PM_001
+# ℹ️ [heuristic-compiler] recompilation_completed { total_heuristics: 3, successful: 3, failed: 0, duration_ms: 0 }
+# ✓ Recompilation complete (3/3 successful)
+#    Compiling heuristics with configuration...
+# ✓ Using cached heuristic: PV_BS_001
+# ✓ Using cached heuristic: PV_PA_001
+# ✓ Using cached heuristic: PV_PM_001
+# ℹ️ [mind-loader] heuristics_compiled {
+#   count: 3,
+#   source: 'file',
+#   duration_ms: 0,
+#   heuristics: [ 'PV_BS_001', 'PV_PA_001', 'PV_PM_001' ]
+# }
+#    ✓ Compiled 3 core heuristics (source: file)

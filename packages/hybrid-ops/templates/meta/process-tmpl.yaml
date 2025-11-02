@@ -1,0 +1,245 @@
+template:
+  id: process-template-v1
+  name: Process Definition
+  version: 1.0
+  output:
+    format: yaml
+    filename: "{{process_id}}.yaml"
+    title: "Process: {{process_name}}"
+
+workflow:
+  mode: interactive
+  elicitation: comprehensive-elicitation
+
+sections:
+  - id: initial-setup
+    instruction: |
+      Initial Setup for Process Definition
+
+      A PROCESS is a collection of tasks organized into phases that achieve a business outcome.
+
+      Processes can be:
+      - operational (ongoing, repeatable)
+      - development (one-time, project-based)
+      - hybrid (mix of both)
+
+      Output file location: `output/processes/{{process_id}}.yaml`
+
+  - id: process-metadata
+    title: Process Metadata
+    instruction: |
+      Elicit basic process information.
+    elicit: true
+    template: |
+      process:
+        id: {{process_id}}
+        name: {{process_name}}
+        description: {{description}}
+        type: {{process_type}}
+        version: {{version}}
+        owner: {{owner}}
+        status: {{status}}
+        created_date: {{created_date}}
+        last_updated: {{last_updated}}
+
+  - id: clickup-configuration
+    title: ClickUp Configuration
+    instruction: |
+      Define the ClickUp structure for this process.
+      Processes typically map to Spaces or Folders in ClickUp.
+    elicit: true
+    template: |
+        clickup:
+          space_id: {{space_id}}
+          space_name: {{space_name}}
+          {{#if folder_structure}}
+          folders:
+            {{#each folders}}
+            - id: {{id}}
+              name: {{name}}
+              description: {{description}}
+            {{/each}}
+          {{/if}}
+          lists:
+            {{#each lists}}
+            - id: {{id}}
+              name: {{name}}
+              purpose: {{purpose}}
+              phase: {{phase}}
+            {{/each}}
+
+  - id: phases-definition
+    title: Process Phases
+    instruction: |
+      Break the process into phases (stages).
+      Phases help organize tasks and create natural checkpoints.
+
+      Example phases: Discovery → Planning → Execution → Review → Deployment
+    elicit: true
+    template: |
+        phases:
+          {{#each phases}}
+          - phase_id: {{phase_id}}
+            name: {{name}}
+            description: {{description}}
+            sequence: {{sequence}}
+            entry_criteria:
+              {{#each entry_criteria}}
+              - {{this}}
+              {{/each}}
+            exit_criteria:
+              {{#each exit_criteria}}
+              - {{this}}
+              {{/each}}
+            {{#if gate}}
+            gate:
+              type: {{gate_type}}
+              approver: {{approver}}
+            {{/if}}
+          {{/each}}
+
+  - id: tasks-definition
+    title: Tasks within Process
+    instruction: |
+      List all tasks that belong to this process.
+      Reference task_id from task definitions created with task-unified-tmpl.
+
+      For each task, specify:
+      - Task ID
+      - Phase it belongs to
+      - Sequence within phase
+    elicit: true
+    template: |
+        tasks:
+          {{#each tasks}}
+          - task_id: {{task_id}}
+            phase: {{phase}}
+            sequence: {{sequence}}
+            {{#if parallel_group}}
+            parallel_group: {{parallel_group}}
+            {{/if}}
+          {{/each}}
+
+  - id: handoff-map
+    title: Handoff Map
+    instruction: |
+      Define the flow between tasks (who hands off to whom).
+      This creates the process workflow diagram.
+    elicit: true
+    template: |
+        handoff_map:
+          {{#each handoffs}}
+          - from_task: {{from_task}}
+            to_task: {{to_task}}
+            trigger: {{trigger}}
+            data_contract: {{data_contract}}
+            {{#if qa_gate}}
+            qa_gate: {{qa_gate}}
+            {{/if}}
+          {{/each}}
+
+  - id: automation-rules
+    title: Automation Rules
+    instruction: |
+      Define automation rules for this process.
+      These become ClickUp automations OR agent triggers.
+    elicit: true
+    template: |
+        automation:
+          {{#each rules}}
+          - rule_id: {{rule_id}}
+            name: {{name}}
+            trigger:
+              type: {{trigger_type}}
+              condition: {{condition}}
+            action:
+              type: {{action_type}}
+              details: {{action_details}}
+            executor: {{executor}}
+          {{/each}}
+
+  - id: metrics-monitoring
+    title: Metrics & Monitoring
+    instruction: |
+      Define what metrics track process health and performance.
+    elicit: true
+    template: |
+        metrics:
+          cycle_time:
+            description: {{cycle_time_description}}
+            target: {{cycle_time_target}}
+          throughput:
+            description: {{throughput_description}}
+            target: {{throughput_target}}
+          quality:
+            description: {{quality_description}}
+            target: {{quality_target}}
+          {{#if custom_metrics}}
+          custom:
+            {{#each custom_metrics}}
+            - name: {{name}}
+              description: {{description}}
+              target: {{target}}
+              measurement: {{measurement}}
+            {{/each}}
+          {{/if}}
+
+  - id: migration-strategy
+    title: Migration Strategy (Human → Agent)
+    instruction: |
+      If this process involves progressive migration from human to agent execution,
+      define the migration plan.
+    condition: has_migration_plan == true
+    elicit: true
+    template: |
+        migration:
+          strategy: {{strategy}}
+          phases:
+            {{#each migration_phases}}
+            - phase: {{phase_number}}
+              name: {{name}}
+              tasks_to_migrate:
+                {{#each tasks}}
+                - {{this}}
+                {{/each}}
+              readiness_criteria:
+                {{#each criteria}}
+                - {{this}}
+                {{/each}}
+              rollback_plan: {{rollback_plan}}
+            {{/each}}
+
+  - id: dependencies-external
+    title: External Dependencies
+    instruction: |
+      List dependencies on systems, APIs, people outside this process.
+    elicit: true
+    template: |
+        dependencies:
+          systems:
+            {{#each systems}}
+            - name: {{name}}
+              type: {{type}}
+              criticality: {{criticality}}
+              {{#if api}}
+              api_endpoint: {{api_endpoint}}
+              {{/if}}
+            {{/each}}
+          {{#if external_teams}}
+          external_teams:
+            {{#each external_teams}}
+            - team: {{team}}
+              contact: {{contact}}
+              dependency: {{dependency}}
+            {{/each}}
+          {{/if}}
+
+  - id: validation
+    instruction: |
+      Validate the process definition:
+      - All referenced tasks exist
+      - Phases have clear entry/exit criteria
+      - Handoff map is acyclic (no loops without exit conditions)
+      - ClickUp configuration is complete
+
+      If validation fails, prompt corrections.

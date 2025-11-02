@@ -1,0 +1,17 @@
+name: hybrid-ops
+version: 2.0.0
+short-title: Hybrid Ops Process Factory
+description: >-
+  META-framework for hybrid human-agent process orchestration. Integrates Pedro Valério's
+  mind architecture with AIOS workflow engine, enabling progressive migration from manual
+  to AI-executed operations. Features: Mind-based decision capture, workflow generation,
+  quality gates, ClickUp integration, and comprehensive process documentation.
+author: Pedro Valério
+slashPrefix: hybridOps
+
+# Migration from v1.0.0 to v2.0.0:
+# - Integrated pedro_valerio mind architecture
+# - Added Mind Query Engine for context-aware execution
+# - Enhanced workflow generation with heuristics
+# - Improved decision capture and pattern analysis
+# - Added compliance validation with mind-based rules

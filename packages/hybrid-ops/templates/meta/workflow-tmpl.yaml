@@ -1,0 +1,269 @@
+template:
+  id: workflow-template-v1
+  name: Workflow Definition
+  version: 1.0
+  output:
+    format: markdown
+    filename: "{{workflow_id}}.md"
+    title: "Workflow: {{workflow_name}}"
+
+workflow:
+  mode: interactive
+  elicitation: detailed-elicitation
+
+sections:
+  - id: initial-setup
+    instruction: |
+      Initial Setup for Workflow Definition
+
+      A WORKFLOW is the step-by-step instructions for executing a task.
+
+      Workflows are:
+      - Linked to tasks (one task → one workflow)
+      - Executable by humans OR agents (universal format)
+      - More detailed than task descriptions
+
+      Output file location: `workflows/{{workflow_id}}.md`
+
+  - id: workflow-header
+    title: Workflow Header
+    instruction: |
+      Elicit workflow metadata and link to parent task.
+    elicit: true
+    template: |
+      # Workflow: {{workflow_name}}
+
+      **ID**: `{{workflow_id}}`
+      **Version**: {{version}}
+      **Task**: `{{task_id}}`
+      **Audience**: {{audience}}
+      **Estimated Time**: {{estimated_time}}
+
+      ## Purpose
+
+      {{purpose}}
+
+  - id: prerequisites
+    title: Prerequisites
+    instruction: |
+      Define what must be in place BEFORE starting this workflow.
+    elicit: true
+    template: |
+      ## Prerequisites
+
+      Before starting this workflow, ensure:
+
+      {{#each prerequisites}}
+      - [ ] {{this}}
+      {{/each}}
+
+      {{#if required_access}}
+      ### Required Access/Permissions
+      {{#each required_access}}
+      - {{system}}: {{access_level}}
+      {{/each}}
+      {{/if}}
+
+      {{#if required_tools}}
+      ### Required Tools
+      {{#each required_tools}}
+      - {{this}}
+      {{/each}}
+      {{/if}}
+
+  - id: overview
+    title: Workflow Overview
+    instruction: |
+      Provide a high-level overview of the workflow steps.
+      This helps both humans and agents understand the big picture.
+    elicit: true
+    template: |
+      ## Workflow Overview
+
+      {{overview}}
+
+      **Steps at a glance**:
+      {{#each step_summary}}
+      {{step_number}}. {{step_name}}
+      {{/each}}
+
+  - id: steps
+    title: Detailed Steps
+    instruction: |
+      Define each step in detail. For each step, elicit:
+      - Step number and name
+      - What to do (action)
+      - Why (rationale)
+      - Expected output
+      - How to validate
+
+      Make steps atomic (one clear action per step).
+      Use this section multiple times for each step.
+    elicit: true
+    repeatable: true
+    template: |
+      ## Step {{step_number}}: {{step_name}}
+
+      ### Action
+
+      {{action}}
+
+      ### Rationale
+
+      {{rationale}}
+
+      ### Expected Output
+
+      {{expected_output}}
+
+      ### Validation
+
+      {{#each validation_checks}}
+      - [ ] {{this}}
+      {{/each}}
+
+      {{#if tools_for_step}}
+      ### Tools/Systems Used
+      {{#each tools_for_step}}
+      - {{this}}
+      {{/each}}
+      {{/if}}
+
+      {{#if example}}
+      ### Example
+
+      ```
+      {{example}}
+      ```
+      {{/if}}
+
+  - id: decision-points
+    title: Decision Points
+    instruction: |
+      If the workflow has decision points (if/then branches), define them here.
+    condition: has_decision_points == true
+    elicit: true
+    template: |
+      ## Decision Points
+
+      {{#each decision_points}}
+      ### Decision: {{decision_id}}
+
+      **At Step**: {{at_step}}
+      **Question**: {{question}}
+
+      **Options**:
+      {{#each options}}
+      - **{{option}}**: {{consequence}}
+        {{#if goto_step}}
+        → Go to Step {{goto_step}}
+        {{/if}}
+      {{/each}}
+      {{/each}}
+
+  - id: loops-iterations
+    title: Loops & Iterations
+    instruction: |
+      If the workflow involves repeating steps, define the loop conditions.
+    condition: has_loops == true
+    elicit: true
+    template: |
+      ## Loops & Iterations
+
+      {{#each loops}}
+      ### Loop: {{loop_id}}
+
+      **Steps**: {{start_step}} to {{end_step}}
+      **Repeat while**: {{condition}}
+      **Max iterations**: {{max_iterations}}
+
+      **Exit condition**: {{exit_condition}}
+      {{/each}}
+
+  - id: error-handling
+    title: Error Handling
+    instruction: |
+      Define what to do when things go wrong.
+    elicit: true
+    template: |
+      ## Error Handling
+
+      {{#each error_scenarios}}
+      ### Error: {{error_type}}
+
+      **Symptoms**: {{symptoms}}
+      **Resolution**:
+      {{#each resolution_steps}}
+      {{step_number}}. {{step}}
+      {{/each}}
+
+      {{#if escalation}}
+      **Escalate to**: {{escalation_contact}} if {{escalation_trigger}}
+      {{/if}}
+      {{/each}}
+
+  - id: output-validation
+    title: Output Validation
+    instruction: |
+      Define how to validate the workflow completed successfully.
+    elicit: true
+    template: |
+      ## Output Validation
+
+      After completing this workflow, verify:
+
+      {{#each validation_criteria}}
+      - [ ] {{criterion}}
+      {{/each}}
+
+      {{#if output_checklist}}
+      ### Output Checklist
+      {{#each output_checklist}}
+      - [ ] {{item}}
+      {{/each}}
+      {{/if}}
+
+      {{#if quality_standards}}
+      ### Quality Standards
+      {{#each quality_standards}}
+      - **{{standard}}**: {{requirement}}
+      {{/each}}
+      {{/if}}
+
+  - id: examples
+    title: Examples
+    instruction: |
+      Provide concrete examples of this workflow in action.
+      Helps both humans and agents understand context.
+    elicit: true
+    template: |
+      ## Examples
+
+      {{#each examples}}
+      ### Example {{example_number}}: {{example_title}}
+
+      {{example_description}}
+
+      **Input**:
+      ```
+      {{input}}
+      ```
+
+      **Process**:
+      {{process_summary}}
+
+      **Output**:
+      ```
+      {{output}}
+      ```
+      {{/each}}
+
+  - id: validation
+    instruction: |
+      Validate the workflow definition:
+      - All steps are numbered sequentially
+      - Decision points reference valid steps
+      - Loops have clear exit conditions
+      - Error handling covers common scenarios
+
+      If validation fails, prompt corrections.

@@ -1,0 +1,113 @@
+# Hybrid-Ops Logging Configuration
+# Version: 1.0
+# Story: 1.14 - Monitoring & Logging Infrastructure
+
+# Logging Configuration
+logging:
+  # Log level: DEBUG|INFO|WARN|ERROR
+  # DEBUG: Verbose logging for development/troubleshooting
+  # INFO: Standard operational logs (default)
+  # WARN: Warning messages only
+  # ERROR: Error messages only
+  level: INFO
+
+  # Log rotation: Delete logs older than N days
+  # Default: 7 days
+  # Range: 1-30 days recommended
+  rotation_days: 7
+
+  # Maximum log file size (MB) before warning
+  # Default: 50MB
+  # System will warn but not automatically rotate
+  max_file_size_mb: 50
+
+  # Flush interval (ms): How often to write batched logs to disk
+  # Default: 1000ms (1 second)
+  # Lower = more real-time, higher = better performance
+  flush_interval_ms: 1000
+
+# Performance Metrics Configuration
+metrics:
+  # Enable metrics collection
+  enabled: true
+
+  # Metrics collection interval (ms)
+  # How often to sample performance metrics
+  # Default: 1000ms (1 second)
+  collection_interval_ms: 1000
+
+  # Metrics retention period (hours)
+  # How long to keep metrics in memory before aggregation
+  # Default: 24 hours
+  retention_hours: 24
+
+  # Track specific metrics
+  track:
+    mind_load_time: true
+    validation_overhead: true
+    cache_hit_rate: true
+    fallback_frequency: true
+    heuristic_execution_time: true
+
+# Alert Configuration
+alerts:
+  # Fallback threshold: Alert when fallback rate exceeds this percentage
+  # Within the specified window
+  # Default: 10% (alert if >10% of operations fallback to Generic Mode)
+  fallback_threshold_percent: 10
+
+  # Fallback detection window (hours)
+  # Monitor fallback rate over this time period
+  # Default: 1 hour
+  fallback_window_hours: 1
+
+  # Notification method
+  # log: Write alert to log file (current implementation)
+  # email: Send email alert (future enhancement)
+  # webhook: Call webhook URL (future enhancement)
+  notification_method: log
+
+  # Alert cooldown (minutes)
+  # Minimum time between repeated alerts for same issue
+  # Default: 30 minutes
+  cooldown_minutes: 30
+
+# Environment-Specific Overrides
+# These settings override base config in specific environments
+
+development:
+  logging:
+    level: DEBUG  # Verbose logging in development
+  alerts:
+    fallback_threshold_percent: 20  # More lenient in development
+
+production:
+  logging:
+    level: INFO  # Standard logging in production
+    flush_interval_ms: 500  # Faster flush for production visibility
+  alerts:
+    fallback_threshold_percent: 5  # Stricter in production
+    cooldown_minutes: 15  # More frequent alerts in production
+
+# Advanced Configuration (Optional)
+
+# Log file locations (relative to hybridOps directory)
+paths:
+  logs_directory: logs
+  main_log: hybrid-ops-{date}.log
+  performance_log: performance-{date}.json
+  fallback_log: fallback-{date}.log
+
+# Performance Thresholds (for validation)
+thresholds:
+  logging_overhead_ms: 5  # Maximum acceptable logging overhead
+  dashboard_load_time_sec: 2  # Maximum dashboard load time
+  log_file_growth_mb_per_day: 10  # Expected log file growth rate
+  metrics_memory_footprint_mb: 5  # Maximum memory usage for metrics
+
+# Feature Flags
+features:
+  async_logging: true  # Use async batch writes (recommended)
+  console_logging: true  # Also log to console in development
+  json_formatting: true  # Use JSON format (vs plain text)
+  structured_metadata: true  # Include structured metadata

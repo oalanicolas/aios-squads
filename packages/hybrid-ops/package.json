@@ -1,0 +1,41 @@
+{
+  "name": "@aios-fullstack/hybrid-ops",
+  "version": "1.0.0",
+  "description": "Hybrid-Ops Expansion Pack - Process Mapping with Pedro Valério's Mind Architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test tests/mind-loading.test.js tests/workflow.test.simple.js",
+    "test:watch": "node --test --watch tests/mind-loading.test.js tests/workflow.test.simple.js",
+    "test:verbose": "node --test --test-reporter=spec tests/mind-loading.test.js tests/workflow.test.simple.js",
+    "test:workflow": "node --test tests/workflow.test.simple.js",
+    "benchmark": "node tests/performance/baseline-benchmark.js",
+    "test:performance": "node --expose-gc tests/performance/regression.test.js",
+    "test:memory": "node --expose-gc tests/performance/memory-leak.test.js",
+    "install:expansion": "node install.js",
+    "link:commands": "node scripts/create-junction.js"
+  },
+  "keywords": [
+    "aios",
+    "aios-fullstack",
+    "hybrid-ops",
+    "pedro-valerio",
+    "mind",
+    "agents",
+    "expansion-pack",
+    "process-mapping"
+  ],
+  "author": "Pedro Valério",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allfluence/aios-fullstack",
+    "directory": "expansion-packs/hybrid-ops"
+  },
+  "dependencies": {
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

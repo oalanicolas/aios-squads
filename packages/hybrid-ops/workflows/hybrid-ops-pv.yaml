@@ -1,0 +1,239 @@
+# Hybrid-Ops Workflow with PV Validation Checkpoints
+# Version 2.0 - Phase 3: Workflow Orchestration
+# Story: 1.8
+#
+# This workflow defines the 9-phase Hybrid-Ops process with embedded PV validation gates.
+# Each validation checkpoint uses Pedro Valério's decision heuristics to ensure strategic
+# alignment, coherence, and quality throughout the workflow.
+
+workflow:
+  name: "Hybrid-Ops with PV Validation"
+  version: "2.0"
+  description: "9-phase workflow for process discovery, design, and automation with embedded PV validation checkpoints"
+
+  # Mode toggle: "PV" enables validation checkpoints, "Generic" bypasses them
+  mode: "PV"  # "PV" or "Generic"
+
+  phases:
+    # Phase 1: Discovery
+    # No validation - gather information
+    - id: 1
+      name: "Discovery"
+      description: "Identify processes, stakeholders, and requirements"
+      agent: "process-mapper-pv"
+      validation: none
+      outputs:
+        - "Process map"
+        - "Stakeholder list"
+        - "Business requirements"
+      estimated_duration: "2-4 hours"
+
+    # Phase 2: Architecture
+    # Validation Checkpoint 1: Strategic Alignment (PV_BS_001)
+    - id: 2
+      name: "Architecture"
+      description: "Design system architecture and data flows"
+      agent: "process-architect-pv"
+      validation:
+        checkpoint: "strategic-alignment"
+        heuristic: "PV_BS_001"
+        description: "Ensure architecture aligns with end-state vision and strategic priorities"
+        criteria:
+          - "End-state vision clarity ≥0.8"
+          - "Strategic priority score ≥0.7"
+        veto_conditions:
+          - "End-state vision unclear (<0.7)"
+          - "Architecture conflicts with strategic direction"
+        feedback_on_failure:
+          - "Clarify end-state vision before proceeding"
+          - "Re-align architecture with strategic priorities"
+          - "Consider market signals but prioritize long-term vision"
+      outputs:
+        - "System architecture diagram"
+        - "Data flow specifications"
+        - "Integration points"
+      estimated_duration: "4-6 hours"
+
+    # Phase 3: Executors
+    # Validation Checkpoint 2: Coherence Scan (PV_PA_001)
+    - id: 3
+      name: "Executors"
+      description: "Define roles and executors for each process step"
+      agent: "executor-designer-pv"
+      validation:
+        checkpoint: "coherence-scan"
+        heuristic: "PV_PA_001"
+        description: "Verify executor coherence with system principles and truthfulness"
+        criteria:
+          - "All executors: truthfulness ≥0.7 (VETO)"
+          - "Weighted coherence ≥0.8 for APPROVE"
+          - "System adherence ≥0.6 for REVIEW threshold"
+        veto_conditions:
+          - "Any executor has truthfulness <0.7"
+          - "Systemic incoherence detected"
+        feedback_on_failure:
+          - "Replace incoherent executors"
+          - "Provide coherence training or onboarding"
+          - "Re-assess executor alignment with system principles"
+      outputs:
+        - "Executor assignments"
+        - "Role definitions"
+        - "Coherence assessments"
+      estimated_duration: "3-5 hours"
+
+    # Phase 4: Workflows
+    # Validation Checkpoint 3: Automation Readiness (PV_PM_001)
+    - id: 4
+      name: "Workflows"
+      description: "Design detailed workflows and automation logic"
+      agent: "workflow-designer-pv"
+      validation:
+        checkpoint: "automation-readiness"
+        heuristic: "PV_PM_001"
+        description: "Ensure processes meet tipping point for automation and have necessary guardrails"
+        criteria:
+          - "Tipping point: frequency >2x/month"
+          - "Guardrails present (VETO)"
+          - "Standardization ≥0.7"
+          - "Automation weighted score ≥0.75"
+        veto_conditions:
+          - "Missing safety guardrails"
+          - "Process not standardized enough (<0.7)"
+        feedback_on_failure:
+          - "Add safety guardrails before automating"
+          - "Increase process standardization"
+          - "Consider manual execution until tipping point reached"
+      outputs:
+        - "Workflow diagrams"
+        - "Automation specifications"
+        - "Guardrail definitions"
+      estimated_duration: "4-6 hours"
+
+    # Phase 5: Quality Assurance
+    # Validation Checkpoint 4: Axioma Compliance (Validator)
+    - id: 5
+      name: "Quality Assurance"
+      description: "Define quality gates, testing strategies, and validation criteria"
+      agent: "qa-validator-pv"
+      validation:
+        checkpoint: "axioma-compliance"
+        validator: "axioma-validator"
+        description: "Validate against all 10 Axioma dimensions for systemic quality"
+        criteria:
+          - "Overall score ≥7.0/10.0"
+          - "No individual level below 6.0/10.0"
+          - "No veto conditions triggered"
+        dimensions:
+          - "Truthfulness"
+          - "Coherence"
+          - "Strategic Alignment"
+          - "Operational Excellence"
+          - "Innovation Capacity"
+          - "Risk Management"
+          - "Resource Optimization"
+          - "Stakeholder Value"
+          - "Sustainability"
+          - "Adaptability"
+        feedback_on_failure:
+          - "Address failing Axioma dimensions"
+          - "Improve lowest-scoring areas first"
+          - "Review veto conditions and remediate"
+      outputs:
+        - "Test plans"
+        - "Quality gates"
+        - "Axioma assessment report"
+      estimated_duration: "3-4 hours"
+
+    # Phase 6: ClickUp Creation
+    # Validation Checkpoint 5: Task Anatomy (Validator)
+    - id: 6
+      name: "ClickUp Creation"
+      description: "Create ClickUp tasks with proper structure and automation triggers"
+      agent: "clickup-engineer-pv"
+      validation:
+        checkpoint: "task-anatomy"
+        description: "Verify all tasks follow Task Anatomy 8-field structure"
+        criteria:
+          - "All 8 Task Anatomy fields present"
+          - "Automation decisions validated (tipping point + guardrails)"
+          - "Dependencies properly mapped"
+          - "Assignees coherent (passed PV_PA_001)"
+        required_fields:
+          - "Name"
+          - "Description"
+          - "Status"
+          - "Assignee"
+          - "Due Date"
+          - "Dependencies"
+          - "Automation Trigger"
+          - "Validation Criteria"
+        feedback_on_failure:
+          - "Complete missing Task Anatomy fields"
+          - "Re-validate automation decisions"
+          - "Check executor coherence for assignees"
+      outputs:
+        - "ClickUp tasks"
+        - "Automation triggers"
+        - "Task dependencies map"
+      estimated_duration: "2-3 hours"
+
+    # Phase 7: Agents
+    # No validation - agent creation is guided by earlier validations
+    - id: 7
+      name: "Agents"
+      description: "Create AI agents for autonomous task execution"
+      agent: "agent-creator-pv"
+      validation: none
+      outputs:
+        - "Agent definitions"
+        - "Agent prompts"
+        - "Integration configurations"
+      estimated_duration: "4-6 hours"
+
+    # Phase 8: Validation
+    # No validation - validation agents self-validate
+    - id: 8
+      name: "Validation"
+      description: "Create validation agents and quality gates"
+      agent: "validation-reviewer-pv"
+      validation: none
+      outputs:
+        - "Validation agents"
+        - "Quality gate definitions"
+        - "Validation workflows"
+      estimated_duration: "3-4 hours"
+
+    # Phase 9: Documentation
+    # No validation - documentation quality checked by story DoD
+    - id: 9
+      name: "Documentation"
+      description: "Document processes, workflows, and operational procedures"
+      agent: "documentation-writer-pv"
+      validation: none
+      outputs:
+        - "Process documentation"
+        - "Runbooks"
+        - "Training materials"
+      estimated_duration: "2-3 hours"
+
+  # Workflow execution settings
+  settings:
+    # Continue on validation failure?
+    fail_fast: true  # Stop workflow on first validation failure
+
+    # Allow manual override of validation gates?
+    allow_manual_override: false
+
+    # Generate validation reports?
+    generate_validation_reports: true
+
+    # Validation report destination
+    validation_report_path: ".claude/commands/hybridOps/logs/validation/"
+
+  # Metadata
+  metadata:
+    created_by: "Story 1.8 - Phase 3 Workflow Orchestration"
+    created_date: "2025-10-19"
+    epic: "1 - Hybrid Ops - Pedro Valério Integration"
+    total_estimated_duration: "27-41 hours"
+    validation_checkpoints: 5

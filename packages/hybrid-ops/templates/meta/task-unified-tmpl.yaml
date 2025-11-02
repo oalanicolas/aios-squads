@@ -1,0 +1,304 @@
+template:
+  id: task-unified-template-v1
+  name: Unified Task Definition (Human + Agent)
+  version: 1.0
+  output:
+    format: dual
+    outputs:
+      - format: clickup
+        type: task
+      - format: yaml
+        filename: "{{task_id}}.yaml"
+
+workflow:
+  mode: interactive
+  elicitation: comprehensive-elicitation
+
+sections:
+  - id: initial-setup
+    instruction: |
+      Initial Setup for Unified Task Definition
+
+      This template creates a task that can be executed by HUMANS or AGENTS (or both in hybrid mode).
+
+      Key concept: The SAME structure works in ClickUp (for humans) AND in YAML (for agents).
+
+      Gather from user:
+      - Task name and ID
+      - Executor (human/agent/hybrid)
+      - Complexity estimate
+      - Input/output requirements
+
+  - id: task-metadata
+    title: Task Metadata
+    instruction: |
+      Elicit basic task information. Keep ID kebab-case and unique.
+    elicit: true
+    template: |
+      task:
+        id: {{task_id}}
+        name: {{task_name}}
+        description: {{description}}
+        process_id: {{process_id}}
+        version: {{version}}
+        status: {{status}}
+
+  - id: executor-assignment
+    title: Executor Assignment
+    instruction: |
+      Define WHO executes this task. Support three modes:
+      - human: Assigned to specific person/role
+      - agent: Assigned to AI agent
+      - hybrid: Primary executor with fallback
+    elicit: true
+    template: |
+        executor:
+          type: {{executor_type}}
+          {{#if executor_type == "human"}}
+          assigned_to: {{assigned_to}}
+          role: {{role}}
+          {{/if}}
+          {{#if executor_type == "agent"}}
+          agent_id: {{agent_id}}
+          {{/if}}
+          {{#if executor_type == "hybrid"}}
+          primary:
+            type: {{primary_type}}
+            {{#if primary_type == "agent"}}
+            agent_id: {{primary_agent_id}}
+            {{else}}
+            assigned_to: {{primary_assigned_to}}
+            {{/if}}
+          fallback:
+            type: {{fallback_type}}
+            {{#if fallback_type == "agent"}}
+            agent_id: {{fallback_agent_id}}
+            {{else}}
+            assigned_to: {{fallback_assigned_to}}
+            {{/if}}
+          escalation_triggers:
+            {{#each escalation_triggers}}
+            - {{this}}
+            {{/each}}
+          {{/if}}
+
+  - id: timing
+    title: Timing & Estimates
+    instruction: |
+      Define time expectations for this task.
+    elicit: true
+    template: |
+        timing:
+          estimated_duration: {{estimated_duration}}
+          time_unit: {{time_unit}}
+          complexity: {{complexity}}
+          {{#if due_date}}
+          due_date: {{due_date}}
+          {{/if}}
+          {{#if dependencies}}
+          dependencies:
+            {{#each dependencies}}
+            - {{this}}
+            {{/each}}
+          {{/if}}
+
+  - id: workflow
+    title: Workflow Steps
+    instruction: |
+      Define the STEPS to complete this task. Make them clear for both humans AND agents.
+      Use action verbs. Be specific about what "done" looks like for each step.
+    elicit: true
+    template: |
+        workflow:
+          {{#each steps}}
+          - step: {{step_number}}
+            action: {{action}}
+            description: {{description}}
+            expected_output: {{expected_output}}
+            {{#if tools}}
+            tools:
+              {{#each tools}}
+              - {{this}}
+              {{/each}}
+            {{/if}}
+          {{/each}}
+
+  - id: data-contracts
+    title: Data Contracts (Input/Output)
+    instruction: |
+      CRITICAL SECTION: Define explicit input and output schemas.
+      This enables handoffs between tasks.
+
+      Ask user:
+      - What data does this task RECEIVE?
+      - What data does this task PRODUCE?
+      - What format? (JSON schema preferred)
+    elicit: true
+    template: |
+        data_contracts:
+          input:
+            schema:
+              {{#each input_fields}}
+              {{field_name}}:
+                type: {{type}}
+                required: {{required}}
+                description: {{description}}
+                {{#if default}}
+                default: {{default}}
+                {{/if}}
+              {{/each}}
+            source: {{input_source}}
+
+          output:
+            schema:
+              {{#each output_fields}}
+              {{field_name}}:
+                type: {{type}}
+                required: {{required}}
+                description: {{description}}
+              {{/each}}
+            destination: {{output_destination}}
+
+  - id: memory
+    title: Memory & Context
+    instruction: |
+      Define what this task needs to remember or retrieve.
+      For agents: this becomes the memory layer integration.
+      For humans: this is documentation/notes.
+    elicit: true
+    template: |
+        memory:
+          requires_context_from:
+            {{#each context_sources}}
+            - {{this}}
+            {{/each}}
+
+          saves_to_memory:
+            {{#each memory_saves}}
+            - key: {{key}}
+              description: {{description}}
+            {{/each}}
+
+          {{#if retrieval_query}}
+          retrieval_query: {{retrieval_query}}
+          {{/if}}
+
+  - id: checklist
+    title: Quality Checklist
+    instruction: |
+      Create a checklist for validating this task is complete.
+      Works for humans (ClickUp checkboxes) AND agents (validation rules).
+    elicit: true
+    template: |
+        checklist:
+          {{#each checklist_items}}
+          - [ ] {{item}}
+          {{/each}}
+
+  - id: template
+    title: Template (if applicable)
+    instruction: |
+      If this task produces a document/artifact, reference the template.
+    condition: produces_artifact == true
+    elicit: true
+    template: |
+        template:
+          template_id: {{template_id}}
+          template_path: {{template_path}}
+          output_format: {{output_format}}
+
+  - id: tools
+    title: Required Tools
+    instruction: |
+      List tools, systems, APIs that this task needs access to.
+    elicit: true
+    template: |
+        tools:
+          {{#each tools}}
+          - name: {{name}}
+            type: {{type}}
+            {{#if api_endpoint}}
+            endpoint: {{api_endpoint}}
+            {{/if}}
+            {{#if credentials_required}}
+            credentials: {{credentials_location}}
+            {{/if}}
+          {{/each}}
+
+  - id: qa-gate
+    title: QA Gate
+    instruction: |
+      Define validation before this task's output is handed off.
+      Types: blocking | warning | informational
+    elicit: true
+    template: |
+        qa_gate:
+          enabled: {{qa_enabled}}
+          {{#if qa_enabled}}
+          type: {{qa_type}}
+          validator: {{validator}}
+          criteria:
+            {{#each qa_criteria}}
+            - {{criterion}}
+            {{/each}}
+          on_fail: {{on_fail_action}}
+          {{/if}}
+
+  - id: handoff
+    title: Handoff Configuration
+    instruction: |
+      Define where this task's output goes next.
+      This creates the workflow chain.
+    elicit: true
+    template: |
+        handoff:
+          next_task: {{next_task_id}}
+          handoff_method: {{handoff_method}}
+          data_mapping:
+            {{#each data_mappings}}
+            - from: {{from_field}}
+              to: {{to_field}}
+            {{/each}}
+          {{#if notification}}
+          notification:
+            method: {{notification_method}}
+            recipients:
+              {{#each recipients}}
+              - {{this}}
+              {{/each}}
+          {{/if}}
+
+  - id: clickup-config
+    title: ClickUp-Specific Configuration
+    instruction: |
+      Define how this appears in ClickUp UI.
+    elicit: true
+    template: |
+        clickup:
+          list_id: {{list_id}}
+          priority: {{priority}}
+          tags:
+            {{#each tags}}
+            - {{this}}
+            {{/each}}
+          custom_fields:
+            executor_type: {{executor_type}}
+            complexity: {{complexity}}
+            automation_ready: {{automation_ready}}
+          {{#if subtasks}}
+          subtasks:
+            {{#each subtasks}}
+            - {{this}}
+            {{/each}}
+          {{/if}}
+
+  - id: validation
+    instruction: |
+      Validate the unified task definition:
+      - Input schema is valid JSON schema
+      - Output schema is valid JSON schema
+      - Executor exists in executor registry
+      - QA gate references valid validator
+      - Handoff target task exists
+
+      If validation fails, prompt corrections.

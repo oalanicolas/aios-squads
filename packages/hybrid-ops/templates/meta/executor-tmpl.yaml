@@ -1,0 +1,276 @@
+template:
+  id: executor-template-v1
+  name: Executor Definition
+  version: 1.0
+  output:
+    format: markdown
+    filename: "{{executor_id}}.md"
+    title: "{{executor_type}}: {{executor_name}}"
+
+workflow:
+  mode: interactive
+  elicitation: advanced-elicitation
+
+sections:
+  - id: initial-setup
+    instruction: |
+      Initial Setup for Executor Definition
+
+      This template generates an executor (human, agent, or hybrid) for AIOS-PM processes.
+
+      Gather from user:
+      - Executor type (human/agent/hybrid)
+      - Name and role
+      - Primary domain
+      - Expertise level
+
+      Output file location: `executors/{{executor_id}}.md`
+
+  - id: executor-metadata
+    title: Executor Metadata
+    instruction: |
+      Elicit executor metadata. For hybrid executors, gather both human AND agent details.
+    elicit: true
+    template: |
+      # {{executor_type}}: {{executor_name}}
+
+      **ID**: `{{executor_id}}`
+      **Type**: {{executor_type}}
+      **Role**: {{role}}
+      **Primary Domain**: {{domain}}
+      **Status**: {{status}}
+
+      ## Overview
+
+      {{overview}}
+    examples:
+      - |
+        # Agent: Content Writer Agent
+
+        **ID**: `agent-content-writer`
+        **Type**: agent
+        **Role**: Automated Content Generation
+        **Primary Domain**: Marketing Content Creation
+        **Status**: active
+
+        ## Overview
+
+        AI agent specialized in generating marketing content based on templates and brand guidelines. Handles blog posts, social media captions, and email campaigns.
+
+  - id: role-definition
+    title: Role & Responsibilities
+    instruction: |
+      Define what this executor does and doesn't do. Be specific about boundaries.
+    elicit: true
+    template: |
+      ## Role & Responsibilities
+
+      ### Primary Responsibilities
+      {{#each primary_responsibilities}}
+      - {{this}}
+      {{/each}}
+
+      ### Secondary Responsibilities
+      {{#each secondary_responsibilities}}
+      - {{this}}
+      {{/each}}
+
+      ### Out of Scope
+      {{#each out_of_scope}}
+      - {{this}}
+      {{/each}}
+
+  - id: skills
+    title: Skills & Expertise
+    instruction: |
+      List required skills, expertise areas, and certifications (if applicable).
+      For agents, this becomes their capability definition.
+    elicit: true
+    template: |
+      ## Skills & Expertise
+
+      ### Required Skills
+      {{#each required_skills}}
+      - **{{name}}**: {{description}}
+      {{/each}}
+
+      ### Nice-to-Have Skills
+      {{#each optional_skills}}
+      - {{this}}
+      {{/each}}
+
+      {{#if certifications}}
+      ### Certifications/Training
+      {{#each certifications}}
+      - {{this}}
+      {{/each}}
+      {{/if}}
+
+  - id: tools
+    title: Tools & Systems
+    instruction: |
+      Define what tools, systems, and platforms this executor uses.
+    elicit: true
+    template: |
+      ## Tools & Systems
+
+      ### Primary Tools
+      {{#each primary_tools}}
+      - **{{name}}**: {{purpose}}
+      {{/each}}
+
+      ### Supporting Tools
+      {{#each supporting_tools}}
+      - {{this}}
+      {{/each}}
+
+      ### System Access Required
+      {{#each system_access}}
+      - {{system}}: {{access_level}}
+      {{/each}}
+
+  - id: knowledge-base
+    title: Knowledge Base
+    instruction: |
+      Document what this executor needs to know. For agents, this becomes their knowledge base reference.
+    elicit: true
+    template: |
+      ## Knowledge Base
+
+      ### Core Knowledge Areas
+      {{#each knowledge_areas}}
+      - **{{area}}**: {{description}}
+      {{/each}}
+
+      ### Reference Documents
+      {{#each reference_docs}}
+      - [{{title}}]({{link}})
+      {{/each}}
+
+      ### Training Materials
+      {{#if training_materials}}
+      {{#each training_materials}}
+      - {{this}}
+      {{/each}}
+      {{/if}}
+
+  - id: agent-specific
+    title: Agent-Specific Configuration
+    instruction: |
+      If executor_type is "agent", elicit agent-specific details:
+      - Agent framework (AIOS/LangChain/custom)
+      - Model configuration
+      - Prompt templates
+      - Rate limits
+    condition: executor_type == "agent"
+    elicit: true
+    template: |
+      ## Agent Configuration
+
+      ### Framework
+      {{agent_framework}}
+
+      ### Model Configuration
+      - **Model**: {{model}}
+      - **Temperature**: {{temperature}}
+      - **Max Tokens**: {{max_tokens}}
+
+      ### Prompt Template
+      ```
+      {{prompt_template}}
+      ```
+
+      ### Rate Limits
+      - Requests per minute: {{rate_limit_rpm}}
+      - Tokens per minute: {{rate_limit_tpm}}
+
+      ### Error Handling
+      {{error_handling_strategy}}
+
+  - id: hybrid-config
+    title: Hybrid Configuration
+    instruction: |
+      If executor_type is "hybrid", define the human-agent collaboration model:
+      - When does human take over?
+      - When does agent handle it?
+      - Escalation rules
+    condition: executor_type == "hybrid"
+    elicit: true
+    template: |
+      ## Hybrid Execution Model
+
+      ### Primary Executor
+      {{primary_executor}} ({{primary_executor_type}})
+
+      ### Fallback Executor
+      {{fallback_executor}} ({{fallback_executor_type}})
+
+      ### Switching Rules
+
+      **Agent → Human Escalation**:
+      {{#each escalation_triggers}}
+      - {{this}}
+      {{/each}}
+
+      **Human → Agent Delegation**:
+      {{#each delegation_triggers}}
+      - {{this}}
+      {{/each}}
+
+      ### Collaboration Workflow
+      {{collaboration_workflow}}
+
+  - id: clickup-mapping
+    title: ClickUp Mapping
+    instruction: |
+      Define how this executor appears in ClickUp:
+      - Assignee type (user/tag)
+      - Display name
+      - Color coding
+    elicit: true
+    template: |
+      ## ClickUp Configuration
+
+      ### Assignment Method
+      - **Type**: {{clickup_assignment_type}}
+      - **Identifier**: {{clickup_identifier}}
+
+      {{#if clickup_assignment_type == "user"}}
+      ### User Details
+      - **Email**: {{clickup_user_email}}
+      - **Display Name**: {{clickup_display_name}}
+      {{/if}}
+
+      {{#if clickup_assignment_type == "tag"}}
+      ### Tag Details
+      - **Tag Name**: {{clickup_tag_name}}
+      - **Color**: {{clickup_tag_color}}
+      {{/if}}
+
+  - id: can-execute
+    title: Can Execute (Task Assignment)
+    instruction: |
+      List which tasks this executor can handle. Format: task_id with brief note.
+      This creates the linkage between executors and tasks.
+    elicit: true
+    template: |
+      ## Can Execute
+
+      {{#each tasks}}
+      - `{{task_id}}` - {{note}}
+      {{/each}}
+
+      ## Cannot Execute
+
+      {{#each cannot_execute}}
+      - `{{task_id}}` - {{reason}}
+      {{/each}}
+
+  - id: validation
+    instruction: |
+      Validate the executor definition:
+      - Ensure all required fields present
+      - Check task references are valid
+      - Verify ClickUp mapping is complete
+
+      If validation fails, prompt user to correct.

@@ -1,0 +1,428 @@
+template:
+  id: process-readme-template-v1
+  name: Process README
+  version: 1.0
+  output:
+    format: markdown
+    filename: README.md
+    path: "{{process_output_dir}}"
+    title: "Process README: {{process_name}}"
+
+workflow:
+  mode: automated-generation
+  elicitation: none
+
+sections:
+  - id: initial-setup
+    instruction: |
+      Initial Setup for Process README
+
+      This template generates the main README.md for a hybrid process.
+
+      Purpose:
+      - Onboard new team members
+      - Document process at a glance
+      - Link to all process artifacts
+      - Provide quick-start guide
+
+      Output file location: `output/processes/{{process_id}}/README.md`
+
+  - id: header
+    title: Header
+    template: |
+      # {{process_name}}
+
+      > {{process_tagline}}
+
+      **Process ID**: `{{process_id}}`
+      **Version**: {{version}}
+      **Last Updated**: {{last_updated}}
+      **Process Owner**: {{process_owner}}
+      **Status**: {{status}}
+
+      ---
+
+  - id: overview
+    title: Overview
+    template: |
+      ## 📋 Overview
+
+      ### Purpose
+
+      {{purpose}}
+
+      ### Scope
+
+      - **Starts with**: {{starts_with}}
+      - **Ends with**: {{ends_with}}
+      - **Frequency**: {{frequency}}
+      - **Average Duration**: {{avg_duration}}
+
+      ### Key Metrics
+
+      | Metric | Target | Current |
+      |--------|--------|---------|
+      {{#each metrics}}
+      | {{metric_name}} | {{target}} | {{current}} |
+      {{/each}}
+
+  - id: quick-start
+    title: Quick Start
+    template: |
+      ## 🚀 Quick Start
+
+      ### For Process Executors
+
+      {{#if executor_type == "human"}}
+      1. **Access ClickUp**: [{{clickup_space_name}}]({{clickup_space_url}})
+      2. **Find your tasks**: Go to "{{your_list_name}}" list
+      3. **Follow workflow**: Each task has a workflow link in the description
+      4. **Update status**: Move tasks through statuses as you complete them
+      {{/if}}
+
+      {{#if executor_type == "agent"}}
+      1. **Activate agent**: `{{agent_activation_command}}`
+      2. **Monitor execution**: Check agent dashboard at {{dashboard_url}}
+      3. **Review outputs**: Outputs are saved to {{output_location}}
+      {{/if}}
+
+      {{#if executor_type == "hybrid"}}
+      1. **Check ClickUp**: [{{clickup_space_name}}]({{clickup_space_url}})
+      2. **Tasks are auto-assigned**: Based on executor type (human/agent)
+      3. **Humans**: Execute manually following workflows
+      4. **Agents**: Execute automatically when triggered
+      5. **Escalations**: Agent failures auto-escalate to human backup
+      {{/if}}
+
+      ### For Process Managers
+
+      1. **Monitor dashboard**: {{dashboard_url}}
+      2. **Review metrics**: Check daily/weekly reports
+      3. **Handle escalations**: Respond to blocked tasks
+      4. **Continuous improvement**: Weekly retrospectives
+
+  - id: process-flow
+    title: Process Flow
+    template: |
+      ## 🔄 Process Flow
+
+      ### Phases
+
+      {{#each phases}}
+      #### {{phase_number}}. {{phase_name}}
+
+      {{phase_description}}
+
+      **Entry Criteria**:
+      {{#each entry_criteria}}
+      - {{this}}
+      {{/each}}
+
+      **Exit Criteria**:
+      {{#each exit_criteria}}
+      - {{this}}
+      {{/each}}
+
+      **Tasks in this phase**:
+      {{#each tasks}}
+      - `{{task_id}}` - {{task_name}} ({{executor_type}})
+      {{/each}}
+      {{/each}}
+
+      ### Flow Diagram
+
+      ```mermaid
+      graph TD
+      {{#each flow_diagram_nodes}}
+          {{node_id}}[{{node_label}}]
+      {{/each}}
+
+      {{#each flow_diagram_edges}}
+          {{from}} -->|{{label}}| {{to}}
+      {{/each}}
+      ```
+
+  - id: executors
+    title: Executors
+    template: |
+      ## 👥 Executors
+
+      ### Human Executors
+
+      {{#each human_executors}}
+      - **{{name}}** ({{role}})
+        - Executes: {{#each executes}}{{this}}, {{/each}}
+        - Contact: {{contact}}
+      {{/each}}
+
+      ### Agent Executors
+
+      {{#each agent_executors}}
+      - **{{name}}** (`{{agent_id}}`)
+        - Type: {{agent_type}}
+        - Executes: {{#each executes}}{{this}}, {{/each}}
+        - Status: {{status}}
+        - Performance: {{accuracy}}% accuracy, {{avg_speed}} avg speed
+      {{/each}}
+
+      ### Hybrid Assignments
+
+      {{#each hybrid_assignments}}
+      - **Task**: `{{task_id}}` - {{task_name}}
+        - **Primary**: {{primary_executor}} ({{primary_type}})
+        - **Fallback**: {{fallback_executor}} ({{fallback_type}})
+        - **Escalation Triggers**: {{#each triggers}}{{this}}, {{/each}}
+      {{/each}}
+
+  - id: key-tasks
+    title: Key Tasks
+    template: |
+      ## 📝 Key Tasks
+
+      {{#each key_tasks}}
+      ### `{{task_id}}` - {{task_name}}
+
+      **Executor**: {{executor_type}} ({{executor_name}})
+      **Complexity**: {{complexity}}
+      **Est. Duration**: {{estimated_duration}}
+
+      {{task_description}}
+
+      **Workflow**: [{{workflow_id}}]({{workflow_link}})
+      **ClickUp Task Template**: [Link]({{clickup_template_link}})
+
+      {{#if qa_gate_enabled}}
+      **QA Gate**: {{qa_gate_type}} (Validator: {{validator}})
+      {{/if}}
+
+      **Handoff**: → `{{next_task_id}}`
+      {{/each}}
+
+  - id: handoffs
+    title: Handoffs
+    template: |
+      ## 🤝 Handoffs
+
+      {{#each handoffs}}
+      ### {{from_task_name}} → {{to_task_name}}
+
+      **Trigger**: {{trigger}}
+      **Method**: {{method}}
+      **Data Transfer**: {{data_description}}
+
+      {{#if qa_gate}}
+      **QA Gate**: {{qa_gate_type}}
+      - Criteria: {{#each qa_criteria}}{{this}}, {{/each}}
+      - On fail: {{on_fail_action}}
+      {{/if}}
+
+      **Data Mapping**:
+      ```yaml
+      {{#each data_mapping}}
+      {{from_field}} → {{to_field}}
+      {{/each}}
+      ```
+      {{/each}}
+
+  - id: clickup-setup
+    title: ClickUp Setup
+    template: |
+      ## 🔧 ClickUp Setup
+
+      ### Space Structure
+
+      - **Space**: [{{space_name}}]({{space_url}})
+      {{#if folders}}
+      - **Folders**:
+        {{#each folders}}
+        - {{folder_name}}
+        {{/each}}
+      {{/if}}
+      - **Lists**:
+        {{#each lists}}
+        - **{{list_name}}**: {{list_description}}
+        {{/each}}
+
+      ### Custom Fields
+
+      This process uses AIOS-PM standard custom fields:
+
+      {{#each custom_fields}}
+      - **{{field_name}}** ({{field_type}}): {{field_description}}
+      {{/each}}
+
+      ### Automations
+
+      {{automations_count}} automations configured:
+
+      {{#each automations}}
+      - **{{automation_name}}**: {{automation_description}}
+      {{/each}}
+
+      [Full ClickUp Configuration]({{clickup_config_file}})
+
+  - id: metrics
+    title: Metrics & Monitoring
+    template: |
+      ## 📊 Metrics & Monitoring
+
+      ### Key Performance Indicators
+
+      {{#each kpis}}
+      #### {{kpi_name}}
+
+      - **Definition**: {{definition}}
+      - **Target**: {{target}}
+      - **Current**: {{current}}
+      - **Trend**: {{trend}}
+      - **Measurement**: {{measurement_method}}
+      {{/each}}
+
+      ### Dashboards
+
+      - **Real-time Dashboard**: {{realtime_dashboard_url}}
+      - **Weekly Report**: {{weekly_report_url}}
+      - **Monthly Analytics**: {{monthly_analytics_url}}
+
+      ### Alerts
+
+      Alerts configured for:
+      {{#each alerts}}
+      - {{alert_name}}: {{alert_condition}}
+      {{/each}}
+
+  - id: troubleshooting
+    title: Troubleshooting
+    template: |
+      ## 🔍 Troubleshooting
+
+      ### Common Issues
+
+      {{#each common_issues}}
+      #### {{issue_name}}
+
+      **Symptoms**: {{symptoms}}
+
+      **Resolution**:
+      {{#each resolution_steps}}
+      {{step_number}}. {{step}}
+      {{/each}}
+
+      {{#if escalation}}
+      **Escalate to**: {{escalation_contact}} if {{escalation_condition}}
+      {{/if}}
+      {{/each}}
+
+      ### Getting Help
+
+      - **Process Owner**: {{process_owner_contact}}
+      - **ClickUp Support**: {{clickup_support}}
+      - **Agent Issues**: {{agent_support}}
+      - **Documentation**: {{documentation_url}}
+
+  - id: examples
+    title: Examples
+    template: |
+      ## 💡 Examples
+
+      ### Example End-to-End Execution
+
+      {{example_scenario}}
+
+      **Input**:
+      ```json
+      {{example_input}}
+      ```
+
+      **Process Flow**:
+      {{#each example_steps}}
+      {{step_number}}. {{step_description}}
+      {{/each}}
+
+      **Output**:
+      ```json
+      {{example_output}}
+      ```
+
+      **Duration**: {{example_duration}}
+
+  - id: changelog
+    title: Changelog
+    template: |
+      ## 📅 Changelog
+
+      {{#each changelog_entries}}
+      ### Version {{version}} - {{date}}
+
+      {{#if added}}
+      **Added**:
+      {{#each added}}
+      - {{this}}
+      {{/each}}
+      {{/if}}
+
+      {{#if changed}}
+      **Changed**:
+      {{#each changed}}
+      - {{this}}
+      {{/each}}
+      {{/if}}
+
+      {{#if fixed}}
+      **Fixed**:
+      {{#each fixed}}
+      - {{this}}
+      {{/each}}
+      {{/if}}
+
+      {{#if removed}}
+      **Removed**:
+      {{#each removed}}
+      - {{this}}
+      {{/each}}
+      {{/if}}
+      {{/each}}
+
+  - id: resources
+    title: Resources
+    template: |
+      ## 📚 Resources
+
+      ### Process Artifacts
+
+      - [Process Definition]({{process_definition_file}})
+      - [Executor Definitions]({{executors_dir}})
+      - [Task Definitions]({{tasks_dir}})
+      - [Workflow Definitions]({{workflows_dir}})
+      - [QA Gates]({{qa_gates_dir}})
+      - [ClickUp Configuration]({{clickup_config_file}})
+      - [Compliance Report]({{compliance_report_file}})
+
+      ### External Resources
+
+      {{#each external_resources}}
+      - [{{resource_name}}]({{resource_url}})
+      {{/each}}
+
+      ### Training Materials
+
+      {{#each training_materials}}
+      - [{{material_name}}]({{material_url}})
+      {{/each}}
+
+  - id: contacts
+    title: Contacts
+    template: |
+      ## 📞 Contacts
+
+      | Role | Name | Contact |
+      |------|------|---------|
+      {{#each contacts}}
+      | {{role}} | {{name}} | {{contact}} |
+      {{/each}}
+
+      ---
+
+      **Process maintained by**: {{process_owner}}
+      **Documentation version**: {{doc_version}}
+      **Generated**: {{generated_date}}

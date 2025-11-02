@@ -1,0 +1,309 @@
+template:
+  id: process-discovery-template-v1
+  name: Process Discovery Session Output
+  version: 1.0
+  output:
+    format: markdown
+    filename: "{{process_id}}-discovery.md"
+    title: "Process Discovery: {{process_name}}"
+
+workflow:
+  mode: interactive
+  elicitation: discovery-interview
+
+sections:
+  - id: initial-setup
+    instruction: |
+      Initial Setup for Process Discovery
+
+      This template captures the OUTPUT of a process discovery session.
+      Use this after interviewing stakeholders about their current process.
+
+      Purpose: Document current state before designing the hybrid process.
+
+      Output file location: `output/discovery/{{process_id}}-discovery.md`
+
+  - id: discovery-metadata
+    title: Discovery Session Metadata
+    instruction: |
+      Elicit metadata about the discovery session itself.
+    elicit: true
+    template: |
+      # Process Discovery: {{process_name}}
+
+      **Discovery Date**: {{discovery_date}}
+      **Facilitator**: {{facilitator}}
+      **Participants**: {{participants}}
+      **Duration**: {{duration}}
+      **Process Owner**: {{process_owner}}
+
+  - id: process-overview
+    title: Current Process Overview
+    instruction: |
+      Capture high-level understanding of the current process.
+    elicit: true
+    template: |
+      ## Process Overview
+
+      ### Business Purpose
+      {{business_purpose}}
+
+      ### Scope
+      **Starts with**: {{starts_with}}
+      **Ends with**: {{ends_with}}
+
+      ### Frequency
+      {{frequency}}
+
+      ### Volume
+      {{volume_description}}
+
+  - id: current-workflow
+    title: Current Workflow (As-Is)
+    instruction: |
+      Document the current workflow as described by stakeholders.
+      This is the "as-is" state - how it works TODAY.
+    elicit: true
+    template: |
+      ## Current Workflow (As-Is)
+
+      {{#each steps}}
+      ### Step {{step_number}}: {{step_name}}
+
+      **Owner**: {{owner}}
+      **Duration**: {{duration}}
+      **Tools Used**: {{tools}}
+
+      **Description**:
+      {{description}}
+
+      {{#if pain_points}}
+      **Pain Points**:
+      {{#each pain_points}}
+      - {{this}}
+      {{/each}}
+      {{/if}}
+      {{/each}}
+
+  - id: pain-points
+    title: Pain Points & Challenges
+    instruction: |
+      Capture all pain points mentioned during discovery.
+      These become the justification for automation/improvement.
+    elicit: true
+    template: |
+      ## Pain Points & Challenges
+
+      {{#each pain_points}}
+      ### {{category}}
+
+      {{#each issues}}
+      - **Issue**: {{issue}}
+        - **Impact**: {{impact}}
+        - **Frequency**: {{frequency}}
+        - **Current Workaround**: {{workaround}}
+      {{/each}}
+      {{/each}}
+
+  - id: handoffs-implicit
+    title: Handoffs (Current State)
+    instruction: |
+      Identify where work is handed off between people/teams.
+      Many handoffs are implicit - surface them here.
+    elicit: true
+    template: |
+      ## Handoffs (Current State)
+
+      {{#each handoffs}}
+      ### Handoff {{handoff_number}}: {{from}} → {{to}}
+
+      **Trigger**: {{trigger}}
+      **Method**: {{method}}
+      **Data Transferred**: {{data}}
+
+      {{#if problems}}
+      **Problems with This Handoff**:
+      {{#each problems}}
+      - {{this}}
+      {{/each}}
+      {{/if}}
+
+      **Avg Handoff Time**: {{avg_time}}
+      {{/each}}
+
+  - id: tools-systems
+    title: Tools & Systems in Use
+    instruction: |
+      Catalog all tools and systems currently used.
+    elicit: true
+    template: |
+      ## Tools & Systems Currently Used
+
+      {{#each tools}}
+      ### {{tool_name}}
+
+      **Purpose**: {{purpose}}
+      **Users**: {{users}}
+      **Integration**: {{integration_status}}
+
+      {{#if issues}}
+      **Issues**:
+      {{#each issues}}
+      - {{this}}
+      {{/each}}
+      {{/if}}
+      {{/each}}
+
+  - id: data-artifacts
+    title: Data & Artifacts
+    instruction: |
+      Document what data/documents flow through this process.
+    elicit: true
+    template: |
+      ## Data & Artifacts
+
+      {{#each artifacts}}
+      ### {{artifact_name}}
+
+      **Type**: {{type}}
+      **Created by**: {{created_by}}
+      **Used by**: {{used_by}}
+      **Format**: {{format}}
+      **Storage**: {{storage_location}}
+
+      {{#if quality_issues}}
+      **Quality Issues**:
+      {{#each quality_issues}}
+      - {{this}}
+      {{/each}}
+      {{/if}}
+      {{/each}}
+
+  - id: metrics-current
+    title: Current Metrics
+    instruction: |
+      Capture current performance metrics if available.
+    elicit: true
+    template: |
+      ## Current Metrics
+
+      {{#if metrics_available}}
+      {{#each metrics}}
+      - **{{metric_name}}**: {{current_value}}
+        - Target (if any): {{target}}
+        - Measurement method: {{measurement_method}}
+      {{/each}}
+      {{else}}
+      **Note**: No formal metrics currently tracked.
+
+      **Anecdotal Performance**:
+      {{anecdotal_performance}}
+      {{/if}}
+
+  - id: automation-opportunities
+    title: Automation Opportunities Identified
+    instruction: |
+      List potential automation opportunities discussed.
+    elicit: true
+    template: |
+      ## Automation Opportunities
+
+      {{#each opportunities}}
+      ### {{opportunity_name}}
+
+      **Current State**: {{current_state}}
+      **Proposed Automation**: {{proposed_automation}}
+      **Executor Type**: {{executor_type}}
+
+      **Benefits**:
+      {{#each benefits}}
+      - {{this}}
+      {{/each}}
+
+      **Feasibility**: {{feasibility}}
+      **Priority**: {{priority}}
+      {{/each}}
+
+  - id: dependencies
+    title: Dependencies & Constraints
+    instruction: |
+      Document external dependencies and constraints.
+    elicit: true
+    template: |
+      ## Dependencies & Constraints
+
+      ### External Dependencies
+      {{#each external_dependencies}}
+      - {{dependency}}
+      {{/each}}
+
+      ### Regulatory/Compliance Constraints
+      {{#if compliance_constraints}}
+      {{#each compliance_constraints}}
+      - {{constraint}}
+      {{/each}}
+      {{else}}
+      None identified.
+      {{/if}}
+
+      ### Technical Constraints
+      {{#each technical_constraints}}
+      - {{constraint}}
+      {{/each}}
+
+      ### Business Constraints
+      {{#each business_constraints}}
+      - {{constraint}}
+      {{/each}}
+
+  - id: stakeholder-feedback
+    title: Stakeholder Feedback
+    instruction: |
+      Capture key quotes and feedback from stakeholders.
+    elicit: true
+    template: |
+      ## Stakeholder Feedback
+
+      {{#each feedback}}
+      > "{{quote}}" — {{stakeholder_name}}, {{role}}
+      {{/each}}
+
+      ### Key Concerns
+      {{#each concerns}}
+      - {{concern}}
+      {{/each}}
+
+      ### Key Opportunities
+      {{#each opportunities}}
+      - {{opportunity}}
+      {{/each}}
+
+  - id: recommendations
+    title: Next Steps & Recommendations
+    instruction: |
+      Based on discovery, recommend next steps.
+    elicit: true
+    template: |
+      ## Next Steps & Recommendations
+
+      ### Immediate Actions
+      {{#each immediate_actions}}
+      {{action_number}}. {{action}}
+      {{/each}}
+
+      ### Process Design Recommendations
+      {{#each design_recommendations}}
+      - {{recommendation}}
+      {{/each}}
+
+      ### Further Investigation Needed
+      {{#if further_investigation}}
+      {{#each further_investigation}}
+      - {{item}}
+      {{/each}}
+      {{else}}
+      None - sufficient information gathered.
+      {{/if}}
+
+      ### Proposed Migration Strategy
+      {{migration_strategy_summary}}

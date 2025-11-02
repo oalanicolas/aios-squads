@@ -1,0 +1,376 @@
+template:
+  id: compliance-report-template-v1
+  name: AIOS-PM Compliance Report
+  version: 1.0
+  output:
+    format: markdown
+    filename: "{{process_id}}-compliance-report.md"
+    title: "AIOS-PM Compliance Report: {{process_name}}"
+
+workflow:
+  mode: automated-validation
+  elicitation: none
+
+sections:
+  - id: initial-setup
+    instruction: |
+      Initial Setup for Compliance Report
+
+      This template generates a compliance validation report against AIOS-PM methodology.
+
+      Validates:
+      - Process structure
+      - Task definitions
+      - Executor assignments
+      - Data contracts
+      - Handoff configurations
+      - QA gates
+      - ClickUp configuration
+      - Documentation completeness
+
+      Output file location: `output/processes/{{process_id}}-compliance-report.md`
+
+  - id: executive-summary
+    title: Executive Summary
+    template: |
+      # AIOS-PM Compliance Report
+
+      **Process**: {{process_name}} ({{process_id}})
+      **Report Date**: {{report_date}}
+      **Validator**: {{validator_name}}
+      **Compliance Version**: AIOS-PM v{{methodology_version}}
+
+      ## Overall Compliance Score
+
+      **Score**: {{overall_score}}% ({{compliance_grade}})
+
+      {{#if overall_score >= 90}}
+      ✅ **COMPLIANT** - Process meets AIOS-PM standards
+      {{else if overall_score >= 70}}
+      ⚠️ **NEEDS IMPROVEMENT** - Some issues must be addressed
+      {{else}}
+      ❌ **NON-COMPLIANT** - Significant issues must be resolved
+      {{/if}}
+
+      ## Summary by Category
+
+      | Category | Score | Status | Critical Issues |
+      |----------|-------|--------|-----------------|
+      {{#each category_scores}}
+      | {{category}} | {{score}}% | {{status}} | {{critical_count}} |
+      {{/each}}
+
+  - id: validation-categories
+    title: Detailed Validation Results
+    template: |
+      ## Detailed Validation Results
+
+      ### 1. Process Structure Compliance
+
+      **Score**: {{process_structure_score}}%
+
+      #### Required Elements
+      {{#each process_structure_checks}}
+      - [{{status}}] {{check_name}}
+        {{#if status == "FAIL"}}
+        - **Issue**: {{issue}}
+        - **Severity**: {{severity}}
+        - **Recommendation**: {{recommendation}}
+        {{/if}}
+      {{/each}}
+
+      ---
+
+      ### 2. Task Definition Compliance
+
+      **Score**: {{task_definition_score}}%
+
+      #### Task Validation
+      {{#each task_validations}}
+      **Task**: `{{task_id}}` - {{task_name}}
+
+      {{#each validations}}
+      - [{{status}}] {{validation_name}}
+        {{#if status == "FAIL"}}
+        - **Issue**: {{issue}}
+        - **Fix**: {{fix}}
+        {{/if}}
+      {{/each}}
+      {{/each}}
+
+      ---
+
+      ### 3. Executor Assignment Compliance
+
+      **Score**: {{executor_assignment_score}}%
+
+      #### Executor Validation
+      {{#each executor_validations}}
+      - [{{status}}] {{validation_name}}
+        {{#if status == "FAIL"}}
+        - **Issue**: {{issue}}
+        - **Affected Tasks**: {{affected_tasks}}
+        - **Fix**: {{fix}}
+        {{/if}}
+      {{/each}}
+
+      ---
+
+      ### 4. Data Contract Compliance
+
+      **Score**: {{data_contract_score}}%
+
+      #### Data Contract Checks
+      {{#each data_contract_checks}}
+      **Task**: `{{task_id}}`
+
+      Input Schema:
+      - [{{input_status}}] Schema defined
+      - [{{input_valid_status}}] Schema is valid JSON Schema
+      - [{{input_complete_status}}] All required fields documented
+
+      Output Schema:
+      - [{{output_status}}] Schema defined
+      - [{{output_valid_status}}] Schema is valid JSON Schema
+      - [{{output_complete_status}}] All required fields documented
+
+      {{#if issues}}
+      **Issues**:
+      {{#each issues}}
+      - {{issue}}
+      {{/each}}
+      {{/if}}
+      {{/each}}
+
+      ---
+
+      ### 5. Handoff Configuration Compliance
+
+      **Score**: {{handoff_config_score}}%
+
+      #### Handoff Validation
+      {{#each handoff_validations}}
+      **Handoff**: {{from_task}} → {{to_task}}
+
+      - [{{mapping_status}}] Data mapping defined
+      - [{{contract_status}}] Input/output contracts compatible
+      - [{{method_status}}] Handoff method specified
+      - [{{qa_status}}] QA gate configured (if required)
+
+      {{#if issues}}
+      **Issues**:
+      {{#each issues}}
+      - {{issue}}
+      {{/each}}
+      {{/if}}
+      {{/each}}
+
+      ---
+
+      ### 6. QA Gate Compliance
+
+      **Score**: {{qa_gate_score}}%
+
+      #### QA Gate Checks
+      {{#each qa_gate_checks}}
+      **Task**: `{{task_id}}`
+
+      - [{{enabled_status}}] QA gate enabled: {{qa_enabled}}
+      {{#if qa_enabled}}
+      - [{{type_status}}] Gate type specified: {{gate_type}}
+      - [{{criteria_status}}] Validation criteria defined
+      - [{{validator_status}}] Validator assigned
+      {{/if}}
+
+      {{#if issues}}
+      **Issues**:
+      {{#each issues}}
+      - {{issue}}
+      {{/each}}
+      {{/if}}
+      {{/each}}
+
+      ---
+
+      ### 7. ClickUp Configuration Compliance
+
+      **Score**: {{clickup_config_score}}%
+
+      #### ClickUp Setup Checks
+      {{#each clickup_checks}}
+      - [{{status}}] {{check_name}}
+        {{#if status == "FAIL"}}
+        - **Issue**: {{issue}}
+        - **Fix**: {{fix}}
+        {{/if}}
+      {{/each}}
+
+      #### Required Custom Fields
+      {{#each custom_field_checks}}
+      - [{{status}}] {{field_name}}
+        {{#if status == "MISSING"}}
+        - **Required by**: {{required_by}}
+        - **Add to**: {{add_to_lists}}
+        {{/if}}
+      {{/each}}
+
+      ---
+
+      ### 8. Documentation Compliance
+
+      **Score**: {{documentation_score}}%
+
+      #### Documentation Checks
+      {{#each documentation_checks}}
+      - [{{status}}] {{document_name}}
+        {{#if status == "MISSING"}}
+        - **Purpose**: {{purpose}}
+        - **Template**: {{template}}
+        {{/if}}
+        {{#if status == "INCOMPLETE"}}
+        - **Missing sections**: {{missing_sections}}
+        {{/if}}
+      {{/each}}
+
+  - id: critical-issues
+    title: Critical Issues
+    template: |
+      ## Critical Issues
+
+      {{#if critical_issues}}
+      The following issues MUST be addressed before process can be considered compliant:
+
+      {{#each critical_issues}}
+      ### Issue {{issue_number}}: {{issue_title}}
+
+      **Category**: {{category}}
+      **Severity**: CRITICAL
+      **Affected Components**: {{affected_components}}
+
+      **Description**:
+      {{description}}
+
+      **Impact**:
+      {{impact}}
+
+      **Required Action**:
+      {{required_action}}
+
+      **Estimated Effort**: {{effort}}
+      {{/each}}
+
+      {{else}}
+      ✅ No critical issues identified.
+      {{/if}}
+
+  - id: recommendations
+    title: Recommendations
+    template: |
+      ## Recommendations
+
+      ### High Priority
+      {{#each high_priority_recommendations}}
+      {{rec_number}}. {{recommendation}}
+        - **Category**: {{category}}
+        - **Benefit**: {{benefit}}
+        - **Effort**: {{effort}}
+      {{/each}}
+
+      ### Medium Priority
+      {{#each medium_priority_recommendations}}
+      {{rec_number}}. {{recommendation}}
+        - **Category**: {{category}}
+        - **Benefit**: {{benefit}}
+        - **Effort**: {{effort}}
+      {{/each}}
+
+      ### Low Priority / Nice-to-Have
+      {{#each low_priority_recommendations}}
+      {{rec_number}}. {{recommendation}}
+        - **Category**: {{category}}
+        - **Benefit**: {{benefit}}
+        - **Effort**: {{effort}}
+      {{/each}}
+
+  - id: action-plan
+    title: Action Plan
+    template: |
+      ## Action Plan
+
+      {{#each action_items}}
+      ### Action {{action_number}}: {{action_title}}
+
+      **Priority**: {{priority}}
+      **Owner**: {{owner}}
+      **Due Date**: {{due_date}}
+
+      **Steps**:
+      {{#each steps}}
+      {{step_number}}. {{step}}
+      {{/each}}
+
+      **Dependencies**:
+      {{#if dependencies}}
+      {{#each dependencies}}
+      - {{dependency}}
+      {{/each}}
+      {{else}}
+      None
+      {{/if}}
+
+      **Completion Criteria**:
+      {{#each completion_criteria}}
+      - [ ] {{criterion}}
+      {{/each}}
+      {{/each}}
+
+  - id: approval-section
+    title: Approval Section
+    template: |
+      ## Approval
+
+      {{#if overall_score >= 90}}
+      This process is **COMPLIANT** with AIOS-PM methodology and approved for implementation.
+      {{else}}
+      This process requires remediation before approval. Address critical issues and re-validate.
+      {{/if}}
+
+      **Validated By**: ________________________________
+      **Date**: ________________________________
+
+      **Approved By**: ________________________________
+      **Date**: ________________________________
+
+  - id: appendix
+    title: Appendix
+    template: |
+      ## Appendix
+
+      ### Validation Methodology
+
+      This report was generated using AIOS-PM Compliance Validator v{{validator_version}}.
+
+      Validation criteria based on:
+      - AIOS-PM Methodology v{{methodology_version}}
+      - Hybrid Process Best Practices
+      - ClickUp Integration Standards
+
+      ### Scoring Algorithm
+
+      Each category is scored based on:
+      - **Required elements**: Must be present (binary: 0 or 100)
+      - **Quality elements**: Graded on completeness and correctness (0-100)
+      - **Best practices**: Bonus points for going beyond requirements
+
+      Overall score is weighted average:
+      {{#each category_weights}}
+      - {{category}}: {{weight}}%
+      {{/each}}
+
+      ### References
+
+      - [AIOS-PM Methodology Documentation](link)
+      - [Executor Definition Standard](link)
+      - [Task Definition Standard](link)
+      - [Data Contract Standard](link)
+      - [QA Gate Standard](link)

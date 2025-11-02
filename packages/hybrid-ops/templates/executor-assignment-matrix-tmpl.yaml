@@ -1,0 +1,308 @@
+template:
+  id: executor-assignment-matrix-template-v1
+  name: Executor Assignment Matrix
+  version: 1.0
+  output:
+    format: yaml
+    filename: "{{process_id}}-executor-matrix.yaml"
+    title: "Executor Assignment Matrix: {{process_name}}"
+
+workflow:
+  mode: interactive
+  elicitation: comprehensive-elicitation
+
+sections:
+  - id: initial-setup
+    instruction: |
+      Initial Setup for Executor Assignment Matrix
+
+      This template maps TASKS to EXECUTORS with clear rationale.
+
+      Purpose:
+      - Define who/what executes each task
+      - Justify assignment decisions
+      - Identify skill gaps
+      - Plan agent development roadmap
+
+      Output file location: `output/processes/{{process_id}}-executor-matrix.yaml`
+
+  - id: assignment-strategy
+    title: Assignment Strategy
+    instruction: |
+      Define the overall strategy for assigning tasks to executors.
+    elicit: true
+    template: |
+      assignment_matrix:
+        process_id: {{process_id}}
+        process_name: {{process_name}}
+        version: {{version}}
+        last_updated: {{last_updated}}
+
+        strategy:
+          approach: {{approach}}
+          criteria:
+            {{#each criteria}}
+            - {{criterion}}: {{weight}}
+            {{/each}}
+          priorities:
+            {{#each priorities}}
+            - {{priority}}
+            {{/each}}
+
+  - id: executor-inventory
+    title: Executor Inventory
+    instruction: |
+      List all available executors (humans and agents).
+    elicit: true
+    template: |
+        executors:
+          humans:
+            {{#each human_executors}}
+            - id: {{executor_id}}
+              name: {{name}}
+              role: {{role}}
+              skills:
+                {{#each skills}}
+                - {{this}}
+                {{/each}}
+              capacity: {{capacity}}
+              availability: {{availability}}
+            {{/each}}
+
+          agents:
+            {{#each agent_executors}}
+            - id: {{agent_id}}
+              name: {{name}}
+              type: {{agent_type}}
+              capabilities:
+                {{#each capabilities}}
+                - {{this}}
+                {{/each}}
+              status: {{status}}
+              performance:
+                accuracy: {{accuracy}}
+                speed: {{speed}}
+            {{/each}}
+
+  - id: task-assignments
+    title: Task Assignments
+    instruction: |
+      For each task, assign executor(s) with rationale.
+      This section is REPEATABLE - one entry per task.
+    elicit: true
+    repeatable: true
+    template: |
+        assignments:
+          {{#each assignments}}
+          - task_id: {{task_id}}
+            task_name: {{task_name}}
+
+            assignment:
+              type: {{assignment_type}}
+
+              {{#if assignment_type == "human"}}
+              executor_id: {{executor_id}}
+              executor_name: {{executor_name}}
+              {{/if}}
+
+              {{#if assignment_type == "agent"}}
+              agent_id: {{agent_id}}
+              agent_name: {{agent_name}}
+              {{/if}}
+
+              {{#if assignment_type == "hybrid"}}
+              primary:
+                type: {{primary_type}}
+                executor_id: {{primary_executor_id}}
+                executor_name: {{primary_executor_name}}
+              fallback:
+                type: {{fallback_type}}
+                executor_id: {{fallback_executor_id}}
+                executor_name: {{fallback_executor_name}}
+              {{/if}}
+
+            rationale:
+              why_this_executor: {{why_this_executor}}
+              {{#if alternative_considered}}
+              alternatives_considered:
+                {{#each alternatives}}
+                - executor: {{executor}}
+                  reason_not_chosen: {{reason}}
+                {{/each}}
+              {{/if}}
+
+            requirements_met:
+              {{#each requirements}}
+              - {{requirement}}: {{status}}
+              {{/each}}
+
+            risks:
+              {{#if risks}}
+              {{#each risks}}
+              - risk: {{risk}}
+                mitigation: {{mitigation}}
+              {{/each}}
+              {{else}}
+              - None identified
+              {{/if}}
+
+            confidence: {{confidence_level}}
+
+          {{/each}}
+
+  - id: workload-analysis
+    title: Workload Analysis
+    instruction: |
+      Analyze workload distribution across executors.
+    elicit: true
+    template: |
+        workload_analysis:
+          {{#each executor_workloads}}
+          - executor_id: {{executor_id}}
+            executor_name: {{executor_name}}
+            executor_type: {{executor_type}}
+
+            assigned_tasks:
+              count: {{task_count}}
+              task_ids:
+                {{#each task_ids}}
+                - {{this}}
+                {{/each}}
+
+            estimated_hours: {{estimated_hours}}
+            capacity_hours: {{capacity_hours}}
+            utilization: {{utilization_percentage}}%
+
+            status: {{status}}
+
+            {{#if status == "overloaded"}}
+            recommendations:
+              {{#each recommendations}}
+              - {{this}}
+              {{/each}}
+            {{/if}}
+          {{/each}}
+
+  - id: skill-gaps
+    title: Skill Gaps
+    instruction: |
+      Identify skills needed but not available in current executor inventory.
+    elicit: true
+    template: |
+        skill_gaps:
+          {{#each gaps}}
+          - skill: {{skill_name}}
+            required_for:
+              {{#each required_for_tasks}}
+              - {{task_id}}: {{task_name}}
+              {{/each}}
+
+            current_state: {{current_state}}
+
+            gap_severity: {{severity}}
+
+            options:
+              {{#each options}}
+              - option: {{option}}
+                effort: {{effort}}
+                timeline: {{timeline}}
+                cost: {{cost}}
+              {{/each}}
+
+            recommendation: {{recommendation}}
+          {{/each}}
+
+  - id: agent-development-plan
+    title: Agent Development Plan
+    instruction: |
+      For tasks assigned to agents that don't exist yet,
+      define the agent development roadmap.
+    elicit: true
+    template: |
+        agent_development:
+          {{#each agent_development_items}}
+          - agent_id: {{agent_id}}
+            agent_name: {{agent_name}}
+
+            status: {{status}}
+
+            will_execute:
+              {{#each tasks}}
+              - {{task_id}}: {{task_name}}
+              {{/each}}
+
+            development_phases:
+              {{#each phases}}
+              - phase: {{phase_number}}
+                name: {{phase_name}}
+                deliverable: {{deliverable}}
+                estimated_effort: {{effort}}
+                dependencies:
+                  {{#each dependencies}}
+                  - {{this}}
+                  {{/each}}
+              {{/each}}
+
+            readiness_criteria:
+              {{#each criteria}}
+              - {{criterion}}
+              {{/each}}
+
+            testing_plan: {{testing_plan}}
+
+            rollout_strategy: {{rollout_strategy}}
+          {{/each}}
+
+  - id: raci-matrix
+    title: RACI Matrix
+    instruction: |
+      Define RACI (Responsible, Accountable, Consulted, Informed) for each task.
+    elicit: true
+    template: |
+        raci:
+          {{#each raci_entries}}
+          - task_id: {{task_id}}
+            task_name: {{task_name}}
+
+            responsible: {{responsible}}
+            accountable: {{accountable}}
+            consulted:
+              {{#each consulted}}
+              - {{this}}
+              {{/each}}
+            informed:
+              {{#each informed}}
+              - {{this}}
+              {{/each}}
+          {{/each}}
+
+  - id: validation-rules
+    title: Validation Rules
+    instruction: |
+      Define rules to validate the assignment matrix.
+    template: |
+        validation:
+          rules:
+            - rule: All tasks must have an executor assigned
+              check: Count(tasks without executor) == 0
+
+            - rule: No executor should be over 100% utilized
+              check: Max(executor utilization) <= 100%
+
+            - rule: Critical tasks must have backup executors
+              check: All critical tasks have fallback defined
+
+            - rule: Agent assignments must reference existing or planned agents
+              check: All agent_ids exist in executor inventory or development plan
+
+            - rule: RACI matrix must have exactly one Accountable per task
+              check: Count(accountable per task) == 1
+
+          status: {{validation_status}}
+
+          {{#if validation_errors}}
+          errors:
+            {{#each validation_errors}}
+            - {{error}}
+            {{/each}}
+          {{/if}}

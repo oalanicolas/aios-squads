@@ -1,0 +1,119 @@
+# Heuristic Weights and Thresholds Configuration
+# Version: 1.0
+#
+# All default values match Phase 1 hardcoded values in:
+# utils/heuristic-compiler.js (lines 34-37, 105-110, 198-203)
+#
+# This configuration enables runtime calibration of Pedro Valério's decision heuristics
+# without requiring code changes or redeployment.
+
+version: "1.0"
+
+heuristics:
+  # PV_BS_001: Future System Back-Casting
+  # Domain: Business Strategy
+  # Algorithm: Design from desired end-state backwards
+  PV_BS_001:
+    weights:
+      # Long-term vision clarity weight (how clear is the end-state?)
+      # Higher value = prioritize strategic clarity over current market
+      # Range: 0.0-1.0 | Default: 0.9 (90% weight on vision)
+      end_state_vision: 0.9
+
+      # Current market alignment weight (how aligned with current market signals?)
+      # Higher value = prioritize market timing
+      # Range: 0.0-1.0 | Default: 0.1 (10% weight on market)
+      current_market_signals: 0.1
+
+    thresholds:
+      # Minimum end-state clarity for "high" confidence classification
+      # Range: 0.0-1.0 | Default: 0.8 (80% clarity required)
+      confidence: 0.8
+
+      # Minimum weighted score for "HIGH" priority classification
+      # Range: 0.0-1.0 | Default: 0.8 (80% score required)
+      priority: 0.8
+
+  # PV_PA_001: Systemic Coherence Scan
+  # Domain: People Assessment
+  # Algorithm: Assess people based on truthfulness, system fit, and skills
+  PV_PA_001:
+    weights:
+      # Truthfulness/Coherence weight - VETO POWER
+      # This factor can veto the entire assessment if below threshold
+      # Higher value = prioritize coherence over all else
+      # Range: 0.7-1.5 | Default: 1.0 (100% weight - maximum importance)
+      truthfulness: 1.0
+
+      # System adherence/fit weight (how well person fits the system?)
+      # Higher value = prioritize cultural/systemic alignment
+      # Range: 0.0-1.0 | Default: 0.8 (80% weight)
+      system_adherence: 0.8
+
+      # Technical skill/capability weight (how skilled is the person?)
+      # Lower value reflects PV principle: coherence > capability
+      # Range: 0.0-1.0 | Default: 0.3 (30% weight)
+      skill: 0.3
+
+    thresholds:
+      # Minimum truthfulness score (below = automatic REJECT)
+      # This is the VETO threshold - non-negotiable minimum
+      # Range: 0.5-0.9 | Default: 0.6 (60% truthfulness required)
+      veto: 0.6
+
+      # Minimum weighted score for "APPROVE" recommendation
+      # Range: 0.6-1.0 | Default: 0.8 (80% overall score required)
+      approve: 0.8
+
+      # Minimum weighted score for "REVIEW" recommendation
+      # Between veto and approve thresholds
+      # Range: 0.6-0.8 | Default: 0.7 (70% score required)
+      review: 0.7
+
+  # PV_PM_001: Automation Tipping Point
+  # Domain: Process Management
+  # Algorithm: Determine if task should be automated based on frequency and readiness
+  PV_PM_001:
+    weights:
+      # Execution frequency weight (how often is task performed?)
+      # Higher value = prioritize frequency in automation decision
+      # Range: 0.0-1.0 | Default: 0.7 (70% weight)
+      frequency: 0.7
+
+      # Process standardization weight (how standardized is the task?)
+      # Higher value = require more standardization before automating
+      # Range: 0.0-1.0 | Default: 0.9 (90% weight - high importance)
+      standardization: 0.9
+
+      # Safety guardrails weight - VETO POWER
+      # Missing guardrails = automatic rejection of automation
+      # Range: 0.5-1.5 | Default: 1.0 (100% weight - maximum importance)
+      guardrails: 1.0
+
+    thresholds:
+      # Executions per month threshold (tipping point for automation consideration)
+      # Above this = task becomes automation candidate
+      # Range: 1-10 executions/month | Default: 2 (twice per month)
+      tipping_point: 2
+
+      # Minimum standardization score required for automation
+      # Range: 0.5-0.9 | Default: 0.7 (70% standardization required)
+      standardization: 0.7
+
+      # Minimum weighted score to recommend automation
+      # Range: 0.5-0.9 | Default: 0.75 (75% overall score required)
+      automate: 0.75
+
+# Validation settings
+validation:
+  # Enforce strict validation rules (weights, thresholds, types)
+  # true = reject invalid configs, false = warn and use defaults
+  strict_mode: true
+
+  # Minimum Axioma validation score required (from axioma-validator.js)
+  # Range: 0.0-10.0 | Default: 7.0 (70% validation quality)
+  minimum_score: 7.0
+
+  # Enable veto power checks (truthfulness, guardrails)
+  # true = respect VETO conditions, false = treat as normal weights
+  enable_veto: true
