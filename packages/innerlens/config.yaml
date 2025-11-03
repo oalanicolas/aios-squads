@@ -1,0 +1,10 @@
+name: innerlens
+version: 1.0.0
+short-title: InnerLens - Psychometric Analysis
+description: >-
+  Advanced psychometric profiling system using Big Five personality traits and 120+
+  psychological dimensions. Provides deep personality analysis, trait extraction,
+  audience profiling, and psychological insights for content adaptation and
+  personality-aware AI interactions.
+author: AIOS Team
+slashPrefix: innerlens

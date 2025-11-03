@@ -1,0 +1,29 @@
+{
+  "name": "@aios-fullstack/innerlens",
+  "version": "1.0.0",
+  "description": "InnerLens - Advanced psychometric profiling with Big Five personality analysis",
+  "main": "index.js",
+  "scripts": {
+    "install:expansion": "echo 'InnerLens installed. Use @psychometric-analyst to get started.'"
+  },
+  "keywords": [
+    "aios",
+    "aios-fullstack",
+    "expansion-pack",
+    "psychometric",
+    "big-five",
+    "personality",
+    "analysis",
+    "psychology"
+  ],
+  "author": "AIOS Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pedrovaleriolopez/aios-fullstack",
+    "directory": "expansion-packs/innerlens"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

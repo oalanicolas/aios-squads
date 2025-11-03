@@ -1,0 +1,10 @@
+name: creator
+version: 1.0.0
+short-title: CreatorOS - Content Creation System
+description: >-
+  The Operating System for Digital Creators. Generate educational courses, blog posts,
+  social media content, video scripts, and marketing campaigns — all while preserving
+  your authentic voice through AI personality cloning. Includes 10 specialized agents
+  and 12 core tasks for multi-format content generation.
+author: Academia Lendaria (Alan Nicolas)
+slashPrefix: creator

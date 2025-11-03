@@ -1,0 +1,10 @@
+name: mmos-mapper
+version: 2.0.0
+short-title: MMOS Mind Mapper
+description: >-
+  Advanced AI personality cloning system achieving 94%+ voice fidelity.
+  Multi-phase pipeline (Research → Collection → Cognitive Analysis → Synthesis → Testing)
+  creates high-fidelity AI clones from multimodal data sources. Includes cognitive
+  pattern extraction, knowledge base generation, and system prompt creation.
+author: Pedro Valério & AIOS Team
+slashPrefix: mmos

@@ -1,0 +1,31 @@
+{
+  "name": "@aios-fullstack/creator",
+  "version": "1.0.0",
+  "description": "CreatorOS - The Operating System for Digital Creators with AI personality cloning",
+  "main": "index.js",
+  "scripts": {
+    "install:expansion": "echo 'CreatorOS installed. Use @content-pm to get started.'"
+  },
+  "keywords": [
+    "aios",
+    "aios-fullstack",
+    "expansion-pack",
+    "content-creation",
+    "blog",
+    "course",
+    "social-media",
+    "video-scripts",
+    "marketing",
+    "creator-os"
+  ],
+  "author": "Academia Lendaria (Alan Nicolas)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pedrovaleriolopez/aios-fullstack",
+    "directory": "expansion-packs/creator"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+name: etl
+version: 1.0.0
+short-title: ETL Data Collector
+description: >-
+  Multimodal data collection system for AI personality training. Collect and process
+  data from multiple sources (YouTube, podcasts, books, blogs, social media, WhatsApp)
+  to train custom AI personas. Includes source validation, collection pipelines,
+  chunking, indexing, and quality control.
+author: AIOS Team
+slashPrefix: etl

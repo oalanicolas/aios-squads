@@ -1,0 +1,31 @@
+{
+  "name": "@aios-fullstack/etl",
+  "version": "1.0.0",
+  "description": "ETL Data Collector - Multimodal data collection for AI personality training",
+  "main": "index.js",
+  "scripts": {
+    "install:expansion": "echo 'ETL Data Collector installed. Use @etl-orchestrator to get started.'"
+  },
+  "keywords": [
+    "aios",
+    "aios-fullstack",
+    "expansion-pack",
+    "etl",
+    "data-collection",
+    "youtube",
+    "podcasts",
+    "books",
+    "blogs",
+    "social-media"
+  ],
+  "author": "AIOS Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pedrovaleriolopez/aios-fullstack",
+    "directory": "expansion-packs/etl"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

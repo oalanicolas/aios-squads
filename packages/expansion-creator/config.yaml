@@ -1,0 +1,9 @@
+name: expansion-creator
+version: 1.0.0
+short-title: Expansion Pack Creator
+description: >-
+  Tools for creating and managing expansion packs for AIOS-FullStack.
+  Provides utilities to install expansion pack commands into Claude Code
+  and other IDEs, making it easy to extend AIOS functionality.
+author: AIOS Team
+slashPrefix: expansionCreator
