@@ -1,0 +1,39 @@
+name: AIOS Squads CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate Structure
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate package structure
+        run: |
+          echo "=== Validating AIOS Squads Structure ==="
+
+          # Check required files exist
+          for file in package.json LICENSE README.md; do
+            if [ ! -f "$file" ]; then
+              echo "Missing required file: $file"
+              exit 1
+            fi
+          done
+
+          # Check package directories exist
+          for dir in packages/etl-squad packages/creator-squad packages/mmos-squad; do
+            if [ ! -d "$dir" ]; then
+              echo "Missing package directory: $dir"
+              exit 1
+            fi
+          done
+
+          echo "All validations passed"
