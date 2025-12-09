@@ -1,0 +1,52 @@
+{
+  "extraction_date": "2025-09-28T17:06:28.539849",
+  "swipes_collected": 8,
+  "files": [
+    {
+      "name": "Renegade Millionaire Original",
+      "url": "https://swiped.co/file/original-renegade-millionaire-salesletter-from-dan-kennedy/",
+      "file": "renegade_millionaire_original.txt",
+      "words": 666
+    },
+    {
+      "name": "Magnetic Marketing Compilation",
+      "url": "https://swiped.co/file/magnetic-marketing-dan-kennedy/",
+      "file": "magnetic_marketing_compilation.txt",
+      "words": 588
+    },
+    {
+      "name": "Takeaway Selling",
+      "url": "https://swiped.co/file/takeawayselling-dankennedy/",
+      "file": "takeaway_selling.txt",
+      "words": 588
+    },
+    {
+      "name": "Follow Up Sequence",
+      "url": "https://swiped.co/file/followup-dankennedy/",
+      "file": "follow_up_sequence.txt",
+      "words": 412
+    },
+    {
+      "name": "Lead Gen Offer",
+      "url": "https://swiped.co/file/leadgenoffer-dankennedy/",
+      "file": "lead_gen_offer.txt",
+      "words": 630
+    },
+    {
+      "name": "Takeaway Selling Email",
+      "file": "takeaway_selling_email.txt",
+      "words": 350
+    },
+    {
+      "name": "Follow-Up Email Sequence",
+      "file": "follow_up_sequence.txt",
+      "words": 850
+    },
+    {
+      "name": "Lead Generation Offer",
+      "file": "lead_generation_offer.txt",
+      "words": 1200
+    }
+  ],
+  "total_words": 5284
+}

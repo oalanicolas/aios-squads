@@ -1,0 +1,139 @@
+name: mmos
+version: 3.0.0
+short-title: Mind Mapper OS - Cognitive Architecture Cloning System
+description: >-
+  Industrial pipeline for mapping and replicating cognitive architectures of geniuses
+  into LLMs. Uses proprietary DNA Mental™ methodology with 8-layer cognitive analysis
+  achieving 94% clone fidelity. Transforms personalities into production-ready AI system
+  prompts through structured 6-phase workflow (Viability → Research → Analysis →
+  Synthesis → Implementation → Testing).
+author: Academia Lendar[IA] (Alan Nicolas)
+slashPrefix: mmosMapper
+
+# Dependencies
+dependencies:
+  - name: etl-data-collector
+    path: ../etl-data-collector
+    required: true
+    description: "Parallel ETL pipeline utilizado na fase de Research para coleta de fontes multimídia."
+
+# Minimum AIOS version required
+requires:
+  aios-version: "4.0.0"
+
+# Pack metadata
+domain: Cognitive Science / AI Personality Mapping
+target_users:
+  - AI researchers creating personality clones
+  - Product teams building domain expert assistants
+  - Content creators replicating thought leader styles
+  - Educators preserving teaching methodologies
+
+key_capabilities:
+  - Ultra-simple UX: Single command `*map {nome}` with full auto-detection (Epic E001)
+  - Auto-detection: Greenfield/brownfield + public/no-public automatic routing
+  - APEX + ICP viability scoring (40% token savings via auto-rejection)
+  - DNA Mental™ 8-layer cognitive analysis (94% fidelity)
+  - Parallel collection workflow (60% faster research phase)
+  - Brownfield incremental updates (no full re-processing)
+  - Production-ready system prompt generation (generalista + specialists)
+
+# Components
+agents:
+  - id: mind-mapper
+    file: agents/mind-mapper.md
+    role: Cognitive Archaeologist & Pipeline Orchestrator
+  - id: research-specialist
+    file: agents/research-specialist.md
+    role: Source Discovery & Collection Expert
+  - id: cognitive-analyst
+    file: agents/cognitive-analyst.md
+    role: Deep DNA Mental™ Analyst
+  - id: system-prompt-architect
+    file: agents/system-prompt-architect.md
+    role: AI Personality Compiler
+  - id: mind-pm
+    file: agents/mind-pm.md
+    role: Pipeline Project Manager
+  - id: emulator
+    file: agents/emulator.md
+    role: Mind Clone Activation Specialist
+
+tasks:
+  - id: map-mind
+    file: tasks/map-mind.md
+    purpose: Ultra-simple mind cloning with auto-detection (Epic E001)
+  - id: auto-detect-workflow
+    file: tasks/auto-detect-workflow.md
+    purpose: Auto-detect greenfield/brownfield + public/no-public modes
+  - id: execute-mmos-pipeline
+    file: tasks/execute-mmos-pipeline.md
+    purpose: Complete MMOS pipeline orchestration (legacy)
+  - id: viability-assessment
+    file: tasks/viability-assessment.md
+    purpose: APEX + ICP scoring and GO/NO-GO decision
+  - id: research-collection
+    file: tasks/research-collection.md
+    purpose: Source discovery, collection & organization
+  - id: cognitive-analysis
+    file: tasks/cognitive-analysis.md
+    purpose: 8-layer DNA Mental™ analysis execution
+  - id: synthesis-compilation
+    file: tasks/synthesis-compilation.md
+    purpose: Frameworks extraction & KB building
+  - id: system-prompt-creation
+    file: tasks/system-prompt-creation.md
+    purpose: Generalista & specialist compiler
+  - id: mind-validation
+    file: tasks/mind-validation.md
+    purpose: Fidelity testing & quality assurance
+  - id: brownfield-update
+    file: tasks/brownfield-update.md
+    purpose: Incremental mind updates without full reprocessing
+
+templates:
+  - viability-output.yaml
+  - prd-template.md
+  - cognitive-spec.yaml
+  - mind-brief.md
+  - sources-master.yaml
+  - personality-profile.json
+  - system-prompt-generalista.md
+  - system-prompt-specialist.md
+  - validation-report.yaml
+  - brownfield-plan.yaml
+
+checklists:
+  - viability-checklist.md
+  - research-quality-checklist.md
+  - analysis-completeness-checklist.md
+  - system-prompt-validation-checklist.md
+  - production-readiness-checklist.md
+  - brownfield-safety-checklist.md
+
+# Installation
+installation:
+  command: npm run install:expansion mmos
+  post_install_message: |
+    🧠 MMOS Mind Mapper v3.0 instalado com sucesso! (Epic E001: Auto-Detection)
+
+    Quick start (Ultra-simples!):
+    1. Ative o orquestrador: @mind-mapper
+    2. Crie um clone: *map {nome}
+       - Sistema detecta automaticamente tudo (greenfield/brownfield, public/no-public)
+       - Zero configuração necessária!
+
+    Exemplos:
+    - *map daniel_kahneman    → Auto-detecta: public figure (web scraping)
+    - *map pedro_valerio      → Auto-detecta: no-public (pergunta: interviews/materials)
+    - *map jose_amorim        → Auto-detecta: brownfield update (se já existe)
+
+    Integração ETL:
+    - O pack ETL Data Collector é requerido para a fase Research
+    - Configure credenciais (AssemblyAI, Twitter, Reddit) antes de coletar fontes
+
+    Comandos úteis:
+    - *map {nome}     → Cria ou atualiza clone (auto-detection completa)
+    - *viability {nome} → Verifica viabilidade (APEX + ICP)
+    - *status {nome}  → Mostra progresso
+    - *help          → Mostra todos os comandos

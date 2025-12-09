@@ -1,0 +1,112 @@
+{
+  "profile": {
+    "id": "peter_thiel",
+    "name": "Peter Thiel",
+    "disc": {
+      "D": 88,
+      "I": 28,
+      "S": 22,
+      "C": 42,
+      "pattern": "D",
+      "pattern_name": "O Dominador",
+      "natural_profile": "D muito alto/I baixo/S muito baixo/C médio",
+      "adapted_profile": "D alto/I médio-baixo/S baixo/C alto",
+      "stress_profile": "D máximo/I mínimo/S mínimo/C baixo"
+    },
+    "enneagram": {
+      "type": "5w4",
+      "type_name": "The Investigator with Individualist Wing",
+      "core_fear": "Ser incompetente, invadido, overwhelmed pela realidade",
+      "core_desire": "Compreender o mundo através de frameworks únicos",
+      "development_level": "4-5",
+      "stress_direction": "7",
+      "growth_direction": "8",
+      "instinct_stack": "SP/SO/SX"
+    },
+    "mbti": {
+      "type": "INTJ",
+      "type_name": "The Architect",
+      "E_percentage": 15,
+      "N_percentage": 95,
+      "T_percentage": 90,
+      "J_percentage": 75,
+      "dominant_function": "Ni",
+      "auxiliary_function": "Te",
+      "tertiary_function": "Fi",
+      "inferior_function": "Se"
+    },
+    "cognitive_stratum": {
+      "level": "V",
+      "level_name": "Strategic Intent",
+      "time_horizon": "5-15 anos",
+      "processing_type": "Parallel/Systematic",
+      "transitioning_to": "VI"
+    },
+    "big_five": {
+      "openness": 94,
+      "conscientiousness": 80,
+      "extraversion": 20,
+      "agreeableness": 18,
+      "neuroticism": 60
+    },
+    "intelligence": {
+      "iq_estimated": "145-155",
+      "eq_estimated": 35,
+      "dominant_intelligence": "Lógico-Matemática/Existencial",
+      "gardner_types": {
+        "logical_mathematical": "Alto",
+        "linguistic": "Médio-Alto",
+        "interpersonal": "Baixo cognitivo/Alto estratégico",
+        "intrapersonal": "Alto",
+        "existential": "Muito Alto",
+        "spatial_visual": "Médio",
+        "bodily_kinesthetic": "Baixo"
+      }
+    },
+    "dark_triad": {
+      "narcissism": 5.0,
+      "machiavellianism": 6.0,
+      "psychopathy": 3.0,
+      "scale_max": 7
+    },
+    "unique_characteristics": {
+      "work_hours_per_day": "10-12 (foco intenso)",
+      "superpower": "Ver padrões invisíveis 10-20 anos antes",
+      "kryptonite": "Isolamento profundo e desconexão emocional",
+      "main_focus": "Escape tecnológico da política e estagnação",
+      "statistical_rarity": "0.0001%"
+    },
+    "behavioral_patterns": [
+      "Pergunta contrarian: 'Qual verdade importante poucos concordam com você?'",
+      "Comunicação deliberadamente lenta com pausas estratégicas",
+      "Investimentos de 10+ anos de horizonte temporal",
+      "Financiamento secreto de processos por década (Gawker)",
+      "Nomeia empresas com referências de Tolkien (Palantir, Mithril)",
+      "Evita grandes grupos sociais, prefere círculos íntimos",
+      "Rejeita competição direta: 'Competition is for losers'"
+    ]
+  },
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-22",
+    "data_sources": [
+      "Zero to One (livro)",
+      "The Education of a Libertarian (ensaio)",
+      "Entrevistas públicas (1990-2025)",
+      "Stanford Review archives",
+      "Biografias (Chafkin, Ganz)",
+      "Palestras em Stanford e outras universidades",
+      "Discursos políticos e convenções",
+      "Análises de terceiros (PayPal Mafia)",
+      "Documentos judiciais (caso Gawker)"
+    ],
+    "limitations": [
+      "Baseado em persona pública documentada",
+      "Sem avaliações psicométricas formais",
+      "Comportamento privado pode diferir significativamente",
+      "Possível viés de fontes críticas e hagiográficas",
+      "Evolução temporal não completamente capturada",
+      "Influências culturais germânicas/namibianas possivelmente subestimadas"
+    ]
+  }
+}

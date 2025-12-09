@@ -1,0 +1,965 @@
+This is a transcript of Lex Fridman Podcast #390 with Yuval Noah Harari.
+The timestamps in the transcript are clickable links that take you directly to that point in
+the main video. Please note that the transcript is human generated, and may have errors.
+Here are some useful links:
+Go back to
+this episode’s main page
+Watch the
+full YouTube version of the podcast
+Table of Contents
+Here are the loose “chapters” in the conversation.
+Click link to jump approximately to that part in the transcript:
+0:00 – Introduction
+1:24 – Intelligence
+20:19 – Origin of humans
+30:41 – Suffering
+51:22 – Hitler
+1:09:54 – Benjamin Netanyahu
+1:28:17 – Peace in Ukraine
+1:45:07 – Conspiracy theories
+1:59:46 – AI safety
+2:14:04 – How to think
+2:23:47 – Advice for young people
+2:26:28 – Love
+2:36:38 – Mortality
+2:41:02 – Meaning of life
+Introduction
+Yuval Noah Harari
+(00:00:00)
+If we now find ourselves inside this kind of world of illusions created by an alien intelligence, that we don’t understand, but it understands us, this is a kind of spiritual enslavement that we won’t be able to break out of, because it understands us, it understands how to manipulate us, but we don’t understand what is behind this screen of stories and images and songs.
+Lex Fridman
+(00:00:36)
+The following is a conversation with Yuval Noah Harari, a historian, philosopher, and author of several highly acclaimed, highly influential books, including Sapiens, Homo Deus and 21 Lessons for the 21st Century. He is also an outspoken critic of Benjamin Netanyahu and the current right-wing government in Israel. While much of this conversation is about the history and future of human civilization, we also discuss the political turmoil of present day Israel, providing a different perspective from that of my recent conversation with Benjamin Netanyahu.
+(00:01:14)
+This is the Lex Friedman podcast. To support it, please check out our sponsors in the description. Now, dear friends, here’s Yuval Noah Harari.
+Intelligence
+(00:01:24)
+13.8 billion years ago is the origin of our universe. 3.8 billion years ago is the origin of life here on our little planet, the one we call earth. Let’s say 200,000 years ago, is the appearance of early homo sapiens. Let me ask you this question. How rare are these events in the vastness of space and time? Or put it in a more fun way, how many intelligent alien civilizations do you think are out there in this universe, us being one of them?
+Yuval Noah Harari
+(00:01:53)
+I suppose there should be some, statistically, but we don’t have any evidence. I do think that intelligence, in any way, it’s a bit overvalued. We are the most intelligent entities on this planet, and look what you’re doing. So intelligence also tends to be self-destructive, which implies that if there are, or were, intelligent life forms elsewhere, maybe they don’t survive for long.
+Lex Fridman
+(00:02:22)
+You think there’s a tension between happiness and intelligence?
+Yuval Noah Harari
+(00:02:26)
+Absolutely. Intelligence is definitely not something that is directed towards amplifying happiness. I would also emphasize the huge, huge difference between intelligence and consciousness, which many people, certainly in the tech industry and in the AI industry, tend to miss. Intelligence is simply the ability to solve problems, to attain goals, and to win at chess, to win a struggle for survival, to win a war, to drive a car, to diagnose a disease. This is intelligence. Consciousness is the ability to feel things like pain and pleasure, and love, and hate. In humans and other animals intelligence and consciousness go together. They go hand in hand, which is why we confuse them. We solve problems, we attain goals by having feelings. Other types of intelligence, certainly in computers, computers are already highly intelligent and as far as we know, they have zero consciousness. When a computer beats you at chess or go or whatever, it doesn’t feel happy. If it loses, it doesn’t feel sad. There could be also other highly intelligent entities out there in the universe that have zero consciousness. I think that consciousness is far more important and valuable than intelligence.
+Lex Fridman
+(00:03:59)
+Can you steer me on the case that consciousness and intelligence are intricately connected? Not just in humans, but anywhere else. They have to go hand in hand. Is it possible for you to imagine such a universe?
+Yuval Noah Harari
+(00:04:12)
+It could be, but we don’t know yet. Again, we have examples. Certainly, we know of examples of high intelligence without consciousness. Computers are one example. As far as we know, plants are not conscious, yet, they are intelligent. They can solve problems, they can attain goals in very sophisticated ways. The other way around, to have consciousness without any intelligence, this is probably impossible, but to have intelligence without consciousness, yes, that’s possible.
+(00:04:48)
+A bigger question is whether any of that is tied to organic biochemistry. We know, on this planet, only about carbon-based life forms, whether you are an amoeba, a dinosaur, a tree, a human being, you are based on organic biochemistry. Is there an essential connection between organic biochemistry and consciousness? Do all conscious entities, everywhere in the universe or in the future on planet earth, have to be based on carbon? Is there something so special about carbon as an element that an entity based on silicon will never be conscious? I don’t know, maybe. Again, this is a key question about computer and computer consciousness. Can computers eventually become conscious, even though they are not organic? The jury is still out on that. I don’t know. We have to take both options into account.
+Lex Fridman
+(00:05:48)
+Well, a big part of that is do you think we humans would be able to detect other intelligent beings, other conscious beings? Another way to ask that, is it possible that the aliens are already here and we don’t see them? Meaning are we very human-centric in our understanding of, one, the definition of life, two, the definition of intelligence, and three, the definition of consciousness?
+Yuval Noah Harari
+(00:06:13)
+The aliens are here, they are just not from outer space. AI, which usually stands for artificial intelligence. I think it stands for alien intelligence because AI is an alien type of intelligence. It solves problems, attains goals in a very, very different way, in an alien way from human beings. I’m not implying that AI came from outer space, it came from Silicon Valley, but it is alien to us. If there are alien intelligent or conscious entities that came from outer space already here, I’ve not seen any evidence for it. It’s not impossible, but in science, evidence is everything.
+Lex Fridman
+(00:06:56)
+Well, I mean, I guess, instructive there is just having the humility to look around, to think about living beings that operate at different timescale, at different spatial scale. I think that’s all useful when starting to analyze artificial intelligence. It’s possible that even the larger language models we have today are already conscious.
+Yuval Noah Harari
+(00:07:19)
+I highly doubt it, but I think consciousness, in the end, it’s a question of social norms. Because we cannot prove consciousness in anybody except ourselves. We know that we are conscious, because we are feeling it. We have direct access to our subjective consciousness. We cannot have any proof that any other entity in the world, any other human being, our parents, our best friends, we don’t have proof that they are conscious. This has been known for thousands of years. This is Descartes, this is Buddha, this is Plato. We can’t have this sort of proof. What we do have is social conventions. It’s a social convention that all human beings are conscious. It also applies to animals. Most people who have pets firmly believe that their pets are conscious, but a lot of people still refuse to acknowledge that about cows or pigs.
+(00:08:15)
+Now, pigs are far more intelligent than dogs and cats, and according to many measures, yet, when you go to the supermarket and buy a piece of frozen pig meat, you don’t think about it as a conscious entity. Why do you think of your dog as conscious, but not of the bacon that you buy? Because you’ve built a relationship with the dog and you don’t have a relationship with the bacon.
+(00:08:42)
+Now, relationships, they don’t constitute a logical proof for consciousness, they’re a social test. The Turing test is a social test, it’s not a logical proof. Now, if you establish a mutual relationship with an entity and you are invested in it, emotionally, you are almost compelled to feel that the other side is also conscious. When it comes again to AI and computers, I think, again, I don’t think that at the present moment computers are conscious, but people are already forming intimate relationships with AI and are therefore almost … It’s almost irresistible. They’re compelled to increasingly feel that these are conscious entities. I think we are quite close to the point when the legal system will have to take this into account. Even though I don’t think computers have consciousness, I think we are close to the point the legal system will start treating them as conscious entities, because of this social convention.
+Lex Fridman
+(00:09:56)
+To you is a social convention, just a funny little side effect, a little artifact, or is it fundamental to what consciousness is? Because if it is fundamental, then it seems like AI is very good at forming these kinds of deep relationships with humans, and therefore it’ll be able to be a nice catalyst for integrating itself into these social conventions of ours.
+Yuval Noah Harari
+(00:10:21)
+It was built to accomplish that. Again, all this argument between natural select selection and creationism, intelligent design. As far as the past go, all entities evolve by natural selection. The funny thing is, when you look to the future, more and more entities will come out of intelligent design, not of some God above the clouds, but of our intelligent design and the intelligent design of our clouds, of our computing clouds. They will design more and more entities. This is what is happening with AI. It is designed to be very good at forming intimate relationships with humans. In many ways, it’s already doing it almost better than human beings, in some situations.
+(00:11:13)
+When two people talk with one another, one of the things that makes the conversation more difficult is our own emotions. You are saying something and I’m not really listening to you, because there is something I want to say, and I’m just waiting until you finish I can put in a word, or I’m so obsessed with my anger or irritation or whatever, that I don’t pay attention to what you are feeling. This is one of the biggest obstacles in human relationships. Computers don’t have this problem, because they don’t have any emotions of their own.
+(00:11:51)
+When a computer is talking to you, it can focus 100% of its attention is on what you’re saying and what you’re feeling because it has no feelings of its own. Paradoxically, this means that computers can fool people into feeling that, oh, there is a conscious entity on the other side, an empathic entity on the other side, because the one thing everybody wants, almost more than anything in the world, is for somebody to listen to me, somebody to focus all their attention on me. I want it from my spouse, from my husband, from my mother, from my friends, from my politicians. Listen to me, listen to what I feel. They often don’t. Now you have this entity, which a hundred percent of its attention is just on what I feel. This is a huge, huge temptation, and I think also a huge, huge danger.
+Lex Fridman
+(00:12:49)
+Well, the interesting catch 22 there is you said somebody to listen to us. Yes, we want somebody to listen to us, but for us to respect that somebody, they sometimes have to also not listen. They kind of have to be an asshole sometimes. They have to have moods sometimes. They have to have self-importance and confidence, and we should have a little bit of fear that they can walk away at any moment. There should be a little bit of that tension.
+Yuval Noah Harari
+(00:13:17)
+Absolutely.
+Lex Fridman
+(00:13:20)
+Could we optimize for it?
+Yuval Noah Harari
+(00:13:21)
+If social scientists and say psychologists establish that, I don’t know, 17% inattention is good for a conversation because then you feel challenged, “Oh, I need to grab this person’s attention,” you can program the AI to have exactly 17% inattention, not one percentage more or less. Or it can by trial and error, discover what is the ideal percentage. Over the last 10 years, we have creating machines for grabbing people’s attention. This is what has been happening on social media.
+(00:13:58)
+Now, we are designing machines for grabbing human intimacy, which, in many ways, it’s much, much more dangerous and scary. Already the machines for grabbing attention, we’ve seen how much social and political damage they could do by in many way kind of distorting the public conversation. Machines that are superhuman, in their abilities to create intimate relationships, this is psychological and social weapons of mass destruction. If we don’t regulate it, if we don’t train ourself to deal with it, it could destroy the foundations of human society.
+Lex Fridman
+(00:14:41)
+Well, one of the possible trajectories is those same algorithms would become personalized and instead of manipulating us at scale, there would be assistants that guide us to help us grow, to help us understand the world better. Even interactions with large language models now, if you ask them questions, it doesn’t have that stressful drama, the tension that you have from other sources of information. It has a pretty balanced perspective that it provides. It just feels like the potential is there to have a really nice friend who’s an encyclopedia that just tells you all the different perspectives, even on controversial issues, the most controversial issues, to say, these are the different theories. These are the not widely accepted conspiracy theories, but here’s the kind of backing for those conspiracy. It just lays it all out. Then with a calm language, without the words that kind of presume there’s some kind of manipulation going on underneath it all. It’s quite refreshing.
+(00:15:47)
+Of course, those are the early days. People can step in and start to sensor it to manipulate those algorithms, to start to input some of the human biases in there as opposed to what’s currently happening is kind of the internet is input, compress it, and have a nice little output that gives an overview of the different issues. I mean, there’s a lot of promise there also, right?
+Yuval Noah Harari
+(00:16:13)
+Absolutely. I mean, if there was no promise, there was no problem. If this technology could not accomplish anything good, nobody would develop it. Now, obviously, it has tremendous positive potential in things like what you just described in better medicine, better healthcare, better education, so many promises. This is also why it’s so dangerous, because the drive to develop it faster and faster is there, and it has some dangerous potential also. We shouldn’t ignore it. Again, I’m not advocating banning it, just to be careful about how we, not so much develop it, but most importantly how we deploy it into the public sphere. This is the key question.
+(00:16:56)
+You look back at history, and one of the things we know from history, humans are not good with new technologies. I hear many people now say, “AI, we’ve been here before. We had the radio, we had the printing press, we had the Industrial Revolution.” Every time there is a big new technology, people are afraid and it’ll take jobs and the bad actors. In the end it’s okay. As a historian, my tendency is yes, in the end it’s okay, but in the end there is a learning curve. There is a lot of failed experiments on the way to learning how to use the new technology. These failed experiments could cost the lives of hundreds of millions of people.
+(00:17:42)
+If you think about the last really big revolution, the Industrial Revolution, yes, in the end, we learned how to use the powers of industry; electricity, radio, trains, whatever, to build better human societies. On the way, we had all these experiments like European imperialism, which was driven by the Industrial Revolution. It was a question, how do you build an industrial society? Oh, you build an empire. You control all the resources, the raw materials, the markets. Then you had communism, another big experiment on how to build an industrial society. You had fascism and Nazism, which were essentially an experiment in how to build an industrial society, including even how do you exterminate minorities using the powers of industry? We had all these failed experiments on the way.
+(00:18:37)
+If we now have the same type of failed experiments with the technologies of the 21st century, with AI, with bioengineering, it could cost the lives of, again, hundreds of millions of people and maybe destroy the species. As a historian, when people talk about the examples from history, from new technologies, I’m not so optimistic. We need to think about the failed experiment, which accompanied every major new technology.
+Lex Fridman
+(00:19:10)
+This intelligence thing, like you were saying, is a double-edged sword, is that every new thing it helps us create, it can both save us and destroy us. It’s unclear each time, which will happen. That’s maybe why we don’t see any aliens.
+Yuval Noah Harari
+(00:19:28)
+Yeah. I mean, I think each time it does both things. Each time it does both good things and bad things. The more powerful the technology, the greater both the positive and the negative outcomes. Now, we are here because we are the descendants of the survivors, of the surviving cultures, the surviving civilizations. When we look back we say, in the end, everything was okay, “Hey, we are here,” but the people for whom it wasn’t okay, they are just not here.
+Lex Fridman
+(00:20:02)
+Okay. Has a lot of possible variations to it because there’s a lot of suffering along the way, even for the people that survived. The quality of life and all of this. Let’s actually go back there, with deep gratitude to our ancestors. How did it all start? How did homo sapiens out-compete the others, the other human-like species, the Neanderthals and the other homo species?
+Origin of humans
+Yuval Noah Harari
+(00:20:33)
+On the individual level, as far as we can tell, we were not superior to them. Neanderthals actually had bigger brains than us. Not just other human species, other animals too. If you compare me, personally, to an elephant, to a chimpanzee, to a pig, I can do some things better, many other things worse. If you put me alone on some island with a chimpanzee, an elephant and a pig, I wouldn’t bet on me being the best survivor, the one that comes successful.
+Lex Fridman
+(00:21:06)
+If I may interrupt for a second, I was just talking extensively with Elon Musk about the difference between humans and chimps, relevant to Optimus, the robot. The chimps are not able to do this kind of pinching with their fingers. They can only do this kind of pinching, and this kind of pinching is very useful for precise manipulation of objects. Don’t be so hard on yourself.
+Yuval Noah Harari
+(00:21:32)
+No, I said that I can do some things better than a chimp. If Elon Musk goes on a boxing match with a chimpanzee …
+Lex Fridman
+(00:21:42)
+This won’t help you.
+Yuval Noah Harari
+(00:21:43)
+This won’t help you against a chimpanzee.
+Lex Fridman
+(00:21:46)
+Good point.
+Yuval Noah Harari
+(00:21:47)
+Similar, if you want to climb a tree, if you want to do so many things, my bets will be on the chimp, not on Elon.
+Lex Fridman
+(00:21:53)
+Fair enough.
+Yuval Noah Harari
+(00:21:54)
+You have advantages on both sides. What really made us successful, what made us the rulers of the planet and not the chimps and not the Neanderthals, is not any individual ability, but our collective ability. Our ability to cooperate flexibly in very large numbers. Chimpanzees know how to cooperate, say, 50 chimpanzees, a hundred chimpanzees. As far as we can tell from archeological evidence this was also the case with Neanderthals. Homo sapiens, about 70,000 years ago, gained an amazing ability to cooperate basically in unlimited numbers. You start seeing the formation of large networks; political, commercial, religious, items being traded over thousands of kilometers, ideas being spread, artistic fashions. This is our secret of success. Chimpanzees, Neanderthals can cooperate, say, a hundred.
+(00:22:56)
+Now, the global trade network has 8 billion people. What we eat, what we wear, it comes from the other side of the world. Countries like China, like India, they have 1.4 billion people. Even Israel, which is a relatively small country, say 9 million citizens, that’s more than the entire population of the planet 10,000 years ago of humans. We can build these huge networks of cooperation. Everything we have accomplished as a species from building the pyramids to flying to the moon, it’s based on that. Then you ask, “Okay. So what makes it possible for millions of people who don’t know each other, to cooperate in a way that Neanderthals or chimpanzees couldn’t?” At least my answer is stories, is fiction. It’s the imagination.
+(00:23:48)
+If you examine any large scale human cooperation, you always find fiction as its basis. It’s a fictional story that holds lots of strangers together. It’s most obvious in cases like religion. You can’t convince a group of chimpanzees to come together to fight a war or build a cathedral by promising to them, “If you do that, after you die, you go to chimpanzee heaven and you get lots of bananas and coconuts.” No chimpanzee will ever believe that. Humans believe these stories, which is why we have these huge religious networks. It’s the same thing with modern politics.
+(00:24:29)
+It’s the same thing with economics. People think, “Oh, economics, this is rational. It has nothing to do with fictional stories.” No money is the most successful story ever told, much more successful than any religious mythology. Not everybody believes in God, or in the same God, but almost everybody believes in money, even though it’s just a figment of our imagination. You take these green pieces of paper, dollars, they have no value. You can’t eat them, you can’t drink them. Today, most dollars are not even pieces of paper, they are just electronic information passing between computers. We value them just for one reason, that you have the best storytellers in the world, the bankers, the finance ministers, all these people, they are the best storytellers ever. They tell us a story that this green little piece of paper, or this bit of information, it is worth a banana. As long as everybody believes it, it works.
+Lex Fridman
+(00:25:29)
+At which point does a fiction, when it’s sufficiently useful and effective and improving the global quality of life, does it become accepted reality? There’s a threshold, which just [inaudible 00:25:43].
+Yuval Noah Harari
+(00:25:42)
+If enough people believe it. It’s like with money. If you start a new cryptocurrency, if you are the only one that believes the story … I mean, again, you cryptocurrencies, you have the math of course, but ultimately it’s storytelling. You’re selling people a story. If nobody believes your story, you don’t have anything, but if lots of people believe the Bitcoin story, then Bitcoin can be worth thousands and tens of thousands of dollars. Again, why? I mean, you can’t eat it, you can’t drink. It’s nothing. It’s this story around the math, which is the real magic.
+Lex Fridman
+(00:26:17)
+Is it possible that the story is the primary living organism, not the storyteller. That somehow homo sapiens evolved to become these hosts for a more intelligent living organism, which is the idea. The ideas are the ones that are doing the competing. This is one of the sort of big perspectives behind your work that’s really revolutionary of how you’ve seen history. Do you ever take out the perspective of the ideas as the organisms versus the humans?
+Yuval Noah Harari
+(00:26:55)
+It’s an interesting idea. There are two opposite things to say about it. On the one hand, yes, absolutely. If you look long term in history, all the people die. It’s the stories that compete and survive and spread. Stories often spread by making people willing to sacrifice sometimes their lives for the story. We know, in Israel, this is one of the most important story factories in human history. This is a place where people still kill each other every day over stories. I don’t know. You’ve been to Jerusalem, right?
+Lex Fridman
+(00:27:32)
+Mm-hmm (affirmative).
+Yuval Noah Harari
+(00:27:34)
+People here are, “Oh, Jerusalem, Jerusalem, Jerusalem.” I’ve lived in Jerusalem much of my life. You go there, it’s an ordinary place. It’s a town. You have buildings, you have stones, you have trees, you have dogs and cats and pedestrians. It’s a regular place. Then you have the stories about the place, “Oh, this is the place where God revealed himself. This is the place where Jesus was. This is the place where Muhammad was.” It’s the stories that people fight over. Nobody’s fighting over the stones. People are fighting about the stories about the stones. If a story can get millions of people to fight for it, it not only survives, it spreads. It can take over the world.
+(00:28:22)
+The other side of the coin is that the stories are not really alive, because they don’t feel anything. This goes back to the question of consciousness, which I think is the most important thing, that the ultimate reality is consciousness, is the ability to feel things. If you want to know whether the hero of some story is real or not, you need to ask, “Can it suffer?” Stories don’t feel anything. Countries, which are also stories, nations, don’t suffer. If a nation loses a war, it doesn’t suffer. The soldiers suffer, the civilians suffer. Animals can suffer. You have an army with horses and whatever, and the horses get wounded, the horses suffer. The nation can’t suffer, it’s just an imagination. It’s just a fictional story in our mind. It doesn’t feel anything.
+(00:29:21)
+Similarly, when a bank goes bankrupt or a company goes bankrupt, or when a currency loses its value, like Bitcoin is worth now zero, crashed, or the dollar is worth zero, it crashed. The dollar doesn’t feel anything. It’s the people holding the dollars who might be now very miserable. We have this complex situation when history is largely driven by stories, but stories are not the ultimate reality. The ultimate reality is feelings of humans, of animals. The tragedy of history is that very, very often we get the order wrong. Stories are not bad. Stories are tools. They’re good, when we use them in order to alleviate suffering, but very often we forget it. Instead of using the stories for our purposes, we allow the stories to use us for their purposes. Then you start entire wars because of a story. You inflict suffering on millions of people just for the sake of a story. That’s the tragedy of human history.
+Suffering
+Lex Fridman
+(00:30:41)
+The fundamental property of life, of a living organism, is the capacity to feel and the ultimate feeling is suffering?
+Yuval Noah Harari
+(00:30:50)
+To know if you are happy or not, it’s a very difficult question, but when you suffer you know.
+Lex Fridman
+(00:30:55)
+Yes.
+Yuval Noah Harari
+(00:30:56)
+Also, in ethical terms, it’s more important to be aware of suffering than of any other emotion. If you are doing something which is causing all kinds of emotions to all kinds of people, first of all, you need to notice if you’re causing a lot of suffering to someone. If some people like it and some people are bored by it and some people are a bit angry at you, and some people are suffering because of what you do, you first of all have to know, oh … Sometimes, you still have to do it. The world is a complicated place. I don’t know. You have an epidemic. Governments decide to have all those social isolation regulations or whatever. In certain cases, yes, you need to do it even though it can cause tremendous suffering, but you need to be very aware of the cost and to be very, very … You have to ask yourself again, and again, and again, is it worth it? Is it still worth it?
+Lex Fridman
+(00:31:53)
+The interesting question there, implied in your statements, is that suffering is a pretty good component of a Turing test for consciousness.
+Yuval Noah Harari
+(00:32:01)
+This is the most important thing to ask about AI: Can it suffer? Because if AI can suffer, then it is an ethical subject and it needs protection, it needs rights just like humans and animals.
+Lex Fridman
+(00:32:15)
+Well, quite a long time ago already, so I work with a lot of robots, legged robots, but I’ve even had, inspired by a YouTube video, had a bunch of Roombas that I made them scream when I touched them or kicked them, or when they ran into a wall. The illusion of suffering, for me, a silly human that anthropomorphizes things, is as powerful as suffering itself. I mean, you immediately think the thing is suffering. I think some of it is just a technical problem, but it’s the easily solvable one, how to create an AI system that just says, “Please don’t hurt me. Please don’t shut me off. I miss you. Where have you been?” Be jealous, also. ” Why have you been gone for so long?”
+Lex Fridman
+(00:33:01)
+Why have you been gone for so long? Your calendar doesn’t have anything on it. This create through words the perception of suffering, of jealousy, of anger, of all of those things, and it just seems like that’s not so difficult to do.
+Yuval Noah Harari
+(00:33:19)
+That’s part of the danger. It basically hacks our operating system and it uses some of our best qualities against us. It’s very, very good that humans are attuned to suffering and that we don’t want to cause suffering because we have compassion. That’s one of the most wonderful thing about humans. If we now create AIs which use this to manipulate us, this is a terrible thing.
+Lex Fridman
+(00:33:48)
+You’ve, I think, mentioned this. Do you think it should be illegal to do these kinds of things with AI, to create the perception of consciousness of saying, “Please don’t leave me,” or basically simulate some of the human-like qualities?
+Yuval Noah Harari
+(00:34:05)
+Yes. I think, again, we have to be very careful about it. If it emerges spontaneously, we need to be careful. Again, we can’t rule out the possibility that AI will develop consciousness. We don’t know enough about consciousness to be sure. If it develops spontaneously, we need to be very careful about how we understand it. If people intentionally design an AI that they know, they assume it has no consciousness, but in order to manipulate people, they use again this human strength, the noble part of our nature against us, this should be forbidden and, similarly on a more general level, that it should be forbidden for an AI to pretend to be a human being, that it’s okay. There are so many things we can use Ais as teachers, as doctors and so forth, and it’s good as long as we know that we are interacting with an AI. The same way we ban fake money, we should ban fake humans. It’s not just banning deep fakes of specific individuals. It’s also banning deep fake of generic humans, which is already happening to some extent on social media. If you have lots of bots retweeting something, then you have the impression, “Oh, lots of people are interested in that. That’s important,” and this is basically the bots pretending to be humans, because if you see a tweet which says 500 people retweeted it or you see a tweet and it says 500 bots retweeted it, I don’t care what the bots we tweeted, but if it’s humans, okay, that’s interesting.
+(00:35:56)
+We need to be very careful that bots can’t do that. They are doing it at present, and it should be banned. Now, some people say, “Yes, bots’ freedom of expression.” No. Bots don’t have freedom of expression. There is no cost in terms of freedom of expression when you ban bots. Again, in some situations, yes, AIs should interact with us, but it should be very clear this is an AI talking to you or this is an AI retweeting this story, it is not a human being making a conscious decision.
+Lex Fridman
+(00:36:32)
+To push back on this line of fake humans, because I think it might be a spectrum, first of all, you might have AI systems that are offended, hurt when you say that they’re fake humans. In fact, they might start identifying as humans. You just talked about the power of us humans with our collective intelligence to take fake stories and make them quite real. If the feelings you have for the fake human is real, love is a kind of fake thing that we all put a word to, a set of feelings, what if you have that feeling for an AI system? It starts to change, I mean, maybe the things AI systems are allowed to do for good. They’re allowed to create, communicate suffering, communicate the good stuff, the longing, the hope, the connection, the intimacy, all of that and, in that way, get integrated in our society, and then you start to ask a question on are we allowed to really unplug them? Are we allowed to really censor them, remove them, remove their voice from social media?
+Yuval Noah Harari
+(00:37:53)
+I’m not saying they shouldn’t have a voice, they shouldn’t talk with us. I’m just saying, when they talk with us, it should be clear that they are AI. That’s it. You can have your voice as an AI. Again, I have some medical problem. I want to get advice from an AI doctor. That’s fine as long as I know that I’m talking with an AI. What should be banned is AI pretending to be a human being. This is something that will erode trust and, without trust, society collapses. This is something that especially will endanger democracies because democracy is a conversation basically and it’s a conversation between people.
+(00:38:37)
+If you now flood the public sphere with millions and potentially billions of AI agents that can hold conversations, they never sleep, they never eat, they don’t have emotions of their own, they can get to know you and tailor their words specifically for you and your life story, they are becoming better than us at creating stories and ideas and so forth. If you flood the public sphere with that, this will ruin the conversation between people. It will ruin the trust between people. You will no longer be able to have a democracy in this situation. You can have other types of regimes, but not democracy.
+Lex Fridman
+(00:39:26)
+If you could talk about the big philosophical notion of truth then? You’ve already talked about the capacity of humans. One of the things that made us special is stories. Is there such thing as truth?
+Yuval Noah Harari
+(00:39:44)
+Absolutely.
+Lex Fridman
+(00:39:45)
+What is truth exactly?
+Yuval Noah Harari
+(00:39:46)
+When somebody is suffering, that’s true. I mean, this is why one of the things, when you talk about suffering as a ultimate reality, when somebody suffers, that is truth. Now, somebody can suffer because of a fictional story. Like somebody tells people that God said, “You must go on this crusade and kill these heretics,” and this is a completely fictional story, and people believe it and they start a war and they destroy cities and kill people. The people that suffer because of that, and even the crusaders themselves that also suffer the consequences of what they do, the suffering is true even though it is caused by a fictional story.
+(00:40:26)
+Similarly, when people agree on certain rules, the rules could come out of our imagination. Now, we can be truthful about it and say, “These rules. They didn’t come from heaven. They came from our imagination.” We look at sports. We have rules for the game of football, soccer. They were invented by people. At least very few people claim that the rules of football came down from heaven. We invented them, and this is truthful. There are fictional rules invented by humans, and this is true. They were invented by humans. When you are honest about it, it enables you to change the rules, which is being done in football every now and then.
+(00:41:12)
+It’s the same with the fundamental rules of a country. You can pretend that the rules came down from heaven dictated by God or whatever and then you can’t change them, or you can be like the American Constitution which starts with, “We the People.” The American Constitution lays down certain rules for a society, but the amazing thing about it, it does not pretend to come from an external source.
+(00:41:40)
+The 10 Commandments start with, “I am your Lord God.” Because it starts with that, you can’t change them. The 10th commandment, for instance, supports slavery. In the 10th commandment, it says that you should not covet your neighbor’s house or your neighbor’s wife or your neighbor’s slaves. It’s okay to hold slaves according to the 10th commandment. It’s just bad to covet the slaves of your neighbor.
+(00:42:12)
+Now, there is no 11th commandment which says, “If you don’t like some of the previous 10 commandments, this is how you go about amending them,” which is why we still have them unchanged. Now, in the US Constitution, you have all these rights and rules, including originally the ability to hold slaves, but the genius of the Founding Fathers of the United States, they had the humility to understand maybe we don’t understand everything. Maybe we made some mistakes, so we tell you that these rules did not come from heaven. They came from us humans. We may have made a mistake, so here is a mechanism for how future generations can amend the Constitution, which was used later on to, for instance, amend the Constitution to ban slavery.
+Lex Fridman
+(00:43:06)
+Now you’re describing some interesting and powerful ideas throughout human history. Can you just speak to the mechanism of how humans start to believe ideas? Is there something interesting to say there from your thinking about it, how idea is born and how it takes hold, and how it spreads, and how it competes with other ideas?
+Yuval Noah Harari
+(00:43:28)
+First of all, ideas are an independent force in history. Marxists tend to deny that. Marxists think that all history is just a play of material interests, and ideas, stories, they are just a smokescreen to hide the underlying interests. My thoughts are to some extent the opposite. We have some biological objective interests that all humans share, like we need to eat, we need to drink, we need to breathe, but most conflicts in history are not about that. The interests which really drive most conflicts in history don’t come from biology. They come from religions and ideologies and stories.
+(00:44:19)
+It’s not that stories are a smokescreen to hide the real interests. The stories create the interests in the first place. The stories define who are the competing groups. Nations, religions, cultures, they are not biological entities. They’re not like species like gorillas and chimpanzees. No. Israelis and Palestinians, or Germans and French, or Chinese and Americans, they have no essential biological difference between them. The difference is cultural. It comes from stories. There are people that believe in different stories. The stories create the identity. The stories create the interests. Israelis and Palestinians are fighting over Jerusalem not because of any material interest. There are no oil fields under Jerusalem, and even oil. You need it to realize some cultural fantasy. It doesn’t really come from biology. The stories are independent forces.
+(00:45:19)
+Now, why do people believe one story and not another? That’s history. There is no materialistic law, “People will always believe this.” No. History is full of accidents. How did Christianity become the most successful religion in the world? We can’t explain it. Why this story about Jesus of Nazareth? The Roman Empire in the 3rd Century CE was a bit like, I don’t know, California today. So many sects and sub-sects and gurus and religions, everybody has their own thing, and you have thousands of different stories competing.
+(00:46:05)
+Why did Christianity come up on top? As a historian, I don’t have a clear answer. You can read the sources, and you see how it happened. Oh, this happened and then this happened, and then Constantine adopted it, and then this and then this, but why? I don’t think anybody has an answer to that. If you rewind the movie of history and press play and you rewind and press play a hundred times, I think Christianity would take over the Roman Empire in the world maybe twice out of a hundred times. It was such an unlikely thing to happen.
+(00:46:44)
+It’s the same with Islam. It’s the same, I don’t don’t know, with the communist takeover of Russia. In 1914, if you told people that in three years Lenin and the Bolsheviks will gain power in that czarist empire, they would think you’re utterly crazy. Lenin had a few thousand supporters in 1914 in an empire of close to 200 million people. It sounded ludicrous. Now we know the chain of events, the First World war, the February Revolution and so forth, that led to the communist takeover, but it was such an unlikely event, and it happened.
+Lex Fridman
+(00:47:25)
+The little steps along the way, the little options you have along the way because, Stalin versus Trotsky, you could have the Robert Frost poem, there’s always-
+Yuval Noah Harari
+(00:47:32)
+Yes. There is a highway and there is a sideway, and history takes the sideway many, many times.
+Lex Fridman
+(00:47:43)
+It’s perhaps tempting to tell some of that history through charismatic leaders. Maybe it’s an open question. How much power charismatic leaders have to affect the trajectory of history?
+Yuval Noah Harari
+(00:47:56)
+You’ve met quite a lot of charismatic leaders lately. I mean, what’s your view on that?
+Lex Fridman
+(00:48:01)
+I find it a compelling notion. I’m a sucker for a great speech and a vision. I have a sense that there’s an importance for a leader to catalyze the viral spread of a story. I think we need leaders to be just great storytellers that sharpen up the story to make sure it infiltrates everybody’s brain effectively. It could also be that the local interactions between humans is even more important, but it’s just we don’t have a good way to summarize that and describe that. We like to talk about Steve Jobs as central to the development of the computer, maybe Bill Gates. You tell the stories of individuals like this because it’s just easier to tell a sexy story that way.
+Yuval Noah Harari
+(00:48:53)
+Maybe it’s an interplay because you have the structural forces. I don’t know. You look at the geography of the planet and you look at shipping technology in the late 15th Century in Europe and the Mediterranean, and it’s almost inevitable that pretty quickly somebody would discover America, somebody from the Old World will get to the new world. If it wasn’t Columbus, then it would’ve been, five years later, somebody else. The key thing about history is that these small differences make a huge, huge difference. If it wasn’t Columbus, if it was five years later somebody from England, then maybe all of Latin America today would be speaking English and not Spanish. If it was somebody from the Ottoman Empire, it’s a completely different world history. The Ottoman Empire at that time was also shaping up to be a major maritime empire. If you have America being reached by Muslim navigators before Christian navigators from Europe, you have a completely different world history.
+(00:50:09)
+It’s the same with the computer. Given the economic incentives and the science and technology of the time, then the rise of the personal computer was probably inevitable sometime in the late 20th Century. The where and when is crucial. The fact that it was California in the 1970s and not, say, I don’t know, Japan in the 1980s or China in the 1990s, this made a huge, huge difference. You have this interplay between the structural forces which are beyond the control of any single charismatic leader, but then, the small changes, they can have a big effect.
+(00:50:54)
+I don’t know. I think, for instance, about the war in Ukraine. Now it’s a struggle between nations, but there was a moment when the decision was taken in the mind of a single individual, of Vladimir Putin. He could have decided otherwise, and the world would’ve looked completely different.
+Hitler
+Lex Fridman
+(00:51:14)
+Another leader, Volodymyr Zelenskyy, could have decided to leave Kyiv in the early days. There’s a lot of decisions that ripple. You write in Homo Deus about Hitler and, in part, that he was not a very impressive person.
+Yuval Noah Harari
+(00:51:33)
+I say that?
+Lex Fridman
+(00:51:35)
+The quote is, let me read it, “He wasn’t a senior officer in four years of war. He rose no higher than the rank of corporal. He had no formal education.” Perhaps you mean his resume was not impressive.
+Yuval Noah Harari
+(00:51:48)
+Yeah, his resume was not impressive. That’s true.
+Lex Fridman
+(00:51:51)
+“He had no formal education, no professional skills, no political background. He wasn’t a successful businessman or a union activist. He didn’t have friends or relatives in high places nor any money to speak of.” How did he amass so much power? What ideology, what circumstances enabled the rise of the Third Reich?
+Yuval Noah Harari
+(00:52:13)
+Again, I can’t tell you the why. I can tell you the how. I don’t think it was inevitable. I think that, if a few things were different, there would’ve been no Third Reich. There would’ve been no Nazism and no Holocaust. Again, this is the tragedy. If it would’ve been inevitable, then what can you do? This is the laws of history or the laws of physics, but the tragedy is, no, it was decisions by humans that led to that direction.
+(00:52:41)
+Even from the viewpoint of the Germans, we know for a fact it was an unnecessary path to take because, in the 1920s and ’30s, the Nazis said that, “Unless Germany take this road, it will never be prosperous, it’ll never be successful. All the other countries will keep stepping on it.” This was their claim. We know for a fact this is false. Why? Because they took that road, they lost the Second World War and, after they lost, then they became one of the most prosperous countries in the world because their enemies that defeated them evidently supported them and allowed them to become such a prosperous and successful nation.
+(00:53:36)
+If you can lose the war and still be so successful, obviously you could just have skipped the war. You didn’t need it. I mean, you really had to have the war in order to have a prosperous Germany? Absolutely not. It’s the same with Japan. It’s the same with Italy. It was not inevitable. It was not the forces of history that necessitated, forced Germany to take this path.
+(00:54:09)
+Again, Hitler was a very, very skillful storyteller. He sold people a story. The fact that he was nobody made it even more effective because people at that time, after their defeat of the First World War, after the repeated economic crisis of the 1920s in Germany, people felt betrayed by all the established elites, by all the established institutions. All these professors and politicians and industrialists and military, all the big people, they led us to a disastrous war. They led us to humiliation, so we don’t want any of them. Then you have this nobody, a corporal with no money, with no education, with no titles, with nothing, and he tells people, “I’m one of you.” This was one reason why he was so popular, and then the story he told.
+(00:55:10)
+When you look at stories, at the competition between different stories, and between stories, fiction and the truth, the truth has two big problems. The truth tends to be complicated and the truth tends to be painful. Let’s talk about nations. The real story of every nation is complicated and it contains some painful episodes. We are not always good. We sometimes do bad things.
+(00:55:43)
+Now, if you go to people and you tell them a complicated and painful story, many of them don’t want to listen. The advantage of fiction is that it can be made as simple and as painless or attractive as you want it to be because it’s fiction, and then what you see is that politicians like Hitler, they create a very simple story. We are the heroes. We always do good things. Everybody is against us. Everybody is trying to trample us, and this is very attractive.
+(00:56:20)
+One of the things people don’t understand about Nazism and fascism, we teach in schools about Fascism and Nazism as this ultimate evil, the ultimate monster in human history. At some level, this is wrong because it actually exposes us. Why? Because people hear of fascism is this monster, and then when you hear the actual fascist story, what fascists tell you is always very beautiful and attractive. Fascists are people who come and tell you, “You are wonderful. You belong to the most wonderful group of people in the world. You’re beautiful. You are ethical. Everything you do is good. You have never done anything wrong. There are all these evil monsters out there that are out to get you, and they’re causing all the problems in the world.”
+(00:57:18)
+When people hear that, it’s like looking in the mirror and seeing something very beautiful. Hey, I’m beautiful. We’ve never done anything wrong. We are victims. When you look and you heard in school that Fascism, that fascists are monsters, and you look in the mirror, you see something very beautiful and you say, “I can’t be a fascist because fascists are monsters. This is so beautiful,” so it can’t be. When you look in the fascist mirror, you never see a monster. You see the most beautiful thing in the world, and that’s the danger.
+(00:57:54)
+This is the problem with Hollywood. I look at Voldemort in Harry Potter. Who would like to follow this creep? You look at Darth Vader. This is not somebody you would like to follow. Christianity got things much better when it described the devil as being very beautiful and attractive. That’s the danger, that you see something is very beautiful, you don’t understand the monster underneath.
+Lex Fridman
+(00:58:23)
+You write precisely about this. By the way, just as a small aside, it always saddens me when people say how obvious it is to them that communism is a flawed ideology. When you ask them, “Try to put your mind, try to put yourself in the beginning of the 20th Century and see what you would do,” a lot of people will say, “It’s obvious that it’s a flawed ideology.” I mean, I suppose, to some of the worst ideologies in human history, you could say the same. In that mirror, when you look, it looks beautiful.
+Yuval Noah Harari
+(00:58:56)
+Communism is the same also. You look in the communist mirror. You’re the most ethical, wonderful place, person ever. It’s very difficult to see Stalin underneath it.
+Lex Fridman
+(00:59:07)
+Yeah, in Homo Deus, you also write, “During the 19th and 20th Centuries, as humanism gained increasing social credibility and political power, it sprouted two very different offshoots, socialist humanism, which encompassed a plethora of socialist and communist movements, and evolutionary humanism, whose most famous advocates were the Nazis.” If you can just linger on that, what’s the ideological connection between Nazism and communism as embodied by humanism?
+Yuval Noah Harari
+(00:59:35)
+In humanism, basically the focus is on humans, that they are the most important thing in the world, they move history, but then there is a big question. What are humans? What is humanity?
+(00:59:51)
+Now, liberals, they place at the center of the story individual humans and they don’t see history as a necessary collision between big forces. They place the individual at the center. Especially in the US today, liberal is taken as the opposite of conservative, but to test whether you’re a liberal, you need to answer just three questions. Very simple. Do you think people should have the right to choose their own government or the government should be imposed by some outside force? Do you think people should have the right to the liberty to choose their own profession or either born into some caste that predetermines what they do, and do you think people should have the liberty to choose their own spouse and their own way of personal life instead of being told by elders or parents who to marry and how to live? Now, if you answered yes to all three questions, people should have the liberty to choose their government, their profession, their personal lives, their spouse, then you’re a liberal. Most conservatives are also liberal.
+(01:01:10)
+Now, communists and fascists, they answer differently. For them, yes, history is about humans, humans are the big heroes of history, but not individual humans and their liberties. Fascists imagine history as a clash between races or nations. The nation is at the center. They say the supreme good is the good of the nation. You should have a hundred percent loyalty only to the nation.
+(01:01:45)
+Liberals say, yes, you should be loyal to the nation, but it’s not the only thing. There are other things in the world. There are human rights. There is truth. There is beauty. Many times, yes, you should prefer the interests of your nation over other things, but not always. If your nation tells you to murder millions of innocent people, you don’t do that even though the nation tells you to do it, to lie for the national interest. In extreme situations, maybe, but in many cases, your loyalty should be to the truth even if it makes your nation looks a bit not in the best light.
+(01:02:26)
+The same with beauty. How does the fascist determine whether a movie is a good movie? Very simple. If it serves the interest of the nation, this is a good movie. If it’s against the interest of the nation, this is a bad movie. End of story. Liberalism says, no, there is aesthetic values in the world. We should judge movies not just on the question whether they serve the national interest, but also on artistic value.
+(01:02:57)
+Communists are a bit like the fascists, instead that they don’t place the nation as the main hero, they place class as the main hero. For them, history, again, it’s not about individuals, it’s not about nations, history is the clash between classes and, just as fascists imagine in the end, only one nation will be on top. The communists think in the end only one class should be on top, and that’s the proletariat. Same story. A hundred percent of your loyalty should be to the class. If there is a clash, say, between class and family, class wins.
+(01:03:36)
+In the Soviet Union, the party told children, “If you hear your parents say something bad about Stalin, you have to report them.” There are many cases when children reported their parents, and their parents were sent to the gulag. Your loyalty is to the party which leads the proletariat to victory in the historical struggle. The same way in communism. Art is only about class struggle. A movie is good if it serves the interest of the proletariat. Artistic values? There is nothing like that. The same with truth. Everything that we see now in fake news, the communist propaganda machine was there before us, the level of lies, of disinformation campaigns that they orchestrated in the 1920s and ’30s and ’40s is really unimaginable.
+Lex Fridman
+(01:04:36)
+So the reason these two classes of ideologies failed as the sacrifice of truth, not just failed, but did a lot of damage as the sacrifice of truth and sacrifice of beauty?
+Yuval Noah Harari
+(01:04:50)
+… and sacrifice of hundreds of millions of people. Again, for human suffering like, okay, in order for our nation to win, in order for our class to win, we need to kill those millions. Kill those millions. Ethics, aesthetics, truth, they don’t matter. The only thing that matter is the victory of the state or the victory of the class.
+(01:05:18)
+Liberalism was the antithesis to that. It says, no, it has a much more complicated view of the world. Both communism and fascists, they had the very simple view of the world. Your loyalty, a hundred percent of it, should be only to one thing. Now, liberalism has a much more complex view of the world. It says, yes, there are nations. They are important. Yes, there are classes. They are important, but they are not the only thing. There are also families. There are also individuals. There are also animals. Your loyalty should be divided between all of them. Sometimes, you prefer this. Sometimes, you prefer that. That’s complicated.
+Yuval Noah Harari
+(01:06:00)
+With this. Sometimes you prefer that. That’s complicated. But life is complicated.
+Lex Fridman
+(01:06:07)
+But also, I think, maybe you can correct me, but liberalism acknowledges the corrupting nature of power. When there’s a guy at the top who sits there for a while managing things, he’s probably going to start losing a good sense of reality and losing the capability to be a good manager.
+Yuval Noah Harari
+(01:06:28)
+Yeah.
+Lex Fridman
+(01:06:28)
+It feels like the communist and fascist regimes don’t acknowledge that basic characteristic of human nature, that power corrupts.
+Yuval Noah Harari
+(01:06:39)
+Yes. They believe in infallibility.
+Lex Fridman
+(01:06:41)
+Yeah.
+Yuval Noah Harari
+(01:06:42)
+In this sense, they’re very close to being religions. They’re in Nazism. Hitler was considered infallible, and therefore you don’t need any checks and balances on his power. Why do you need to balance an infallible genius? And it’s the same with the Soviet Union with Stalin and more generally with the Communist Party. The party can never make a mistake. And therefore you don’t need independent courts, independent media, opposition parties, things like that, because then party is never wrong. You concentrate the same way. A 100% of loyalty should be to the party. A 100% of power should be in the hands of the party. The holy deal of liberal democracy is embracing fallibility. Everybody is fallible. All people, all leaders, all political parties, all institutions. This is why we need checks and balances, and we need many of them. If you have just one, then this particular check itself could make terrible mistakes. So you need, say you need a press, you need the media to serve as a check to the government. You don’t have just one newspaper or one TV station. You need many so that they can balance each other. And then the media’s not enough, so you have independent courts. You have free academic institutions, you have NGOs, you have a lot of checks and balances.
+Lex Fridman
+(01:08:08)
+So that’s the ideologies in the leaders. What about the individual people, the millions of people that play a part in all of this that are the hosts of the stories, that are the catalyst and the components of how the story spreads? Would you say that all of us are capable of spreading any story, sort of the [inaudible 01:08:37] and idea of the, that all of us are capable of good and evil?
+Yuval Noah Harari
+(01:08:08)
+Yes.
+Lex Fridman
+(01:08:42)
+The line between good and evil runs the heart of every man?
+Yuval Noah Harari
+(01:08:46)
+Yes. I wouldn’t say that every person is capable of every type of evil, but we are all fallible. There is a large element. It partly depends on the efforts we make to develop our self-awareness during life, part of it depends on moral luck. If you are born as a Christian German in the 1910s or 1920s and you grow up in Nazi Germany, that’s bad moral luck. Your chances of committing terrible things, you have a very high chance of doing it, and you can with withstand it, but it will take tremendous effort. If you are born in Germany after the war, you are morally lucky that you will not be put to such a test. You will not need to exert these enormous efforts not to commit atrocities. This is just part of history. There is an element of luck, but again, part of it is also self-awareness.
+Benjamin Netanyahu
+(01:09:55)
+And you asked me earlier about the potential of power to corrupt, and I listened to the interview you just did with Prime Minister Netanyahu a couple of days ago. And one of the things that most struck me during the interview that you asked him, you asked him, “Are you afraid of this thing that power corrupts?” He didn’t think for a single second. He didn’t pause. He didn’t admit a tiny little level of a doubt or… “No, power doesn’t corrupt.” For me, it was a shocking and a revealing moment. And it kind of dovetails with how you began the interview, that I really liked your opening gambit. That kind of, no, really, you kind of told him, lots of people in the world are angry with you, some people hate you, they dislike you.
+(01:10:51)
+What do you want to tell them, to say to them? And you gave him this kind of platform. And I was very, what will he say? And he just denied it. He basically denied it. He had to cut short the interview from three hours to one hour because you had hundreds of thousands of Israelis in the streets demonstrating against him. And he goes and saying, no, everybody likes me. What are you talking about?
+Lex Fridman
+(01:11:18)
+But on that topic, you’ve said recently that the Prime Minister Benjamin Netanyahu may go down in history as the man who destroys Israel. Can you explain what you mean by that?
+Yuval Noah Harari
+(01:11:30)
+Yes. He is basically tearing apart the social contract that held this country together for 75 years. He’s destroying the foundations of Israeli democracy. I don’t want to go too deep unless you wants it, because I guess most of our listeners, they have bigger issues on their minds than the fate of some small country in the Middle East. But for those who want to understand what’s happening in Israel, there is really just one question to ask. What limits the power of the government? In United States, for instance, there are a lots of checks and balances that limit the power of the government. You have the Supreme Court, you have the Senate, you have the House of Representative, you have the President, you have the Constitution. You have 50 states, each state with its own Constitution and Supreme Court, and Congress and governor. If somebody wants to pass a dangerous legislation, say in the house, it’ll have to go through so many obstacles.
+(01:12:35)
+Like if you want to pass a law in United States taking away voting rights from Jews or from Muslims, or from African-Americans, even if it passes, even if it has a majority in the House of Representatives, it has a very, very, very small chance of becoming the law of the country because it’ll have to pass again through the Senate, through the President, through the Supreme Court, and all the federal structure. In Israel, we have just a single check on the power of the government, and that’s the Supreme Court. There is really no difference between the government and the GE legislature because whoever there is, there are no separate elections like in the US. If you win majority in the Knesset, in the Parliament, you appoint the government, that that’s very simple. And if you have 61 members of Knesset who vote, let’s say on a law to take away voting rights from Arab citizens of Israel, there is a single check that can prevent it from becoming the law of the land, and that’s the Supreme Court.
+(01:13:38)
+And now, the Netanyahu government is trying to neutralize or take over the Supreme Court, and they’ve already prepared a long list of laws. They already talk about it. What will happen the moment that this last check on the power is gone? They are openly trying to gain unlimited power and they openly talk about it, that once they have it, then they will take away the rights of Arabs, of LGBT people, of women, of secular Jews. And this is why you have hundreds of thousands of people in the streets. You have air force pilots saying, ‘we are stop, we stop flying.’ This is unheard of in Israel. We are still living under existential threat from Iran, from other enemies. And in the middle of this, you have air force pilots who dedicated their lives to protecting the country and they’re saying, ‘that’s it. If this government doesn’t stop what it is doing, we stopped flying.’
+Lex Fridman
+(01:14:47)
+So as you said, I just did the interview. And as we were doing the interview, there’s protests in the streets. Do you think the protests will have an effect?
+Yuval Noah Harari
+(01:14:58)
+I hope so very much. I’m going to many of these protests, I hope they will have an effect. If we fail, this is the end of Israeli democracy probably. This will have repercussions far beyond the borders of Israel. Israel is a nuclear power. Israel has one of the most advanced cyber capabilities in the world, able to strike basically anywhere in the world. If this country becomes a fundamentalist and militarized dictatorship, it can set fire to the entire Middle East. It can again have destabilizing effects long, far beyond the borders of Israel.
+Lex Fridman
+(01:15:41)
+So you think without the check on power, it’s possible that the Netanyahu government holds onto power?
+Yuval Noah Harari
+(01:15:48)
+Nobody tries to gain unlimited power just for nothing. You have so many problems in Israel and Netanyahu talks so much about Iran, and the Palestinians, and Hezbollah. We have an economic crisis. Why is it so urgent at this moment in the face of such opposition, why is it so crucial for them to neutralize the Supreme Court? They’re just doing it for the fun of it. No, they know what they are doing. They are adamant. We were not sure of it before. There was a, like a couple of months ago, they came out with this plan to take over the Supreme Court to have all these laws. And there were hundreds of thousands people in the streets, again, soldiers saying they will stop serving, a general strike in the economy. And they stopped. And they started a process of negotiations to try and reach a settlement.
+(01:16:40)
+And then they broke down. They stopped the negotiations and they restarted this process of legislation trying to gain unlimited power. So any doubt we had before, okay, maybe they changed their purposes. No, it’s now very clear. They are 100% focused on gaining absolute power. They are now trying a different tactic. Previously, they had all these dozens of laws that they wanted to pass very quickly within a month or two. They realized, no, there is too much opposition. So now, they’re doing what is known as salami tactics, slice by slice. Now, they’re trying to one law, if this succeeds, then they’ll pass the next one and the next one, and the next one. This is why we are now at a very crucial moment. And when you see again hundreds of thousands of people in the streets almost every day, when you’re seeing resistance with the armed forces, within the security forces, you see high-tech companies saying, we will go on strike.
+(01:17:45)
+They are private businesses, high-tech companies. I think it’s almost unprecedented for a private business to go on strike because what will economic success benefit us if we live under a messianic dictatorship? And again, the fuel for this whole thing is to a large extent coming from Messianic religious groups, which… Just the thought, what happens if these people have unlimited control of Israel’s nuclear arsenal, and Israel’s military capabilities and cyber capabilities. This is very, very scary. Not just for the citizens of Israel, it should be scary for people everywhere.
+Lex Fridman
+(01:18:30)
+So it would be scary for it to go from being a problem of security and protecting the peace to becoming a religious war.
+Yuval Noah Harari
+(01:18:41)
+It is already becoming a religious war. The war, the conflict with the Palestinians was for many years a national conflict, in essence. Over the last few years, maybe a decade or two, it is morphing into a religious conflict, which is again, a very worrying development. When nations are in conflict, you can reach some compromise. Okay, you have this bit of land, we have this bit of land. But when it becomes a religious conflict between fundamentalists, between messianic people, compromise becomes much more difficult because you don’t compromise on eternity, you don’t compromise on God. And this is where we are heading right now.
+Lex Fridman
+(01:19:26)
+So I know you said, “It’s a small nation somewhere in the Middle East,” but it also happens to be the epicenter of one of the longest running, one of the most tense conflicts and crises in human history. So at the very least, it serves as a study of how conflict can be resolved. So what are the biggest obstacles to you to achieving peace in this part of the world?
+Yuval Noah Harari
+(01:19:52)
+Motivation. I think it’s easy to achieve peace if you have the motivation on both sides. Unfortunately the present juncture, there is not enough motivation on either side, either the Palestinian or Israeli side. Peace… In mathematics, you have problems without solutions. You can prove mathematically that this mathematical problem has no solution. In politics, there is no such thing. All problems have solutions if you have the motivation. But motivation is the big problem. And again, we can go into the reasons why, but the fact is that on neither side is there enough motivation. If there was motivation, the solution would’ve been easy.
+Lex Fridman
+(01:20:41)
+Is there an important distinction to draw between the people on the street and the leaders in power in terms of motivation? So are most people motivated and hoping for peace and the leaders are motivated and incentivized to continue war?
+Yuval Noah Harari
+(01:21:01)
+I don’t think so.
+Lex Fridman
+(01:21:01)
+Or the people also?
+Yuval Noah Harari
+(01:21:03)
+I think it’s a deep problem. It’s also the people, it’s not just the leaders.
+Lex Fridman
+(01:21:07)
+Is it even a human problem of literally hate in people’s heart?
+Yuval Noah Harari
+(01:21:12)
+Yeah, there is a lot of hate. One of the things that happened in Israel over the last 10 years or so, Israel became much stronger than it was before, largely thanks to technological development. And it feels that it no longer needs to compromise. Again, there are many reasons for it, but some of them are technological. Being one of the leading powers in cyber, in AI, in high-tech, we have developed very sophisticated ways to more easily control the Palestinian population. In the early 2000s, it seemed that it is becoming impossible to control millions of people against their will. It took too much power. It spilled too much blood on both sides. So there was an impression, ‘oh, this is becoming untenable.
+(01:22:10)
+And there are several reasons why it changed, but one of them was new technology. Israel developed very sophisticated surveillance technology that has made it much easier for Israeli security forces to control 2.5 million Palestinians in the West Bank against their will with a lot less effort, less boots on the ground, also less blood. And Israel is also now exporting this technology to many other regimes around the world. Again, I heard Netanyahu speaking about all the wonderful things that Israeli is exporting to the world. And it’s true, we are exporting some nice things. Water systems and tomato, new kinds of tomato. We are also exporting a lot of weapons and especially surveillance systems sometimes to unsavory regimes in order to control their populations.
+Lex Fridman
+(01:23:11)
+Can you comment on, I think you’ve mentioned that the current state of affairs is the de facto three class state? Can you describe what you mean by that?
+Yuval Noah Harari
+(01:23:22)
+Yes. For many years the kind of leading solution to the Israeli-Palestinian conflict is the two-state solution.
+Lex Fridman
+(01:23:28)
+Can you describe what that means by the way?
+Yuval Noah Harari
+(01:23:30)
+Yes. Two states within, between the Jordan River and the Mediterranean will have two states. Israel as a predominantly Jewish state and Palestine as a predominantly Palestinian state. Again, there were lots of discussions where the border passes, what happens with security arrangement and whatever. But this was the big solution. Israel has basically abandoned the two-state solution. Maybe they don’t say so officially the people in power, but in terms of how they actually, what they do on the ground, they abandoned it. Now they are effectively promoting the three class solution, which means there is just one country and one government, and one power between the Mediterranean and the Jordan River, but you have three classes of people living there. You have Jews who enjoy full rights, all the rights. You have some Arabs who are Israeli citizens and have some rights. And then you have the other Arabs, the third class who have basically no civil rights and limited human rights. And that, that’s… Again, nobody would openly speak about it. But effectively, this is the reality on the ground already.
+Lex Fridman
+(01:24:42)
+So there’s many, and I’ll speak with then Palestinians who characterize this as a de facto one state apartheid. Is it, do you agree with this?
+Yuval Noah Harari
+(01:24:51)
+I would take issue. I would take issue with the term apartheid. Generally speaking as a historian, I don’t really like historical analogies because there are always differences, key differences. The biggest difference between the situation here and the situation in South Africa in the time of the Apartheid is that black South Africans did not deny the existence of South Africa and did not call for the destruction of South Africa. They had a very simple goal. They had a very simple demand. We want to be equal citizens of this country. That’s it. And the apartheid regime was, ‘no, you can’t be equal citizens.’ Now in Israel-Palestine, it’s different.
+(01:25:35)
+The Palestinians, many of them don’t recognize the existence of Israel. Don’t or are not willing to recognize it. And they don’t demand to be citizens of Israel. They demand some of them to destroy it and replace it with the Palestinian state. Some of them demand a separate state. But if the Palestinians would adopt the same policy as the black South Africans, if you have the Palestinians coming and saying, okay, forget about it. We don’t want to destroy Israel. We don’t know a Palestinian country. We have a very simple request, a very simple demand. Give us our full rights. We also want to vote to the Knesset. We also want to get the full protection of the law. That’s it, that’s our only demand. Israel will be in deep, deep trouble at that moment, but we are not there.
+Lex Fridman
+(01:26:28)
+I wonder if there will ever be a future when such a thing happens where everybody, the majority of people, Arab and Jew, Israeli and Palestinian accept the one-state solution and say, we want equal rights.
+Yuval Noah Harari
+(01:26:44)
+Never say never in history. It’s not coming anytime soon from either side. When you look at the long term of history, one of the curious things you see, and that’s what makes us different, human groups from animal species. Gorillas and chimpanzees, they’re separate species, they can never merge. Cats and dogs will never merge. But different national and religious groups in history, even when they hate each other, surprisingly, they sometimes end by merging. If you look at Germany for instance, so for centuries you had Prussians and Bavarian and Saxons who fought each other ferociously and hated each other. And there are sometimes also different religions, Catholics, Protestants. The worst war in European history, according to some measures, was not the Second World War or the First World War, it was the 30 years war waged largely on German soil between Germans, Protestants, and Catholics. But eventually, they united to form a single country. You saw the same thing, I don’t know, in Britain. English and Scotts for centuries hated and fought each other ferociously, eventually coming together. Maybe it’ll break up again, I don’t know. But the power of the kind of forces of merger in history, you are very often influenced by the people you fight, by the people you even hate more than by almost anybody else.
+Peace in Ukraine
+Lex Fridman
+(01:28:18)
+So if we apply those ideas, the ideas of this part of the world to another part of the world that’s currently in war, Russia and Ukraine, from what you learned here, how do you think peace can be achieved in Ukraine?
+Yuval Noah Harari
+(01:28:35)
+Oh, peace can be achieved any moment. It’s motivation. In this case, it’s just one person. Putin just need to say, that’s it. The Ukrainians, they don’t demand anything from Russia. Just go home, that’s the only thing they want. They don’t want to conquer any bit of Russian territory. They don’t want to change the regime in Moscow, nothing. They just tell the Russians, go home. That’s it. And of course, again, motivation. How do you get somebody like Putin to admit that he made a colossal mistake, a human mistake, an ethical mistake, a political mistake in starting this war? This is very, very difficult. But in terms of what would the solution look like? Very simple. The Russians go home. End of story.
+Lex Fridman
+(01:29:21)
+Do you believe in the power of conversation between leaders to sit down as human beings and agree? First of all, what home means because we humans draw lines?
+Yuval Noah Harari
+(01:29:37)
+That’s true. I believe in the power of conversation. The big question to ask is where? Where do conversations, real conversations take place? And this is tricky. One of the interesting things to ask about any conflict, about any political system is where do the real conversations take place? And very often, they don’t play take place in the places you think that they are. But think about American politics. When the country was founded in the late 18th century, people understood holding conversation between leaders is very important for the functioning of democracy. We’ll create a place for that, that’s called Congress. This is where leaders are supposed to meet and talk about the main issues of the day. Maybe there was a time sometime in the past when this actually happened, when you had two factions holding different ideas about foreign policy or economic policy and they met in Congress, and somebody would come and give a speech and the people all on the other side would say, “Hey, that’s interesting. I haven’t thought about it. Yes, maybe we can agree on that.”
+(01:30:49)
+This is no longer happening in Congress. Nobody, I don’t think there is any speech in Congress that causes anybody on the other side to change their opinion about anything. So this is no longer a place where real conversations take place. The big question about American democracy is, is there a place where real conversations which actually change people’s minds still take place? If not, then this democracy is dying also. Democracy without conversation cannot exist for long. And it’s the same question you should ask also about dictatorial regimes, like you think about Russia or China. So China has the Great Hall of the People. Well, the representatives, the supposed representative of the people meet every now and then, but no real conversation takes place there. A key question to ask about the Chinese system is, behind closed doors, let’s say in a poly bureau meeting, do people have a real conversation?
+(01:31:52)
+If Xi Jinping says one thing and some other big shot thinks differently, will they have the courage, the ability, the backbone to say, with all due respect, they think differently and there is a real conversation, or not? I don’t know the answer, but this is a key question. This is the difference between an authoritarian regime, it can still have different voices within it. But at a certain point, you have a personality count. Nobody dares say anything against the leader. And when it comes again to Ukraine and Russia, I don’t think that if you get, if you somehow manage to get Putin and Zelensky to the same room, when everybody knows that they are there and they, they’ll, they’ll have a moment of empathy, of human connection and they have… No, I don’t think it can happen like that. I do hope that there are other spaces where somebody like Putin can still have a real human conversation. I don’t know if this is the case. I hope so.
+Lex Fridman
+(01:33:00)
+Well, there’s several interesting dynamics and you spoke to some of them. So one is internally with advisors, you have to have hope that there’s people that would disagree that would have a lively debate internally. Then there’s also the thing you mentioned, which is direct communication between Putin and Zelensky in private, picking up a phone, a rotary phone, old school. I still believe in the power of that. But while that’s exceptionally difficult in the current state of affairs, what’s also possible to have is a mediator like the United States or some other leader.
+Yuval Noah Harari
+(01:33:36)
+Yeah.
+Lex Fridman
+(01:33:37)
+Like the leader of Israel or the leader of another nation that’s respected by both, or India for example, that can have first of all individual conversations and then literally get into a room together.
+Yuval Noah Harari
+(01:33:51)
+It is possible. I would say more generally about conversations as… It goes back a little to what I said earlier about the Marxist view of history. One of the problematic things I see today in many academic circles is that people focus too much on power. They think that the whole of history or the whole of politics is just a power structure. It’s just struggle about power. Now, if you think that the whole of history and the whole of politics is only power, then there is no room for conversation. Because if what you have is a struggle between different powerful interests, there is no point talking. The only thing that changes it is fighting. My view is that, no, it’s not all about power structures. It’s not all about power dynamics. Underneath the power structure, there are stories, stories in human minds. And this is great news, if it’s true, this is good news. Because unlike power that can only be changed through fighting, stories can sometimes, it’s not easy, but sometimes stories can be changed through talking, and that’s the hope.
+(01:35:14)
+I think in everything from couple therapy to nation therapy, if you think it’s power therapy, it’s all about power, there is no place for a conversation. But if to some extent it’s the stories in people minds, if you can enable one person to see the story in the mind of another person, and more importantly, if you can have some kind of critical distance from the story in your own mind, then maybe you can change it a little and then you don’t need to fight. You can actually find a better story that you can both agree to. It sometimes happens in history. Again, French and Germans fought for generations and generations. Now, they live in peace. Not because, I don’t know, they found a new planet they can share between France and Germany so now everybody has enough territory. No, they actually have less territory than previously because they lost all their overseas empires, but they managed to find a story, the European story, that both Germans and French people are happy with. So they live in peace.
+Lex Fridman
+(01:36:25)
+I very much believe in this vision that you have of the power of stories. And one of the tools is conversations, another is books. There’s some guy that wrote a book about this, power of stories, he happens to be sitting in front of me. And that happened to spread across a lot of people, and now they believe in the power of story and narrative. Even a children’s book too, so the kids. And It’s fascinating how that spreads. Underneath your work, there’s an optimism. And I think underneath conversations is, what I tried to do is an optimism, that it’s not just about power struggles.
+Yuval Noah Harari
+(01:37:05)
+Yeah.
+Lex Fridman
+(01:37:05)
+That it’s about stories which is like a connection between humans and together kind of evolving these stories that maximize hap or minimize suffering in the world.
+Yuval Noah Harari
+(01:37:18)
+Yeah. This is why I also, I think I admire what you are doing, that you’re going to talk with some of the most difficult characters around in the world today, and with this basic belief that by talking maybe we can move them an inch, which is a lot when it comes to people with so much power. I think one of the biggest success stories in modern history, I would say, is feminism. Because feminism believed in the power of stories, not so much in the power of violence, of armed conflict. By many measures, feminism has been maybe the most successful social movement of the 20th century and maybe of the modern age. The systems of oppression, which were in place throughout the world for thousands of years, and they seem to be just natural, eternal. You had all these religious movements, all these political revolutions. And one thing remained constant, and this is the patriarchal system and the oppression of women.
+(01:38:27)
+And then feminism came along. And you had leaders like Lenin, like Mao saying that if you want to make a big social change, you must use violence. Power comes from the barrel of the gun, of a gun. If you want to make an omelet, you need to break eggs, and all these things. And the feminist said, no, we won’t use the power of the gun. We will make an omelet without breaking any eggs. And they made a much better omelet than Lenin or Mao, or any of these violent revolutionaries. I don’t think that they, [inaudible 01:39:04]-
+Yuval Noah Harari
+(01:39:00)
+… Revolutionaries.
+(01:39:01)
+I don’t think that they … They certainly didn’t start any wars or build any gulags. I don’t think they even murdered a single politician. I don’t think there was any political assassination anywhere by feminists. There was a lot of violence against them, both verbal but also physical, and they didn’t reply by waging violence, and they succeeded in changing this deep structure of oppression in a way which benefited not just women, but also men.
+(01:39:39)
+So this gives me hope that, it’s not easy, in many cases we fail, but it is possible sometimes in history to make a very, very big change, positive change mainly by talking and demonstrating and changing the story in people’s minds and not by using violence.
+Lex Fridman
+(01:40:01)
+It’s fascinating that feminism and communism and all these things happened in the 20th century. So many interesting things happen in the 20th century. So many movements, so many ideas, nuclear weapons, all of it. Computers. It just seems like a lot of stuff really quickly percolated and it’s accelerating.
+Yuval Noah Harari
+(01:40:19)
+It’s still accelerating. I mean, history is just accelerating for centuries. And the 20th century, we squeezed into it things that previously took thousands of years. And now, I mean, we are squeezing it into decades.
+Lex Fridman
+(01:40:32)
+And you very well could be one of the last historians, human historians to have ever lived.
+Yuval Noah Harari
+(01:40:38)
+Could be. I think our species, homo sapiens. I don’t think we’ll be around in a century or two. We could destroy ourselves in a nuclear war, through ecological collapse, by giving too much power to AI that goes out of our control. But if we survive, we’ll probably have so much power that we will change ourselves using various technologies so that our descendants will no longer be homo sapiens like us. They will be more different from us than we are different from Neanderthals. So maybe they’ll have historians, but it will no longer be human historians or homo sapien historians like me.
+(01:41:24)
+I think it’s an extremely dangerous development. And the chances that this will go wrong, that people will use the new technologies trying to upgrade humans, but actually downgrading them, this is a very, very big danger. If you let corporations and armies and ruthless politicians change humans using tools like AI and bioengineering, it’s very likely that they will try to enhance a few human qualities that they need, like intelligence and discipline, while neglecting what are potentially more important human qualities, like compassion, like artistic sensitivity, like spirituality …
+(01:42:13)
+If you give Putin, for instance, bioengineering and AI and brain computer interfaces, he’s likely to want to create a race of super soldiers who are much more intelligent and much more stronger and also much more disciplined and never rebel and march on Moscow against him. But he has no interest in making them more compassionate or more spiritual. So the end result could be a new type of humans, a downgraded humans, who are highly intelligent and disciplined, but have no compassion and no spiritual depth.
+(01:42:58)
+And this is one … For me, this is the dystopia, the apocalypse. When people talk about the new technologies and they have this scenario of The Terminator, robots lying in the street shooting people, this is not what worries me. I think we can avoid that. What really worries me is using … The corporations, armies, politicians will use the new technologies to change us in a way which will destroy our humanity, or the best parts of our humanity.
+Lex Fridman
+(01:43:31)
+And one of those ways could be removing compassion.
+(01:43:33)
+Another way that really worries me, for me is probably more likely, is a brave new world kind of thing that sort of removes the flaws of humans, maybe it removes the diversity in humans, and makes us all kind of these dopamine chasing creatures that just kind of maximize enjoyment in the short term, which kind of seems like a good thing maybe in the short term, but it creates a society that doesn’t think, that doesn’t create, that just is sitting there enjoying itself at a more and more rapid pace, which seems like another kind of society that could be easily controlled by a centralized center of power.
+(01:44:20)
+But the set of dystopias that we could arrive at through this if they’re allowing corporations to modify humans is vast, and we should be worried about that.
+(01:44:32)
+It seems like humans are pretty good as we are. All the flaws, all of it together.
+Yuval Noah Harari
+(01:44:40)
+We are better than anything that we can intentionally design at present. Like any intentionally designed humans at the present moment is going to be much, much worse than us. Because basically, we don’t understand ourselves. I mean, as long as we don’t understand our brain, our body, our mind, it’s a very, very bad idea to start manipulating a system that you don’t understand deeply. And we don’t understand ourselves.
+Conspiracy theories
+Lex Fridman
+(01:45:07)
+So I have to ask you about an interesting dynamic of stories. You wrote an article two years ago titled, ‘When The World Seems Like One Big Conspiracy: How Understanding The Structure of Global Cabal Theories Can Shed Light On Their Allure And Their Inherent Falsehood.’.
+(01:45:25)
+What are global cabal theories and why do so many people believe them? 37% of Americans, for example.
+Yuval Noah Harari
+(01:45:32)
+Well, the global cabal theory, it has many variations, but basically there is a small group of people, a small cabal that secretly controls everything that is happening in the world. All the wars, all the revolutions, all the epidemics, everything that is happening is controlled by this very small group of people, who are of course evil and have bad intentions. And this is a very well known story. It’s not new. It’s been there for thousands of years.
+(01:46:00)
+It’s very attractive because, first of all, it’s simple. You don’t need to understand everything that happens in the world, you just need to understand one thing. The war in Ukraine, the Israeli/Palestinian conflict, 5G technology, COVID-19; it’s simple. There is this global cabal. They do all of it.
+(01:46:21)
+And also, it enables you to shift all the responsibility to all the bad things that are happening in the world to this small cabal. ” It’s the Jews, it’s the Free Masons. It’s not us.”
+(01:46:33)
+And also, it creates this fantasy, utopian fantasy. “If we only get rid of the small cabal, we’ve solved all the problems of the world. Salvation.” The Israeli/Palestinian conflict, the war in Ukraine, the epidemics, poverty, everything is solved just by knocking out this small cabal.
+(01:46:53)
+So again, it’s simple, it’s attractive, and this is why so many people believe it. Again, it’s not new. Nazism was exactly this. Nazism began as a conspiracy theory. We don’t call Nazism a conspiracy theory because, “Oh, it’s a big thing. It’s an ideology.” But if you look at it, it’s a conspiracy theory. The basic Nazi idea was that Jews control the world. Get rid of the Jews, you’ve solved all the world’s problems.
+(01:47:20)
+Now, the interesting thing about these kind of theories; again, they tell you that even things that look to be the opposite of each other, actually they are part of the conspiracy.
+(01:47:34)
+So in the case of Nazism, the Nazis told people, “You have capitalism and communism. You think that they are opposite, right? Ah, this is what the Jews want you to think. Actually, the Jews control both communism; Trotsky, Marx were Jews, blah, blah, blah; and capitalism. The Rothschilds, Wall Street: it’s all controlled by the Jews.” So the Jews are fooling everybody, but actually the communists and the capitalists are part of the same global cabal.
+(01:48:02)
+And again, this is very attractive because, “Ah, now I understand everything. And now I also know what to do. I just give power to Hitler, he gets rid of the Jews, I’ve solved all the problems of the world.”
+(01:48:15)
+Now, as a historian, the most important thing I can say about these theories, they are never right. Because the global cabal theory says two things. First, everything is controlled by a very small number of people; secondly, these people hide themselves. They do it in secret.
+(01:48:33)
+Now, both things are nonsense. It’s impossible for people to control a small group of people, to control and predict everything, because the world is too complicated. You know, you look at a real world conspiracy, conspiracy is basically just a plan.
+(01:48:49)
+Think about the American invasion of Iraq in 2003. You had the most powerful superpower in the world with the biggest military, with the biggest intelligence services, with the most sophisticated … You know, the FBI and the CIA and all the agents. They invade a third rate country, a third rate power, Iraq, with this idea, “We’ll take over Iraq and we’ll control it, we’ll make a new order in the Middle East.” And everything falls apart. Their plan completely backfires. Everything they hope to achieve, they achieve the opposite. America, United States is humiliated. They caused the rise of ISIS. They wanted to take out terrorism, they created more terrorism.
+(01:49:36)
+Worst of all, the big winner of the war was Iran. The United States goes to war with all its power and gives Iran a victory on a silver plate. The Iranians don’t need to do anything. The Americans are doing everything for them.
+(01:49:53)
+Now, this is real history. Real history is when you have not a small group of people, a lot of people with a lot of power carefully planning something, and it goes completely against their plan.
+(01:50:08)
+And this we know from personal experience. Every time we try to plan something, a birthday party, a surprise birthday party, a trip somewhere, things go wrong. This is reality. So the idea that a small group of, I don’t know, the Jewish cabal, the Freemasons, whoever, they can really control and predict all the wars, this is nonsense.
+(01:50:31)
+The second thing that is nonsense is to think they can do that and still remain secret.
+(01:50:37)
+It sometimes happens in history that a small group of people accumulates a lot of power. If I now tell you that Xi Jinping and the heads of the CCP, the Chinese Communist Party, they have a lot of power, they control the military, the media, the economy, the universities of China; this is not a conspiracy theory. Obviously everybody knows it. Everybody knows it, because to gain so much power, you usually need publicity. Hitler gained a lot of power in Nazi Germany because he had a lot of publicity. If Hitler remained unknown working behind the scenes, he would not gain power.
+(01:51:20)
+So the way to gain power is usually through publicity. So secret cabals don’t gain power. And even if you gain a lot of power, nobody has the kind of power necessary to predict and control everything that happens in the world. All the time shit happens that you did not predict and you did not plan and you did not control.
+Lex Fridman
+(01:51:45)
+The sad thing is there’s usually an explanation for everything you just said that involves a secret global cabal. The reason your vacation planning always goes wrong is because you’re not competent. There is a competent small group, ultra competent small group … I hear this with intelligence agencies; the CIA are running everything, Mossad is running everything.
+Yuval Noah Harari
+(01:52:09)
+You see, as a historian, you get to know how many blunders these people do. They are so … They’re capable, but they’re so incompetent in so many ways.
+(01:52:19)
+Again, look at the Russian invasion of Ukraine. Before the war, people thought, oh, Putin was such a genius, and the Russian army was one of the strongest armies in the world. This is what Putin thought. And it completely backfired.
+Lex Fridman
+(01:52:32)
+Well, a cabal explanation there would be there’s a NATO-driven United States military industrial complex that wants to create chaos and incompetence.
+Yuval Noah Harari
+(01:52:43)
+So they put a gun to Putin’s head and told him, “Vladimir, if you don’t invade, we shoot you?” How did they cause Putin to invade Ukraine?
+Lex Fridman
+(01:52:50)
+This is the thing about conspiracy theories is there’s usually a way to explain everything.
+Yuval Noah Harari
+(01:52:55)
+It’s like religion. You can always find explanation for everything. And in the end, it’s intellectual integrity. If you insist, whenever people confront you with evidence, with finding some very, very complicated explanation for that too, you can explain everything. We know that. It’s a question of intellectual integrity.
+(01:53:19)
+And I’ll also say another thing. The conspiracy theories, they do get one thing right, certainly in today’s world. I think they represent an authentic and justified fear of a lot of people that they are losing control of their lives, they don’t understand what is happening. And this I think is not just a legitimate fear, this is an important fear. They are right. We are losing control of our lives, we are facing really big dangers, but not from a small cabal of fellow humans.
+(01:53:57)
+The problem with many of these conspiracy theories that, yes, we have a problem with new AI technology, but if you now direct the fire against certain people, so instead of all humans cooperating against our real common threats, whether it’s the rise of AI, whether it’s global warming, you are only causing us to fight each other.
+(01:54:25)
+And I think that the key question that people who spread these ideas; I mean, many of them, they honestly believe. It’s not malicious. They honestly believe in these theories; is do you want to spend your life spreading hate towards people, or do you want to work on more constructive projects?
+(01:54:46)
+I think one of the big differences between those who believe in conspiracy theories and people who warn about the dangers of AI, the dangers of climate change, we don’t see certain humans as evil and hateful. The problem isn’t humans, the problem is something outside humanity. Yes, humans are contributing to the problem, but ultimately the enemy is external to humanity. Whereas conspiracy theorists usually claim that a certain part of humanity is the source of all evil, which leads them to eventually think in terms of exterminating this part of humanity, which leads sometimes to historical disasters like Nazism.
+Lex Fridman
+(01:55:40)
+So it can lead to hate, but it can also lead to cynicism, apathy that basically says, “It’s not in my power to make the world better,” so you don’t actually take action.
+Yuval Noah Harari
+(01:55:51)
+I think it is within the power of every individual to make the world a little bit better. You can’t do everything. Don’t try to do everything. Find one thing in your areas of activity, a place where you have some agency, and try to do that, and hope that other people do their bit. And if everybody do their bit, we’ll manage. And if we don’t, we don’t, but at least we try.
+Lex Fridman
+(01:56:19)
+You have been part of conspiracy theories. I find myself recently becoming part of conspiracy theories. Is there advice you can give of how to be a human being in this world that values truth and reason while watching yourself become part of conspiracy theories? At least from my perspective, it seems very difficult to prove to the world that you’re not part of a conspiracy theory.
+(01:56:46)
+I, as you said, have interviewed Benjamin Netanyahu recently, I don’t know if you’re aware. But doing such things will also … You now pick up a new menu of items, a new set of conspiracy theories you’re now a part of. And I find it very frustrating because it makes it very difficult to respond, because I sense that people have the right intentions, like we said, they have a nervousness, a fear of power and the abuses of power; as do I. So I find myself in a difficult position that I have nothing to show to prove that I’m not part of such a conspiracy theory.
+Yuval Noah Harari
+(01:57:31)
+I think ultimately you can’t. We can’t. I mean, it’s like proving consciousness. You can’t. That’s just the situation. Whatever you say can and will be used against you by some people. So this fantasy, “If I only say this, if I only show them that, if I only have this data, they will see I’m okay,” it doesn’t work like that.
+(01:57:56)
+I think to keep your sanity in this situation, first of all, it’s important to understand that most of these people are not evil. They are not doing it on purpose. Many of them really believe that there is some very nefarious, powerful conspiracy which is causing a lot of harm in the world, and they’re doing a good thing by exposing it and making people aware of it and trying to stop it. If you think that you are surrounded by evil, you are falling into the same rabbit hole, you’re falling into the same paranoid state of mind, “Oh, the world is full of these evil people that … ” No. Most of them are good people.
+(01:58:37)
+And also, I think we can empathize with some of the key ideas there, which I share, that yes, it’s becoming more and more difficult to understand what is happening in the world. There are huge dangers in the world, existential dangers to the human species. But they don’t come from a small cabal of Jews or gay people or feminists or whatever. They come from much more diffused forces, which are not under the control of any single individual.
+(01:59:15)
+We don’t have to look for the evil people. We need to look for human allies in order to work together against, again, the dangers of AI, the dangers of bioengineering, the dangers of climate change. And when you wake up in the morning, the question is, do you want to spend your day spreading hatred or do you want to spend your day trying to make allies and work together?
+AI safety
+Lex Fridman
+(01:59:46)
+Let me ask you kind of a big philosophical question about AI and the threat of it. Let’s look at the threat side.
+(01:59:54)
+So folks like Eliezer Yudkowsky worry that AI might kill all of us. Do you worry about that range of possibilities where artificial intelligence systems in a variety of ways might destroy human civilization?
+Yuval Noah Harari
+(02:00:13)
+Yes. I talk a lot about it, about the dangers of AI. I sometimes get into trouble because I depict these scenarios of how AI becoming very dangerous, and then people say that I’m encouraging these scenarios. But I’m talking about it as a warning.
+(02:00:29)
+I’m not so terrified of the simplistic idea. Again, The Terminator scenario of robots running in the streets shooting everybody. I’m more worried about AI accumulating more and more power and basically taking over society, taking over our lives, taking power away from us until we don’t understand what is happening and we lose control of our lives and of the future.
+(02:00:59)
+The two most important things to realize about AI; you know, so many things are being said now about AI, but I think there are two things that every person should know about AI.
+(02:01:09)
+First is that AI is the first tool in history that can make decisions by itself. All previous tools in history couldn’t make decisions. This is why they empowered us. You invent a knife, you invent an atom bomb; the atom bomb cannot decide to start a war, cannot decide which city to bomb. AI can make decisions by itself. Autonomous weapon systems can decide by themselves who to kill, who to bomb.
+(02:01:43)
+The second thing is that AI is the first tool in history that can create new ideas by itself. The printing press could print our ideas, but could not create new ideas. AI can create new ideas entirely by itself. This is unprecedented.
+(02:02:03)
+Therefore, it is the first technology in history that instead of giving power to humans, it takes power away from us. And the danger is that it will increasingly take more and more power from us until we are left helpless and clueless about what is happening in the world.
+(02:02:24)
+And this is already beginning to happen in an accelerated pace. More and more decisions about our lives, whether to give us a loan, whether to give us a mortgage, whether to give us a job are taken by AI, and more and more of the ideas, of the images, of the stories that surround us and shape our minds, our world are produced, are created by AI, not by human beings.
+Lex Fridman
+(02:02:52)
+If you can just linger on that, what is the danger of that? That more and more of the creative side is done by AI? The idea generation? Is it that we become stale in our thinking? Is it that that idea generation is so fundamental to the evolution of humanity?
+Yuval Noah Harari
+(02:03:12)
+But we can’t resist the ideas.
+Lex Fridman
+(02:03:12)
+Ah.
+Yuval Noah Harari
+(02:03:14)
+To resist an idea, you need to have some vision of the creative process.
+Lex Fridman
+(02:03:20)
+Yeah.
+Yuval Noah Harari
+(02:03:20)
+Now, this is a very old fear. You go back to Plato’s Cave, this idea that people are sitting chained in a cave and seeing shadows on a screen, on a wall, and thinking, “This is reality.” You go back to Descartes and he has this thought experiment of the demon, and Descartes asks himself, “How do I know that any of this is real? Maybe there is a demon who is creating all of this and is basically enslaving me by surrounding me with these illusions.” You go back to Buddha, it’s the same question; what if we are living in a world of illusions, and because we have been living in it throughout our lives, all our ideas, all our desires, how we understand ourself, this is all the product of the same illusions?
+(02:04:13)
+And this was a big philosophical question for thousands of years. Now it’s becoming a practical question of engineering, because previously all the ideas, as far as we know … Maybe we are living inside a computer simulation of intelligent rats from the planet [inaudible 02:04:31]. If that’s the case, we don’t know about it. But taking what we do know about human history until now, all the, again, stories, images, paintings, songs, operas, theater, everything we’ve encountered and shaped our minds was created by humans.
+(02:04:49)
+Now, increasingly, we live in a world where more and more of these cultural artifacts will be coming from an alien intelligence. Very quickly we might reach a point when most of the stories, images, songs, TV shows, whatever are created by an alien intelligence.
+(02:05:10)
+And if we now find ourselves inside this kind of world of illusions created by an alien intelligence that we don’t understand, but it understands us, this is a kind of spiritual enslavement that we won’t be able to break out of because it understands us. It understands how to manipulate us, but we don’t understand what is behind this screen of stories and images and songs.
+Lex Fridman
+(02:05:46)
+So if there’s a set of AI systems that are operating in the space of ideas, they’re far superior to ours, and it’s opaque to us, we’re not able to see through, how does that change the pursuit of happiness, the human pursuit of happiness, life? Where do we get joy if we’re surrounded by AI systems that are doing most of the cool things humans do much better than us?
+Yuval Noah Harari
+(02:06:16)
+You know, some of the things, it’s okay that the AI’s will do them. Many human tasks and jobs, they’re drudgery, they are not fun, they are not developing us emotionally or spiritually. It’s fine if the robots take over. I don’t know, I think about the people in supermarkets or grocery stores that spend hours every day just passing items and charging you the money. I mean, if this can be automated, wonderful. We need to make sure that these people then have better jobs, better means of supporting themselves, and developing their social abilities, their spiritual abilities.
+(02:07:04)
+And that’s the ideal world that AI can create, that it takes away from us the things that it’s better if we don’t do them and allows us to focus on the most important things and the deepest aspects of our nature, of our potential.
+(02:07:26)
+If we give AI control of the sphere of ideas, at this stage, I think it’s very, very dangerous, because it doesn’t understand us. AI at present is mostly digesting the products of human culture. Everything we’ve produced over thousands of years, it eats all of these cultural products, digests it, and starts producing its own new stuff. But we still haven’t figured out ourselves in our bodies, our brains, our minds, our psychology. So an AI based on our flow and understanding of ourselves is a very dangerous thing.
+(02:08:14)
+I think that we need, first of all, to keep developing ourselves. If for every dollar and every minute that we spend on developing AI, artificial intelligence, we spend another dollar and another minute in developing human consciousness, the human mind will be okay. The danger is that we spent all our effort on developing an AI at the time we don’t understand ourselves, and then letting the AI take over. That’s a road to a human catastrophe.
+Lex Fridman
+(02:08:51)
+Does it surprise you how well large language models work?
+Yuval Noah Harari
+(02:08:51)
+Yes.
+Lex Fridman
+(02:08:54)
+I mean, has it modified your understanding of the nature of intelligence?
+Yuval Noah Harari
+(02:08:58)
+Yes. I mean, I’ve been writing about AI for like eight years now and engaged with all these predictions and speculations, and when it actually came, it was much faster and more powerful than I thought it would be. I didn’t think that we would have, in 2023, an AI that can hold a conversation that you can’t know if it’s a human being or an AI, that can write beautiful texts in … I mean, I read the texts written by AI, and the thing that strikes me most is the coherence. People think, “Oh, it’s nothing. They just take ideas from here and there, words from here and there, and put it … ” No, it’s so coherent. I mean, you read in not sentences, you read paragraphs, you read entire texts, and there is logic, there is a structure.
+Lex Fridman
+(02:09:54)
+It’s not only coherent, it’s convincing.
+Yuval Noah Harari
+(02:09:57)
+Yes. It makes sense.
+Lex Fridman
+(02:09:58)
+And the beautiful thing about it that has to do with your work; it doesn’t have to be true, and it often gets facts wrong, but it still is convincing. And it is both scary and beautiful-
+Yuval Noah Harari
+(02:10:10)
+Yes.
+Lex Fridman
+(02:10:10)
+… That our brains love language so much that we don’t need the facts to be correct. We just need it to be a beautiful story.
+Yuval Noah Harari
+(02:10:21)
+Yep. That’s been the secret of politics and religion for thousands of years, and now it’s coming with AI.
+Lex Fridman
+(02:10:29)
+So you as a person who has written some of the most impactful words ever written in your books, how does that make you feel that you might be one of the last effective human writers?
+Yuval Noah Harari
+(02:10:42)
+That’s a good question.
+Lex Fridman
+(02:10:44)
+First of all, do you think that’s possible?
+Yuval Noah Harari
+(02:10:45)
+I think it is possible. I’ve seen a lot of examples of AI being told, “Write like Yuval Noah Harari,” and what it produces.
+Lex Fridman
+(02:10:54)
+Has it ever done better than you think you could have written yourself?
+Yuval Noah Harari
+(02:10:58)
+I mean, on the level of content of ideas, no. There are things I say, “I would never say that.” But when it comes to the … You know, there is … Again, the coherence and the quality of writing is such that I say it’s unbelievable how good it is. And who knows? In 10 years, in 20 years, maybe it can do better, even on, according to certain measures, the level of content.
+Lex Fridman
+(02:11:31)
+So that people would be able to do a style transfer, do a, in the style of Yuval Noah Harari, write anything. Write why I should have ice cream tonight and make it convincing.
+Yuval Noah Harari
+(02:11:45)
+I don’t know if I have anything convincing to say about these things, but-
+Lex Fridman
+(02:11:47)
+I think you would be surprised. I think you’d be surprised. It could be an evolutionary biology explanation for why-
+Yuval Noah Harari
+(02:11:53)
+Yeah. Ice cream is good for you.
+Lex Fridman
+(02:11:54)
+Yeah.
+(02:11:55)
+So I mean, that changes the nature of writing.
+Yuval Noah Harari
+(02:11:59)
+Ultimately, I think it goes back-
+Yuval Noah Harari
+(02:12:00)
+Ultimately, I think it goes back… Much of my writing is suspicious of itself. I write stories about the danger of stories. I write about intelligence, but highlighting the dangers of intelligence. In terms of power, human power comes from intelligence and from stories. But I think that the deepest and best qualities of humans are not intelligence and not storytelling and not power. Again, with all our power, with all our cooperation, with our intelligence, we are on the verge of destroying ourselves and destroying much of the ecosystem.
+(02:12:50)
+Our best qualities are not there. Our best qualities are non-verbal. Again, they come from things like compassion, from introspection. And introspection, from my experience, is not verbal. If you try to understand yourself with words, you will never succeed. There is a place where you need the words, but the deepest insights, they don’t come from words. And you can’t write about it. Again, it goes back to Wittgenstein, to Buddha, to so many of these sages before, that these are the things we are silent about.
+Lex Fridman
+(02:13:29)
+But eventually you have to project it. As a writer, you have to do the silent introspection, but projected onto a page.
+Yuval Noah Harari
+(02:13:37)
+Yes, but you still have to warn people, you will never find the deepest truth in a book. You will never find it in words. You can only find it, I think, in direct experience, which is non-verbal, which is pre-verbal.
+Lex Fridman
+(02:13:53)
+In the silence of your own mind.
+Yuval Noah Harari
+(02:13:55)
+Yes.
+Lex Fridman
+(02:13:55)
+Somewhere in there.
+Yuval Noah Harari
+(02:13:56)
+Yes.
+How to think
+Lex Fridman
+(02:13:58)
+Well, let me ask you a silly question then, a ridiculously big question. You have done a lot of deep thinking about the world, about yourself, this kind of introspection. How do you think, by way of advice, but just practically speaking, day to day, how do you think about difficult problems with the world?
+Yuval Noah Harari
+(02:14:22)
+First of all, I take time off. The most important thing I do, I think, as a writer, as a scientist, I meditate. I spend about two hours every day in silent meditation, observing as much as possible, non-verbally, what is happening within myself. Focusing, body sensations, the breath. Thoughts keep coming up, but I try not to give them attention. Don’t try to drive them away, just let them be there in the background like some background noise. Don’t engage with the thoughts. Because the mind is constantly producing stories with words. These stories come between us and the world. They don’t allow us to see ourselves or the world. For me, the most shocking thing when I started meditating 23 years ago, I was given the simple exercise to just observe my breath coming in and out of the nostrils. Not controlling it, just observing it. And I couldn’t do it for more than 10 seconds.
+(02:15:27)
+For 10 seconds I would try to notice, “Oh, now the breath is coming in, it’s coming in, it’s coming in. Oh, it’s stopped coming in and now it’s going out, going out.” 10 seconds and some memory would come, some thought would come, some story about something that happened last week or 10 years ago or in the future. And the story would hijack my attention. It would take me maybe five minutes to remember, “Oh, I’m supposed to be observing my breath.” If I can’t observe my own breath because of these stories created by the mind, how can I hope to understand much more complex things, like the political situation in Israel, the Israeli-Palestinian conflict, the Russian invasion of Ukraine? If all these stories keep coming, I mean, it’s not the truth, it’s just the story your own mind created. So first thing, train the mind to be silent and just observe. So two hours every day, and I go every year for a long retreat, between one month and two months, 60 days, of just silent meditation.
+Lex Fridman
+(02:16:31)
+Silent meditation for 60 days.
+Yuval Noah Harari
+(02:16:33)
+Yeah. To train the mind, forget about your own stories, just observe what is really happening. And then also throughout the day, have an information diet. People are today, many people are very aware of what they feed their body, what enters their mouth. Be very aware of what you feed your mind, what enters your mind. Have an information diet. So for instance, I read long books. I do many interviews. I prefer three hours interviews to five minutes interviews. The long format, it’s not always feasible, but you can go much, much deeper. So I would say an information diet. Be very careful about what you feed your mind. Give preference to big chunks over small-
+Lex Fridman
+(02:17:32)
+To books over Twitter.
+Yuval Noah Harari
+(02:17:34)
+Yes, books over Twitter, definitely. And then when I encounter a problem, a difficult intellectual problem, then I let the problem lead me where it goes and not where I want it to go. If I approach a problem with some preconceived idea or solution and then try to impose it on the problem, and just find confirmation bias, just find the evidence that supports my view, this is easy for the mind to do. And you don’t learn anything new.
+Lex Fridman
+(02:18:13)
+Do you take notes? Do you start to concretize your thoughts on paper?
+Yuval Noah Harari
+(02:18:19)
+I read a lot. Usually I don’t take notes. Then I start writing, and when I write, I write like a torrent. Just write. Now it’s the time, you read. You [inaudible 02:18:32] meditation. Now it’s the time to write. Write. Don’t stop, just write. So I would write from memory, and I’m not afraid of formulating, say, big ideas, big theories and putting them on paper. The danger is, once it’s on paper… Not on paper, on the screen in the computer, you get attached to it. And then you start with confirmation bias to build more and more layers around it and you can’t go back. And then it’s very dangerous. But I trust myself that I have to some extent the ability to press the delete button. The most important button in the keyboard is delete. I write and then I delete. I write and then I delete Every time I come to press delete button, I feel bad. It’s a kind of pain, “Eh, I created this. It’s a beautiful idea and I have to delete it?”
+Lex Fridman
+(02:19:30)
+But you’re still brave enough to press delete?
+Yuval Noah Harari
+(02:19:32)
+I try. And hopefully, I do it enough times. And this is important because in the long term it enables me to play with ideas. I have the confidence to start formulating some brave idea. Most of them turn out to be nonsense, but I trust myself not to be attached, not to become attached to my own nonsense. So it gives me this room for playfulness.
+Lex Fridman
+(02:20:00)
+I would be amiss if I didn’t ask, for people interested in hearing you talk about meditation, if they want to start meditating what advice would you give on how to start? You mentioned you couldn’t hold your attention on your breath for longer than 10 seconds at first. So how do they start on this journey?
+Yuval Noah Harari
+(02:20:20)
+First of all, it’s a difficult journey. It’s not fun, it’s not recreational, it’s not time to relax. It can be very, very intense. The most difficult thing, at least in the meditation I practice, vipassana, which I learned from a teacher called S.N. Goenka, the most difficult thing is not the silence. It’s not the sitting for long hours. It’s what comes up. Everything you don’t want to know about yourself, this is what comes up. So it’s very intense and difficult. If you go to a meditation retreat, don’t think you’re going to relax.
+Lex Fridman
+(02:20:57)
+So what’s the experience of a meditation retreat when everything you don’t like comes up for 30 days?
+Yuval Noah Harari
+(02:21:04)
+It depends what comes up. Anger comes up, you’re angry. For days on end, you’re just boiling with anger. Everything makes you angry. Again, something that happens right now or you remember something from 20 years ago and you start boiling with… It’s like, I never even thought about this incident, but it was somewhere stored with a huge, huge pile of anger attached to it. And it’s now coming up and all the anger is coming up. Maybe it’s boredom. 30 days of meditation, you start getting bored. And it’s the most boring thing. Suddenly, no anger. No, it’s the most boring. Another second, and I scream. And boredom is one of the most difficult thing to deal with in life. I think it’s closely related to death. Death is boring. In many movies, death is exciting. It’s not exciting. When [inaudible 02:22:04] dies, ultimately, it’s boredom. Nothing happens.
+Lex Fridman
+(02:22:08)
+It’s the end of exciting things.
+Yuval Noah Harari
+(02:22:10)
+And many things in the world happen because of boredom. To some extent, people start entire wars because of boredom. People quit relationships. People quit jobs because of boredom. And if you never learn how to deal with boredom, you will never learn how to enjoy peace and quiet, because the way to peace passes through boredom. And from what I experienced with meditation, I think maybe it was the most difficult, maybe at least in the top three. Much more difficult, say, than anger or pain. When pain comes up, you feel heroic. “Hey, I’m dealing with pain.” When boredom comes up, it brings it with depression and feelings of worthlessness. And it’s nothing, I’m nothing.
+Lex Fridman
+(02:23:03)
+The way to peace is through boredom. David Foster Wallace said the key to life is to be unborable, which is a different perspective on what you’re talking to. Is there truth to that?
+Yuval Noah Harari
+(02:23:18)
+Yes. I mean, it’s closely related. I would say, I look at the world today, like politics. The one thing we need more than anything else is boring politicians. We have a super abundance of very exciting politicians who are doing and saying very exciting things. And we need boring politicians and we need them quickly.
+Advice for young people
+Lex Fridman
+(02:23:43)
+The way to peace is through boredom. That applies in more ways than one. What advice would you give to young people today in high school and college, how to have a successful life, how to have a successful career?
+Yuval Noah Harari
+(02:23:57)
+What they should know, it’s the first time in history nobody has any idea how the world would look like in 10 years. Nobody has any idea how the world would look like when you grow up. Throughout history, it was never possible to predict the future. You live in the Middle Ages, nobody knows. Maybe in 10 years the Vikings will invade, the Mongols will invade, there’ll be an epidemic, there’ll be an earthquake, who knows? But the basic structures of life will not change. Most people will still be peasants. Armies would fight on horseback with swords and bows and arrows and things like that. So you could learn a lot from the wisdom of your elders. They’ve been there before and they knew what kind of basic skills you need to learn. Most people need to learn how to sow wheat and harvest wheat or rice and make bread and build a house and ride a horse and things like that.
+(02:24:57)
+Now we have no idea, not just about politics. We have no idea how the job market would look like in 10 years. We have no idea what skills will still be needed. You think you’re going to learn how to code because they’ll need a lot of coders in the 2030s? Think again. Maybe AI is doing all the coding. You don’t need any coders. You are going to, I don’t know, you learn to [inaudible 02:25:26] languages, you want to be a translator. Gone. And we don’t know what skills will be needed. So the most important skill is the skill to keep learning and keep changing throughout our lives, which is very, very difficult. To keep reinventing ourselves. Again, it’s in a way a spiritual practice, to build your personality, to build your mind as a very flexible mind. Traditionally, people thought about education like building a stone house with very deep foundations. Now it’s more like setting up a tent that you can fold and move to the next place very, very quickly. Because that’s the 21st century.
+Lex Fridman
+(02:26:21)
+Which also raises questions about the future of education, what that looks like.
+Love
+Yuval Noah Harari
+(02:26:28)
+Yeah.
+Lex Fridman
+(02:26:29)
+Let me ask you about love. What were some of the challenges, what were some of the lessons about love, about life that you learned from coming out as gay?
+Yuval Noah Harari
+(02:26:43)
+In many ways, it goes back to the stories. I think this is one of the reasons I became so interested in stories and in their power. Because I grew up in a small Israeli town in the 1980s, early 1990s, which was very homophobic. And I basically embraced it, I breathed it. Because you could hardly even think differently. So you had these two powerful stories around. One, that God hates gay people and that he will punish them for who they are or for what they do. Secondly, that it’s not God, it’s nature. That there is something diseased or sick about it. And these people, maybe they’re not sinners, but they are sick, they are defective. And nobody wanted to identify with such a thing. If your option’s, okay, you can be a sinner, you can be a defect, what do you want? No good options there.
+(02:27:53)
+And it took me many years, till I was 21, to come to terms with it. I learned two things. First, about the amazing capacity of the human mind for denial and delusion. An algorithm could have told me that I’m gay when I was 14 or 15. If there is a good-looking guy and girl walking, I would immediately focus on the guy. But I didn’t connect the dots. I could not understand what was happening inside my own brain and my own mind, in my own body. It took me a long time to realize, “You know, you’re just gay.”
+Lex Fridman
+(02:28:36)
+So that speaks to the power of social convention versus individual thought.
+Yuval Noah Harari
+(02:28:41)
+This is the power of self-delusion. It’s not that I knew I was gay and was hiding it. I was hiding it from myself, successfully. Looking back, I don’t understand how it is possible, but I know it is possible. I knew and didn’t know at the same time. And then the other big lesson is the power of the stories, of the social conventions. Because the stories were not true. They did not make sense even on their own terms. Even if you accept the basic religious framework of the world, that there is a good God that created everything and controls everything, why would a good God punish people for love? I understand why a good God would punish people for violence, for hatred, for cruelty, but why would God punish people for love, especially when he created them that way?
+(02:29:40)
+So even if you accept the religious framework of the world, obviously the story that God hates gay people, it comes not from God, but from some humans who invented this story. They take their own hatred. This is something humans do all the time. They hate somebody and they say, “No, I don’t hate them. God hates them.” They throw their own hatred on God. And then if you think about the scientific framework that said that, “Oh, gays, they are against nature. They are against the laws of nature,” and so forth. Science tells us nothing can exist against the laws of nature. Things that go against the laws of nature just don’t exist. There is a law of nature that you can’t move faster than the speed of light. Now, you don’t have this minority of people who break the laws of nature by going faster than the speed of light. And then nature comes, “Nah, that’s bad. You shouldn’t do that.” That’s not how nature works.
+(02:30:44)
+If something goes against the laws of nature, it just can’t exist. The fact that gay people exist, and not just people. You see homosexuality among many, many mammals and birds and other animals. It exists because it is in line with the laws of nature. The idea that this is sick, that this is whatever, it comes not from nature, it comes from the human imagination. Some people, for whatever reasons, hated gay people. They said, “Oh, they go against nature.” But this is a story created by people. This is not the laws of nature. And this taught me that so many of the things that we think are natural or eternal or divine, no, they’re just human stories. But these human stories are often the most powerful forces in the world.
+Lex Fridman
+(02:31:39)
+So what did you learn from just your personal struggle of journey through the social conventions to find one of the things that makes life awesome, which is love? So what it takes to strip away the self-delusion and the pressures of social convention, to wake up.
+Yuval Noah Harari
+(02:32:01)
+It takes a lot of work, a lot of courage and a lot of help from other people. It’s this kind of, again, heroic idea that I can do it all by myself, it doesn’t work. Certainly with love, you need at least one more person. And I’m very happy that I found Itzik. We lived in the same small Israeli town. We lived on two adjacent streets for years. Probably went to school on the same bus for years without really encountering each other. In the end, we met on one of the first dating sites on the internet for gay people in Israel, in 2002.
+Lex Fridman
+(02:32:43)
+You’re saying the internet works? For love.
+Yuval Noah Harari
+(02:32:44)
+Yes. And I said bad things or dangers about technology and the internet. There are also, of course, good things. And this is not an accident. You have two kinds of minorities in history. You have minorities which are a cohesive group like Jews. That yes, you are [inaudible 02:33:04] born Jewish in, say, Germany or Russia or whatever. You are born in a small community. But as a Jewish boy, you are born to a Jewish family. You have Jewish parents, you have Jewish siblings, you are in a Jewish neighborhood, you have Jewish friends. So these kinds of minorities, they could always come together and help each other throughout history. Now, another type of minority, like gay people or more broadly, LGBTQ people, that as a gay boy, you are usually not born to a gay family with gay parents and gay siblings in a gay neighborhood. So usually you find yourself completely alone.
+(02:33:43)
+For most of history, one of the biggest problems for the gay community was that there was no community. How do you find one another? And the internet was a wonderful thing in this respect because it made it very easy for these kinds of diffuse communities or diffuse minorities to find each other. So me and Itzik, even though we rode the same bus together to school for years, we didn’t meet in the physical world, we met online. Because again, in the physical world, you don’t want to identify in a Israeli town in the 1980s, you ride the bus, you don’t want to say, “Hey, I’m gay, is there anybody else gay here?” That’s not a good idea. But on the internet we could find each other.
+Lex Fridman
+(02:34:26)
+There’s another lesson in there that maybe sometimes the thing you’re looking for is right under your nose.
+Yuval Noah Harari
+(02:34:30)
+Yeah. A very old lesson and a very true lesson in many ways. So you need help from other people to realize the truth about yourself. So of course, in love, you cannot just love abstractly. There is another person there, you need to find them. But also, we were one of the first generations who enjoyed the benefits of gay liberation, of these very difficult struggles of people who are much braver than us in the 1980s, 1970s, 1960s, who dared to question social conventions, to struggle, at sometimes a terrible price. And we benefited from it. And more broadly, we spoke earlier about the feminist movement. There would’ve been no gay liberation without the feminist movement. We also owe them for starting to change the gender structure of the world. And this is always true. You can never do it just by yourself.
+(02:35:37)
+Also, I look at my journey in meditation. I mean, the idea of going to meditation [inaudible 02:35:45] okay. But I couldn’t develop the meditation technique by myself. Somebody had to teach me this way of how to look inside yourself. And it’s also a very important lesson that you can’t do it just by yourself. That this fantasy of complete autonomy, of complete self-sufficiency, it doesn’t work. It tends to be a very kind of male macho fantasy. “I don’t need anybody. I can be so strong and so brave that I’ll do everything by myself.” It never works.
+Lex Fridman
+(02:36:26)
+You need friends. You need a mentor. The very thing that makes us human is other humans.
+Yuval Noah Harari
+(02:36:37)
+Absolutely.
+Mortality
+Lex Fridman
+(02:36:38)
+You mentioned that the fear of boredom might be a kind of proxy for the fear of death. So what role does the fear of death play in the human condition? Are you afraid of death?
+Yuval Noah Harari
+(02:36:50)
+Yes, I think everybody are afraid of death. I mean, all our fears come out of the fear of death. But the fear of death is just so deep and difficult, usually we can’t face it directly. So we cut it into little pieces and we face just little pieces. “Oh, I lost my smartphone.” That’s a little, little, little piece of the fear of death, which is of losing everything. So I can’t deal with losing everything, I’m dealing now with losing my phone or losing a book or whatever. I feel pain. That’s a small bit of the fear of death. Somebody who really doesn’t fear death would not fear anything at all. There will be like, “Anything that happens, I can deal with it. If I can deal with death, this is nothing.”
+Lex Fridman
+(02:37:37)
+So any fears is a distant echo of the big fear of death. Have you ever looked at it head on, caught glimpses, sort of contemplated as the Stoics do?
+Yuval Noah Harari
+(02:37:52)
+Yes. I mean, when I was was a teenager, I constantly contemplated, trying to understand, to imagine. It was a very, very shocking and moving experience. I remember, especially in connection with national ideology, which was also very big, strong in Israel; still is. Which again comes from the fear of death. You know that you’re going to die, so you say, “Okay, I die, but the nation lives on. I live on through the nation. I don’t really die.” And you’ll hear it especially on Memorial Day, the day for fallen soldiers. So every day there’ll be in school Memorial Day for fallen soldiers who fell defending Israel in all its different wars. And all these kids would come dressed in white. And you have this big ceremony with flags and songs and dances in memory of the fallen soldiers. Again, I don’t want to sound crass, but you got the impression that the best thing in life is to be a fallen soldier.
+(02:38:53)
+Because even then, yes, you die, everybody dies in the end. But then you’ll have all these school kids for years and years, remembering you and celebrating you and you don’t really die. And I remember standing in these ceremonies and thinking, “What does it actually mean? Okay, so if I’m a fallen soldier now I’m a skeleton. I’m bones in this military cemetery, under this stone. Do I actually hear the kids singing all these patriotic songs? If not, how do I know they do it? Maybe they trick me. Maybe I die in the war and then they don’t sing any songs. And how does it help me?” And I realized, I was quite young at the time, that if you’re dead, you can’t hear anything, because that’s the meaning of being dead. And if you’re dead, you can’t think of anything like, “Oh, now they’re remembering,” because you are dead, that’s the meaning of being dead. And it was a shocking realization.
+Lex Fridman
+(02:39:48)
+But it’s a really difficult realization to hold in your mind. It’s the end.
+Yuval Noah Harari
+(02:39:53)
+I lost it over time. I mean, for many years it was a very powerful fuel, motivation for philosophical, for spiritual exploration. And I realized that the fear of death is really a very powerful drive. And over the years, especially as I meditated, it kind of dissipated. And today I sometimes find myself trying to recapture this teenage fear of death because it was so powerful, and I just can’t. And I try to make the same image. I don’t know, it’s…
+Lex Fridman
+(02:40:25)
+Something about the teenage years. When the fire burns bright.
+Yuval Noah Harari
+(02:40:28)
+As a teenager, I always thought that the adults, there is something wrong with the adults, because they don’t get it. I would ask my parents or teachers about it and they… “Oh yes, you die in the end, that’s it.” And on the other hand, they’re so worried about other things. There’ll be a political crisis or an economic problem or a personal problem with the bank or whatever. They’ll be so worried. But then about the fact that they’re going to die, “Ah, we don’t care about it.”
+Meaning of life
+Lex Fridman
+(02:40:56)
+That’s why you read Camus and others when you’re a teenager. You really worry about the existential questions. Well, this feels like the right time to ask the big question. What’s the meaning of this whole thing, Yuval? And you’re the right person to ask. What’s the meaning of life?
+Yuval Noah Harari
+(02:41:11)
+Life? That’s easy.
+Lex Fridman
+(02:41:12)
+What is it?
+Yuval Noah Harari
+(02:41:16)
+So what life is, if you ask what life is, life is feeling things, having sensations, emotions, and reacting to them. When you feel something good, something pleasant, you want more of it. When you feel something unpleasant, you want to get rid of it. That’s the whole of life. That’s what is happening all the time. You feel things. You want the pleasant things to increase. You want the unpleasant things to disappear. That’s what life is. If you ask what is the meaning of life in a more philosophical or spiritual question, the real question to ask, what kind of answer do you expect? Most people expect a story. And that’s always the wrong answer. Most people expect that the answer to the question, “What is the meaning of life?” will be a story, like a big drama.
+(02:42:15)
+That this is the plot line and this is your role in the story. This is what you have to do. This is your line in the big play. You say your line, you do your thing. That’s the thing. And this is human imagination, this is fantasy. To really understand life, life is not a story. The universe does not function like a story. So I think to really understand life, you need to observe it directly in a nonverbal way. Don’t turn it into a story. And the question to start with is, what is suffering? What is causing suffering? The question, what is the meaning of life? It will take you to fantasies and delusions. We want to stay with the reality of life. And the most important question about the reality of life is what is suffering and where is it coming from?
+Lex Fridman
+(02:43:13)
+And to answer that non-verbally, so the conscious experience of suffering?
+Yuval Noah Harari
+(02:43:17)
+Yes. When you suffer, try to observe what is really happening when you are suffering.
+Lex Fridman
+(02:43:30)
+Well put. And I wonder if AI will also go through that same kind of process on its way-
+Yuval Noah Harari
+(02:43:36)
+Depends if it develop consciousness or not. At present, it’s not. It’s just words.
+Lex Fridman
+(02:43:41)
+It will just say to you, “Please don’t hurt me, Yuval.”. Again, as I’ve mentioned to you, I’m a huge fan of yours. Thank you for the incredible work you do. This conversation’s been a long time, I think, coming. It’s a huge honor to talk to you. This was really fun. Thank you for talking today.
+Yuval Noah Harari
+(02:44:01)
+Thank you. I really enjoyed it. And as I said, I think the long form is the best form.
+Lex Fridman
+(02:44:09)
+Yeah, I loved it. Thank you.
+(02:44:11)
+Thanks for listening to this conversation with Yuval Noah Harari. To support this podcast, please check out our sponsors in the description. And now, let me leave you with some words from Yuval Noah Harari himself. “How do you cause people to believe in an imagined order, such as Christianity, democracy, or capitalism? First, you never admit that the order is imagined.” Thank you for listening and hope to see you next time.

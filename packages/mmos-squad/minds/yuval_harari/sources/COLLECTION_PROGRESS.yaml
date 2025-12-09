@@ -1,0 +1,132 @@
+collection_progress:
+  mind_name: Yuval Noah Harari
+  batch: 1_critical
+  started_date: 2025-10-07
+  status: IN_PROGRESS
+
+  summary:
+    total_sources: 12
+    collected: 0
+    pending: 12
+    progress_percentage: 0%
+
+  sources:
+    - id: source_001
+      title: "Nexus (2024)"
+      type: book
+      priority: 1
+      status: PENDING
+      target_path: "books/nexus_2024.txt"
+      estimated_time: "2 hours"
+      notes: "HIGHEST PRIORITY - Latest AI thinking"
+
+    - id: source_002
+      title: "Sapiens (2014)"
+      type: book
+      priority: 1
+      status: PENDING
+      target_path: "books/sapiens_2014.txt"
+      estimated_time: "2 hours"
+
+    - id: source_003
+      title: "Homo Deus (2016)"
+      type: book
+      priority: 1
+      status: PENDING
+      target_path: "books/homo_deus_2016.txt"
+      estimated_time: "2 hours"
+
+    - id: source_004
+      title: "21 Lessons (2018)"
+      type: book
+      priority: 1
+      status: PENDING
+      target_path: "books/21_lessons_2018.txt"
+      estimated_time: "2 hours"
+
+    - id: source_005
+      title: "Lex Fridman #390 (2023)"
+      type: interview
+      priority: 1
+      status: PENDING
+      target_path: "interviews/lex_fridman_390_2023.txt"
+      estimated_time: "15 min"
+
+    - id: source_006
+      title: "Tim Ferriss #477 (2020)"
+      type: interview
+      priority: 1
+      status: PENDING
+      target_path: "interviews/tim_ferriss_477_2020.txt"
+      estimated_time: "10 min"
+
+    - id: source_007
+      title: "IMF Podcast (Oct 2024)"
+      type: interview
+      priority: 1
+      status: PENDING
+      target_path: "interviews/imf_podcast_2024.txt"
+      estimated_time: "30 min"
+
+    - id: source_008
+      title: "CBS 60 Minutes (2021)"
+      type: interview
+      priority: 1
+      status: PENDING
+      target_path: "interviews/cbs_60_minutes_2021.txt"
+      estimated_time: "30 min"
+
+    - id: source_009
+      title: "GZERO Media (2024)"
+      type: interview
+      priority: 1
+      status: PENDING
+      target_path: "interviews/gzero_2024.txt"
+      estimated_time: "30 min"
+
+    - id: source_010
+      title: "Frontiers Forum (2023)"
+      type: talk
+      priority: 1
+      status: PENDING
+      target_path: "videos/frontiers_forum_2023.txt"
+      estimated_time: "45 min"
+
+    - id: source_011
+      title: "TED: Rise of Humans (2015)"
+      type: talk
+      priority: 1
+      status: PENDING
+      target_path: "videos/ted_rise_of_humans_2015.txt"
+      estimated_time: "10 min"
+
+    - id: source_012
+      title: "TED: Why Fascism (2018)"
+      type: talk
+      priority: 1
+      status: PENDING
+      target_path: "videos/ted_fascism_2018.txt"
+      estimated_time: "10 min"
+
+  collection_strategy:
+    recommended_order: [source_001, source_005, source_006, source_011, source_012, source_007, source_008, source_009, source_010, source_002, source_003, source_004]
+    rationale: "Start with easiest (transcripts) to build momentum, then books"
+
+  parallel_streams:
+    stream_1_books:
+      sources: [source_001, source_002, source_003, source_004]
+      time: "6-8 hours"
+      note: "Can be done over multiple sessions"
+
+    stream_2_interviews:
+      sources: [source_005, source_006, source_007, source_008, source_009]
+      time: "2-3 hours"
+      note: "Mostly transcript downloads - quick wins"
+
+    stream_3_talks:
+      sources: [source_010, source_011, source_012]
+      time: "1-2 hours"
+      note: "TED transcripts are instant downloads"
+
+  estimated_completion: "2025-10-10"
+  next_phase: "Phase 3 - Cognitive Analysis"

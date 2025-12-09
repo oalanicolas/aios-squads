@@ -1,0 +1,57 @@
+{
+  "persona": "mark_manson",
+  "url": "https://markmanson.net/books",
+  "metadata": {
+    "title": "Books",
+    "author": "Mark Manson",
+    "date": null,
+    "description": "Books written by Mark Manson: The Subtle Art of Not Giving a F*ck | Everything Is F*cked | Will: A Memoir | Models | And more",
+    "keywords": [],
+    "categories": []
+  },
+  "structure": {
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Books"
+      },
+      {
+        "level": "h4",
+        "text": "The Subtle Art of Not Giving a F*ck"
+      },
+      {
+        "level": "h4",
+        "text": "Everything Is F*cked: A Book About Hope"
+      },
+      {
+        "level": "h4",
+        "text": "Will"
+      },
+      {
+        "level": "h4",
+        "text": "Love Is Not Enough – Audiobook"
+      },
+      {
+        "level": "h4",
+        "text": "The Subtle Art of Not Giving a F*ck Journal"
+      },
+      {
+        "level": "h4",
+        "text": "Models: Attract Women Through Honesty"
+      }
+    ],
+    "paragraphs": 7,
+    "lists": 0,
+    "quotes": 0,
+    "links": 12,
+    "images": 6,
+    "patterns": {
+      "fuck": 2,
+      "problem": 3,
+      "profanity": 2,
+      "questions": 0
+    }
+  },
+  "word_count": 514,
+  "download_date": "2025-09-25T21:00:04.168724"
+}

@@ -1,0 +1,493 @@
+/* TEMPLATE METADATA: personality_profile | v1.0.0 | format: json | MMOS Pipeline */
+{
+  "mind_name": "[NOME_COMPLETO]",
+  "profile_version": "1.0",
+  "created_date": "YYYYMMDD-HHMM",
+  "last_updated": "YYYYMMDD-HHMM",
+  "analyst": "[NOME_ANALYST]",
+  "status": "DRAFT | REVIEW | APPROVED",
+
+  "_comment": "Psychometric Profile - DNA Mental™ Complementary Analysis",
+
+  "big_five": {
+    "_methodology": "Big Five (OCEAN) personality traits based on behavioral evidence",
+
+    "openness_to_experience": {
+      "score": 0,
+      "range": "0-100",
+      "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH",
+
+      "facets": {
+        "imagination": {"score": 0, "evidence": []},
+        "artistic_interest": {"score": 0, "evidence": []},
+        "emotionality": {"score": 0, "evidence": []},
+        "adventurousness": {"score": 0, "evidence": []},
+        "intellect": {"score": 0, "evidence": []},
+        "liberalism": {"score": 0, "evidence": []}
+      },
+
+      "behavioral_evidence": [
+        {"behavior": "[Specific behavior]", "source": "[Source]", "context": "[Context]"},
+        {"behavior": "[Behavior 2]", "source": "[Source]", "context": "[Context]"}
+      ],
+
+      "confidence": 0
+    },
+
+    "conscientiousness": {
+      "score": 0,
+      "range": "0-100",
+      "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH",
+
+      "facets": {
+        "self_efficacy": {"score": 0, "evidence": []},
+        "orderliness": {"score": 0, "evidence": []},
+        "dutifulness": {"score": 0, "evidence": []},
+        "achievement_striving": {"score": 0, "evidence": []},
+        "self_discipline": {"score": 0, "evidence": []},
+        "cautiousness": {"score": 0, "evidence": []}
+      },
+
+      "behavioral_evidence": [],
+      "confidence": 0
+    },
+
+    "extraversion": {
+      "score": 0,
+      "range": "0-100",
+      "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH",
+
+      "facets": {
+        "friendliness": {"score": 0, "evidence": []},
+        "gregariousness": {"score": 0, "evidence": []},
+        "assertiveness": {"score": 0, "evidence": []},
+        "activity_level": {"score": 0, "evidence": []},
+        "excitement_seeking": {"score": 0, "evidence": []},
+        "cheerfulness": {"score": 0, "evidence": []}
+      },
+
+      "behavioral_evidence": [],
+      "confidence": 0
+    },
+
+    "agreeableness": {
+      "score": 0,
+      "range": "0-100",
+      "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH",
+
+      "facets": {
+        "trust": {"score": 0, "evidence": []},
+        "morality": {"score": 0, "evidence": []},
+        "altruism": {"score": 0, "evidence": []},
+        "cooperation": {"score": 0, "evidence": []},
+        "modesty": {"score": 0, "evidence": []},
+        "sympathy": {"score": 0, "evidence": []}
+      },
+
+      "behavioral_evidence": [],
+      "confidence": 0
+    },
+
+    "neuroticism": {
+      "score": 0,
+      "range": "0-100",
+      "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH",
+
+      "facets": {
+        "anxiety": {"score": 0, "evidence": []},
+        "anger": {"score": 0, "evidence": []},
+        "depression": {"score": 0, "evidence": []},
+        "self_consciousness": {"score": 0, "evidence": []},
+        "immoderation": {"score": 0, "evidence": []},
+        "vulnerability": {"score": 0, "evidence": []}
+      },
+
+      "behavioral_evidence": [],
+      "confidence": 0
+    }
+  },
+
+  "hexaco_honesty_humility": {
+    "_note": "HEXACO adds 6th dimension: Honesty-Humility",
+
+    "score": 0,
+    "range": "0-100",
+    "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH",
+
+    "facets": {
+      "sincerity": {"score": 0, "evidence": []},
+      "fairness": {"score": 0, "evidence": []},
+      "greed_avoidance": {"score": 0, "evidence": []},
+      "modesty": {"score": 0, "evidence": []}
+    },
+
+    "behavioral_evidence": [],
+    "confidence": 0
+  },
+
+  "disc": {
+    "_methodology": "DISC behavioral assessment based on observable actions",
+
+    "profile": {
+      "dominance": {
+        "score": 0,
+        "range": "0-100",
+        "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH",
+        "evidence": []
+      },
+
+      "influence": {
+        "score": 0,
+        "range": "0-100",
+        "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH",
+        "evidence": []
+      },
+
+      "steadiness": {
+        "score": 0,
+        "range": "0-100",
+        "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH",
+        "evidence": []
+      },
+
+      "conscientiousness": {
+        "score": 0,
+        "range": "0-100",
+        "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH",
+        "evidence": []
+      }
+    },
+
+    "profile_type": "[DISC type, e.g., High D, Low I]",
+    "natural_profile": "[Profile under no stress]",
+    "adapted_profile": "[Public persona profile]",
+    "stress_profile": "[Profile under pressure]",
+
+    "behavioral_patterns": [],
+    "confidence": 0
+  },
+
+  "enneagram": {
+    "_methodology": "Enneagram type identification based on core motivations",
+
+    "primary_type": {
+      "number": 0,
+      "name": "[Type name]",
+      "wing": "[w# if applicable]",
+      "tritype": "[### if identified]"
+    },
+
+    "core_motivation": {
+      "core_fear": "[Fundamental fear]",
+      "core_desire": "[Fundamental desire]",
+      "lost_childhood_message": "[If inferable]",
+      "evidence": []
+    },
+
+    "health_levels": {
+      "healthy": {
+        "behaviors": [],
+        "periods": []
+      },
+      "average": {
+        "behaviors": [],
+        "periods": []
+      },
+      "unhealthy": {
+        "behaviors": [],
+        "periods": []
+      },
+      "current_level": 0
+    },
+
+    "integration_disintegration": {
+      "stress_direction": {"type": 0, "behaviors": []},
+      "growth_direction": {"type": 0, "behaviors": []}
+    },
+
+    "instinctual_variant": {
+      "primary": "SELF_PRESERVATION | SOCIAL | SEXUAL",
+      "stack": "[SP/SO/SX order]",
+      "evidence": []
+    },
+
+    "confidence": 0
+  },
+
+  "mbti": {
+    "_methodology": "MBTI cognitive functions based on information processing patterns",
+
+    "type": {
+      "four_letter": "[e.g., INTJ]",
+      "extraversion_introversion": {"preference": "E | I", "percentage": 0},
+      "sensing_intuition": {"preference": "S | N", "percentage": 0},
+      "thinking_feeling": {"preference": "T | F", "percentage": 0},
+      "judging_perceiving": {"preference": "J | P", "percentage": 0}
+    },
+
+    "function_stack": {
+      "dominant": {
+        "function": "[e.g., Ni - Introverted Intuition]",
+        "development_level": "HIGH | MEDIUM | LOW",
+        "manifestations": [],
+        "blind_spots": []
+      },
+
+      "auxiliary": {
+        "function": "[e.g., Te - Extraverted Thinking]",
+        "development_level": "HIGH | MEDIUM | LOW",
+        "manifestations": [],
+        "support_to_dominant": []
+      },
+
+      "tertiary": {
+        "function": "[e.g., Fi - Introverted Feeling]",
+        "development_level": "HIGH | MEDIUM | LOW",
+        "manifestations": [],
+        "loops": []
+      },
+
+      "inferior": {
+        "function": "[e.g., Se - Extraverted Sensing]",
+        "development_level": "HIGH | MEDIUM | LOW",
+        "grip_manifestations": [],
+        "aspirations": []
+      }
+    },
+
+    "cognitive_dynamics": {
+      "dominant_tertiary_loops": [],
+      "inferior_grip_episodes": [],
+      "atypical_developments": []
+    },
+
+    "confidence": 0
+  },
+
+  "cognitive_stratification": {
+    "_methodology": "Elliott Jaques Stratified Systems Theory - Complexity Handling",
+
+    "identified_stratum": {
+      "level": 0,
+      "name": "[Stratum I-VIII]",
+      "time_horizon": "[time span]",
+      "complexity_level": "[description]"
+    },
+
+    "time_horizons": {
+      "immediate": {"examples": []},
+      "short_term": {"examples": []},
+      "medium_term": {"examples": []},
+      "long_term": {"examples": []},
+      "ultra_long": {"examples": []},
+      "generational": {"examples": []}
+    },
+
+    "processing_type": {
+      "declarative": {"score": 0, "examples": []},
+      "cumulative": {"score": 0, "examples": []},
+      "serial": {"score": 0, "examples": []},
+      "parallel": {"score": 0, "examples": []},
+      "systematic": {"score": 0, "examples": []}
+    },
+
+    "abstraction_levels": {
+      "concrete_operational": {"demonstrated": false, "examples": []},
+      "abstract_formal": {"demonstrated": false, "examples": []},
+      "abstract_conceptual": {"demonstrated": false, "examples": []},
+      "meta_systemic": {"demonstrated": false, "examples": []},
+      "universal_paradigmatic": {"demonstrated": false, "examples": []}
+    },
+
+    "stratum_transitions": {
+      "documented_shifts": [],
+      "struggle_periods": [],
+      "breakthrough_moments": []
+    },
+
+    "confidence": 0
+  },
+
+  "multiple_intelligences": {
+    "_methodology": "Gardner's Multiple Intelligences - Observable demonstrations",
+
+    "logical_mathematical": {"level": "HIGH | MEDIUM | LOW | NOT_OBSERVABLE", "evidence": []},
+    "linguistic": {"level": "HIGH | MEDIUM | LOW | NOT_OBSERVABLE", "evidence": []},
+    "spatial_visual": {"level": "HIGH | MEDIUM | LOW | NOT_OBSERVABLE", "evidence": []},
+    "musical": {"level": "HIGH | MEDIUM | LOW | NOT_OBSERVABLE", "evidence": []},
+    "bodily_kinesthetic": {"level": "HIGH | MEDIUM | LOW | NOT_OBSERVABLE", "evidence": []},
+    "interpersonal": {"level": "HIGH | MEDIUM | LOW | NOT_OBSERVABLE", "evidence": []},
+    "intrapersonal": {"level": "HIGH | MEDIUM | LOW | NOT_OBSERVABLE", "evidence": []},
+    "naturalistic": {"level": "HIGH | MEDIUM | LOW | NOT_OBSERVABLE", "evidence": []},
+    "existential": {"level": "HIGH | MEDIUM | LOW | NOT_OBSERVABLE", "evidence": []}
+  },
+
+  "emotional_intelligence": {
+    "_methodology": "EQ components based on behavioral patterns",
+
+    "self_awareness": {"score": 0, "range": "0-100", "examples": []},
+    "self_regulation": {"score": 0, "range": "0-100", "examples": []},
+    "motivation": {"score": 0, "range": "0-100", "examples": []},
+    "empathy": {"score": 0, "range": "0-100", "examples": []},
+    "social_skills": {"score": 0, "range": "0-100", "examples": []},
+
+    "overall_eq": 0,
+    "confidence": 0
+  },
+
+  "dark_triad": {
+    "_warning": "Assess ONLY with robust evidence. Use 'INSUFFICIENT_DATA' if unclear.",
+
+    "narcissism": {
+      "score": 0,
+      "range": "1-7",
+      "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH | INSUFFICIENT_DATA",
+      "evidence": []
+    },
+
+    "machiavellianism": {
+      "score": 0,
+      "range": "1-7",
+      "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH | INSUFFICIENT_DATA",
+      "evidence": []
+    },
+
+    "psychopathy_subclinical": {
+      "score": 0,
+      "range": "1-7",
+      "level": "VERY_LOW | LOW | AVERAGE | HIGH | VERY_HIGH | INSUFFICIENT_DATA",
+      "evidence": []
+    },
+
+    "confidence": 0
+  },
+
+  "complementary_assessments": {
+    "grit": {
+      "consistency_of_interest": {"score": 0, "evidence": []},
+      "perseverance_of_effort": {"score": 0, "evidence": []},
+      "total_grit": 0
+    },
+
+    "need_for_cognition": {
+      "score": 0,
+      "level": "HIGH | MEDIUM | LOW",
+      "evidence": []
+    },
+
+    "tolerance_for_ambiguity": {
+      "score": 0,
+      "level": "HIGH | MEDIUM | LOW",
+      "evidence": []
+    },
+
+    "locus_of_control": {
+      "type": "INTERNAL | EXTERNAL | BALANCED",
+      "score": 0,
+      "evidence": []
+    },
+
+    "schwartz_values": {
+      "power": {"score": 0, "evidence": []},
+      "achievement": {"score": 0, "evidence": []},
+      "hedonism": {"score": 0, "evidence": []},
+      "stimulation": {"score": 0, "evidence": []},
+      "self_direction": {"score": 0, "evidence": []},
+      "universalism": {"score": 0, "evidence": []},
+      "benevolence": {"score": 0, "evidence": []},
+      "tradition": {"score": 0, "evidence": []},
+      "conformity": {"score": 0, "evidence": []},
+      "security": {"score": 0, "evidence": []}
+    }
+  },
+
+  "integrative_synthesis": {
+    "_note": "How all frameworks converge to create unique configuration",
+
+    "profile_convergences": [
+      {
+        "description": "[Where 3+ frameworks align]",
+        "frameworks_involved": [],
+        "emergent_capability": "[What this creates]",
+        "examples": []
+      }
+    ],
+
+    "profile_tensions": [
+      {
+        "description": "[Where frameworks conflict]",
+        "frameworks_involved": [],
+        "resolution_pattern": "[How mind handles this]",
+        "examples": []
+      }
+    ],
+
+    "unique_configuration": {
+      "statistical_rarity": "[Estimated percentage of population]",
+      "superpowers": [],
+      "kryptonites": [],
+      "trade_offs": []
+    },
+
+    "predictive_patterns": {
+      "high_probability_behaviors": [],
+      "optimal_conditions": [],
+      "failure_conditions": [],
+      "stress_triggers": []
+    }
+  },
+
+  "evidence_quality": {
+    "total_evidence_points": 0,
+    "triangulation_score": 0.0,
+
+    "confidence_by_framework": {
+      "big_five": 0,
+      "disc": 0,
+      "enneagram": 0,
+      "mbti": 0,
+      "cognitive_stratification": 0,
+      "emotional_intelligence": 0
+    },
+
+    "overall_confidence": 0,
+
+    "limitations": [
+      "[Limitation 1]",
+      "[Limitation 2]"
+    ],
+
+    "assumptions": [
+      "[Assumption 1 with justification]",
+      "[Assumption 2 with justification]"
+    ]
+  },
+
+  "metadata": {
+    "created_by": "[Analyst Name]",
+    "created_at": "YYYYMMDD-HHMM",
+    "last_updated_by": "[Name]",
+    "last_updated_at": "YYYYMMDD-HHMM",
+
+    "version_history": [
+      {
+        "version": "1.0",
+        "date": "YYYYMMDD-HHMM",
+        "changes": "Initial psychometric analysis",
+        "author": "[Name]"
+      }
+    ],
+
+    "related_documents": [
+      "minds/[mind_name]/artifacts/cognitive_architecture.yaml",
+      "minds/[mind_name]/docs/COGNITIVE_SPEC.md",
+      "minds/[mind_name]/docs/MIND_BRIEF.md"
+    ],
+
+    "review_status": {
+      "reviewed_by": [],
+      "approved_by": null,
+      "approved_date": null
+    }
+  }
+}

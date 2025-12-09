@@ -1,0 +1,89 @@
+template:
+  id: expansion-config-template-v1
+  name: Expansion Pack Configuration
+  version: 1.0
+  output:
+    format: yaml
+    filename: config.yaml
+    title: "{{pack_name}} Configuration"
+
+workflow:
+  mode: interactive
+  elicitation: basic-elicitation
+
+sections:
+  - id: initial-setup
+    instruction: |
+      Initial Setup for Expansion Pack Configuration
+
+      This template generates the config.yaml file for a new AIOS expansion pack.
+
+      Gather the following information from the user:
+      - Pack name (kebab-case, e.g., 'legal-assistant')
+      - Short title (human-readable, e.g., 'Legal Assistant')
+      - Description (brief explanation of pack purpose)
+      - Author (person or organization)
+      - Slash prefix (camelCase for commands, e.g., 'legalAssistant')
+
+      Output file location: `expansion-packs/{{pack_name}}/config.yaml`
+
+  - id: pack-metadata
+    title: Expansion Pack Metadata
+    instruction: |
+      Elicit pack metadata from user. Ensure pack_name uses kebab-case and slash_prefix uses camelCase.
+    elicit: true
+    template: |
+      name: {{pack_name}}
+      version: {{version}}
+      short-title: {{short_title}}
+      description: >-
+        {{description}}
+      author: {{author}}
+      slashPrefix: {{slash_prefix}}
+    examples:
+      - |
+        name: legal-assistant
+        version: 1.0.0
+        short-title: Legal Assistant Pack
+        description: >-
+          This expansion pack provides specialized agents, tasks, and templates
+          for legal professionals. It automates document drafting, case analysis,
+          legal research, and compliance workflows.
+        author: AIOS Community
+        slashPrefix: legalAssistant
+
+  - id: optional-config
+    title: Optional Configuration
+    instruction: |
+      Ask user if they want to add optional configuration:
+      - Dependencies on other expansion packs
+      - Required AIOS core version
+      - Custom installation hooks
+      - Environment variables
+
+      Only include if user confirms need for these options.
+    condition: User requests optional config
+    template: |
+
+      # Optional: Dependencies on other expansion packs
+      dependencies:
+        {{dependencies}}
+
+      # Optional: Minimum AIOS version required
+      requires:
+        aios-version: {{min_version}}
+
+      # Optional: Installation hooks
+      hooks:
+        post-install: {{post_install_script}}
+        pre-uninstall: {{pre_uninstall_script}}
+
+  - id: validation
+    instruction: |
+      Validate the generated config.yaml:
+      - Ensure all required fields are present
+      - Verify YAML syntax is correct
+      - Check that pack_name matches directory name
+      - Confirm slash_prefix is unique
+
+      If validation fails, prompt user to correct issues.

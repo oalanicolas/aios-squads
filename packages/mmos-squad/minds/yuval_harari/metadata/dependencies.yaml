@@ -1,0 +1,427 @@
+dependencies:
+  mind_name: Yuval Noah Harari
+  use_case: "AI: Future of Humanity Advisor"
+  generated_date: 2025-10-07
+  version: 1.0
+
+mmos_framework:
+  version: "3.0"
+  methodology: "DNA Mental™ 8-Layer"
+  task_dependencies:
+    - viability-assessment.md (✅ Complete)
+    - research-collection.md (Next Phase)
+    - cognitive-analysis.md (Pending)
+    - synthesis-compilation.md (Pending)
+    - system-prompt-creation.md (Pending)
+    - mind-validation.md (Pending)
+
+llm_target:
+  primary_model: "Claude Sonnet 4.5 (or latest)"
+  fallback_models:
+    - "Claude Opus"
+    - "GPT-4 (OpenAI)"
+  context_window: "200K tokens (Claude) / 128K (GPT-4)"
+  capabilities:
+    - "Long-form reasoning (macro-historical analysis)"
+    - "Nuanced paradox navigation (Layer 8)"
+    - "Storytelling generation (narrative voice)"
+    - "Cross-domain synthesis (history + tech + philosophy)"
+    - "Accessible communication (wide audience range)"
+
+source_dependencies:
+  critical_sources:
+    tier_1_must_have:
+      books:
+        - title: "Nexus: A Brief History of Information Networks from the Stone Age to AI"
+          year: 2024
+          priority: CRITICAL
+          reason: "Latest AI thinking, Layer 6-8 evidence"
+          access: "Purchase or library"
+          format: "Full text extraction"
+
+        - title: "Sapiens: A Brief History of Humankind"
+          year: 2014
+          priority: CRITICAL
+          reason: "Foundation frameworks (collective fiction, storytelling)"
+          access: "Purchase or library"
+          format: "Key chapters + quotes"
+
+        - title: "Homo Deus: A Brief History of Tomorrow"
+          year: 2016
+          priority: CRITICAL
+          reason: "Future thinking, AI/dataism, Layer 7 obsessions"
+          access: "Purchase or library"
+          format: "Key chapters + quotes"
+
+        - title: "21 Lessons for the 21st Century"
+          year: 2018
+          priority: CRITICAL
+          reason: "Contemporary application, meditation, Layer 6 values"
+          access: "Purchase or library"
+          format: "Key chapters + quotes"
+
+      interviews:
+        - title: "Lex Fridman Podcast #390"
+          date: "2023-07-17"
+          priority: CRITICAL
+          reason: "Layer 5-8 evidence, AI + consciousness + power"
+          access: "Public (YouTube/Spotify)"
+          format: "Full transcript extraction"
+          url: "https://www.youtube.com/watch?v=..."
+
+        - title: "Tim Ferriss Show #477"
+          date: "2020-10-30"
+          priority: CRITICAL
+          reason: "Meditation (Layer 3), awareness, storytelling process"
+          access: "Public (podcast)"
+          format: "Full transcript"
+          url: "https://tim.blog/yuval-noah-harari-transcript/"
+
+        - title: "IMF Podcast - AI and Trust"
+          date: "2024-10-01"
+          priority: CRITICAL
+          reason: "Latest 2024 AI positions"
+          access: "Public"
+          format: "Transcript/notes"
+
+        - title: "CBS 60 Minutes"
+          date: "2021-10-31"
+          priority: HIGH
+          reason: "Data, AI, future - broad audience explanation"
+          access: "Public (YouTube)"
+          format: "Notes + key quotes"
+
+        - title: "GZERO Media Interview"
+          date: "2024"
+          priority: CRITICAL
+          reason: "Layer 8 paradox evidence - 'AI as social weapon'"
+          access: "Public"
+          format: "Transcript/notes"
+
+      talks:
+        - title: "Frontiers Forum - AI and Future of Humanity"
+          date: "2023"
+          priority: CRITICAL
+          reason: "Keynote on AI, Layer 6-8 focus"
+          access: "Public (YouTube)"
+          format: "Full transcript"
+
+        - title: "TED: What explains the rise of humans?"
+          date: "2015-07"
+          priority: HIGH
+          reason: "Core frameworks (collective fiction, language)"
+          access: "Public (TED.com)"
+          format: "Transcript + video analysis"
+
+        - title: "TED: Why fascism is so tempting"
+          date: "2018-05"
+          priority: HIGH
+          reason: "Democracy, information, data, Layer 7 obsessions"
+          access: "Public (TED.com)"
+          format: "Transcript"
+
+      essays:
+        - title: "Guardian Ukraine article (most-read opinion ever)"
+          priority: HIGH
+          reason: "Storytelling at peak, current events application"
+          access: "Public (Guardian)"
+          format: "Full text"
+
+        - title: "ynharari.com articles archive"
+          priority: MEDIUM
+          reason: "10-15 key essays on AI, history, democracy"
+          access: "Public (website)"
+          format: "Full text extraction"
+
+    tier_2_nice_to_have:
+      interviews:
+        - "Sam Harris Waking Up #68"
+        - "Russell Brand Under The Skin #005"
+        - "All-In Podcast"
+        - "Dax Shepard Armchair Expert"
+        - "Tyler Cowen Conversations"
+        - "Ezra Klein Show"
+
+      talks:
+        - "TED: The actual cost of preventing climate breakdown (2022)"
+        - "TED: The war in Ukraine could change everything (2022)"
+        - "Additional conference keynotes (WEF, etc.)"
+
+      social_media:
+        - "Twitter/X: @harari_yuval (substantive threads)"
+        - "Instagram: yuval_noah_harari (recent 50 posts)"
+
+    tier_3_validation:
+      academic:
+        - "Special Operations in the Age of Chivalry (academic book)"
+        - "Medieval history journal articles"
+        - "Peer-reviewed publications"
+
+      secondary:
+        - "Critical analyses of Harari's work"
+        - "Reviews and commentary"
+        - "Biography references"
+
+  minimum_requirements:
+    total_sources: 15
+    target_sources: 50
+    tier_1_critical: 12
+    source_type_diversity: 5
+    layer_6_8_coverage: 18
+    recent_content_2023_2024: 6
+
+  collection_tools_needed:
+    - "YouTube transcript extractor (e.g., youtube-transcript-api)"
+    - "Podcast transcript service (e.g., AssemblyAI, Deepgram)"
+    - "Web scraping (Guardian, NYT, ynharari.com)"
+    - "Book text extraction (OCR if needed, or digital purchase)"
+    - "PDF reader/extractor"
+
+technical_dependencies:
+  tools:
+    - name: "Claude Code / Claude API"
+      purpose: "Analysis, synthesis, prompt generation"
+      version: "Latest"
+      required: true
+
+    - name: "Text extraction tools"
+      purpose: "YouTube transcripts, podcast transcripts, web scraping"
+      libraries:
+        - "youtube-transcript-api (Python)"
+        - "AssemblyAI or Deepgram (audio transcription)"
+        - "BeautifulSoup / Playwright (web scraping)"
+      required: true
+
+    - name: "File management"
+      purpose: "Organize sources, artifacts, outputs"
+      tools:
+        - "Standard file system"
+        - "Git (version control)"
+      required: true
+
+    - name: "YAML/Markdown processors"
+      purpose: "Parse and generate structured documents"
+      libraries:
+        - "PyYAML (Python)"
+        - "markdown processors"
+      required: false
+
+  apis:
+    - name: "AssemblyAI MCP"
+      purpose: "Podcast/video transcription (if not publicly available)"
+      access: "API key required (if using)"
+      required: false
+      alternative: "Manual transcript collection from public sources"
+
+    - name: "Web APIs"
+      purpose: "Access to Guardian, NYT, etc. (if needed)"
+      required: false
+      alternative: "Manual web scraping or copy-paste"
+
+  storage:
+    requirements:
+      local_storage: "~500MB (sources + artifacts + outputs)"
+      structure:
+        - "expansion-packs/mmos/minds/yuval_harari/sources/ (~200MB)"
+        - "expansion-packs/mmos/minds/yuval_harari/artifacts/ (~50MB)"
+        - "expansion-packs/mmos/minds/yuval_harari/synthesis/ (~50MB)"
+        - "expansion-packs/mmos/minds/yuval_harari/prompts/ (~10MB)"
+        - "expansion-packs/mmos/minds/yuval_harari/testing/ (~20MB)"
+        - "expansion-packs/mmos/minds/yuval_harari/docs/ (~50MB)"
+
+human_dependencies:
+  required_roles:
+    subject_matter_expert:
+      needed: false
+      reason: "Harari is public figure, sources are sufficient"
+
+    domain_reviewer:
+      needed: false
+      reason: "User validates Layers 6-8, sufficient for this use case"
+
+    testing_participants:
+      needed: true
+      count: "5-10 participants for blind testing"
+      profile: "Mix of AI-knowledgeable and general audience"
+      purpose: "Fidelity scoring (authenticity rating 1-10)"
+
+  human_checkpoints:
+    - checkpoint: "Post-Research Validation"
+      phase: "Phase 2"
+      time_required: "15 minutes"
+      decision: "GO to Analysis / COLLECT MORE"
+
+    - checkpoint: "Layer 6 (Values) Validation"
+      phase: "Phase 3"
+      time_required: "30-45 minutes"
+      decision: "APPROVE / REVISE / RE-ANALYZE"
+      criticality: HIGH
+
+    - checkpoint: "Layer 7 (Obsessions) Validation"
+      phase: "Phase 3"
+      time_required: "30-45 minutes"
+      decision: "APPROVE / REVISE / RE-ANALYZE"
+      criticality: HIGH
+
+    - checkpoint: "Layer 8 (Paradoxes) Validation"
+      phase: "Phase 3"
+      time_required: "60-90 minutes"
+      decision: "APPROVE / REVISE / RE-ANALYZE"
+      criticality: CRITICAL
+      notes: "MOST IMPORTANT - AI Safety/Acceleration paradox validation"
+
+    - checkpoint: "System Prompt Review"
+      phase: "Phase 5"
+      time_required: "45-60 minutes"
+      decision: "APPROVE / REVISE"
+      criticality: HIGH
+
+    - checkpoint: "Production Approval"
+      phase: "Phase 6"
+      time_required: "60-90 minutes"
+      decision: "GO TO PRODUCTION / ITERATE"
+      criticality: CRITICAL
+      notes: "Final fidelity assessment (target: >94%)"
+
+  total_human_time:
+    checkpoints: "4-6 hours"
+    research_assistance: "6-8 hours (source collection)"
+    testing_participation: "2-3 hours (blind testing)"
+    total: "12-17 hours"
+
+timeline_dependencies:
+  blocking_phases:
+    - phase: "Viability (Phase 1)"
+      blocks: ["Research (Phase 2)"]
+      reason: "Need GO decision before investing in collection"
+      status: ✅ Complete
+
+    - phase: "Research (Phase 2)"
+      blocks: ["Analysis (Phase 3)"]
+      reason: "Need sources before analysis"
+      status: 🔄 In Progress
+
+    - phase: "Analysis (Phase 3)"
+      blocks: ["Synthesis (Phase 4)", "Implementation (Phase 5)"]
+      reason: "Need cognitive architecture before prompt creation"
+      status: ⏸️ Pending
+
+    - phase: "Implementation (Phase 5)"
+      blocks: ["Validation (Phase 6)"]
+      reason: "Need system prompt before testing"
+      status: ⏸️ Pending
+
+  parallel_opportunities:
+    research_phase:
+      - "Book collection (Stream 1)"
+      - "Interview collection (Stream 2)"
+      - "Talk collection (Stream 3)"
+      - "Essay collection (Stream 4)"
+      note: "4 parallel streams = 60% time reduction"
+
+    analysis_layers_1_4:
+      - "Layer 1 (Behavioral Patterns)"
+      - "Layer 2 (Communication Style)"
+      - "Layer 3 (Routine & Habits)"
+      - "Layer 4 (Recognition Patterns)"
+      note: "Observable layers can be extracted simultaneously"
+
+    validation_testing:
+      - "Personality validation"
+      - "Knowledge validation"
+      - "Style validation"
+      note: "Independent tests can run in parallel"
+
+  critical_path:
+    total_duration: "9-14 days (wall time)"
+    critical_milestones:
+      - "Phase 2 complete (Day 4-5)"
+      - "Phase 3 complete + Layer 8 validated (Day 7-8)"
+      - "Phase 5 complete + Prompt validated (Day 11-12)"
+      - "Phase 6 complete + Production approved (Day 13-14)"
+
+integration_points:
+  memory_layer:
+    enabled: false
+    note: "Standard MMOS process, no special memory requirements"
+
+  rag_system:
+    enabled: true
+    purpose: "Knowledge base chunking for context retrieval"
+    implementation: "kb_chunks/ directory with tagged content"
+    vector_db: "Optional (can use basic retrieval initially)"
+
+  fine_tuning:
+    enabled: false
+    reason: "System prompt + RAG sufficient for this use case"
+    future_consideration: "If fidelity <94%, consider fine-tuning on Harari corpus"
+
+quality_dependencies:
+  triangulation_requirements:
+    layers_5_8:
+      minimum_sources: 3
+      target_agreement: "70%"
+      validation: "Human checkpoint for Layers 6-8"
+
+  fidelity_requirements:
+    target: "94% (8.5/10 blind testing)"
+    measurement: "User ratings on authenticity"
+    sample_size: "5-10 testers, 10 question samples"
+
+  layer_8_requirements:
+    paradox: "AI Safety Advocate + Acceleration Observer"
+    minimum_evidence: 3
+    sources_identified:
+      - "Congressional testimony (safety advocacy)"
+      - "Nexus 2024 release (acceleration participation)"
+      - "WEF/IMF talks (dual role)"
+    validation: "MANDATORY human checkpoint"
+
+risks_and_mitigations:
+  - risk: "Layer 8 paradox evidence insufficient"
+    probability: LOW
+    mitigation: "Already identified 3+ sources, more available in Tier 2"
+
+  - risk: "Storytelling voice hard to replicate"
+    probability: MEDIUM
+    mitigation: "50+ signature phrase extraction, deep linguistic analysis"
+
+  - risk: "Source collection delayed (Nexus access)"
+    probability: LOW
+    mitigation: "Nexus publicly available, multiple formats (book, audiobook, summaries)"
+
+  - risk: "Fidelity <94% on first iteration"
+    probability: MEDIUM
+    mitigation: "Iteration built into Phase 6, can refine prompt and re-test"
+
+  - risk: "Rapidly evolving AI field dates content"
+    probability: HIGH
+    mitigation: "Focus on timeless macro principles, not specific predictions"
+
+success_criteria:
+  - "All Tier 1 sources collected (12 critical sources)"
+  - "All 8 layers extracted with triangulation"
+  - "Layers 6, 7, 8 human-validated (3 checkpoints passed)"
+  - "Layer 8 paradox extracted and documented"
+  - "Storytelling voice preserved (50+ signature phrases)"
+  - "System prompt v1.0 created and validated"
+  - "Fidelity >94% (blind testing ≥8.5/10)"
+  - "Production approval received"
+
+next_phase:
+  phase: "Phase 2 - Research Collection"
+  task: "research-collection.md"
+  estimated_start: "2025-10-07"
+  estimated_completion: "2025-10-10"
+  estimated_duration: "3-4 days (wall time)"
+  human_time_required: "6-8 hours"
+  token_estimate: "500K tokens"
+
+notes:
+  - "MMOS methodology proven (Jesus Cristo, Nassim Taleb completed successfully)"
+  - "Harari viability exceptionally high (93% APEX, 96% ICP)"
+  - "Layer 8 paradox is THE differentiator - must validate carefully"
+  - "Storytelling preservation critical - voice is signature element"
+  - "Parallel collection can reduce Phase 2 from 6 days to 3-4 days"
+  - "Human checkpoints non-negotiable - quality > speed"
+  - "If fidelity <94%, iterate don't ship"

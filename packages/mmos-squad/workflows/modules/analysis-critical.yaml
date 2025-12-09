@@ -1,0 +1,183 @@
+module:
+  id: analysis-critical
+  name: DNA Mental™ Critical Layers (6-8) + Checkpoints
+  description: >-
+    Critical analysis layers that define core identity and require human validation.
+    These layers extract values hierarchy, core obsessions, and productive paradoxes
+    - the elements that make cognitive clones feel authentically human rather than
+    robotic. Each layer includes mandatory human checkpoints before proceeding.
+  version: 1.0.0
+  created: 2025-10-25
+  shared_by:
+    - greenfield-mind
+    - brownfield-mind
+  critical_note: >-
+    THIS IS THE DIFFERENTIATOR - what makes clones feel human vs uncanny valley.
+    Do not skip checkpoints. Layer 8 especially is THE GOLD LAYER.
+
+phases:
+  # ============================================================================
+  # LAYER 6: Values Hierarchy (CRITICAL)
+  # ============================================================================
+  - agent: analyst
+    phase: analysis
+    creates: cognitive-analysis-layer-6
+    task: cognitive-analysis
+    task_mode: layer_6
+    prerequisites:
+      - Layer 5 complete
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/artifacts/values_hierarchy.yaml
+    triangulation: required
+    human_checkpoint: true
+    checkpoint_type: LAYER_6_VALIDATION
+    notes: |
+      DNA Mental™ LAYER 6: Values Hierarchy (CRITICAL)
+
+      Extract ranked core values:
+      - What they prioritize above all
+      - Demonstrated vs stated values
+      - Value trade-offs and conflicts
+      - Non-negotiables
+
+      TRIANGULATION REQUIRED:
+      - Stated values vs demonstrated behavior
+      - Cross-source agreement analysis
+      - Temporal consistency check
+
+      HUMAN CHECKPOINT #2: Layer 6 Validation
+
+      Present values hierarchy to user:
+      - Ranked values with evidence
+      - Source citations and examples
+      - Triangulation status (agreement %)
+      - Confidence level
+
+      User decision:
+      1. APPROVE - Proceed to Layer 7
+      2. REVISE - Provide corrections/additions
+      3. RE-ANALYZE - Deeper extraction needed
+
+      VALUES ARE CRITICAL FOR CLONE AUTHENTICITY.
+      Do not proceed without validation.
+
+  # ============================================================================
+  # LAYER 7: Core Obsessions (Driving Forces)
+  # ============================================================================
+  - agent: analyst
+    phase: analysis
+    creates: cognitive-analysis-layer-7
+    task: cognitive-analysis
+    task_mode: layer_7
+    prerequisites:
+      - Layer 6 approved
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/artifacts/core_obsessions.yaml
+    triangulation: required
+    human_checkpoint: true
+    checkpoint_type: LAYER_7_VALIDATION
+    notes: |
+      DNA Mental™ LAYER 7: Core Obsessions (Driving Forces)
+
+      Identify 2-3 core obsessions:
+      - What topics appear obsessively
+      - What questions drive their work
+      - What problems consume attention
+      - Recurring themes across all contexts
+
+      TRIANGULATION REQUIRED:
+      - Cross-temporal validation
+      - Multi-source confirmation
+      - Intensity and consistency analysis
+
+      HUMAN CHECKPOINT #3: Layer 7 Validation
+
+      Present core obsessions with:
+      - Obsession description
+      - Evidence from sources
+      - Intensity metrics
+      - Historical consistency
+
+      User decision:
+      1. APPROVE - Proceed to Layer 8
+      2. REVISE - Adjust obsessions
+      3. RE-ANALYZE - Need deeper extraction
+
+      OBSESSIONS ARE THE MOTORS OF PERSONALITY.
+
+  # ============================================================================
+  # LAYER 8: Productive Paradoxes (THE GOLD LAYER)
+  # ============================================================================
+  - agent: analyst
+    phase: analysis
+    creates: cognitive-analysis-layer-8
+    task: cognitive-analysis
+    task_mode: layer_8
+    prerequisites:
+      - Layer 7 approved
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/artifacts/contradictions.yaml
+    triangulation: required
+    human_checkpoint: true
+    checkpoint_type: LAYER_8_VALIDATION
+    notes: |
+      DNA Mental™ LAYER 8: Productive Paradoxes (THE GOLD LAYER)
+
+      Identify productive contradictions:
+      - Simultaneous opposing beliefs
+      - Context-dependent positions
+      - Nuanced complexity
+      - "Both/and" thinking patterns
+
+      WHY LAYER 8 MATTERS:
+      This is what makes AI clones feel genuinely HUMAN.
+      - Prevents robotic consistency
+      - Enables contextual wisdom
+      - Creates authentic personality depth
+
+      Without Layer 8, clones feel "uncanny valley."
+
+      HUMAN CHECKPOINT #4: Layer 8 Validation
+
+      Present each paradox:
+      - Contradiction description ("Belief A" AND "Belief B")
+      - Context where each applies
+      - How they coexist
+      - Evidence from sources
+
+      User decision:
+      1. APPROVE - Proceed to synthesis
+      2. REVISE - Adjust or add paradoxes
+      3. RE-ANALYZE - Deeper paradox extraction
+
+      THIS IS THE DIFFERENTIATOR BETWEEN GOOD AND GREAT CLONES.
+
+  # ============================================================================
+  # SYNTHESIS: Cognitive Architecture
+  # ============================================================================
+  - agent: architect
+    phase: analysis
+    creates: cognitive-architecture
+    task: cognitive-analysis
+    task_mode: architecture
+    prerequisites:
+      - All 8 layers complete and validated
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/artifacts/cognitive_architecture.yaml
+      - expansion-packs/mmos/minds/{slug}/docs/LIMITATIONS.md
+    notes: |
+      Synthesize all 8 layers into unified cognitive architecture.
+
+      ARCHITECTURE SYNTHESIS:
+      - Integration of all layers
+      - Cross-layer dependencies
+      - Interaction patterns
+      - System dynamics
+
+      Generate LIMITATIONS.md:
+      - Known gaps in knowledge
+      - Topics outside expertise
+      - Temporal boundaries (knowledge cutoff)
+      - Contextual constraints
+
+      OUTPUT: Complete cognitive architecture (3000+ words)

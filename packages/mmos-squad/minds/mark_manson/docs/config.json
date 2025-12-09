@@ -1,0 +1,38 @@
+{
+  "name": "Mark Manson",
+  "id": "mark_manson",
+  "youtube": {
+    "channel_url": "https://www.youtube.com/@IAmMarkManson",
+    "channel_id": "UC0TnW9acNxqeojxXDMbohcA",
+    "known_videos": [
+      "IOtoGBY9Uvw",
+      "nQY3-VGTXpk",
+      "9wDbXczf7Zg",
+      "0M9b8bi6ApQ",
+      "spgIHt1RoCw"
+    ]
+  },
+  "blog": {
+    "base_url": "https://markmanson.net",
+    "article_selector": "article",
+    "content_selector": ".post-content",
+    "archive_url": "/articles",
+    "main_articles": [
+      "/not-giving-a-fuck",
+      "/question",
+      "/personal-values",
+      "/40-lessons-at-40",
+      "/love",
+      "/relationship-advice",
+      "/reasons-to-get-married",
+      "/10-life-lessons-excel-30s",
+      "/surviving-my-20s",
+      "/5-life-lessons-5-years-traveling-world"
+    ]
+  },
+  "patterns": {
+    "signature_words": ["fuck", "actually", "problem", "values", "choose", "struggle"],
+    "track_profanity": true,
+    "track_questions": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@aios/etl-data-collector",
+  "version": "1.0.0",
+  "description": "ETL Data Collector expansion pack for AIOS-FULLSTACK",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "@mozilla/readability": "^0.5.0",
+    "jsdom": "^23.0.0",
+    "turndown": "^7.1.2",
+    "ytdl-core": "^4.11.5",
+    "youtube-transcript": "^1.0.6",
+    "pdf-parse": "^1.1.1",
+    "rss-parser": "^3.13.0",
+    "js-yaml": "^4.1.0",
+    "p-limit": "^5.0.0",
+    "cli-progress": "^3.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "scripts": {
+    "setup": "npm install && pip install -r config/python-requirements.txt",
+    "test": "echo 'Tests not yet implemented'"
+  }
+}

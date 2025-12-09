@@ -1,0 +1,76 @@
+# Chunked Knowledge Output
+# Agent: synthesis-expert (Charlie)
+# Task: knowledge-base-chunking
+# Version: 3.5.0
+# Methodology: Knowledge Architecture & Retrieval Optimization
+
+chunked_knowledge_system:
+  metadata:
+    mind_path: "@{mind}"
+    analysis_date: ""
+    analyst: "synthesis-expert"
+    methodology: "Knowledge Architecture (Atoms → Dependencies → Lattice → Retrieval)"
+    sources_analyzed: []
+    chunk_count: 0
+    chunk_size_range: ""
+
+  layer_structure:
+    foundation_layer:
+      chunk_count: 0
+      average_prerequisites: 0
+      learning_time: ""
+    intermediate_layer:
+      chunk_count: 0
+      average_prerequisites: 0
+      learning_time: ""
+    advanced_layer:
+      chunk_count: 0
+      average_prerequisites: 0
+      learning_time: ""
+
+  chunks:
+    - chunk_id: "chunk_001"
+      layer: "foundation"
+      learning_time: ""
+      complexity: ""
+      prerequisites: []
+      core_concept: ""
+      how_it_works:
+        situation: ""
+        problem: ""
+        framework_applied: ""
+        expected_outcome: ""
+      evidence:
+        sources: []
+        references: []
+      retrieval_index:
+        conceptual_tags: []
+        situational_tags: []
+        problem_tags: []
+        failure_mode_tags: []
+      connections:
+        prerequisites: []
+        complements: []
+        contrasts: []
+        applications: []
+      testing:
+        comprehension_questions: []
+        application_tasks: []
+        failure_mode_checks: []
+
+  retrieval_views:
+    by_situation: []
+    by_problem: []
+    by_goal: []
+    by_failure: []
+
+  knowledge_graph:
+    nodes: []
+    edges: []
+    density_score: ""
+
+  maintenance:
+    review_frequency: ""
+    pending_updates: []
+    notes: []
+

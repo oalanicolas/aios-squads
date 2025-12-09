@@ -1,0 +1,148 @@
+---
+template-id: collection-summary
+name: Collection Summary Report
+version: 1.0.0
+description: Comprehensive summary of data collection workflow with statistics, errors, and recommendations
+
+output-format: yaml
+output-filename: "COLLECTION_SUMMARY_{{timestamp}}.yaml"
+output-title: "Collection Summary - {{sources_count}} sources"
+
+workflow-mode: automated
+elicit: false
+
+usage-context: Generated automatically at end of collect-all-sources task
+
+placeholders:
+  - name: timestamp
+    type: ISO8601
+    description: Collection completion timestamp
+    example: "2025-10-07T14:30:00Z"
+
+  - name: sources_file
+    type: file_path
+    description: Original sources list path
+    example: "outputs/minds/sam_altman/sources/sources_master.yaml"
+
+  - name: total_sources
+    type: integer
+    description: Total number of sources in list
+    example: 47
+
+  - name: successful
+    type: integer
+    description: Successfully downloaded sources
+    example: 43
+
+  - name: failed
+    type: integer
+    description: Failed downloads
+    example: 4
+
+  - name: success_rate
+    type: float
+    description: Success percentage
+    example: 91.5
+
+  - name: by_type
+    type: object
+    description: Statistics grouped by source type
+    structure:
+      youtube: {total, successful, failed, duration, size}
+      blog: {total, successful, failed, size, word_count}
+      pdf: {total, successful, failed, pages, size}
+      social: {total, successful, failed}
+
+  - name: by_tier
+    type: object
+    description: Statistics grouped by tier
+    structure:
+      tier_1: {total, successful, success_rate}
+      tier_2: {total, successful, success_rate}
+      tier_3: {total, successful, success_rate}
+
+  - name: performance
+    type: object
+    description: Performance metrics
+    fields:
+      - total_duration_minutes
+      - avg_download_time_seconds
+      - peak_concurrent_downloads
+
+  - name: quality
+    type: object
+    description: Quality assessment
+    fields:
+      - avg_quality_score
+      - sources_needing_review (array)
+
+  - name: errors
+    type: array
+    description: List of failed sources with user-friendly error explanations
+    item_structure:
+      - source_id
+      - type
+      - error_message (user-friendly explanation, not technical stack trace)
+      - what_went_wrong (plain English description)
+      - how_to_fix (actionable steps)
+      - retries
+      - final_status
+    error_message_guidelines: |
+      Use plain language instead of technical jargon:
+      - "Video unavailable or deleted" instead of "HTTP 404 Not Found"
+      - "Need to login or provide API key" instead of "Authentication failed: 401 Unauthorized"
+      - "Download blocked by website" instead of "403 Forbidden - rate limit exceeded"
+      - "Invalid link" instead of "URLError: Name or service not known"
+
+  - name: next_steps
+    type: array
+    description: Recommended actions after collection
+    example: ["Review 2 transcripts with quality < 85%", "Run chunk-and-index task"]
+
+validation:
+  - All counts must be non-negative integers
+  - success_rate should be 0-100
+  - timestamp must be valid ISO8601
+  - by_type and by_tier totals must sum to total_sources
+---
+
+collection_summary:
+  timestamp: ""
+  sources_file: ""
+  total_sources: 0
+  successful: 0
+  failed: 0
+  success_rate: 0
+
+  by_type:
+    youtube:
+      total: 0
+      successful: 0
+      failed: 0
+    blog:
+      total: 0
+      successful: 0
+      failed: 0
+    pdf:
+      total: 0
+      successful: 0
+      failed: 0
+
+  by_tier:
+    tier_1:
+      total: 0
+      successful: 0
+      success_rate: 0
+
+  performance:
+    total_duration_minutes: 0
+    avg_download_time_seconds: 0
+    peak_concurrent_downloads: 0
+
+  quality:
+    avg_quality_score: 0
+    sources_needing_review: []
+
+  errors: []
+
+  next_steps: []

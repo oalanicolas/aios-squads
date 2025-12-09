@@ -1,0 +1,68 @@
+# Specialist Domains Output
+# Agent: synthesis-expert (Charlie)
+# Task: specialist-recommendation
+# Version: 3.5.0
+# Methodology: Specialist Domain Mapping & Circle of Competence Analysis
+
+specialist_domains:
+  metadata:
+    mind_path: "@{mind}"
+    analysis_date: ""
+    analyst: "synthesis-expert"
+    methodology: "Specialist Domain Mapping (Depth Detection → Boundary Mapping → Cross-Domain Synthesis)"
+    sources_analyzed: []
+
+  expertise_map:
+    peak_expertise:
+      - domain: ""
+        depth_score: ""
+        evidence: []
+        unique_contributions: []
+        boundaries: []
+    working_competence:
+      - domain: ""
+        depth_score: ""
+        application: []
+    aware_ignorance:
+      - domain: ""
+        recognition: ""
+        deference_strategy: []
+    blind_spots:
+      - domain: ""
+        indicators: []
+
+  cross_domain_synthesis:
+    mappings:
+      - source_domain: ""
+        target_domain: ""
+        insight_generated: ""
+        evidence: []
+
+  specialist_recommendations:
+    - specialist_name: ""
+      priority: ""
+      focus_domain: ""
+      use_case: ""
+      target_audience: ""
+      differentiation: []
+      frameworks_included: []
+      knowledge_scope: ""
+      adaptation_requirements:
+        additional_sources: []
+        specialized_frameworks: []
+        context_tuning: []
+      effort_estimate:
+        time_hours: ""
+        complexity: ""
+      value_proposition:
+        differentiation: ""
+        market_fit: ""
+      viability: ""
+
+  meta_analysis:
+    circle_clarity: ""
+    honest_assessment: []
+    cross_pollination_findings: []
+    depth_validation_notes: []
+    next_steps: []
+

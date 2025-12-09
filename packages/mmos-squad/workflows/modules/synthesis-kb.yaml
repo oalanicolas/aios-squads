@@ -1,0 +1,71 @@
+module:
+  id: synthesis-kb
+  name: Knowledge Base Creation & Specialist Recommendations
+  description: >-
+    Creates RAG-optimized knowledge base chunks from all analysis artifacts and
+    recommends specialist clone variations based on cognitive architecture analysis.
+    Prepares the foundation for implementation phase.
+  version: 1.0.0
+  created: 2025-10-25
+  shared_by:
+    - greenfield-mind
+    - brownfield-mind
+
+phases:
+  # ============================================================================
+  # Knowledge Base Chunking
+  # ============================================================================
+  - agent: analyst
+    phase: synthesis
+    creates: knowledge-base
+    task: knowledge-base-chunking
+    prerequisites:
+      - All analysis artifacts complete
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/kb/chunk_*.md
+    notes: |
+      Create optimized knowledge base chunks:
+
+      CHUNKING STRATEGY:
+      - 500-1000 words per chunk
+      - Thematic grouping
+      - Semantic coherence
+      - RAG-optimized
+
+      FLAT STRUCTURE:
+      expansion-packs/mmos/minds/{slug}/kb/
+        ├── chunk_001.md
+        ├── chunk_002.md
+        └── chunk_NNN.md
+
+      (No subdirectories - flat for RAG efficiency)
+
+      OUTPUT: Complete knowledge base ready for RAG or fine-tuning
+
+  # ============================================================================
+  # Specialist Clone Recommendations
+  # ============================================================================
+  - agent: architect
+    phase: synthesis
+    creates: specialist-recommendations
+    task: specialist-recommendation
+    prerequisites:
+      - Cognitive architecture complete
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-specialist_recommendations.yaml
+    notes: |
+      Analyze cognitive architecture to recommend specialist variations:
+
+      SPECIALIST TYPES:
+      - "{Mind} as Business Coach"
+      - "{Mind} as Writer's Mentor"
+      - "{Mind} as Strategic Advisor"
+      - "{Mind} as [Domain] Expert"
+
+      For each specialist:
+      - Recommended specialization
+      - Required knowledge augmentation
+      - Prompt engineering strategy
+      - Use cases
+
+      OUTPUT: Specialist recommendations for future development

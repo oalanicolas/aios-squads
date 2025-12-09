@@ -1,0 +1,253 @@
+priority_matrix:
+  clone: "Naval Ravikant"
+  date_created: "2024-10-04"
+  optimization_for: "Maximum ROI with 80/20 principle"
+
+  tier_1_critical:
+    description: "Must-have sources that capture 80% of Naval's essence"
+    time_investment: "20 hours"
+    expected_value: "80% of total value"
+
+    sources:
+      1:
+        name: "The Naval Almanack"
+        type: "Book compilation"
+        hours: 3
+        roi_score: 10
+        reason: "Pre-curated best wisdom, saves 100+ hours"
+        topics_covered:
+          - "Core philosophy"
+          - "Wealth framework"
+          - "Happiness principles"
+          - "Decision making"
+
+      2:
+        name: "How to Get Rich Tweetstorm"
+        type: "Twitter thread"
+        hours: 0.5
+        roi_score: 10
+        reason: "Most viral content, core framework"
+        topics_covered:
+          - "Specific knowledge"
+          - "Leverage types"
+          - "Accountability"
+          - "Judgment"
+
+      3:
+        name: "Tim Ferriss Bundle (#97, #136, #473)"
+        type: "Podcast trilogy"
+        hours: 7
+        roi_score: 10
+        reason: "Deepest conversations, evolution visible"
+        topics_covered:
+          - "Complete philosophy"
+          - "Personal practices"
+          - "Reading habits"
+          - "Mental models"
+
+      4:
+        name: "Joe Rogan #1309"
+        type: "Podcast"
+        hours: 2.5
+        roi_score: 9
+        reason: "Mainstream synthesis, different audience"
+        topics_covered:
+          - "Technology future"
+          - "Happiness research"
+          - "Universal basic income"
+          - "Meditation"
+
+      5:
+        name: "Knowledge Project Episodes"
+        type: "Podcast series"
+        hours: 4
+        roi_score: 9
+        reason: "Mental models focus, structured thinking"
+        topics_covered:
+          - "Decision frameworks"
+          - "Reading strategies"
+          - "Angel investing"
+          - "Life philosophy"
+
+      6:
+        name: "Twitter Greatest Hits 2017-2020"
+        type: "Social media"
+        hours: 3
+        roi_score: 9
+        reason: "Peak philosophical period, concise wisdom"
+        topics_covered:
+          - "Daily insights"
+          - "Book recommendations"
+          - "Responses to events"
+          - "Evolution of thought"
+
+  tier_2_important:
+    description: "Significant depth and nuance, fills gaps"
+    time_investment: "30 hours"
+    expected_value: "15% additional value"
+
+    sources:
+      7:
+        name: "Periscope Archives (top 20)"
+        type: "Live Q&A"
+        hours: 10
+        roi_score: 8
+        reason: "Raw, unedited Naval, authentic voice"
+
+      8:
+        name: "How to Get Rich Podcast Series"
+        type: "Podcast series with Nivi"
+        hours: 8
+        roi_score: 8
+        reason: "Detailed expansion of tweetstorm"
+
+      9:
+        name: "Kapil Gupta Conversations"
+        type: "Philosophical dialogues"
+        hours: 6
+        roi_score: 8
+        reason: "Unique depth, non-prescriptive approach"
+
+      10:
+        name: "Venture Hacks Top Posts"
+        type: "Blog posts"
+        hours: 3
+        roi_score: 7
+        reason: "Early thinking, startup specific"
+
+      11:
+        name: "Secondary Twitter Threads"
+        type: "Social media"
+        hours: 3
+        roi_score: 7
+        reason: "Additional frameworks and insights"
+
+  tier_3_comprehensive:
+    description: "Completeness and edge cases"
+    time_investment: "30 hours"
+    expected_value: "5% additional value"
+
+    categories:
+      podcasts_minor:
+        count: 15
+        hours: 15
+        roi_score: 5
+        reason: "Repetition with new angles"
+
+      presentations:
+        count: 10
+        hours: 8
+        roi_score: 5
+        reason: "Visual learning, structured talks"
+
+      written_archives:
+        count: 20
+        hours: 5
+        roi_score: 6
+        reason: "Historical context"
+
+      recent_content:
+        count: 5
+        hours: 2
+        roi_score: 6
+        reason: "Current evolution"
+
+  processing_strategy:
+
+    week_1:
+      focus: "Core essence capture"
+      sources:
+        - "The Naval Almanack (Day 1)"
+        - "How to Get Rich + other key threads (Day 2)"
+        - "Tim Ferriss #97, #136 (Day 3)"
+        - "Tim Ferriss #473, Joe Rogan (Day 4)"
+        - "Knowledge Project episodes (Day 5)"
+        - "Twitter highlights compilation (Day 6-7)"
+      deliverable: "Core philosophy and frameworks captured"
+
+    week_2:
+      focus: "Depth and authenticity"
+      sources:
+        - "Periscope archives selection"
+        - "How to Get Rich podcast expansion"
+        - "Kapil Gupta philosophical depth"
+        - "Venture Hacks historical context"
+      deliverable: "Voice, nuance, and evolution mapped"
+
+    week_3:
+      focus: "Completeness and validation"
+      sources:
+        - "Remaining podcasts"
+        - "Presentations and talks"
+        - "Written archives"
+        - "Recent updates"
+      deliverable: "Comprehensive coverage achieved"
+
+  decision_rules:
+
+    when_to_skip_tier_3:
+      - "If timeline is constrained to < 2 weeks"
+      - "If tier 1+2 achieve 95% pattern recognition"
+      - "If testing shows sufficient authenticity"
+
+    when_to_prioritize_specific_sources:
+      use_case_wealth: "Focus on Almanack + How to Get Rich"
+      use_case_happiness: "Focus on Almanack + Tim Ferriss #473"
+      use_case_startups: "Focus on Venture Hacks + AngelList content"
+      use_case_philosophy: "Focus on Kapil Gupta + Periscope"
+
+  validation_checkpoints:
+
+    after_tier_1:
+      test: "Can we explain Naval's core framework?"
+      expected: "Yes - specific knowledge, leverage, judgment"
+      confidence_needed: 90
+
+    after_tier_2:
+      test: "Can we replicate Naval's voice and reasoning?"
+      expected: "Yes - socratic, non-prescriptive, principled"
+      confidence_needed: 85
+
+    after_tier_3:
+      test: "Can we handle edge cases and evolution?"
+      expected: "Yes - context-aware, temporally accurate"
+      confidence_needed: 80
+
+  risk_mitigation:
+
+    if_source_unavailable:
+      almanack: "CRITICAL - find alternative compilation"
+      podcasts: "Use transcripts if audio unavailable"
+      periscope: "Use available archives and summaries"
+      twitter: "Use archive.org and third-party compilations"
+
+    quality_assurance:
+      transcription_accuracy: "Verify quotes against multiple sources"
+      temporal_context: "Date-stamp all content"
+      contradiction_handling: "Document and explain evolution"
+
+  expected_outcomes:
+
+    after_tier_1:
+      patterns_captured: 50
+      authenticity_score: 85
+      knowledge_coverage: 80
+      time_invested: 20
+
+    after_tier_2:
+      patterns_captured: 80
+      authenticity_score: 92
+      knowledge_coverage: 92
+      time_invested: 50
+
+    after_tier_3:
+      patterns_captured: 100
+      authenticity_score: 95
+      knowledge_coverage: 98
+      time_invested: 80
+
+  final_recommendation:
+    minimum_viable: "Tier 1 only - 20 hours"
+    recommended: "Tier 1 + 2 - 50 hours"
+    comprehensive: "All tiers - 80 hours"
+    current_choice: "Tier 1 + 2 (based on PRD timeline)"

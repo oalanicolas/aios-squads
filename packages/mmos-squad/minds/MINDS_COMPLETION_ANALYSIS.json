@@ -1,0 +1,514 @@
+[
+  {
+    "mind_slug": "abilio_diniz",
+    "current_phase": 3,
+    "completion_percentage": 40,
+    "folders_present": [
+      "sources",
+      "analysis",
+      "system_prompts"
+    ],
+    "key_files_present": [],
+    "status": "Em Análise",
+    "file_count": 4,
+    "directory_size": "100K"
+  },
+  {
+    "mind_slug": "adriano_de_marqui",
+    "current_phase": 6,
+    "completion_percentage": 100,
+    "folders_present": [
+      "analysis",
+      "synthesis",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [
+      "frameworks.md",
+      "communication-style.md"
+    ],
+    "status": "Finalizado",
+    "file_count": 76,
+    "directory_size": "1.8M"
+  },
+  {
+    "mind_slug": "alan_nicolas",
+    "current_phase": 6,
+    "completion_percentage": 100,
+    "folders_present": [
+      "sources",
+      "analysis",
+      "synthesis",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [
+      "identity-core.yaml",
+      "cognitive-spec.yaml",
+      "frameworks.md",
+      "communication-style.md"
+    ],
+    "status": "Finalizado",
+    "file_count": 270,
+    "directory_size": "65M"
+  },
+  {
+    "mind_slug": "alex_hormozi",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 41,
+    "directory_size": "296K"
+  },
+  {
+    "mind_slug": "andrej_karpathy",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 9,
+    "directory_size": "128K"
+  },
+  {
+    "mind_slug": "brad_frost",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 6,
+    "directory_size": "104K"
+  },
+  {
+    "mind_slug": "dan_kennedy",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 74,
+    "directory_size": "127M"
+  },
+  {
+    "mind_slug": "dan_koe",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 272,
+    "directory_size": "16M"
+  },
+  {
+    "mind_slug": "daniel_kahneman",
+    "current_phase": 2,
+    "completion_percentage": 20,
+    "folders_present": [
+      "sources",
+      "system_prompts"
+    ],
+    "key_files_present": [],
+    "status": "Em Coleta",
+    "file_count": 19,
+    "directory_size": "280K"
+  },
+  {
+    "mind_slug": "elon_musk",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 32,
+    "directory_size": "528K"
+  },
+  {
+    "mind_slug": "eugene_schwartz",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 27,
+    "directory_size": "12M"
+  },
+  {
+    "mind_slug": "gary_vee",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 25,
+    "directory_size": "284K"
+  },
+  {
+    "mind_slug": "jesus_cristo",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 95,
+    "directory_size": "23M"
+  },
+  {
+    "mind_slug": "joao_lozano",
+    "current_phase": 6,
+    "completion_percentage": 100,
+    "folders_present": [
+      "sources",
+      "analysis",
+      "synthesis",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [
+      "identity-core.yaml",
+      "cognitive-spec.yaml",
+      "frameworks.md",
+      "communication-style.md"
+    ],
+    "status": "Finalizado",
+    "file_count": 24,
+    "directory_size": "428K"
+  },
+  {
+    "mind_slug": "jon_benson",
+    "current_phase": 2,
+    "completion_percentage": 20,
+    "folders_present": [
+      "sources"
+    ],
+    "key_files_present": [],
+    "status": "Em Coleta",
+    "file_count": 4,
+    "directory_size": "56K"
+  },
+  {
+    "mind_slug": "jose_amorim",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "analysis",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 49,
+    "directory_size": "880K"
+  },
+  {
+    "mind_slug": "kapil_gupta",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 40,
+    "directory_size": "21M"
+  },
+  {
+    "mind_slug": "leonardo_da_vinci",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 29,
+    "directory_size": "456K"
+  },
+  {
+    "mind_slug": "mark_manson",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 34,
+    "directory_size": "4.2M"
+  },
+  {
+    "mind_slug": "napoleon_hill",
+    "current_phase": 4,
+    "completion_percentage": 70,
+    "folders_present": [
+      "sources",
+      "analysis",
+      "synthesis",
+      "system_prompts"
+    ],
+    "key_files_present": [
+      "cognitive-spec.yaml"
+    ],
+    "status": "Em Síntese",
+    "file_count": 35,
+    "directory_size": "960K"
+  },
+  {
+    "mind_slug": "nassim_taleb",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 0,
+    "directory_size": "0B"
+  },
+  {
+    "mind_slug": "naval_ravikant",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 159,
+    "directory_size": "3.5M"
+  },
+  {
+    "mind_slug": "paul_graham",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 285,
+    "directory_size": "8.1M"
+  },
+  {
+    "mind_slug": "pedro_valerio",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 77,
+    "directory_size": "4.2M"
+  },
+  {
+    "mind_slug": "peter_thiel",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 22,
+    "directory_size": "220K"
+  },
+  {
+    "mind_slug": "ray_kurzweil",
+    "current_phase": 3,
+    "completion_percentage": 40,
+    "folders_present": [
+      "sources",
+      "analysis",
+      "system_prompts"
+    ],
+    "key_files_present": [
+      "cognitive-spec.yaml"
+    ],
+    "status": "Em Análise",
+    "file_count": 18,
+    "directory_size": "15M"
+  },
+  {
+    "mind_slug": "ricky_and_morty",
+    "current_phase": 1,
+    "completion_percentage": 5,
+    "folders_present": [
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Não Iniciado",
+    "file_count": 12,
+    "directory_size": "204K"
+  },
+  {
+    "mind_slug": "russel_brunson",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 9,
+    "directory_size": "48M"
+  },
+  {
+    "mind_slug": "sam_altman",
+    "current_phase": 6,
+    "completion_percentage": 100,
+    "folders_present": [
+      "sources",
+      "analysis",
+      "synthesis",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [
+      "cognitive-spec.yaml",
+      "frameworks.md"
+    ],
+    "status": "Finalizado",
+    "file_count": 79,
+    "directory_size": "2.1M"
+  },
+  {
+    "mind_slug": "seth_godin",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 190,
+    "directory_size": "12M"
+  },
+  {
+    "mind_slug": "steve_jobs",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 19,
+    "directory_size": "320K"
+  },
+  {
+    "mind_slug": "steven_pinker",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 15,
+    "directory_size": "432K"
+  },
+  {
+    "mind_slug": "tim_ferriss",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 6,
+    "directory_size": "64K"
+  },
+  {
+    "mind_slug": "walt_disney",
+    "current_phase": 5,
+    "completion_percentage": 85,
+    "folders_present": [
+      "sources",
+      "system_prompts",
+      "kb"
+    ],
+    "key_files_present": [],
+    "status": "Implementação",
+    "file_count": 13,
+    "directory_size": "100K"
+  },
+  {
+    "mind_slug": "yuval_harari",
+    "current_phase": 2,
+    "completion_percentage": 20,
+    "folders_present": [
+      "sources"
+    ],
+    "key_files_present": [],
+    "status": "Em Coleta",
+    "file_count": 18,
+    "directory_size": "428K"
+  }
+]

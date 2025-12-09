@@ -1,0 +1,229 @@
+# Communication Templates Output
+# Agent: synthesis-expert (Charlie)
+# Task: communication-templates-extraction
+# Version: 3.5.0
+# Methodology: Munger-Inspired Structural Pattern Extraction
+
+communication_templates:
+  metadata:
+    mind_path: "@{mind}"
+    analysis_date: ""
+    analyst: "synthesis-expert"
+    methodology: "Structural Pattern Extraction (Munger-Inspired 3-Phase)"
+    sources_analyzed: []
+    temporal_period: ""
+
+  methodology_summary:
+    phase_1: "Structural Pattern Hunting - Extract repeating architectures"
+    phase_2: "Situational Mapping - When does each template activate"
+    phase_3: "Psychological Basis - Why does this structure work"
+
+  templates:  # Minimum 5 distinct templates
+    - template_id: "tpl_01"
+      name: ""
+      category: ""  # explanation / persuasion / teaching / storytelling / challenge
+
+      structural_formula:
+        opening:
+          hook_pattern: ""
+          context_pattern: ""
+          positioning_statement: ""
+
+        body:
+          development_method: ""  # How ideas are developed
+          recursive_structure: ""  # What repeats
+          transitions: []  # How sections connect
+
+        closing:
+          synthesis_pattern: ""
+          action_prompt: ""
+
+      situational_activation:
+        deploys_when:
+          audience_type: ""  # Expert/Novice, Friendly/Hostile, Technical/General
+          goal: ""  # Persuade/Teach/Entertain/Challenge
+          medium: ""  # Written/Verbal, Formal/Casual, Long-form/Short-form
+          constraints: []  # Time limits, complexity caps, formality requirements
+          stakes: ""  # High/Medium/Low
+
+        does_not_use_when:
+          anti_patterns: []  # Situations to avoid this template
+          reasons: []  # Why it would fail
+          alternative_template: ""  # What to use instead
+
+      linguistic_fingerprints:
+        signature_phrases:
+          opening_markers: []  # Typical opening phrases
+          transition_phrases: []  # How ideas connect
+          emphasis_markers: []  # Words used for important points
+          closing_signatures: []  # Typical wrap-up phrases
+
+        vocabulary_patterns:
+          preferred_terms: []  # Words/concepts frequently used
+          avoided_terms: []  # What's deliberately not used
+          metaphor_types: []  # Preferred analogies
+
+        syntactic_patterns:
+          sentence_structures: []  # Typical grammatical patterns
+          paragraph_rhythm: ""  # Long/short variation pattern
+          punctuation_style: ""  # Em-dashes, semicolons, etc.
+
+      psychological_mechanism:
+        cognitive_principles:
+          - principle: ""  # e.g., "Progressive disclosure"
+            how_it_works: ""
+
+        engagement_mechanisms:
+          - mechanism: ""  # e.g., "Curiosity gap"
+            effect: ""
+
+        memory_principles:
+          - principle: ""  # e.g., "Chunking"
+            application: ""
+
+        emotional_resonance:
+          - element: ""  # What creates connection
+            trigger: ""
+
+      evidence_base:
+        pattern_frequency: ""  # How often used (constant/high/medium)
+        documented_uses: 0  # Minimum 5 required
+
+        instances:
+          - date: ""
+            context: ""
+            example: ""
+            outcome: ""  # What happened / How effective
+
+          - date: ""
+            context: ""
+            example: ""
+            outcome: ""
+
+          - date: ""
+            context: ""
+            example: ""
+            outcome: ""
+
+        cross_context_validation:
+          contexts_tested: []  # Different situations where pattern appears
+          consistency_score: 0.0  # 0-1.0 (how consistent across contexts)
+          adaptations_observed: []  # How template modified per context
+
+      effectiveness_analysis:
+        documented_outcomes:
+          - metric: ""  # e.g., "Audience engagement"
+            measurement: ""
+            result: ""
+
+        success_rate: 0.0  # 0-1.0
+        failure_modes: []  # When this template didn't work
+        optimal_conditions: []  # When it works best
+
+      template_variations:
+        - variation_name: ""
+          difference: ""  # How it differs from base template
+          when_used: ""
+          effectiveness: ""
+
+  template_interaction_map:
+    sequential_templates:  # Which templates typically follow which
+      - from_template: ""
+        to_template: ""
+        transition_pattern: ""
+
+    complementary_pairs:  # Templates that work well together
+      - template_a: ""
+        template_b: ""
+        synergy: ""
+
+    conflicting_templates:  # Templates that shouldn't be mixed
+      - template_x: ""
+        template_y: ""
+        conflict_reason: ""
+
+  meta_analysis:
+    template_statistics:
+      total_templates: 0
+      by_category:
+        explanation: 0
+        persuasion: 0
+        teaching: 0
+        storytelling: 0
+        challenge: 0
+
+      average_evidence_per_template: 0.0
+      cross_context_validated: 0
+
+    dominant_communication_styles:
+      - style: ""
+        template_count: 0
+        insight: ""  # What this dominance reveals about mind
+
+    audience_adaptation_map:
+      - audience_type: ""
+        preferred_templates: []
+        adaptation_patterns: []
+
+    medium_optimization:
+      - medium: ""  # Written/Verbal/Formal/Casual
+        optimized_templates: []
+        structural_adaptations: ""
+
+    situational_flexibility:
+      high_stakes_templates: []  # Templates for important situations
+      low_stakes_templates: []  # Templates for casual situations
+      universal_templates: []  # Templates that work everywhere
+
+    psychological_sophistication:
+      cognitive_load_management: ""  # How well templates manage complexity
+      attention_design: ""  # How templates maintain engagement
+      memory_optimization: ""  # How templates aid retention
+      emotional_intelligence: ""  # How templates create connection
+
+  munger_quality_metrics:
+    pattern_frequency_score: 0.0  # Average uses per template
+    cross_context_breadth: 0.0  # Average contexts per template
+    psychological_rigor: 0.0  # How many have documented mechanisms
+    boundary_clarity: 0.0  # How many have clear anti-patterns
+    predictive_power: 0.0  # Can we anticipate usage in new contexts
+
+  cognitive_signature:
+    dominant_communication_architecture: ""
+    template_selection_logic: ""  # How does mind choose which template
+    adaptation_style: ""  # Rigid templates vs flexible frameworks
+    audience_sensitivity: ""  # How much templates change per audience
+    medium_fluency: ""  # Cross-medium template effectiveness
+
+  validation_report:
+    munger_gates_passed:
+      - gate: "Pattern Frequency (5+ uses)"
+        status: ""  # PASS / FAIL
+      - gate: "Cross-Context Validation"
+        status: ""
+      - gate: "Psychological Basis Documented"
+        status: ""
+      - gate: "Boundary Conditions Defined"
+        status: ""
+      - gate: "Predictive Power Demonstrated"
+        status: ""
+
+    quality_issues: []
+    areas_for_deeper_analysis: []
+    confidence_score: 0.0  # 0-1.0
+
+  recommendations:
+    specialist_variants:  # Which specialist prompts benefit from these templates
+      - specialist: ""
+        templates_to_emphasize: []
+        reason: ""
+
+    template_development:  # Templates partially formed needing more data
+      - emerging_template: ""
+        current_evidence: ""
+        needed_validation: ""
+
+    communication_architecture_design:  # How to structure communication based on templates
+      foundational_templates: []  # Most fundamental patterns
+      situational_templates: []  # Context-specific patterns
+      advanced_templates: []  # Complex synthesis patterns

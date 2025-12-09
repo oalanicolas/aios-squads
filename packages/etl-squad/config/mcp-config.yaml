@@ -1,0 +1,218 @@
+# ETL Data Collector - MCP Configuration
+# Model Context Protocol integration for AI-powered data collection
+
+version: 1.0.0
+
+# MCP Server Registry
+mcps:
+  # AssemblyAI - Primary transcription service with speaker diarization
+  assemblyai:
+    enabled: true
+    priority: required            # Fail if not available
+    type: python
+    server: assemblyai-mcp
+
+    # How to start the MCP server
+    command: "python scripts/mcps/assemblyai-mcp-server.py"
+    # Alternative: Use pre-built MCP if available
+    # command: "uvx mcp-server-assemblyai"
+
+    features:
+      speaker_diarization: true   # ⭐ Key feature - identify speakers
+      auto_chapters: true         # Automatic chapter detection
+      sentiment_analysis: false   # Optional, not needed for cloning
+      entity_detection: true      # Detect names, organizations, etc
+      auto_highlights: false      # Not needed
+      content_moderation: false   # Not needed
+
+    config:
+      api_key_env: ASSEMBLYAI_API_KEY
+      language_code: en           # Default language
+      supported_languages:
+        - en                      # English
+        - pt                      # Portuguese
+        - es                      # Spanish
+        - fr                      # French
+
+      # Diarization settings
+      speakers_expected: 2        # Default for interviews
+      speaker_labels: true
+
+      # Quality settings
+      audio_start_from: 0
+      audio_end_at: null
+      format_text: true           # Auto-format transcript
+      filter_profanity: false     # Don't censor
+      redact_pii: false          # Don't redact personal info
+
+      # Output format
+      output_format: json         # Return as JSON with utterances
+      include_timestamps: true
+
+    # Heuristics for identifying target speaker
+    target_speaker_detection:
+      method: auto                # or 'manual' if specified in source
+
+      auto_rules:
+        # Rules to identify which speaker is the interviewee (target)
+        - name: most_speech_time
+          description: "Speaker who talks the most (usually interviewee)"
+          weight: 0.4
+
+        - name: longest_utterances
+          description: "Speaker with longer individual responses"
+          weight: 0.3
+
+        - name: second_speaker
+          description: "Speaker who speaks second (interviewer usually asks first)"
+          weight: 0.2
+
+        - name: response_pattern
+          description: "Speaker who responds vs asks questions"
+          weight: 0.1
+
+      # Manual override via sources.yaml
+      manual_override_field: target_speaker  # Field name in source config
+
+    # Cost management
+    pricing:
+      per_hour_audio: 0.65        # USD per hour (AssemblyAI pricing)
+      estimate_before_transcribe: true
+      warn_if_cost_exceeds: 10.0  # Warn if single file > $10
+
+    # Error handling
+    retry:
+      max_attempts: 3
+      backoff_seconds: 10
+      timeout_seconds: 3600       # 1 hour max per transcription
+
+  # YouTube Transcript API - Fallback for transcription
+  youtube-transcript:
+    enabled: true
+    priority: optional            # Fallback if AssemblyAI fails or too expensive
+    type: python
+    server: youtube-transcript-mcp
+    command: "python scripts/mcps/youtube-transcript-mcp-server.py"
+
+    features:
+      fetch_captions: true
+      multiple_languages: true
+      auto_generated: true        # Use auto-generated captions if manual unavailable
+
+    config:
+      prefer_manual: true         # Prefer manual captions over auto-generated
+      languages: [en, pt, es]
+      format: json
+
+    limitations:
+      no_speaker_diarization: true  # ⚠️ Cannot identify speakers
+      quality_lower: true          # Auto-generated captions less accurate
+
+  # PDF Reader MCP - For PDF text extraction
+  pdf-reader:
+    enabled: true
+    priority: optional
+    type: node
+    server: pdf-reader-mcp
+    command: "npx -y @modelcontextprotocol/server-pdf"
+
+    features:
+      extract_text: true
+      extract_metadata: true
+      ocr_support: false          # Use Tesseract separately for OCR
+
+    config:
+      max_pages: 1000
+      preserve_formatting: true
+
+  # Web Fetch MCP - For web scraping
+  web-fetch:
+    enabled: true
+    priority: optional            # Fallback to axios/cheerio
+    type: python
+    server: fetch-mcp
+    command: "uvx mcp-server-fetch"
+
+    features:
+      robots_txt_respect: true
+      rate_limiting: true
+      user_agent_rotation: true
+
+    config:
+      timeout: 30
+      max_redirects: 5
+      verify_ssl: true
+
+  # Apify MCP - Managed actors for social scraping
+  apify:
+    enabled: true
+    priority: optional
+    type: node
+    server: apify-mcp
+    command: "npx -y @apify/mcp-server"
+
+    features:
+      run_actor: true
+      datasets: true
+
+    config:
+      api_token_env: APIFY_TOKEN
+      default_timeout: 300
+      default_actor: apify/twitter-scraper
+
+  # Brave Search MCP - For discovering content
+  brave-search:
+    enabled: false                # Optional, not core functionality
+    priority: optional
+    type: node
+    server: brave-search-mcp
+    command: "npx -y @modelcontextprotocol/server-brave-search"
+
+    config:
+      api_key_env: BRAVE_SEARCH_API_KEY
+      max_results: 10
+
+# MCP Client Configuration
+client:
+  connection:
+    protocol: stdio               # Standard I/O communication
+    timeout_seconds: 300          # 5 minute timeout
+    max_concurrent: 5             # Max 5 MCPs running concurrently
+
+  fallback_strategy:
+    # If MCP fails, try these alternatives in order:
+    assemblyai:
+      - youtube-transcript        # Try YouTube captions
+      - none                      # Skip transcription
+
+    pdf-reader:
+      - direct_library           # Use pdf-parse Node.js library
+
+    web-fetch:
+      - direct_library           # Use axios + cheerio
+
+    apify:
+      - web-fetch
+      - direct_library
+
+  logging:
+    level: INFO
+    log_mcp_requests: true
+    log_mcp_responses: false     # Don't log full responses (too verbose)
+    log_errors: true
+
+# Environment variables required
+environment:
+  required:
+    - ASSEMBLYAI_API_KEY         # Required for transcription
+
+  optional:
+    - BRAVE_SEARCH_API_KEY       # For content discovery
+    - OPENAI_API_KEY             # If using OpenAI for any processing
+
+# Health checks
+health:
+  check_on_startup: true
+  check_interval_minutes: 30
+  auto_restart_on_failure: true
+  max_restart_attempts: 3

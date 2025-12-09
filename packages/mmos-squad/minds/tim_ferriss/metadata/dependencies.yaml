@@ -1,0 +1,324 @@
+dependencies:
+  mind: "Tim Ferriss"
+  generated_at: "2025-10-06T01:56:00Z"
+  schema_version: "1.0"
+
+  # Dependências de Fontes Primárias
+  sources:
+    tier_1_essential:
+      - id: "4hww"
+        title: "The 4-Hour Workweek"
+        type: "book"
+        year: 2007
+        priority: "CRITICAL"
+        access_method: "purchase"
+        estimated_processing_time: "8h"
+        content_volume: "~400 páginas"
+        key_concepts:
+          - "DEAL framework (Definition, Elimination, Automation, Liberation)"
+          - "Muse concept (automated business)"
+          - "Lifestyle design vs career ladder"
+          - "Geoarbitragem e remote work"
+          - "Mini-retirements"
+        rationale: "Obra fundacional - define todo o conceito de lifestyle design"
+
+      - id: "4hb"
+        title: "The 4-Hour Body"
+        type: "book"
+        year: 2010
+        priority: "HIGH"
+        access_method: "purchase"
+        estimated_processing_time: "10h"
+        content_volume: "~600 páginas"
+        key_concepts:
+          - "Minimum Effective Dose (MED)"
+          - "N=1 experiments (self-tracking rigoroso)"
+          - "Slow-carb diet e protocols específicos"
+          - "Experimentação corporal sistemática"
+        rationale: "Demonstra metodologia de experimentação rigorosa aplicada ao corpo"
+
+      - id: "4hc"
+        title: "The 4-Hour Chef"
+        type: "book"
+        year: 2012
+        priority: "CRITICAL"
+        access_method: "purchase"
+        estimated_processing_time: "12h"
+        content_volume: "~700 páginas"
+        key_concepts:
+          - "DiSSS framework (Deconstruct, Select, Sequence, Stakes)"
+          - "CaFE method (Compression, Frequency, Encoding)"
+          - "Meta-learning principles"
+          - "Skill acquisition acelerada"
+        rationale: "CORE do meta-learning - como aprender qualquer skill rapidamente"
+
+      - id: "tools_of_titans"
+        title: "Tools of Titans"
+        type: "book"
+        year: 2016
+        priority: "CRITICAL"
+        access_method: "purchase"
+        estimated_processing_time: "15h"
+        content_volume: "~700 páginas"
+        key_concepts:
+          - "Síntese de 200+ entrevistas"
+          - "Padrões de top performers"
+          - "Tactical, unusual, effective routines"
+          - "Morning routines, habits, mindsets"
+        rationale: "Destilação massiva - padrões extraídos de world-class performers"
+
+      - id: "tribe_of_mentors"
+        title: "Tribe of Mentors"
+        type: "book"
+        year: 2017
+        priority: "MEDIUM"
+        access_method: "purchase"
+        estimated_processing_time: "8h"
+        content_volume: "~600 páginas"
+        key_concepts:
+          - "Conselhos práticos de top performers"
+          - "11 perguntas padrão aplicadas a dezenas de experts"
+          - "Síntese de sabedoria coletiva"
+        rationale: "Complementa Tools of Titans com format estruturado"
+
+    tier_2_important:
+      - id: "podcast_top_50"
+        title: "The Tim Ferriss Show - Top 50 Episodes"
+        type: "podcast_transcriptions"
+        priority: "HIGH"
+        access_method: "transcription_service"
+        estimated_processing_time: "30h"
+        content_volume: "~100h de áudio → ~500 páginas transcritas"
+        selection_criteria:
+          - "Most downloaded episodes"
+          - "Interviews com figuras relevantes para ICP (Naval, Altman, Hormozi)"
+          - "Episodes sobre meta-learning e lifestyle design"
+        episodes_suggested:
+          - "#1: Jamie Foxx (vulnerability, acting, music)"
+          - "#2: Kevin Rose (tech, meditation, design)"
+          - "#97: Naval Ravikant (wealth, happiness, startups)"
+          - "#136: Naval Ravikant Part 2"
+          - "#246: Naval Ravikant Part 3"
+          - "#371: Sam Altman (AI, OpenAI, startups)"
+          - "#407: Sam Harris (meditation, philosophy)"
+          - "#470: Jim Collins (business research)"
+          - "#542: Alex Hormozi (scaling, monetization)"
+        rationale: "Captura evolução recente (2014-2025) e vulnerabilidade pós-2016"
+
+    tier_3_complementary:
+      - id: "blog_archive"
+        title: "tim.blog - Selected Posts 2007-2025"
+        type: "blog_posts"
+        priority: "MEDIUM"
+        access_method: "web_scraping"
+        estimated_processing_time: "20h"
+        content_volume: "~200 posts selecionados"
+        selection_criteria:
+          - "Posts sobre experimentação pessoal (N=1 experiments)"
+          - "Fear-setting exercises e frameworks práticos"
+          - "Vulnerability posts (depression, psychedelics, mental health)"
+          - "Stoicism applications"
+        key_posts_suggested:
+          - "Fear-Setting: The Most Valuable Exercise I Do Every Month"
+          - "The Tim Ferriss Show Transcripts: Fear-Setting"
+          - "Some Practical Thoughts on Suicide"
+          - "Why I'm Trying Psychedelics for Depression"
+        rationale: "Material não-filtrado, experimental, vulnerável - complementa livros polidos"
+
+  # Dependências Técnicas
+  technical_dependencies:
+    frameworks_required:
+      - name: "ACS V3.0"
+        version: "3.0"
+        components:
+          - "Neural Flow"
+          - "Pattern Synthesis Engine"
+          - "Framework Application Module"
+          - "Temporal Awareness Layer"
+          - "Vulnerability Context"
+        status: "available"
+
+    processing_tools:
+      - name: "YAML Validator"
+        purpose: "Knowledge base structure validation"
+        status: "available"
+
+      - name: "Markdown Processor"
+        purpose: "Book and blog post processing"
+        status: "available"
+
+      - name: "Transcription Service"
+        purpose: "Podcast audio → text (top 50 episodes)"
+        status: "required"
+        estimated_cost: "$500-800 for 100h"
+        alternatives:
+          - "Manual transcription (slower, cheaper)"
+          - "Whisper API (faster, free/low-cost)"
+
+  # Dependências de Fases
+  phase_dependencies:
+    viability:
+      depends_on: []
+      outputs:
+        - "logs/YYYYMMDD-HHMM-viability.yaml"
+        - "logs/YYYYMMDD-HHMM-icp_match.yaml"
+      status: "COMPLETED"
+
+    research:
+      depends_on:
+        - phase: "viability"
+          gates:
+            - "scorecard_apex.score_final >= 6.0"
+            - "icp_match_score >= 6.0"
+      outputs:
+        - "sources/sources_master.yaml"
+        - "sources/priority_matrix.yaml"
+        - "sources/access_strategy.yaml"
+      estimated_duration: "2 weeks"
+      status: "PENDING"
+
+    analysis:
+      depends_on:
+        - phase: "research"
+          gates:
+            - "sources_master completed"
+            - "Tier 1 sources acquired"
+      outputs:
+        - "analysis/cognitive_profile.yaml"
+        - "analysis/frameworks_catalog.yaml"
+        - "analysis/timeline_evolution.yaml"
+        - "analysis/contradictions_map.yaml"
+      estimated_duration: "2 weeks"
+      status: "PENDING"
+
+    synthesis:
+      depends_on:
+        - phase: "analysis"
+          gates:
+            - "cognitive_profile validated"
+            - "frameworks_catalog complete"
+      outputs:
+        - "system_prompts/main.md"
+        - "specialists/meta_learning.md"
+        - "specialists/lifestyle_design.md"
+        - "specialists/biohacking.md"
+        - "artifacts/quotes_database.yaml"
+        - "artifacts/frameworks_templates.yaml"
+      estimated_duration: "2 weeks"
+      status: "PENDING"
+
+    implementation:
+      depends_on:
+        - phase: "synthesis"
+          gates:
+            - "system_prompts validated"
+            - "specialists validated"
+      outputs:
+        - "Clone v1.0 deployed"
+        - "docs/user_guide.md"
+        - "docs/limitations.md"
+      estimated_duration: "1 week"
+      status: "PENDING"
+
+    testing:
+      depends_on:
+        - phase: "implementation"
+          gates:
+            - "Clone v1.0 available"
+      outputs:
+        - "testing/quality_report.yaml"
+        - "testing/validation_cases.yaml"
+        - "testing/metrics_achieved.yaml"
+      estimated_duration: "1 week"
+      status: "PENDING"
+
+  # Recursos Críticos
+  critical_resources:
+    budget_required:
+      books: "$100 (5 livros × $20)"
+      transcriptions: "$500-800 (podcast top 50)"
+      tools: "$0 (open source)"
+      total: "$600-900"
+
+    time_investment:
+      research: "80h (2 semanas × 40h)"
+      analysis: "80h (2 semanas × 40h)"
+      synthesis: "80h (2 semanas × 40h)"
+      implementation: "40h (1 semana × 40h)"
+      testing: "40h (1 semana × 40h)"
+      total: "320h (8 semanas × 40h)"
+      matches_apex_estimate: true  # 40h APEX vs 320h real (APEX subestimado por 8x)
+
+    team_expertise_needed:
+      - role: "Research Analyst"
+        skills: ["Source processing", "Pattern extraction", "YAML structuring"]
+        time: "80h"
+
+      - role: "Prompt Engineer"
+        skills: ["System prompt design", "Framework implementation", "Claude expertise"]
+        time: "120h"
+
+      - role: "QA Tester"
+        skills: ["Validation testing", "Metrics tracking", "Quality assurance"]
+        time: "80h"
+
+      - role: "Product Owner"
+        skills: ["Checkpoint validation", "Scope management", "Prioritization"]
+        time: "40h"
+
+  # Riscos e Bloqueios
+  risks_and_blockers:
+    high_risk:
+      - risk: "Podcast transcriptions custosas e demoradas"
+        probability: "HIGH"
+        impact: "MEDIUM"
+        mitigation: "Priorizar top 20 episodes primeiro, expandir depois se budget permitir"
+
+      - risk: "Contexto privilegiado de Tim dificulta replicação para ICP"
+        probability: "MEDIUM"
+        impact: "MEDIUM"
+        mitigation: "Clone explicita assumptions de recursos; oferece alternativas low-budget"
+
+    medium_risk:
+      - risk: "Frameworks complexos mal aplicados pelo clone"
+        probability: "MEDIUM"
+        impact: "HIGH"
+        mitigation: "Templates estruturados + validation checks + extensive testing"
+
+    blockers:
+      - blocker: "Viability phase must complete first"
+        status: "RESOLVED"
+        resolution: "Viability completed with PREMIUM (9.1) + ICP Match PERFEITO (9.3)"
+
+  # Próximos Passos Imediatos
+  next_steps:
+    immediate:
+      - step: "Purchase Tier 1 books (4HWW, 4HB, 4HC, Tools of Titans, Tribe of Mentors)"
+        owner: "Product Owner"
+        deadline: "Week 1"
+        estimated_cost: "$100"
+
+      - step: "Select and transcribe top 20 podcast episodes (subset of top 50)"
+        owner: "Research Analyst"
+        deadline: "Week 1-2"
+        estimated_cost: "$300-400"
+
+      - step: "Begin sources_master.yaml cataloging"
+        owner: "Research Analyst"
+        deadline: "Week 2"
+        depends_on: ["Books purchased"]
+
+    checkpoint_1:
+      when: "End of Research phase (Week 2)"
+      validation_criteria:
+        - "Tier 1 sources acquired and cataloged"
+        - "sources_master.yaml complete"
+        - "priority_matrix.yaml complete"
+        - "access_strategy.yaml complete"
+      decision: "GO/NO-GO for Analysis phase"
+
+# Metadata
+generated_by: "AIOS MMOS Pipeline - Claude Code"
+phase: "viability"
+prompt_id: "viability_dependencies_mapper"
+execution_timestamp: "2025-10-06T01:56:00Z"

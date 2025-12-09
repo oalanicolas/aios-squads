@@ -1,0 +1,775 @@
+sources_master:
+  mind_name: Jon Benson
+  use_case: "AI Copywriter: VSL Expert & Ethical Persuasion Architect"
+  compilation_date: 2025-10-09
+  version: 1.0
+  total_sources: 38
+  collection_status: READY_FOR_COLLECTION
+
+  metadata:
+    viability_score: 95
+    icp_score: 85
+    apex_score: 95
+    final_score: 91
+    collection_mode: parallel
+    estimated_time_hours: 12-16 (Batch 1), 20-25 (Batch 2)
+    critical_focus: "5-Step VSL Formula + NLP + Ethical Persuasion + AI Integration"
+
+  sources_by_tier:
+    tier_1_critical:
+      count: 10
+      description: "Must-have for VSL + NLP frameworks"
+      priority: 1
+      batch: 1
+
+    tier_2_important:
+      count: 15
+      description: "Deep content for psychology + AI integration"
+      priority: 2-3
+      batch: 2
+
+    tier_3_supplementary:
+      count: 13
+      description: "Social media, additional validation"
+      priority: 4
+      batch: 3 (conditional)
+
+  ## TIER 1 SOURCES (CRITICAL - BATCH 1)
+
+  tier_1_sources:
+    - id: source_001
+      title: "I Love Marketing Podcast #44 - The One with Jon Benson (Video Sales Letters)"
+      type: interview
+      tier: 1
+      publication_date: "2011-12"
+      length: "60m"
+      url: "https://ilovemarketing.com/episode-44the-one-with-jon-benson-video-sales-letters/"
+      access: "Public (podcast)"
+      format: "Audio + transcript available"
+      target_path: "interviews/ilovemarketing_44_2011.txt"
+      frameworks: "VSL foundation, early methodology"
+      collection_priority: 1
+      estimated_time: "Transcript extraction (45 min)"
+      notes: "FOUNDATION - Original VSL invention story, methodology"
+      status: PENDING
+
+    - id: source_002
+      title: "I Love Marketing Podcast #122 - Jon Benson Interview on Video Sales Letters and The 3X Formula"
+      type: interview
+      publication_date: "2013-06"
+      length: "60m"
+      url: "https://ilovemarketing.com/jon-benson-interview-on-video-sales-letters-and-the-3x-formula/"
+      access: "Public (podcast)"
+      format: "Audio + transcript"
+      target_path: "interviews/ilovemarketing_122_2013.txt"
+      frameworks: "3X Formula, VSL evolution"
+      collection_priority: 1
+      estimated_time: "Transcript extraction (45 min)"
+      notes: "CRITICAL - 3X Formula introduced"
+      status: PENDING
+
+    - id: source_003
+      title: "DigitalMarketer Podcast - Creating Persuasive, Promptless AI-Driven Copy with Jon Benson"
+      type: interview
+      publication_date: "2024"
+      length: "45-60m"
+      url: "https://irepod.com/podcast/the-digitalmarketer-podcast/creating-persuasive-promptless-ai-driven-copy-with"
+      access: "Public (podcast)"
+      format: "Audio + transcript"
+      target_path: "interviews/digitalmarketer_2024.txt"
+      frameworks: "BNSN.AI, Promptless™ technology, AI + copywriting"
+      collection_priority: 1
+      estimated_time: "Transcript extraction (45 min)"
+      notes: "MOST RECENT - AI integration philosophy (2024)"
+      status: PENDING
+
+    - id: source_004
+      title: "EasyWebinar - Billion Dollar Copywriting Secrets with Jon Benson"
+      type: interview
+      publication_date: "2020"
+      length: "60m"
+      url: "https://easywebinar.com/billion-dollar-copywriting-secrets-with-jon-benson/"
+      access: "Public (YouTube)"
+      format: "Video + notes"
+      target_path: "interviews/easywebinar_2020.txt"
+      frameworks: "Copywriting secrets, billion-dollar techniques"
+      collection_priority: 1
+      estimated_time: "Transcript extraction (60 min)"
+      notes: "High-value frameworks, tactical"
+      status: PENDING
+
+    - id: source_005
+      title: "Project Life Mastery - Mastering Copywriting: How To Turn Your Words Into Cash"
+      type: interview
+      publication_date: "2018"
+      length: "60m"
+      url: "https://projectlifemastery.com/jon-benson/"
+      access: "Public (YouTube/podcast)"
+      format: "Video + transcript"
+      target_path: "interviews/project_life_mastery_2018.txt"
+      frameworks: "Copywriting fundamentals, mindset"
+      collection_priority: 1
+      estimated_time: "Transcript extraction (60 min)"
+      notes: "Fundamentals + personal story"
+      status: PENDING
+
+    - id: source_006
+      title: "jonbenson.com - About Page (Biography)"
+      type: article
+      publication_date: "2024"
+      url: "https://jonbenson.com/about/"
+      access: "Public"
+      format: "Web page"
+      target_path: "articles/jonbenson_about_2024.txt"
+      frameworks: "Personal story, VSL invention, philosophy"
+      collection_priority: 1
+      estimated_time: "Scraping + extraction (15 min)"
+      notes: "FOUNDATION - Official biography, core story"
+      status: PENDING
+
+    - id: source_007
+      title: "jonbenson.com - Blog/Articles Archive"
+      type: article
+      publication_date: "2020-2024"
+      url: "https://jonbenson.com/blog/"
+      access: "Public"
+      format: "Multiple blog posts"
+      target_path: "articles/jonbenson_blog_archive.txt"
+      frameworks: "Various copywriting + AI topics"
+      collection_priority: 1
+      estimated_time: "Scraping 10-15 key posts (2 hours)"
+      notes: "Educational content, writing style"
+      status: PENDING
+
+    - id: source_008
+      title: "nowvsl.com - VSL Home Page & Resources"
+      type: resource
+      publication_date: "2024"
+      url: "https://nowvsl.com/vsl-home/"
+      access: "Public"
+      format: "Web pages + resources"
+      target_path: "resources/nowvsl_templates.txt"
+      frameworks: "VSL templates, structure"
+      collection_priority: 1
+      estimated_time: "Scraping + extraction (30 min)"
+      notes: "VSL framework showcase"
+      status: PENDING
+
+    - id: source_009
+      title: "Facebook - How To Make Your VSL Go Viral Video"
+      type: video
+      publication_date: "2020"
+      url: "https://www.facebook.com/itsjonbenson/videos/how-to-make-your-vsl-video-sales-letter-go-viral/1465470740219563/"
+      access: "Public (Facebook)"
+      format: "Video + transcript"
+      target_path: "videos/facebook_vsl_viral_2020.txt"
+      frameworks: "Viral VSL, NLP tactics"
+      collection_priority: 1
+      estimated_time: "Transcript extraction (30 min)"
+      notes: "Viral mechanics, NLP"
+      status: PENDING
+
+    - id: source_010
+      title: "YouTube - How To Write A Video Sales Letter That ACTUALLY Sells"
+      type: video
+      publication_date: "2019"
+      url: "https://ytscribe.com/v/X27bOuUgWNM"
+      access: "Public (YouTube + full transcript)"
+      format: "Video + full transcript"
+      target_path: "videos/youtube_vsl_sells_2019.txt"
+      frameworks: "5-Step VSL Formula walkthrough"
+      collection_priority: 1
+      estimated_time: "Transcript download (15 min)"
+      notes: "CRITICAL - Full 5-Step Formula explained"
+      status: PENDING
+
+  ## TIER 2 SOURCES (IMPORTANT - BATCH 2)
+
+  tier_2_high_priority:
+    - id: source_011
+      title: "bnsn.ai - Website & Product Pages"
+      type: resource
+      publication_date: "2024"
+      url: "https://bnsn.ai/"
+      access: "Public"
+      format: "Web pages"
+      target_path: "resources/bnsn_ai_website.txt"
+      frameworks: "Promptless™ AI, Buyers Blueprint"
+      collection_priority: 2
+      estimated_time: "Scraping (30 min)"
+      notes: "AI product philosophy"
+      status: PENDING
+
+    - id: source_012
+      title: "Warrior Forum - The Ultimate Video Sales Letter Guide"
+      type: article
+      publication_date: "2015"
+      url: "https://www.warriorforum.com/copywriting/1134304-ultimate-video-sales-letter-guide.html"
+      access: "Public (forum)"
+      format: "Long-form guide"
+      target_path: "articles/warrior_forum_vsl_guide_2015.txt"
+      frameworks: "Comprehensive VSL guide"
+      collection_priority: 2
+      estimated_time: "Scraping + extraction (45 min)"
+      notes: "Detailed tactical guide"
+      status: PENDING
+
+    - id: source_013
+      title: "jeremymac.com - How to Write a Video Sales Letter That Converts (In Just 10 Minutes)"
+      type: article
+      publication_date: "2023"
+      url: "https://www.jeremymac.com/blogs/news/how-to-write-video-sales-letter-scripts-that-convert-in-10-minutes-ultimate-beginners-guide"
+      access: "Public"
+      format: "Tutorial article"
+      target_path: "articles/jeremymac_vsl_guide_2023.txt"
+      frameworks: "Simplified VSL approach"
+      collection_priority: 2
+      estimated_time: "Scraping (20 min)"
+      notes: "Third-party analysis of Jon's methods"
+      status: PENDING
+
+    - id: source_014
+      title: "Drop Dead Copy - AI Copywriting Secrets Volume 2"
+      type: article
+      publication_date: "2025-06"
+      url: "https://www.dropdeadcopy.com/ai-june-2025/"
+      access: "Public"
+      format: "Article"
+      target_path: "articles/dropdeadcopy_ai_2025.txt"
+      frameworks: "Latest AI + copywriting thinking"
+      collection_priority: 2
+      estimated_time: "Scraping (15 min)"
+      notes: "Most recent AI methodology (June 2025)"
+      status: PENDING
+
+    - id: source_015
+      title: "FindFocus - Jon Benson's Book Builder Review (2025)"
+      type: review
+      publication_date: "2025"
+      url: "https://findfocus.net/book-builder-review/"
+      access: "Public"
+      format: "Product review"
+      target_path: "reviews/findfocus_book_builder_2025.txt"
+      frameworks: "Book Builder product, methodology"
+      collection_priority: 2
+      estimated_time: "Scraping (20 min)"
+      notes: "Latest product + philosophy"
+      status: PENDING
+
+    - id: source_016
+      title: "FindFocus - BNSN AI Review"
+      type: review
+      publication_date: "2024"
+      url: "https://findfocus.net/bnsn-review"
+      access: "Public"
+      format: "Product review"
+      target_path: "reviews/findfocus_bnsn_2024.txt"
+      frameworks: "BNSN.AI deep dive"
+      collection_priority: 2
+      estimated_time: "Scraping (20 min)"
+      notes: "Third-party analysis of BNSN"
+      status: PENDING
+
+    - id: source_017
+      title: "Insider Deal - BNSN AI Review: Is It the Best AI Copywriting Tool?"
+      type: review
+      publication_date: "2024"
+      url: "https://insider-deal.com/bnsn-ai-review/"
+      access: "Public"
+      format: "Product review"
+      target_path: "reviews/insider_deal_bnsn_2024.txt"
+      frameworks: "BNSN.AI competitive analysis"
+      collection_priority: 2
+      estimated_time: "Scraping (20 min)"
+      notes: "Competitive positioning"
+      status: PENDING
+
+    - id: source_018
+      title: "LinkedIn - Jon Benson Profile & Posts"
+      type: social_media
+      publication_date: "2020-2024"
+      url: "https://www.linkedin.com/in/jonbenson/"
+      access: "Public"
+      format: "Profile + posts"
+      target_path: "social/linkedin_posts_2020_2024.txt"
+      frameworks: "Thought leadership, recent thinking"
+      collection_priority: 2
+      estimated_time: "Scraping 20-30 posts (1 hour)"
+      notes: "Professional voice, latest updates"
+      status: PENDING
+
+    - id: source_019
+      title: "Instagram - @itsjonbenson Posts"
+      type: social_media
+      publication_date: "2020-2024"
+      url: "https://www.instagram.com/itsjonbenson/"
+      access: "Public"
+      format: "Posts + captions"
+      target_path: "social/instagram_posts_2020_2024.txt"
+      frameworks: "Personal brand, engagement style"
+      collection_priority: 3
+      estimated_time: "Scraping 30-50 posts (1 hour)"
+      notes: "Visual content, captions"
+      status: PENDING
+
+    - id: source_020
+      title: "Blog Davi Arbelo - Jon Benson, o criador da VSL (Portuguese)"
+      type: article
+      publication_date: "2023"
+      url: "https://blog.daviarbelo.online/en/jon-benson-o-criador-da-vsl-conheca-o-passo-a-passo-para-escrever-seu-script/"
+      access: "Public"
+      format: "Tutorial article (Portuguese)"
+      target_path: "articles/davi_arbelo_vsl_pt_2023.txt"
+      frameworks: "VSL step-by-step (international perspective)"
+      collection_priority: 3
+      estimated_time: "Translation + extraction (30 min)"
+      notes: "International reach, Portuguese market"
+      status: PENDING
+
+    - id: source_021
+      title: "jonbenson.com - Products Page (All Offerings)"
+      type: resource
+      publication_date: "2024"
+      url: "https://jonbenson.com/products/"
+      access: "Public"
+      format: "Product catalog"
+      target_path: "resources/jonbenson_products_catalog.txt"
+      frameworks: "Complete product ecosystem"
+      collection_priority: 2
+      estimated_time: "Scraping (20 min)"
+      notes: "Product range, positioning"
+      status: PENDING
+
+    - id: source_022
+      title: "jonbenson.com - Copywriting Software Page"
+      type: resource
+      publication_date: "2024"
+      url: "https://jonbenson.com/copywriting-software/"
+      access: "Public"
+      format: "Software showcase"
+      target_path: "resources/copywriting_software_2024.txt"
+      frameworks: "AI software philosophy"
+      collection_priority: 2
+      estimated_time: "Scraping (15 min)"
+      notes: "Software offerings, AI approach"
+      status: PENDING
+
+    - id: source_023
+      title: "Every Other Day Diet Sales Page (Archive.org)"
+      type: swipe
+      publication_date: "2010"
+      url: "https://web.archive.org/"
+      access: "Archive.org"
+      format: "Historical sales page"
+      target_path: "swipes/eodd_sales_page_2010.txt"
+      frameworks: "Original VSL that changed industry"
+      collection_priority: 2
+      estimated_time: "Archive extraction (30 min)"
+      notes: "HISTORICAL - First successful VSL"
+      status: PENDING
+
+    - id: source_024
+      title: "Fit Over 40 Sales Materials"
+      type: swipe
+      publication_date: "2004"
+      url: "Various/Archive"
+      access: "Archive or secondary sources"
+      format: "Sales materials"
+      target_path: "swipes/fit_over_40_2004.txt"
+      frameworks: "Early copywriting style"
+      collection_priority: 3
+      estimated_time: "Research + extraction (45 min)"
+      notes: "First bestseller, origin story"
+      status: PENDING
+
+    - id: source_025
+      title: "7 Minute Muscle Sales Materials"
+      type: swipe
+      publication_date: "2008"
+      url: "Various/Archive"
+      access: "Archive or secondary sources"
+      format: "Sales materials"
+      target_path: "swipes/7_minute_muscle_2008.txt"
+      frameworks: "Middle-era copywriting"
+      collection_priority: 3
+      estimated_time: "Research + extraction (45 min)"
+      notes: "Peak fitness marketing era"
+      status: PENDING
+
+  ## TIER 3 SOURCES (SUPPLEMENTARY - BATCH 3)
+
+  tier_3_supplementary:
+    - id: source_026
+      title: "Facebook Page - Older Posts & Comments"
+      type: social_media
+      url: "https://www.facebook.com/itsjonbenson/"
+      access: "Public"
+      collection_priority: 4
+      estimated_time: "2 hours"
+      notes: "Additional engagement patterns"
+      status: PENDING
+
+    - id: source_027
+      title: "YouTube Channel - Additional Videos"
+      type: video
+      url: "https://www.youtube.com/@jonbenson"
+      access: "Public"
+      collection_priority: 4
+      estimated_time: "3 hours"
+      notes: "Supplementary training content"
+      status: PENDING
+
+    - id: source_028
+      title: "Twitter/X - Historical Posts"
+      type: social_media
+      url: "https://twitter.com/jonbenson"
+      access: "Public (if available)"
+      collection_priority: 4
+      estimated_time: "1 hour"
+      notes: "Additional voice samples"
+      status: PENDING
+
+    - id: source_029
+      title: "Guest Blog Posts & Contributed Articles"
+      type: article
+      access: "Various sites"
+      collection_priority: 4
+      estimated_time: "2 hours"
+      notes: "Extended thought leadership"
+      status: PENDING
+
+    - id: source_030
+      title: "Conference Talks & Webinars (Archive)"
+      type: video
+      access: "Various platforms"
+      collection_priority: 4
+      estimated_time: "3 hours"
+      notes: "Live presentations"
+      status: PENDING
+
+    - id: source_031
+      title: "Client Testimonials & Case Studies"
+      type: case_study
+      url: "Various sources"
+      access: "Public"
+      collection_priority: 4
+      estimated_time: "1 hour"
+      notes: "Proof of results"
+      status: PENDING
+
+    - id: source_032
+      title: "ChatVSL Course (Purchase Required)"
+      type: course
+      publication_date: "2023"
+      url: "https://jonbenson.com/products/"
+      access: "Paid ($997+)"
+      collection_priority: 5
+      estimated_time: "5-8 hours"
+      notes: "PREMIUM - 5-Step VSL Formula detailed"
+      decision: "EVALUATE - High cost, high value"
+      status: PENDING
+
+    - id: source_033
+      title: "Now VSL Course (Purchase Required)"
+      type: course
+      publication_date: "2018"
+      url: "https://nowvsl.com/"
+      access: "Paid ($497+)"
+      collection_priority: 5
+      estimated_time: "4+ hours"
+      notes: "PREMIUM - Original VSL training"
+      decision: "EVALUATE - Classic content"
+      status: PENDING
+
+    - id: source_034
+      title: "Attention Framework Masterclass (Purchase Required)"
+      type: course
+      publication_date: "2022"
+      url: "https://jonbenson.com/products/"
+      access: "Paid ($1,497+)"
+      collection_priority: 5
+      estimated_time: "8+ hours"
+      notes: "PREMIUM - PhD-level framework training"
+      decision: "EVALUATE - Highest tier content"
+      status: PENDING
+
+    - id: source_035
+      title: "VSL Fast Track: Viral NLP Training (Purchase Required)"
+      type: course
+      publication_date: "2021"
+      url: "Various"
+      access: "Paid (Price varies)"
+      collection_priority: 5
+      estimated_time: "2-3 hours"
+      notes: "PREMIUM - NLP + viral mechanics"
+      decision: "EVALUATE - Specialized content"
+      status: PENDING
+
+    - id: source_036
+      title: "7-Hour VSL Secret Workshop (VIP-Only)"
+      type: course
+      publication_date: "2019"
+      access: "VIP-only (not publicly available)"
+      collection_priority: 5
+      estimated_time: "7 hours"
+      notes: "EXCLUSIVE - May not be accessible"
+      decision: "SKIP v1.0 - Access restricted"
+      status: NOT_ACCESSIBLE
+
+    - id: source_037
+      title: "Early Forum Posts & Community Contributions"
+      type: archive
+      publication_date: "2005-2010"
+      url: "Various marketing forums"
+      access: "Archive research"
+      collection_priority: 4
+      estimated_time: "3 hours"
+      notes: "Historical context, early thinking"
+      status: PENDING
+
+    - id: source_038
+      title: "Podcast Guest Appearances (Additional)"
+      type: interview
+      publication_date: "2015-2024"
+      url: "Various podcasts"
+      access: "Public"
+      collection_priority: 4
+      estimated_time: "5+ hours"
+      notes: "Additional interviews to discover"
+      status: PENDING
+
+  ## TEMPORAL COVERAGE
+
+  temporal_coverage:
+    earliest_source: "2004 (Fit Over 40)"
+    latest_source: "2025-06 (Drop Dead Copy AI article)"
+    span_years: 21
+    distribution:
+      early_fitness_era_2004_2010: 5
+      vsl_golden_era_2011_2015: 8
+      maturity_expansion_2016_2020: 10
+      ai_integration_era_2021_2025: 15
+
+  ## FRAMEWORK COVERAGE
+
+  framework_coverage:
+    core_frameworks:
+      - "5-Step VSL Formula™"
+      - "3X Formula"
+      - "Attention Framework"
+      - "Buyers Blueprint"
+      - "Promptless™ AI Technology"
+      - "NLP-based Persuasion"
+      - "Ethical Persuasion Philosophy"
+
+    adequacy:
+      vsl_methodology: EXCELLENT
+      nlp_techniques: GOOD
+      ai_integration: EXCELLENT
+      ethics_philosophy: GOOD
+      personal_story: EXCELLENT
+      tactical_execution: GOOD
+
+  ## LAYER COVERAGE MAPPING
+
+  dna_mental_layer_coverage:
+    layer_1_behavioral:
+      sources_count: 20
+      confidence: MEDIUM_HIGH
+      key_sources: [source_006, source_018, source_019, interviews]
+      adequacy: GOOD
+      notes: "Social media + interviews reveal patterns"
+
+    layer_2_communication:
+      sources_count: 35
+      confidence: VERY_HIGH
+      key_sources: [all_interviews, all_articles, all_videos]
+      adequacy: EXCELLENT
+      notes: "Rich corpus for linguistic analysis"
+
+    layer_3_routine:
+      sources_count: 8
+      confidence: MEDIUM
+      key_sources: [source_006, interviews]
+      adequacy: FAIR
+      notes: "Limited explicit routine info, infer from interviews"
+
+    layer_4_recognition:
+      sources_count: 25
+      confidence: HIGH
+      key_sources: [source_001, source_006, source_010]
+      adequacy: EXCELLENT
+      notes: "Clear mental radars: persuasion, NLP, ethics, AI"
+
+    layer_5_mental_models:
+      sources_count: 30
+      confidence: VERY_HIGH
+      key_sources: [source_001, source_002, source_010, source_011]
+      adequacy: EXCELLENT
+      frameworks: "5-Step VSL, NLP patterns, Buyers Blueprint, Ethical Persuasion"
+
+    layer_6_values:
+      sources_count: 15
+      confidence: MEDIUM_HIGH
+      key_sources: [source_003, source_006, interviews]
+      adequacy: GOOD
+      triangulation_required: true
+      notes: "Ethics + integrity visible, need deeper extraction"
+
+    layer_7_obsessions:
+      sources_count: 20
+      confidence: HIGH
+      key_sources: [all_sources]
+      adequacy: EXCELLENT
+      core_obsessions_visible: "VSL perfection, ethical persuasion, AI + human synergy"
+
+    layer_8_paradoxes:
+      sources_count: 10
+      confidence: MEDIUM
+      key_sources: [source_003, source_011, reviews]
+      adequacy: FAIR
+      potential_paradoxes: "Automation vs Personal Touch, AI vs Human Creativity"
+      triangulation_required: true
+
+  ## COLLECTION WORKFLOW
+
+  collection_workflow:
+    batch_1_critical:
+      sources: [source_001 through source_010]
+      count: 10
+      estimated_hours: 6-8
+      parallelization: 3_concurrent_streams
+      priority: IMMEDIATE
+      focus: "VSL frameworks + NLP + Core story"
+
+    batch_2_important:
+      sources: [source_011 through source_025]
+      count: 15
+      estimated_hours: 8-10
+      parallelization: 4_concurrent_streams
+      priority: HIGH
+      conditional: "After Batch 1 complete"
+      focus: "AI integration + Products + Swipes"
+
+    batch_3_supplementary:
+      sources: [source_026 through source_038]
+      count: 13
+      estimated_hours: 12-15
+      parallelization: 3_concurrent_streams
+      priority: MEDIUM
+      conditional: "If gaps identified or budget available for premium courses"
+      focus: "Social media depth + Premium courses (evaluate budget)"
+
+  ## PREMIUM CONTENT STRATEGY
+
+  premium_content_strategy:
+    investment_required:
+      chatVSL: "$997+ (5-Step Formula detailed)"
+      now_vsl: "$497+ (Original training)"
+      attention_framework: "$1,497+ (PhD-level)"
+      vsl_fast_track: "$297+ (NLP + viral)"
+      total_estimated: "$3,000-$4,000"
+
+    recommendation:
+      phase_1_v1.0: "START with free content (sources 001-025)"
+      evaluation_checkpoint: "After Batch 1-2, assess gaps"
+      phase_2_v2.0: "IF gaps in frameworks, invest in ChatVSL ($997)"
+      phase_3_v3.0: "IF advanced needed, add Attention Framework ($1,497)"
+
+    rationale: |
+      - Free content is SUBSTANTIAL (25 high-quality sources)
+      - Can extract 80% of value from free sources
+      - Premium courses are investment for 20% incremental depth
+      - Start lean, validate need before investing
+
+  ## QUALITY GATES
+
+  quality_requirements:
+    minimum_thresholds:
+      total_sources: 15  # HAVE: 38 (253%) ✅
+      tier_1_sources: 5   # HAVE: 10 (200%) ✅
+      long_form: 8        # HAVE: 15 ✅
+      interviews: 4       # HAVE: 5 ✅
+      recent_2023_2025: 3 # HAVE: 8 ✅
+
+    all_requirements: MET
+
+  ## NEXT PHASE READINESS
+
+  next_phase:
+    task: cognitive-analysis
+    estimated_start: "After Batch 1 collection (2025-10-11)"
+    estimated_duration: "3-4 days"
+    critical_focus: "5-Step VSL Formula extraction + NLP patterns + Ethical Persuasion"
+    human_checkpoints: [After Batch 1, After Batch 2, Before premium investment]
+
+  ## NOTES
+
+  notes:
+    strengths:
+      - "Excellent free source availability (25 high-quality sources)"
+      - "Perfect temporal coverage (2004-2025, 21 years evolution)"
+      - "VSL invention story well-documented"
+      - "AI integration thinking current (2024-2025)"
+      - "Ethical persuasion philosophy clear"
+      - "Multiple podcast deep-dives available"
+
+    challenges:
+      - "Premium courses are expensive ($3k-$4k total)"
+      - "Some historical swipes may be hard to find"
+      - "Limited books/long-form published content"
+      - "Layer 3 (routine) may be thin"
+      - "Layer 8 (paradoxes) requires careful triangulation"
+
+    collection_priorities:
+      priority_1: "I Love Marketing podcasts (VSL origin story)"
+      priority_2: "YouTube VSL tutorial (5-Step Formula walkthrough)"
+      priority_3: "DigitalMarketer podcast (latest AI thinking)"
+      priority_4: "jonbenson.com content (official voice)"
+      priority_5: "Social media (current voice + engagement)"
+
+    etl_integration_ready:
+      - "Can use etl for web scraping"
+      - "YouTube transcripts via youtube-transcript-api"
+      - "Podcast audio via AssemblyAI MCP or manual transcription"
+      - "Social media scraping via APIs"
+
+  status:
+    discovery_phase: ✅ COMPLETE
+    collection_phase: ⏸️ READY_TO_BEGIN
+    master_compilation: ✅ COMPLETE (this file)
+    analysis_readiness: ⏸️ PENDING_COLLECTION
+    investment_decision: ⏸️ PENDING_BATCH_1_EVALUATION
+
+## FINAL RECOMMENDATION
+
+final_recommendation: |
+  **APPROVED FOR COLLECTION - PHASED APPROACH**
+
+  Phase 1 (v1.0): Start with Batch 1-2 FREE content (25 sources)
+  - Timeline: 2-3 weeks
+  - Budget: $0
+  - Expected coverage: 80% of core DNA Mental
+
+  Phase 2 (v2.0): Evaluate gaps, potentially invest in ChatVSL ($997)
+  - Timeline: +1 week
+  - Budget: $997
+  - Expected coverage: 90% of core DNA Mental
+
+  Phase 3 (v3.0): If needed, add Attention Framework ($1,497)
+  - Timeline: +1 week
+  - Budget: $1,497
+  - Expected coverage: 95%+ of core DNA Mental
+
+  DECISION: Proceed with Batch 1 collection (sources 001-010)
+  CHECKPOINT: Re-evaluate after Batch 1 + 2 complete
+
+metadata:
+  generated_by: "Mind Mapper Orchestrator"
+  agent: "@mind-mapper"
+  generation_date: "2025-10-09"
+  version_schema: "1.0"
+  clone_target: "Jon Benson"
+  time_invested: "45 minutes (research + compilation)"
+  approved_by: "@mind-mapper"
+  status_final: "✅ READY_FOR_COLLECTION"

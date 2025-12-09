@@ -1,0 +1,493 @@
+#  Creating Clarity  [ __](javascript:void\(0\); "Add to my favorites")
+
+Throughout the entirety of your online journey, you will be pursuing your own
+path and achieving things that other people will want to learn from you.
+
+Every single one of you will be creating a unique path that gets you the
+results you want. That unique path is the most valuable information you can
+obtain (and eventually sell or teach).
+
+  
+
+> Specific knowledge is knowledge that you cannot be trained for. If society
+> can train you, it can train someone else, and replace you.
+>
+> Specific knowledge is found by pursuing your genuine curiosity and passion
+> rather than whatever is hot right now.
+>
+> Specific knowledge can be taught through apprenticeships or self-taught.
+> It's high paying because society has not yet figured out how to teach or
+> automate it. It tends to be creative or technical. Build specific knowledge
+> where you are “a natural.”
+>
+> — Naval
+
+  
+
+Throughout this course, you will be apprenticing under me in a controlled
+environment. I am teaching you the specific knowledge I have acquired
+throughout my years of self-education.
+
+I have built this course with specific knowledge in mind.
+
+I can teach you what worked for me — but you will need to self-educate along
+the way.
+
+If you want to understand this from a philosophical viewpoint — [I wrote an
+article on how to build a creative income.](https://thedankoe.com/how-to-make-
+money-as-a-creative-on-the-internet/)
+
+​​​​​​​In that article we go over this image:
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28735749_1655131100tdBCreativity.png)
+
+This is how you gain specific knowledge.
+
+This is how you build creative systems that solve your audience's problems
+(that are worth a lot of money with a service business or digital product).
+
+This is how you order consciousness in yourself and others (creating clarity
+and removing uncertainty).
+
+  * The white dots are what you've experienced, failed, and gotten feedback on (how you create a system).
+  * The black dots are what you haven't exposed yourself to, haven't learned about, or aren't able to tap into when building.
+  * The white line that connects the dots is your way of solving a specific problem.
+
+This solution is unique to you. Nobody can compete with it. You can either
+sell that solution or keep it to yourself for leveraging results.
+
+Thinking back, this is how I gained over 120,000 followers in a week on
+Instagram.
+
+The knowledge didn't come from a course. It came from depth, learning, and
+exposure to everything that would result in creating a system for consistent
+Instagram growth.
+
+When you document your findings through your content online, you can come back
+and piece together a solution.
+
+ **6 Steps To Acquiring Specific Knowledge & Building Creative Systems (That
+You Can Sell In The Future)**
+
+The traditional learning model sucks.
+
+It teaches you to memorize what you learn, do homework, and eventually put
+those skills to use (and end up just being trained on how to do a specific job
+without using anything you learned).
+
+Here is a better way to learn. A way that will arm you with specific
+knowledge.
+
+This process is assuming that you understand the basics, principles, or
+fundamentals of whatever you are trying to execute on. If you have absolutely
+no idea where to start, refer back to [this module in Digital Economics
+101.](https://portal.digitaleconomics.school/login/post/198)
+
+ **1) Start and outline a personal project.**
+
+Do not start learning first.
+
+You already know what project you need to start right now.
+
+That project is your personal brand.
+
+Creating an outline will make you aware of what you know (and what you don't
+know).
+
+Why is this important? **Because you need to learn with context.** Don't just
+learn aimlessly without having something to apply your learnings to.
+
+ **In relation to the visual above** — you are creating the outer circle that
+you can start to explore and learn about. This circle will represent your
+Domain Of Mastery that we will discuss soon.
+
+ **2) Choose a related successful project to emulate.**
+
+There is somebody out there that has created what you want to create. That's
+why you want to create it in the first place... because you were exposed to it
+and know it's possible.
+
+If I want to build a beautiful landing page, would I not research others for
+inspiration?
+
+If I want to write an incredible tweet, would I not research high-performing
+tweets?
+
+If I want to grow a personal brand, would I not research brands that are doing
+it right?
+
+This goes for anything.
+
+ **In relation to the visual** — this is how you gain clarity on the desired
+outcome you are trying to achieve.
+
+ **3) Start the project with your current knowledge.**
+
+Do not learn first.
+
+Start first.
+
+When you have a clear outline and a project to emulate — your brain is primed
+to tie your life and business experiences to that specific project (making it
+easier to act from a place of inspiration).
+
+ **In relation to the visual** — this is how you make your first step into the
+unknown and make the turn the first circle from black to white.
+
+ **4) Immerse yourself in a conducive environment.**
+
+If your digital or physical environment is littered with distractions, you
+will get distracted.
+
+If your digital or physical environment is filled with inspiration and
+relevant information — you will constantly be reminded
+
+This alone will help you gain clarity WHILE you are building the project out.
+
+Follow social media accounts, buy books, buy courses, and invest your time and
+attention into all facets of actualizing the project you are trying to create.
+
+ **In relation to the visual** — immersing yourself in related information
+will start to give you deeper awareness, turning more black dots to white.
+
+ **5) Self-educate to fill in the gaps.**
+
+Too many people ask vague questions about getting started when the answer is
+to just start.
+
+When you encounter a _specific problem_ THAT is when you start asking
+_specific questions_.
+
+Answers to specific questions are easier to find on YouTube, Google, or any
+other resource.
+
+People on Twitter or elsewhere are happier to answer specific questions
+because they are easier to answer. A generic question will only take more time
+to answer because they will need to ask 3-5 clarifying questions just to know
+what the specific question is.
+
+When you search for specific questions for the specific project you are
+learning — you build the project much faster (and only learn what you need to,
+no fluff).
+
+ **In relation to the visual** — when you don't know what the next step is,
+you must self-educate to turn that black dot into a white dot.
+
+ **6) Document what worked and iterate from there.**
+
+Systems.
+
+How do you develop systems that get results?
+
+You execute, get feedback, execute, get feedback, repeat, and document it all
+so you can replicate those results.
+
+You have to know what doesn't work before you can know what works.
+
+You MUST encounter problems that are unique to the project you are working on.
+
+When you solve those problems, document:
+
+  * What the problem was
+  * What you learned to solve it
+  * What results you got
+
+Now you have something valuable to pass down to your followers.
+
+The Notion dashboard will aid in all of this.
+
+Get in the habit of writing down all of your discoveries.
+
+ **You learn the most in life after a period of struggle.**
+
+Programmers know this well:
+
+  * You spend time coding
+  * You encounter a bug or error
+  * You try to fix it with your current knowledge
+  * You research how to solve it online
+  * You bang your head against the wall because you can't figure it out
+  * You take a break, let your subconscious make connections, and find the answer
+
+Once that answer works (a positive result) it is solidified in your mind.
+
+You won't make that mistake ever again.
+
+You have just gained specific knowledge.
+
+THAT is how you learn.
+
+ **In relation to the visual** — you can piece together specific dots and turn
+it into content, a product, or a service.
+
+__
+
+Dive Into The Unknown
+
+Dive into the unknown (outline a project and start immediately).
+
+Collect the dots (emulate others, immerse yourself in an environment, and
+self-educate).
+
+Connect the dots (gain clarity, create systems, and document what worked).
+
+Then, teach the system.
+
+Delete for good?
+
+No, keep it
+
+Yes, delete
+
+__ Previous post
+
+{teaser_countdown_previous}  {/teaser_countdown_previous}
+
+{teaser_modal_previous}
+
+100%
+
+100%
+
+100%
+
+Completed
+
+Finish  __
+
+{teaser_countdown_next}  {/teaser_countdown_next}
+
+{teaser_modal_next}
+
+×
+
+### Profile
+
+Cancel Save
+
+______
+
+![userfile]()
+
+Username
+
+Password
+
+__
+
+First name
+
+Last name
+
+Email
+
+Country code Select country code... United States (+1) Canada (+1) United
+Kingdom (+44) Australia (+61) Afghanistan (+93) Akrotiri (+357) Aland Islands
+(+358) Albania (+355) Algeria (+213) Andorra (+376) Angola (+244) Argentina
+(+54) Armenia (+374) Aruba (+297) Ascension Island (+247) Australia (+61)
+Austria (+43) Azerbaijan (+994) Bahrain (+973) Bangladesh (+880) Belarus
+(+375) Belgium (+32) Belize (+501) Benin (+229) Bhutan (+975) Bolivia (+591)
+Bosnia and Herzegovina (+387) Botswana (+267) Brazil (+55) British Indian
+Ocean Territory (+246) Brunei Darussalam (+673) Bulgaria (+359) Burkina Faso
+(+226) Burundi (+257) Cambodia (+855) Cameroon (+237) Canada (+1) Canary
+Islands (+34) Cape Verde (+238) Central African Republic (+236) Ceuta and
+Melilla (+34) Chad (+235) Chile (+56) China (+86) Christmas Island (+61) Cocos
+(Keeling) Island (+61) Colombia (+57) Comoros (+269) Congo (+242) Congo -
+Democratic Republic of the Congo (+243) Cook Islands (+682) Costa Rica (+506)
+Côte D'Ivoire (+225) Croatia (+385) Cuba (+53) Cyprus (+357) Cyprus - Turkish
+Republic of Northern Cyprus (+90) Czech Republic (+420) Denmark (+45) Dhekelia
+(+357) Djibouti (+253) Ecuador (+593) Egypt (+20) El Salvador (+503)
+Equatorial Guinea (+240) Eritrea (+291) Estonia (+372) Ethiopia (+251)
+Falkland Islands (+500) Faroe Islands (+298) Fiji (+679) Finland (+358) France
+(+33) French Guiana (+594) French Polynesia (+689) French Southern and
+Antarctic Lands (+262) Gabon (+241) Gambia (+220) Georgia (+995) Germany (+49)
+Ghana (+233) Gibraltar (+350) Greece (+30) Greenland (+299) Guadeloupe (+590)
+Guatemala (+502) Guinea (+224) Guinea-Bissau (+245) Guyana (+592) Haiti (+509)
+Holy See (Vatican City State) (+39) Honduras (+504) Hong Kong (+852) Hungary
+(+36) Iceland (+354) India (+91) Indonesia (+62) Iran, Islamic Republic Of
+Iran (+98) Iraq (+964) Ireland (+353) Israel (+972) Italy (+39) Jamaica (+1)
+Japan (+81) Jordan (+962) Kazakhstan (+7) Kenya (+254) Kiribati (+686) Korea,
+Democratic People's Republic Of Korea (+850) Korea, Republic of Korea (+82)
+Kosovo (+383) Kuwait (+965) Kyrgyz Republic (+996) Laos (+856) Latvia (+371)
+Lebanon (+961) Lesotho (+266) Liberia (+231) Libya (+218) Liechtenstein (+423)
+Lithuania (+370) Luxembourg (+352) Macao (+853) Macedonia (+389) Madagascar
+(+261) Malawi (+265) Malaysia (+60) Maldives (+960) Mali (+223) Malta (+356)
+Marshall Islands (+692) Martinique (+596) Mauritania (+222) Mauritius (+230)
+Mayotte (+269) Mexico (+52) Micronesia (+691) Moldova (+373) Monaco (+377)
+Mongolia (+976) Montenegro (+382) Morocco (+212) Mozambique (+258) Myanmar
+(+95) Namibia (+264) Nauru (+674) Nepal (+977) Netherlands (+31) Netherlands
+Antilles (+599) New Caledonia (+687) New Zealand (+64) Nicaragua (+505) Niger
+(+227) Nigeria (+234) Niue (+683) Norfolk Island (+672) Norway (+47) Oman
+(+968) Pakistan (+92) Palau (+680) Palestine (+970) Panama (+507) Papua New
+Guinea (+675) Paracel Islands (+86) Paraguay (+595) Peru (+51) Philippines
+(+63) Poland (+48) Portugal (+351) Qatar (+974) Réunion (+262) Romania (+40)
+Russian Federation (+7) Rwanda (+250) Saint Helena (+290) Saint Pierre and
+Miquelon (+508) Samoa (+685) San Marino (+378) São Tome and Principe (+239)
+Saudi Arabia (+966) Senegal (+221) Serbia (+381) Seychelles (+248) Sierra
+Leone (+232) Singapore (+65) Slovakia (+421) Slovenia (+386) Solomon Islands
+(+677) Somalia (+252) Somaliland (+252) South Africa (+27) South Sudan (+211)
+Spain (+34) Sri Lanka (+94) Sudan (+249) Suriname (+597) Svalbard and Jan
+Mayen (+47) Swaziland (+268) Sweden (+46) Switzerland (+41) Syria (+963)
+Taiwan (+886) Tajikistan (+992) Tanzania (+255) Thailand (+66) Timor-Leste
+(+670) Togo (+228) Tokelau (+690) Tonga (+676) Tristan da Cunha (+290) Tunisia
+(+216) Turkey (+90) Turkmenistan (+993) Tuvalu (+688) Uganda (+256) Ukraine
+(+380) United Arab Emirates (+971) United Kingdom (+44) United States (+1)
+United States Minor Outlying Islands (+699) Uruguay (+598) Uzbekistan (+998)
+Vanuatu (+678) Venezuela (+58) Viet Nam (+84) Wallis and Futuna Islands (+681)
+Western Sahara (+212) Yemen (+967) Zambia (+260) Zimbabwe (+263)
+
+Phone number
+
+Address
+
+Language Afrikaans Arabic Bulgarian Chinese Czech Danish Dutch English Finnish
+French German Hebrew Hindi Italian Malay Norwegian Polish Portuguese Romanian
+Russian Slovak Spanish Swedish Thai
+
+Company
+
+Sales tax ID
+
+City
+
+Postal code
+
+Country United States Canada United Kingdom Australia Afghanistan Akrotiri
+Åland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antigua
+and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas
+Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan
+Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana
+Bouvet Island Brazil British Indian Ocean Territory Brunei Bulgaria Burkina
+Faso Burundi Cabo Verde Cambodia Cameroon Canada Cayman Islands Central
+African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands
+Colombia Comoros Congo Congo, Democratic Rep Cook Islands Costa Rica Côte
+D'Ivoire Croatia Cuba Curaçao Cyprus Czech Republic Denmark Dhekelia Djibouti
+Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea
+Eritrea Estonia Eswatini Ethiopia Falkland Islands Faroe Islands Fiji Finland
+France French Guiana French Polynesia French Southern and Antarctic Lands
+Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada
+Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard
+Island and McDonald Islands Holy See Honduras Hong Kong Hungary Iceland India
+Indonesia Iran Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jersey
+Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon
+Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macau Madagascar
+Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania
+Mauritius Mayotte Mexico Micronesia Moldova Monaco Mongolia Montenegro
+Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands
+Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue
+Norfolk Island North Korea North Macedonia Northern Mariana Islands Norway
+Oman Pakistan Palau Palestine Panama Papua New Guinea Paracel Islands Paraguay
+Peru Philippines Pitcairn Islands Poland Portugal Puerto Rico Qatar Réunion
+Romania Russia Rwanda Saint Barthélemy Saint Helena Saint Kitts And Nevis
+Saint Lucia Saint Martin Saint Pierre and Miquelon Saint Vincent and the
+Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia
+Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon
+Islands Somalia South Africa South Georgia South Korea South Sudan Spain Sri
+Lanka Sudan Suriname Svalbard and Jan Mayen Sweden Switzerland Syria Taiwan
+Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and
+Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda
+Ukraine United Arab Emirates United Kingdom United States Uruguay US Minor
+Islands Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands, British Virgin
+Islands, U.S. Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe
+
+State Select country first...
+
+______
+
+Your time zone Select the time zone... Pacific Time (US and Canada) Mountain
+Time (US and Canada) Central Time (US and Canada) Eastern Time (US and Canada)
+Dublin, Edinburgh, Lisbon, London Brussels, Copenhagen, Madrid, Paris
+International Date Line West Midway Island, Samoa Hawaii Alaska Chihuahua,
+Mazatlan Arizona Saskatchewan Guadalajara, Mexico City, Monterrey Central
+America Indiana (East) Bogota, Lima, Quito Atlantic Time (Canada) Caracas, La
+Paz, Georgetown Santiago Newfoundland and Labrador Brasilia Buenos Aires
+Greenland Mid-Atlantic Azores, Monrovia, Dakar Cape Verde Islands Casablanca
+Canary Islands Belgrade, Bratislava, Budapest, Ljubljana, Prague Sarajevo,
+Skopje, Warsaw, Zagreb Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna West
+Central Africa Bucharest Cairo Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius
+Athens, Istanbul, Minsk Jerusalem Harare, Pretoria Moscow, St. Petersburg,
+Volgograd Kuwait, Riyadh Nairobi Baghdad Tehran Abu Dhabi, Muscat Baku,
+Tbilisi, Yerevan Kabul Ekaterinburg Islamabad, Karachi, Tashkent Chennai,
+Kolkata, Mumbai, New Delhi Kathmandu Astana, Dhaka Sri Jayawardenepura Almaty
+Yangon Rangoon Bangkok, Hanoi, Jakarta, Novosibirsk Krasnoyarsk Beijing,
+Chongqing, Hong Kong SAR, Urumqi Kuala Lumpur, Singapore Taipei Perth Irkutsk,
+Ulaanbaatar Seoul Osaka, Sapporo, Tokyo Yakutsk Darwin Adelaide Canberra,
+Melbourne, Sydney Brisbane Hobart Vladivostok Guam, Port Moresby Magadan,
+Solomon Islands, New Caledonia Fiji Islands, Kamchatka, Marshall Islands
+Auckland, Wellington Nuku'alofa
+
+______
+
+Your time zone Select the time zone... Pacific Time (US and Canada) Mountain
+Time (US and Canada) Central Time (US and Canada) Eastern Time (US and Canada)
+Dublin, Edinburgh, Lisbon, London Brussels, Copenhagen, Madrid, Paris
+International Date Line West Midway Island, Samoa Hawaii Alaska Chihuahua,
+Mazatlan Arizona Saskatchewan Guadalajara, Mexico City, Monterrey Central
+America Indiana (East) Bogota, Lima, Quito Atlantic Time (Canada) Caracas, La
+Paz, Georgetown Santiago Newfoundland and Labrador Brasilia Buenos Aires
+Greenland Mid-Atlantic Azores, Monrovia, Dakar Cape Verde Islands Casablanca
+Canary Islands Belgrade, Bratislava, Budapest, Ljubljana, Prague Sarajevo,
+Skopje, Warsaw, Zagreb Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna West
+Central Africa Bucharest Cairo Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius
+Athens, Istanbul, Minsk Jerusalem Harare, Pretoria Moscow, St. Petersburg,
+Volgograd Kuwait, Riyadh Nairobi Baghdad Tehran Abu Dhabi, Muscat Baku,
+Tbilisi, Yerevan Kabul Ekaterinburg Islamabad, Karachi, Tashkent Chennai,
+Kolkata, Mumbai, New Delhi Kathmandu Astana, Dhaka Sri Jayawardenepura Almaty
+Yangon Rangoon Bangkok, Hanoi, Jakarta, Novosibirsk Krasnoyarsk Beijing,
+Chongqing, Hong Kong SAR, Urumqi Kuala Lumpur, Singapore Taipei Perth Irkutsk,
+Ulaanbaatar Seoul Osaka, Sapporo, Tokyo Yakutsk Darwin Adelaide Canberra,
+Melbourne, Sydney Brisbane Hobart Vladivostok Guam, Port Moresby Magadan,
+Solomon Islands, New Caledonia Fiji Islands, Kamchatka, Marshall Islands
+Auckland, Wellington Nuku'alofa
+
+______
+
+×
+
+### Your profile information was updated successfully!
+
+Close
+
+Profile updated
+
+×
+
+### Change password
+
+Cancel Change
+
+Your current password
+
+Required
+
+Your new password
+
+8 to 16 characters
+
+Required
+
+Retype new password
+
+Required
+
+Your password has been updated successfully!
+
+×
+
+×
+
+Cookies
+
+We use cookies to improve our service, track analytics, remember preferences,
+etc. By using our site, you consent to these cookies.
+
+[Privacy policy]() [Cookie policy]()
+
+Accept all cookies
+
+Only essential cookies
+
+Save
+
+ 
+---

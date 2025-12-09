@@ -1,0 +1,620 @@
+#  Unlimited High Performing Tweets  [ __](javascript:void\(0\); "Add to my
+favorites")
+
+Tweet writing is mostly about catering to human nature.
+
+You can study algorithms all day (and it is very helpful to do so)… but when
+you know what makes people engage and share your content, algorithms start to
+matter less.
+
+When you immerse yourself in proper tweet writing, you start to think in
+concise and impactful sentences.
+
+Over time, short-form writing will become second nature to you.
+
+ _Writing good, engaging tweets will transfer over into high engagement on all
+other platforms._
+
+ **Generating Unique Ideas**
+
+There are a million different ways to generate ideas for tweets (or any length
+of content).
+
+This is a problem because it get’s overwhelming. Eventually you will find an
+idea generation that you prefer, gets results, and is sustainable. But you
+have to try most of them before you get to that point.
+
+The problem for most people:
+
+They are afraid to use a tweet structure because they think they are copying.
+
+What the problem actually is:
+
+Your ideas aren’t original and you feel like you have to copy the entire idea
+and structure itself.
+
+The structure is for writing out the idea in a high performing way.
+
+ **If you want potentially viral ideas, find them from:**
+
+  * YouTube
+  * Instagram
+  * Medium
+  * TikTok
+  * Pinterest
+
+Anywhere where you can see how much engagement those posts have.
+
+You can use the [Growing As A
+Beginner](https://portal.digitaleconomics.school/login/post/229) guide to
+generate ideas this way.
+
+ **If you want original perspectives that can be turned into viral ideas:**
+
+  * Read books
+  * Listen to podcasts
+  * Listen to audiobooks
+  * Listen to long YouTube lectures YT premium (so you can listen with your screen off)
+  * Read Blinkist or Shortform summaries
+
+THEN you can plug the ideas you have into a structure that can potentially
+perform well.
+
+I personally like listening YouTube lectures and audiobooks.
+
+How to capture ideas that come to mind while you are consuming:
+
+We are slowly going to start incorporating a method that will lead into the
+next module nicely (when we develop our ideas and build a database of
+concepts).
+
+  * Consume information using the methods above
+  * Have “The Queue” in the Notion Command Center open on your phone
+  * Be ready to capture and potentially flesh out any ideas you have
+  * When you come back to create content, plug those ideas into a tweet structure
+
+This is how you balance having original ideas that stem from your curiosity
+AND have them perform well.
+
+ **Tweet Structures To Emulate**
+
+Imitate than innovate.
+
+You start writing good tweets by using structures that are proven to do well.
+
+I see too many people (especially at the beginning) trying to create their own
+unique tweets. They end up not growing and blaming the algorithm.
+
+My advice: _**do what works**_ (but with your own ideas).
+
+ _The tweet structures below are in addition to what is already in the
+Inspiration Lab inside the Notion Command Center._
+
+ **Commentary On Objections Or Advice**
+
+These tweets come from paying attention to your inner dialogue.
+
+When you hear something — how do you respond in your head?
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915246_1655825981MeY1505897521637429258.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915255_16558259956851537754441159430146.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915267_1655826011CAp1530841891067109382.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915277_1655826025vrj1467467551550713859.png)
+
+ **“Extreme” Advice**
+
+You don’t have to curse. You just have to transfer the energy by using better
+words.
+
+What advice worked for you in the past that you want to give to others?
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915287_1655826067Vtr1422931098426908679.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915289_16558260797yC1538861422779764738.png)
+
+ **Metaphors**
+
+Can you help people understand your perspective by using metaphors?
+
+You can search for good metaphors online and plug your ideas into those as
+well.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915299_1655826107Ce1metaphor.jpg)
+
+ **Personal Definitions**
+
+How would you define a word or phrase?
+
+You can write these quick by just writing out a word that comes to mind and
+creating your own definition for it.
+
+“Long walks are…”
+
+“Confidence is…”
+
+“Focus is…”
+
+You can write these for all of your interests and sub-topics within your
+Domain Of Mastery.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915305_1655826140lZy1441028583267438592.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915307_1655826156Aok1530117108385910785.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915311_1655826170Bcd1457278413572608002.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915313_1655826183MIE1472903372147728394.png)
+
+ **Repetitive Advice & Comparisons**
+
+The best way to write this is to just start with a one-sentence piece of
+advice and brainstorm different variations of that sentence.
+
+(This works for lists as well once you have the word or sentence as the theme
+of the post)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915324_1655826212J6w1445348302074089480.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915329_1655826226utk1425024641622581248.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915335_1655826238P1T1424380733083299840.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915341_1655826250k851452262612939513861.png)
+
+ **This Comes After This**
+
+Like a story, one thing comes after the next. Write down one word, what it
+leads to, and what comes next — then refine and edit.
+
+These ones take some brainpower and time to write, but they work.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915355_16558262775vtthiscomesafter.jpg)
+
+ **If This, Then That**
+
+This is similar to polarity but starts with “if.”
+
+“If you [this]…” then what?
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915365_16558263046KY1447573461535240195.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915374_16558263167l31384437258455977993.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915376_1655826328MUD1436681954741600259.png)
+
+ **Harsh Truth With A Hook**
+
+Harsh truths in general always work well.
+
+You can add a hook to the top that describes or warns about the advice you are
+going to give.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915381_1655826360dPqharshtruth.jpg)
+
+ **Your Personal Way Of Doing Something Common**
+
+How do you like doing something that other people do?
+
+This requires you to be observant about how you go about your days.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915392_1655826386XM51536277703086718977.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915403_1655826396ARO1406287814329737216.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915410_16558264071fc1533740990258941953.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915414_165582641912O1473265765050691588.png)
+
+ **Polarity & Repetition**
+
+Polarity is about comparing two different things. Either opposites or just
+making slight, nuanced connections.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915427_1655826446xD11357983425760817154.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915435_1655826462izJ1486311725733396487.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915442_1655826474ZRi1515302749310750721.png)
+
+ **Unique Advice Or Hacks**
+
+These can either be hacks you find online or discover yourself.
+
+My laptop was going to die at a coffee shop one day. It made me focus more and
+try to get my work done. It worked. So I turned it into a good tweet (that
+ended up going mega-viral on TikTok)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915456_16558265077vX1450059349225844741.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915459_16558265186sn1466806848758108171.png)
+
+ **A list That Describes A Certain Group Of People (That You Identify With &
+Want To Attract)**
+
+Can you describe the traits of yourself or the community you are in?
+
+People will try to lump themselves into having (or not having) those traits.
+Those that have them will engage and follow.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915476_1655826548MVWdescriptive-
+list.jpg)
+
+ **Interesting Observation**
+
+Simple. Notice something interesting and talk about it.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915493_1655826589xj61447493938605068289.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915500_1655826600pMF1385524422560321536.png)
+
+(You can add a hook to the top as well)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915510_1655826615LHm1468192329659990016.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915522_1655826631cB41479462090704306181.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915530_1655826644hk61534828150441615365.png)
+
+ **Subtweeting Yourself**
+
+If you are slacking, what advice would you give yourself?
+
+Think of Twitter like a journal where you give high-engaging advice to
+yourself (but positioned at others).
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915539_1655826670l3v1438151345576439812.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915548_1655826681xhy1475396552256544770.png)
+
+ **2-3 Step Punchy Advice**
+
+A shorter version of a list that gives a solution to a problem.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915557_1655826708rc01441439041040302081.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915563_1655826718Ggn1357620570268065794.png)
+
+ **You Can Do This… But You Have To**
+
+What is the desired outcome and what is required to get there?
+
+Bonus points if you can use numbers, timeframes, and traits that need to be
+adopted as a person.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915571_1655826746KLl1445681999688056834.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915577_1655826757zDX1421992199122833410.png)
+
+ **Making People Aware Of A Problem Or Solution**
+
+What is causing a problem and what is the solution?
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915595_1655826790kAa1464524913952407557.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915611_1655826800vH71534465764362682368.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915632_1655826812jhB1516044386727047170.png)
+
+ **Unique Perspectives On A Common Problem**
+
+Take a common problem or perspective and give inspiration or a solution to it.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915647_1655826838AKs1467105163500470272.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915658_16558268534wA1469296420599570433.png)
+
+ **The Best & Worst**
+
+What is the best, greatest, worst, most terrible thing someone can do?
+
+This is about thinking in extremes, which is entertaining.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915666_16558268824aw1510578365413179395.png)
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/28915670_1655826893PN71522144576768823296.png)
+
+ **More Ways To Structure Tweets**
+
+ **Joining The Online Conversation**
+
+Did you read a tweet that you don’t agree with? Post your personal opinion or
+perspective.
+
+Did reading one of your replies spark an idea in you? Did replying to others
+give you a new perspective on what they are talking about? You can turn your
+replies or inner commentary into tweets.
+
+ **Identifying And Solving A Problem In Your Life**
+
+What are you struggling with and how do you plan to solve it?
+
+This is another reason why reflection is important.
+
+ **Horizontal And Vertical Questioning**
+
+Branching into new mental pathways is a matter of questioning.
+
+Who, what, when, where, how, why.
+
+You can come up with a tweet topic, like “strategy” and start questioning.
+
+  * Why would someone need a strategy? To do something more efficiently.
+  * What can they do more efficiently? Create content, code, train, anything.
+  * How can they be efficient with creating content? Now I can create a list of how to speed up their content creation.
+
+Let thoughts trigger thoughts through questioning to come up with better
+ideas.
+
+ **Turning 1 Idea Into 1000**
+
+The secret to all of this is just exchanging words.
+
+That’s all copywriters do. They have set structures and manipulate different
+verbs, adjectives, nouns, stories, concepts, metaphors, examples, and more to
+create unlimited ideas for themself.
+
+One quick tip: you can use [PowerThesaurus](https://www.powerthesaurus.org/)
+to ideate better adjectives and words in general (to improve the impact and
+strength of your writing.
+
+Delete for good?
+
+No, keep it
+
+Yes, delete
+
+__ Previous post
+
+{teaser_countdown_previous}  {/teaser_countdown_previous}
+
+{teaser_modal_previous}
+
+100%
+
+100%
+
+100%
+
+Completed
+
+Finish  __
+
+{teaser_countdown_next}  {/teaser_countdown_next}
+
+{teaser_modal_next}
+
+×
+
+### Profile
+
+Cancel Save
+
+______
+
+![userfile]()
+
+Username
+
+Password
+
+__
+
+First name
+
+Last name
+
+Email
+
+Country code Select country code... United States (+1) Canada (+1) United
+Kingdom (+44) Australia (+61) Afghanistan (+93) Akrotiri (+357) Aland Islands
+(+358) Albania (+355) Algeria (+213) Andorra (+376) Angola (+244) Argentina
+(+54) Armenia (+374) Aruba (+297) Ascension Island (+247) Australia (+61)
+Austria (+43) Azerbaijan (+994) Bahrain (+973) Bangladesh (+880) Belarus
+(+375) Belgium (+32) Belize (+501) Benin (+229) Bhutan (+975) Bolivia (+591)
+Bosnia and Herzegovina (+387) Botswana (+267) Brazil (+55) British Indian
+Ocean Territory (+246) Brunei Darussalam (+673) Bulgaria (+359) Burkina Faso
+(+226) Burundi (+257) Cambodia (+855) Cameroon (+237) Canada (+1) Canary
+Islands (+34) Cape Verde (+238) Central African Republic (+236) Ceuta and
+Melilla (+34) Chad (+235) Chile (+56) China (+86) Christmas Island (+61) Cocos
+(Keeling) Island (+61) Colombia (+57) Comoros (+269) Congo (+242) Congo -
+Democratic Republic of the Congo (+243) Cook Islands (+682) Costa Rica (+506)
+Côte D'Ivoire (+225) Croatia (+385) Cuba (+53) Cyprus (+357) Cyprus - Turkish
+Republic of Northern Cyprus (+90) Czech Republic (+420) Denmark (+45) Dhekelia
+(+357) Djibouti (+253) Ecuador (+593) Egypt (+20) El Salvador (+503)
+Equatorial Guinea (+240) Eritrea (+291) Estonia (+372) Ethiopia (+251)
+Falkland Islands (+500) Faroe Islands (+298) Fiji (+679) Finland (+358) France
+(+33) French Guiana (+594) French Polynesia (+689) French Southern and
+Antarctic Lands (+262) Gabon (+241) Gambia (+220) Georgia (+995) Germany (+49)
+Ghana (+233) Gibraltar (+350) Greece (+30) Greenland (+299) Guadeloupe (+590)
+Guatemala (+502) Guinea (+224) Guinea-Bissau (+245) Guyana (+592) Haiti (+509)
+Holy See (Vatican City State) (+39) Honduras (+504) Hong Kong (+852) Hungary
+(+36) Iceland (+354) India (+91) Indonesia (+62) Iran, Islamic Republic Of
+Iran (+98) Iraq (+964) Ireland (+353) Israel (+972) Italy (+39) Jamaica (+1)
+Japan (+81) Jordan (+962) Kazakhstan (+7) Kenya (+254) Kiribati (+686) Korea,
+Democratic People's Republic Of Korea (+850) Korea, Republic of Korea (+82)
+Kosovo (+383) Kuwait (+965) Kyrgyz Republic (+996) Laos (+856) Latvia (+371)
+Lebanon (+961) Lesotho (+266) Liberia (+231) Libya (+218) Liechtenstein (+423)
+Lithuania (+370) Luxembourg (+352) Macao (+853) Macedonia (+389) Madagascar
+(+261) Malawi (+265) Malaysia (+60) Maldives (+960) Mali (+223) Malta (+356)
+Marshall Islands (+692) Martinique (+596) Mauritania (+222) Mauritius (+230)
+Mayotte (+269) Mexico (+52) Micronesia (+691) Moldova (+373) Monaco (+377)
+Mongolia (+976) Montenegro (+382) Morocco (+212) Mozambique (+258) Myanmar
+(+95) Namibia (+264) Nauru (+674) Nepal (+977) Netherlands (+31) Netherlands
+Antilles (+599) New Caledonia (+687) New Zealand (+64) Nicaragua (+505) Niger
+(+227) Nigeria (+234) Niue (+683) Norfolk Island (+672) Norway (+47) Oman
+(+968) Pakistan (+92) Palau (+680) Palestine (+970) Panama (+507) Papua New
+Guinea (+675) Paracel Islands (+86) Paraguay (+595) Peru (+51) Philippines
+(+63) Poland (+48) Portugal (+351) Qatar (+974) Réunion (+262) Romania (+40)
+Russian Federation (+7) Rwanda (+250) Saint Helena (+290) Saint Pierre and
+Miquelon (+508) Samoa (+685) San Marino (+378) São Tome and Principe (+239)
+Saudi Arabia (+966) Senegal (+221) Serbia (+381) Seychelles (+248) Sierra
+Leone (+232) Singapore (+65) Slovakia (+421) Slovenia (+386) Solomon Islands
+(+677) Somalia (+252) Somaliland (+252) South Africa (+27) South Sudan (+211)
+Spain (+34) Sri Lanka (+94) Sudan (+249) Suriname (+597) Svalbard and Jan
+Mayen (+47) Swaziland (+268) Sweden (+46) Switzerland (+41) Syria (+963)
+Taiwan (+886) Tajikistan (+992) Tanzania (+255) Thailand (+66) Timor-Leste
+(+670) Togo (+228) Tokelau (+690) Tonga (+676) Tristan da Cunha (+290) Tunisia
+(+216) Turkey (+90) Turkmenistan (+993) Tuvalu (+688) Uganda (+256) Ukraine
+(+380) United Arab Emirates (+971) United Kingdom (+44) United States (+1)
+United States Minor Outlying Islands (+699) Uruguay (+598) Uzbekistan (+998)
+Vanuatu (+678) Venezuela (+58) Viet Nam (+84) Wallis and Futuna Islands (+681)
+Western Sahara (+212) Yemen (+967) Zambia (+260) Zimbabwe (+263)
+
+Phone number
+
+Address
+
+Language Afrikaans Arabic Bulgarian Chinese Czech Danish Dutch English Finnish
+French German Hebrew Hindi Italian Malay Norwegian Polish Portuguese Romanian
+Russian Slovak Spanish Swedish Thai
+
+Company
+
+Sales tax ID
+
+City
+
+Postal code
+
+Country United States Canada United Kingdom Australia Afghanistan Akrotiri
+Åland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antigua
+and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas
+Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan
+Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana
+Bouvet Island Brazil British Indian Ocean Territory Brunei Bulgaria Burkina
+Faso Burundi Cabo Verde Cambodia Cameroon Canada Cayman Islands Central
+African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands
+Colombia Comoros Congo Congo, Democratic Rep Cook Islands Costa Rica Côte
+D'Ivoire Croatia Cuba Curaçao Cyprus Czech Republic Denmark Dhekelia Djibouti
+Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea
+Eritrea Estonia Eswatini Ethiopia Falkland Islands Faroe Islands Fiji Finland
+France French Guiana French Polynesia French Southern and Antarctic Lands
+Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada
+Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard
+Island and McDonald Islands Holy See Honduras Hong Kong Hungary Iceland India
+Indonesia Iran Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jersey
+Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon
+Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macau Madagascar
+Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania
+Mauritius Mayotte Mexico Micronesia Moldova Monaco Mongolia Montenegro
+Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands
+Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue
+Norfolk Island North Korea North Macedonia Northern Mariana Islands Norway
+Oman Pakistan Palau Palestine Panama Papua New Guinea Paracel Islands Paraguay
+Peru Philippines Pitcairn Islands Poland Portugal Puerto Rico Qatar Réunion
+Romania Russia Rwanda Saint Barthélemy Saint Helena Saint Kitts And Nevis
+Saint Lucia Saint Martin Saint Pierre and Miquelon Saint Vincent and the
+Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia
+Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon
+Islands Somalia South Africa South Georgia South Korea South Sudan Spain Sri
+Lanka Sudan Suriname Svalbard and Jan Mayen Sweden Switzerland Syria Taiwan
+Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and
+Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda
+Ukraine United Arab Emirates United Kingdom United States Uruguay US Minor
+Islands Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands, British Virgin
+Islands, U.S. Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe
+
+State Select country first...
+
+______
+
+Your time zone Select the time zone... Pacific Time (US and Canada) Mountain
+Time (US and Canada) Central Time (US and Canada) Eastern Time (US and Canada)
+Dublin, Edinburgh, Lisbon, London Brussels, Copenhagen, Madrid, Paris
+International Date Line West Midway Island, Samoa Hawaii Alaska Chihuahua,
+Mazatlan Arizona Saskatchewan Guadalajara, Mexico City, Monterrey Central
+America Indiana (East) Bogota, Lima, Quito Atlantic Time (Canada) Caracas, La
+Paz, Georgetown Santiago Newfoundland and Labrador Brasilia Buenos Aires
+Greenland Mid-Atlantic Azores, Monrovia, Dakar Cape Verde Islands Casablanca
+Canary Islands Belgrade, Bratislava, Budapest, Ljubljana, Prague Sarajevo,
+Skopje, Warsaw, Zagreb Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna West
+Central Africa Bucharest Cairo Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius
+Athens, Istanbul, Minsk Jerusalem Harare, Pretoria Moscow, St. Petersburg,
+Volgograd Kuwait, Riyadh Nairobi Baghdad Tehran Abu Dhabi, Muscat Baku,
+Tbilisi, Yerevan Kabul Ekaterinburg Islamabad, Karachi, Tashkent Chennai,
+Kolkata, Mumbai, New Delhi Kathmandu Astana, Dhaka Sri Jayawardenepura Almaty
+Yangon Rangoon Bangkok, Hanoi, Jakarta, Novosibirsk Krasnoyarsk Beijing,
+Chongqing, Hong Kong SAR, Urumqi Kuala Lumpur, Singapore Taipei Perth Irkutsk,
+Ulaanbaatar Seoul Osaka, Sapporo, Tokyo Yakutsk Darwin Adelaide Canberra,
+Melbourne, Sydney Brisbane Hobart Vladivostok Guam, Port Moresby Magadan,
+Solomon Islands, New Caledonia Fiji Islands, Kamchatka, Marshall Islands
+Auckland, Wellington Nuku'alofa
+
+______
+
+Your time zone Select the time zone... Pacific Time (US and Canada) Mountain
+Time (US and Canada) Central Time (US and Canada) Eastern Time (US and Canada)
+Dublin, Edinburgh, Lisbon, London Brussels, Copenhagen, Madrid, Paris
+International Date Line West Midway Island, Samoa Hawaii Alaska Chihuahua,
+Mazatlan Arizona Saskatchewan Guadalajara, Mexico City, Monterrey Central
+America Indiana (East) Bogota, Lima, Quito Atlantic Time (Canada) Caracas, La
+Paz, Georgetown Santiago Newfoundland and Labrador Brasilia Buenos Aires
+Greenland Mid-Atlantic Azores, Monrovia, Dakar Cape Verde Islands Casablanca
+Canary Islands Belgrade, Bratislava, Budapest, Ljubljana, Prague Sarajevo,
+Skopje, Warsaw, Zagreb Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna West
+Central Africa Bucharest Cairo Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius
+Athens, Istanbul, Minsk Jerusalem Harare, Pretoria Moscow, St. Petersburg,
+Volgograd Kuwait, Riyadh Nairobi Baghdad Tehran Abu Dhabi, Muscat Baku,
+Tbilisi, Yerevan Kabul Ekaterinburg Islamabad, Karachi, Tashkent Chennai,
+Kolkata, Mumbai, New Delhi Kathmandu Astana, Dhaka Sri Jayawardenepura Almaty
+Yangon Rangoon Bangkok, Hanoi, Jakarta, Novosibirsk Krasnoyarsk Beijing,
+Chongqing, Hong Kong SAR, Urumqi Kuala Lumpur, Singapore Taipei Perth Irkutsk,
+Ulaanbaatar Seoul Osaka, Sapporo, Tokyo Yakutsk Darwin Adelaide Canberra,
+Melbourne, Sydney Brisbane Hobart Vladivostok Guam, Port Moresby Magadan,
+Solomon Islands, New Caledonia Fiji Islands, Kamchatka, Marshall Islands
+Auckland, Wellington Nuku'alofa
+
+______
+
+×
+
+### Your profile information was updated successfully!
+
+Close
+
+Profile updated
+
+×
+
+### Change password
+
+Cancel Change
+
+Your current password
+
+Required
+
+Your new password
+
+8 to 16 characters
+
+Required
+
+Retype new password
+
+Required
+
+Your password has been updated successfully!
+
+×
+
+×
+
+Cookies
+
+We use cookies to improve our service, track analytics, remember preferences,
+etc. By using our site, you consent to these cookies.
+
+[Privacy policy]() [Cookie policy]()
+
+Accept all cookies
+
+Only essential cookies
+
+Save
+
+ 
+---

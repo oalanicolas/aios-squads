@@ -1,0 +1,720 @@
+# ==============================================================================
+# TEMPLATE METADATA: brownfield_plan | v1.0.0 | format: yaml | MMOS Pipeline
+# ==============================================================================
+# Brownfield Update Plan - [Nome do Mind]
+# Incremental Update Strategy for Existing Mind
+
+mind_name: "[NOME_COMPLETO]"
+current_version: "[vX.Y]"
+target_version: "[vX.Y]"
+update_plan_created: "YYYYMMDD-HHMM"
+update_coordinator: "[NOME]"
+status: "[PLANNING/IN_PROGRESS/COMPLETE/ROLLED_BACK]"
+
+# =============================================================================
+# EXECUTIVE SUMMARY
+# =============================================================================
+
+summary:
+  update_type: "[MINOR_REFRESH/MAJOR_UPDATE/COMPREHENSIVE_OVERHAUL]"
+
+  trigger_reason: "[NEW_SOURCES/DRIFT_DETECTED/USER_FEEDBACK/QUALITY_IMPROVEMENT/OTHER]"
+
+  scope:
+    layers_affected: []  # [1-8]
+    artifacts_to_update: []
+    system_prompt_changes: "[NONE/MINOR/MAJOR]"
+    kb_changes: "[NONE/ADDITIONS/MODIFICATIONS/MAJOR_REVISION]"
+
+  estimated_effort:
+    research_hours: 0
+    analysis_hours: 0
+    synthesis_hours: 0
+    implementation_hours: 0
+    testing_hours: 0
+    total_hours: 0
+
+  risk_level: "[LOW/MEDIUM/HIGH/CRITICAL]"
+
+  rollback_plan_ready: false
+
+  expected_completion: null  # "YYYYMMDD"
+
+# =============================================================================
+# CHANGE ANALYSIS
+# =============================================================================
+
+change_analysis:
+
+  new_sources_identified:
+    - source_id: "NEW-001"
+      title: "[Title]"
+      type: "[book/interview/podcast/etc]"
+      year: 0
+      quality_score: 0  # [1-10]
+      priority: "[CRITICAL/HIGH/MEDIUM/LOW]"
+
+      content_summary: |
+        [Brief summary of content]
+
+      layers_impacted: []  # [Which DNA Mental layers]
+
+      potential_changes: |
+        [What might change in the mind based on this source]
+
+      processing_required: "[FULL/PARTIAL/REFERENCE_ONLY]"
+
+  drift_detected:
+    - drift_id: "DRIFT-001"
+      area: "[Where drift occurred]"
+      description: |
+        [Description of how current mind differs from sources]
+
+      severity: "[HIGH/MEDIUM/LOW]"
+
+      root_cause: "[Why drift happened]"
+
+      correction_needed: |
+        [What needs to be fixed]
+
+  user_feedback_patterns:
+    - feedback_id: "FB-001"
+      issue: "[Recurring user complaint/observation]"
+      frequency: 0  # number of reports
+      severity: "[HIGH/MEDIUM/LOW]"
+
+      examples: []
+
+      proposed_fix: |
+        [How to address this]
+
+  quality_improvements:
+    - improvement_id: "QI-001"
+      area: "[What to improve]"
+      current_state: "[Current quality/behavior]"
+      desired_state: "[Target quality/behavior]"
+
+      justification: |
+        [Why this improvement is needed]
+
+      implementation_approach: |
+        [How to implement]
+
+# =============================================================================
+# IMPACT ASSESSMENT - DNA MENTAL™ LAYERS
+# =============================================================================
+
+layer_impact:
+
+  layer_1_sensory_inputs:
+    impacted: false
+    impact_level: "[NONE/MINOR/MODERATE/MAJOR]"
+
+    changes_needed:
+      - change: "[Specific change]"
+        reason: "[Why]"
+        effort: "[hours]"
+
+    downstream_effects: |
+      [How this affects other layers]
+
+  layer_2_recognition_patterns:
+    impacted: false
+    impact_level: "[level]"
+    changes_needed: []
+    downstream_effects: null
+
+  layer_3_mental_models:
+    impacted: false
+    impact_level: "[level]"
+    changes_needed: []
+    downstream_effects: null
+
+  layer_4_belief_systems:
+    impacted: false
+    impact_level: "[level]"
+    changes_needed: []
+    downstream_effects: null
+
+  layer_5_decision_architecture:
+    impacted: false
+    impact_level: "[level]"
+    changes_needed: []
+    downstream_effects: null
+
+  layer_6_core_obsessions:
+    impacted: false
+    impact_level: "[level]"
+    changes_needed: []
+    downstream_effects: null
+
+  layer_7_unique_algorithm:
+    impacted: false
+    impact_level: "[level]"
+    changes_needed: []
+    downstream_effects: null
+
+  layer_8_integrative_synthesis:
+    impacted: false
+    impact_level: "[level]"
+    changes_needed: []
+    downstream_effects: null
+
+# =============================================================================
+# ARTIFACT UPDATE PLAN
+# =============================================================================
+
+artifact_updates:
+
+  sources:
+    action: "[APPEND/MODIFY/NO_CHANGE]"
+
+    files_to_update:
+      - file: "sources/sources_master.yaml"
+        changes: "[What to add/modify]"
+        effort: 0  # hours
+
+  artifacts:
+    - file: "artifacts/personality_profile.json"
+      action: "[UPDATE/NO_CHANGE]"
+      sections_affected: []
+      changes_description: |
+        [What changes]
+      effort: 0
+
+    - file: "artifacts/cognitive_architecture.yaml"
+      action: "[UPDATE/NO_CHANGE]"
+      sections_affected: []
+      changes_description: |
+        [What changes]
+      effort: 0
+
+  knowledge_base:
+    action: "[ADD_CHUNKS/MODIFY_CHUNKS/REORGANIZE/NO_CHANGE]"
+
+    new_chunks: 0
+    modified_chunks: 0
+    deprecated_chunks: 0
+
+    effort: 0  # hours
+
+    changes:
+      - change_type: "[ADD/MODIFY/REMOVE]"
+        chunk_ids: []
+        description: "[What changes]"
+        reason: "[Why]"
+
+  system_prompts:
+    generalista:
+      action: "[MAJOR_REVISION/MINOR_UPDATE/NO_CHANGE]"
+      version: "[New version number]"
+
+      changes:
+        - section: "[Section name]"
+          change_type: "[ADD/MODIFY/REMOVE]"
+          description: |
+            [What changes]
+          reason: "[Why]"
+
+      effort: 0  # hours
+
+    specialists:
+      - specialist: "[Name]"
+        action: "[UPDATE/NO_CHANGE]"
+        changes: []
+        effort: 0
+
+  documentation:
+    - file: "docs/MIND_BRIEF.md"
+      action: "[UPDATE/NO_CHANGE]"
+      changes: "[What changes]"
+      effort: 0
+
+    - file: "docs/COGNITIVE_SPEC.md"
+      action: "[UPDATE/NO_CHANGE]"
+      changes: "[What changes]"
+      effort: 0
+
+# =============================================================================
+# EXECUTION PLAN
+# =============================================================================
+
+execution_plan:
+
+  phase_1_preparation:
+    description: "Backup, analysis, and detailed planning"
+
+    tasks:
+      - task_id: "P1-001"
+        task: "Create complete backup of current mind"
+        owner: "[Name]"
+        estimated_hours: 0.5
+        dependencies: []
+        status: "[NOT_STARTED/IN_PROGRESS/COMPLETE]"
+
+      - task_id: "P1-002"
+        task: "Process new sources"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P1-001"]
+        status: "[status]"
+
+      - task_id: "P1-003"
+        task: "Detailed impact analysis"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P1-002"]
+        status: "[status]"
+
+  phase_2_analysis:
+    description: "Deep cognitive analysis of changes"
+
+    tasks:
+      - task_id: "P2-001"
+        task: "Extract insights from new sources"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P1-003"]
+        status: "[status]"
+
+      - task_id: "P2-002"
+        task: "Identify contradictions with existing mind"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P2-001"]
+        status: "[status]"
+
+      - task_id: "P2-003"
+        task: "Resolve contradictions with triangulation"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P2-002"]
+        status: "[status]"
+
+  phase_3_synthesis:
+    description: "Integrate changes into cognitive architecture"
+
+    tasks:
+      - task_id: "P3-001"
+        task: "Update affected artifacts"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P2-003"]
+        status: "[status]"
+
+      - task_id: "P3-002"
+        task: "Add/modify KB chunks"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P2-003"]
+        status: "[status]"
+
+      - task_id: "P3-003"
+        task: "Update COGNITIVE_SPEC.md"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P3-001"]
+        status: "[status]"
+
+  phase_4_implementation:
+    description: "Update system prompts and deploy"
+
+    tasks:
+      - task_id: "P4-001"
+        task: "Revise system prompt(s)"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P3-003"]
+        status: "[status]"
+
+      - task_id: "P4-002"
+        task: "Update MIND_BRIEF.md"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P4-001"]
+        status: "[status]"
+
+      - task_id: "P4-003"
+        task: "Deploy to testing environment"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P4-001", "P4-002"]
+        status: "[status]"
+
+  phase_5_testing:
+    description: "Comprehensive regression and fidelity testing"
+
+    tasks:
+      - task_id: "P5-001"
+        task: "Run regression test suite"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P4-003"]
+        status: "[status]"
+
+      - task_id: "P5-002"
+        task: "Fidelity testing (new & existing)"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P4-003"]
+        status: "[status]"
+
+      - task_id: "P5-003"
+        task: "User acceptance testing"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P5-001", "P5-002"]
+        status: "[status]"
+
+  phase_6_deployment:
+    description: "Production deployment and monitoring"
+
+    tasks:
+      - task_id: "P6-001"
+        task: "Final QA approval"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P5-003"]
+        status: "[status]"
+
+      - task_id: "P6-002"
+        task: "Deploy to production"
+        owner: "[Name]"
+        estimated_hours: 0
+        dependencies: ["P6-001"]
+        status: "[status]"
+
+      - task_id: "P6-003"
+        task: "Monitor for issues (48h)"
+        owner: "[Name]"
+        estimated_hours: 2
+        dependencies: ["P6-002"]
+        status: "[status]"
+
+# =============================================================================
+# PROMPTS TO RE-EXECUTE
+# =============================================================================
+
+prompts_to_rerun:
+
+  stage_2_research:
+    required: false
+    prompts:
+      - prompt: "research_source_reading.md"
+        reason: "[Why rerun]"
+        scope: "[FULL/PARTIAL]"
+        estimated_hours: 0
+
+  stage_3_analysis:
+    required: false
+    prompts:
+      - prompt: "analysis_quote_extraction.md"
+        reason: "[Why rerun]"
+        scope: "[FULL/PARTIAL]"
+        estimated_hours: 0
+
+      - prompt: "analysis_psychometric_analysis.md"
+        reason: "[Why rerun]"
+        scope: "[scope]"
+        estimated_hours: 0
+
+  stage_4_synthesis:
+    required: false
+    prompts:
+      - prompt: "synthesis_kb_creation.md"
+        reason: "[Why rerun]"
+        scope: "[FULL/PARTIAL]"
+        estimated_hours: 0
+
+  stage_5_implementation:
+    required: false
+    prompts:
+      - prompt: "implementation_system_prompt_generalista.md"
+        reason: "[Why rerun]"
+        scope: "[FULL/PARTIAL]"
+        estimated_hours: 0
+
+  stage_6_testing:
+    required: true  # Always test after brownfield update
+    prompts:
+      - prompt: "testing_fidelity_validation.md"
+        reason: "Regression testing required"
+        scope: "FULL"
+        estimated_hours: 0
+
+# =============================================================================
+# RISK ASSESSMENT & MITIGATION
+# =============================================================================
+
+risk_assessment:
+
+  risks:
+    - risk_id: "RISK-001"
+      risk: "[Description of risk]"
+      probability: "[HIGH/MEDIUM/LOW]"
+      impact: "[HIGH/MEDIUM/LOW]"
+      severity: "[CRITICAL/MAJOR/MINOR]"
+
+      mitigation_strategy: |
+        [How to prevent or handle]
+
+      contingency_plan: |
+        [What to do if risk materializes]
+
+    - risk_id: "RISK-002"
+      risk: "Regression in existing quality"
+      probability: "[probability]"
+      impact: "[impact]"
+      severity: "[severity]"
+      mitigation_strategy: |
+        [Strategy]
+      contingency_plan: |
+        [Plan]
+
+  regression_prevention:
+    - measure: "Comprehensive test suite"
+      description: |
+        [How this prevents regression]
+
+    - measure: "Side-by-side comparison"
+      description: |
+        [Comparing old vs new responses]
+
+# =============================================================================
+# ROLLBACK PLAN
+# =============================================================================
+
+rollback_plan:
+
+  triggers:
+    - trigger: "[What would cause rollback]"
+      severity: "[CRITICAL/MAJOR]"
+      decision_maker: "[Who decides]"
+
+  rollback_procedure:
+    - step: 1
+      action: "Immediately restore from backup"
+      owner: "[Name]"
+      estimated_time: 0  # minutes
+
+    - step: 2
+      action: "Notify users of rollback"
+      owner: "[Name]"
+      estimated_time: 0
+
+    - step: 3
+      action: "Analyze failure cause"
+      owner: "[Name]"
+      estimated_time: 0  # hours
+
+    - step: 4
+      action: "Create updated brownfield plan"
+      owner: "[Name]"
+      estimated_time: 0
+
+  backup_retention:
+    location: "[Where backup is stored]"
+    retention_period: "[How long to keep]"
+    verification: "[How to verify backup is good]"
+
+# =============================================================================
+# TESTING & VALIDATION
+# =============================================================================
+
+testing_plan:
+
+  regression_tests:
+    - test_category: "Core personality traits"
+      test_cases: 0
+      pass_threshold: 1.0  # [0.0-1.0]
+
+    - test_category: "Communication style"
+      test_cases: 0
+      pass_threshold: 0.95
+
+    - test_category: "Framework application"
+      test_cases: 0
+      pass_threshold: 0.90
+
+    - test_category: "Value consistency"
+      test_cases: 0
+      pass_threshold: 1.0
+
+  new_capability_tests:
+    - test: "[Test new behavior/knowledge]"
+      description: |
+        [What to test]
+      success_criteria: "[What success looks like]"
+
+  comparison_testing:
+    method: "Side-by-side old vs new"
+    sample_size: 0  # queries
+    evaluators: []
+
+    acceptance_criteria:
+      - criterion: "New version ≥ old version quality"
+        required: true
+
+      - criterion: "No regression in core traits"
+        required: true
+
+      - criterion: "New capabilities function correctly"
+        required: true
+
+# =============================================================================
+# SUCCESS CRITERIA
+# =============================================================================
+
+success_criteria:
+
+  required:
+    - criterion: "All regression tests pass"
+      met: false
+      threshold: 1.0
+      actual: null
+
+    - criterion: "No critical issues in testing"
+      met: false
+      threshold: 0
+      actual: null
+
+    - criterion: "Fidelity score maintained or improved"
+      met: false
+      threshold: 0.0
+      actual: null
+
+    - criterion: "User acceptance testing passed"
+      met: false
+      threshold: 0.85
+      actual: null
+
+  desired:
+    - criterion: "Improved quality metrics"
+      met: false
+      target: "[Specific target]"
+      actual: null
+
+    - criterion: "Positive user feedback"
+      met: false
+      target: "[Target]"
+      actual: null
+
+  overall_success: false
+
+# =============================================================================
+# POST-UPDATE MONITORING
+# =============================================================================
+
+monitoring_plan:
+
+  metrics_to_track:
+    - metric: "Response quality"
+      baseline: 0.0
+      target: 0.0
+      check_frequency: "[daily/weekly]"
+
+    - metric: "Consistency score"
+      baseline: 0.0
+      target: 0.0
+      check_frequency: "[frequency]"
+
+    - metric: "User satisfaction"
+      baseline: 0.0
+      target: 0.0
+      check_frequency: "[frequency]"
+
+  monitoring_period: "[48h/1week/1month]"
+
+  alert_conditions:
+    - condition: "[What triggers alert]"
+      threshold: "[Value]"
+      action: "[What to do]"
+
+# =============================================================================
+# DOCUMENTATION UPDATES
+# =============================================================================
+
+documentation_updates:
+
+  changelog:
+    version: "[New version]"
+    date: "YYYYMMDD"
+    summary: |
+      [Summary of changes]
+
+    changes:
+      added:
+        - "[Feature/capability added]"
+
+      changed:
+        - "[What was modified]"
+
+      fixed:
+        - "[Issues fixed]"
+
+      removed:
+        - "[What was deprecated]"
+
+  version_history:
+    - version: "[Old version]"
+      date: "YYYYMMDD"
+      changes: "[Summary]"
+
+  migration_guide:
+    for_users: |
+      [What users need to know about changes]
+
+    for_developers: |
+      [Technical changes developers need to know]
+
+# =============================================================================
+# LESSONS LEARNED (Post-Update)
+# =============================================================================
+
+lessons_learned:
+
+  what_worked_well: []
+
+  what_could_improve: []
+
+  for_future_brownfield_updates: []
+
+# =============================================================================
+# METADATA & TRACKING
+# =============================================================================
+
+metadata:
+  coordinator: "[Update Coordinator Name]"
+  team: []
+
+  created_at: "YYYYMMDD-HHMM"
+  started_at: null
+  completed_at: null
+
+  actual_effort:
+    research_hours: 0
+    analysis_hours: 0
+    synthesis_hours: 0
+    implementation_hours: 0
+    testing_hours: 0
+    total_hours: 0
+
+  version_history:
+    - version: "1.0"
+      date: "YYYYMMDD-HHMM"
+      changes: "Initial brownfield update plan"
+      author: "[Name]"
+
+  related_documents:
+    - "minds/[mind_name]/docs/MIND_BRIEF.md"
+    - "minds/[mind_name]/docs/COGNITIVE_SPEC.md"
+    - "minds/[mind_name]/sources/sources_master.yaml"
+    - "minds/[mind_name]/docs/logs/[timestamp]-validation_report.yaml"
+
+  approvals:
+    plan_approved_by: null
+    plan_approved_date: null
+    execution_approved_by: null
+    execution_approved_date: null
+    deployment_approved_by: null
+    deployment_approved_date: null

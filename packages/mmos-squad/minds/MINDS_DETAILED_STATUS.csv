@@ -1,0 +1,36 @@
+mind_slug,phase,phase_name,completion_pct,status,file_count,size,has_sources,has_analysis,has_synthesis,has_system_prompts,has_kb,identity_core,cognitive_spec,frameworks,communication_style,priority_notes
+abilio_diniz,3,Em Análise,40,Em Análise,4,100K,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,Lightweight profile - needs analysis documentation
+adriano_de_marqui,6,Finalizado,100,Finalizado,76,1.8M,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,Missing analysis docs but otherwise complete
+alan_nicolas,6,Finalizado,100,Finalizado,270,65M,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,Highest quality - all components present
+alex_hormozi,5,Implementação,85,Implementação,41,296K,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Needs synthesis documentation
+andrej_karpathy,5,Implementação,85,Implementação,9,128K,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Minimal collection - needs expansion
+brad_frost,5,Implementação,85,Implementação,6,104K,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Minimal collection - needs expansion
+dan_kennedy,5,Implementação,85,Implementação,74,127M,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Large collection - needs synthesis docs
+dan_koe,5,Implementação,85,Implementação,272,16M,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Largest collection by file count
+daniel_kahneman,2,Em Coleta,20,Em Coleta,19,280K,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,Initial collection - needs expansion to analysis
+elon_musk,5,Implementação,85,Implementação,32,528K,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Needs synthesis documentation
+eugene_schwartz,5,Implementação,85,Implementação,27,12M,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Needs synthesis documentation
+gary_vee,5,Implementação,85,Implementação,25,284K,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Needs synthesis documentation
+jesus_cristo,5,Implementação,85,Implementação,95,23M,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Needs synthesis documentation
+joao_lozano,6,Finalizado,100,Finalizado,24,428K,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,Complete - all components present
+jon_benson,2,Em Coleta,20,Em Coleta,4,56K,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Minimal collection - needs major expansion
+jose_amorim,5,Implementação,85,Implementação,49,880K,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Has analysis folder - ready for synthesis
+kapil_gupta,5,Implementação,85,Implementação,40,21M,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Needs synthesis documentation
+leonardo_da_vinci,5,Implementação,85,Implementação,29,456K,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Needs synthesis documentation
+mark_manson,5,Implementação,85,Implementação,34,4.2M,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Needs synthesis documentation
+napoleon_hill,4,Em Síntese,70,Em Síntese,35,960K,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,Close to completion - just needs frameworks.md and communication-style.md
+nassim_taleb,5,Implementação,85,Implementação,0,0B,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Empty implementation - unusual state
+naval_ravikant,5,Implementação,85,Implementação,159,3.5M,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Good collection - needs synthesis documentation
+paul_graham,5,Implementação,85,Implementação,285,8.1M,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Largest file count - needs synthesis documentation
+pedro_valerio,5,Implementação,85,Implementação,77,4.2M,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Needs synthesis documentation
+peter_thiel,5,Implementação,85,Implementação,22,220K,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Small collection - needs synthesis documentation
+ray_kurzweil,3,Em Análise,40,Em Análise,18,15M,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,Has cognitive-spec.yaml - ready for synthesis
+ricky_and_morty,1,Não Iniciado,5,Não Iniciado,12,204K,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,Unusual state - only KB folder present
+russel_brunson,5,Implementação,85,Implementação,9,48M,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,High density despite small file count
+sam_altman,6,Finalizado,100,Finalizado,79,2.1M,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,Nearly complete - missing communication-style.md
+seth_godin,5,Implementação,85,Implementação,190,12M,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Good collection - needs synthesis documentation
+steve_jobs,5,Implementação,85,Implementação,19,320K,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Needs synthesis documentation
+steven_pinker,5,Implementação,85,Implementação,15,432K,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Needs synthesis documentation
+tim_ferriss,5,Implementação,85,Implementação,6,64K,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Minimal collection - needs expansion
+walt_disney,5,Implementação,85,Implementação,13,100K,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,Needs synthesis documentation
+yuval_harari,2,Em Coleta,20,Em Coleta,18,428K,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Initial collection - needs expansion to analysis

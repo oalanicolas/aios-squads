@@ -1,0 +1,37 @@
+module:
+  id: implementation-identity
+  name: Identity Core Extraction
+  description: >-
+    Distills all cognitive analysis and synthesis into absolute essence - the
+    identity primitives that define who the person is, what drives them, how they
+    think, and why they matter. This becomes the foundation of the system prompt.
+  version: 1.0.0
+  created: 2025-10-25
+  shared_by:
+    - greenfield-mind
+    - brownfield-mind
+
+phases:
+  # ============================================================================
+  # Identity Core Extraction
+  # ============================================================================
+  - agent: architect
+    phase: implementation
+    creates: identity-core
+    task: core-essence-extraction
+    prerequisites:
+      - All synthesis artifacts complete
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/artifacts/identity_core.yaml
+    notes: |
+      Distill absolute essence into identity primitives:
+
+      IDENTITY CORE:
+      - Who they are (essence)
+      - What drives them (motors)
+      - How they think (cognition)
+      - Why they matter (unique value)
+
+      This becomes the foundation of the system prompt.
+
+      OUTPUT: Identity core YAML

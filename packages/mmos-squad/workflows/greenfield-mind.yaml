@@ -1,0 +1,190 @@
+workflow:
+  id: greenfield-mind
+  name: Greenfield Mind Clone Creation
+  description: >-
+    Complete MMOS pipeline for creating cognitive clones from scratch using DNA Mental™ 8-layer methodology.
+    Consolidated workflow supporting three execution modes: public figures (web scraping), private individuals
+    with interviews, and private individuals with pre-existing materials.
+  type: greenfield
+  project_types:
+    - personality-clone
+    - cognitive-assistant
+    - ai-mentor
+    - specialist-clone
+
+  modes:
+    public:
+      description: "Public figure - web scraping + automated research"
+      viability_required: true
+      research_method: web_scraping
+      validation_method: simulated
+      estimated_duration: "8-12 hours"
+      estimated_tokens: "2-3M tokens"
+
+    no-public-interviews:
+      description: "Private individual - 5-session interview protocol"
+      viability_required: false
+      research_method: interview_protocol
+      validation_method: direct_person2
+      estimated_duration: "6-8 hours"
+      estimated_tokens: "1.5-2M tokens"
+
+    no-public-materials:
+      description: "Private individual - provided materials only"
+      viability_required: false
+      research_method: provided_materials
+      validation_method: direct_person
+      estimated_duration: "4-6 hours"
+      estimated_tokens: "1-2M tokens"
+
+  sequence:
+    # ========================================================================
+    # PHASE 0: MODE DETECTION & INITIALIZATION
+    # ========================================================================
+    - agent: analyst
+      phase: initialization
+      creates: mode-detection
+      task: detect-workflow-mode
+      outputs:
+        - expansion-packs/mmos/minds/{slug}/metadata/mode.yaml
+        - expansion-packs/mmos/minds/{slug}/metadata/config.yaml
+      notes: |
+        Detect execution mode based on context:
+
+        MODE DETECTION LOGIC:
+        1. Check if mind slug exists in expansion-packs/mmos/minds/
+        2. Check for sources/ directory and its contents
+        3. Check for metadata/mode.yaml override
+
+        AUTO-DETECT:
+        - public: No existing directory OR user specifies public figure
+        - no-public-interviews: User requests interview protocol
+        - no-public-materials: sources/ exists with materials
+
+        PROMPT USER if ambiguous:
+        "Which mode for {mind_name}?"
+        1. Public figure (web research)
+        2. Private (5 interview sessions)
+        3. Private (use provided materials)
+
+        SAVE: mode.yaml with selected mode
+        NEXT: Execute mode-specific sequence
+
+    # ========================================================================
+    # PHASE 1: VIABILITY & RESEARCH (Mode-Specific)
+    # ========================================================================
+    - agent: analyst
+      phase: viability
+      creates: viability-assessment
+      task: viability-assessment
+      skip_if: "mode != 'public'"
+      outputs:
+        - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-viability.yaml
+        - expansion-packs/mmos/minds/{slug}/docs/PRD.md
+        - expansion-packs/mmos/minds/{slug}/docs/TODO.md
+      human_checkpoint: true
+      checkpoint_type: GO_NO-GO_DECISION
+      notes: |
+        PUBLIC MODE ONLY: Execute APEX viability scoring
+
+        APEX THRESHOLDS:
+        - Score ≥ 75: Auto-approve (GO)
+        - Score 50-74: Human review required
+        - Score < 50: Auto-reject (NO-GO)
+
+        HUMAN CHECKPOINT #1: GO/NO-GO Decision
+        - Review APEX + ICP scores
+        - Decide: GO | NO-GO | REVISE
+
+        NO-PUBLIC MODES: Skip this phase entirely
+
+    - agent: analyst
+      phase: research
+      creates: source-collection
+      task: research-collection
+      task_mode: "{mode}_research"
+      outputs:
+        - expansion-packs/mmos/minds/{slug}/sources/sources_master.yaml
+        - expansion-packs/mmos/minds/{slug}/sources/{type}/*
+        - expansion-packs/mmos/minds/{slug}/metadata/temporal_context.yaml
+      validation:
+        minimum_sources: 15
+        minimum_high_confidence: 5
+        minimum_source_types: 3
+      notes: |
+        MODE-SPECIFIC RESEARCH:
+
+        public:
+          - Web scraping (books, articles, podcasts, videos)
+          - Parallel collection (batch 1-3)
+          - Generate sources_master.yaml
+
+        no-public-interviews:
+          - Execute 5-session interview protocol
+          - Record and transcribe sessions
+          - Speaker-labeled markdown transcripts
+          - Save to sources/interviews/
+
+        no-public-materials:
+          - Scan expansion-packs/mmos/minds/{slug}/sources/
+          - Catalog provided materials
+          - Supported: MD, TXT, MBOX, PDF
+          - Generate sources_master.yaml
+
+        VALIDATION: Check minimum requirements met
+
+    # ========================================================================
+    # PHASES 2-7: SHARED PIPELINE (Import Modules)
+    # ========================================================================
+    - import: "modules/analysis-foundation.yaml"
+      # DNA Mental™ Layers 1-5 (Observable patterns + mental models)
+
+    - import: "modules/analysis-critical.yaml"
+      # DNA Mental™ Layers 6-8 + Checkpoints (Values, obsessions, paradoxes)
+
+    - import: "modules/synthesis-knowledge.yaml"
+      # Frameworks, communication templates, signature phrases
+
+    - import: "modules/synthesis-kb.yaml"
+      # Knowledge base chunking + specialist recommendations
+
+    - import: "modules/implementation-identity.yaml"
+      # Identity core extraction
+
+    - import: "modules/implementation-prompt.yaml"
+      # System prompt creation + operational manual
+
+    - import: "modules/validation-complete.yaml"
+      # Testing, validation, fidelity scoring, production approval
+      # Mode-specific: public uses simulated validation, no-public uses direct person validation
+
+    # ========================================================================
+    # PHASE 8: FINALIZATION
+    # ========================================================================
+    - agent: pm
+      phase: finalization
+      creates: pipeline-summary
+      task: execute-mmos-pipeline
+      task_mode: finalization
+      prerequisites:
+        - Production approval received
+      outputs:
+        - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-pipeline_summary.md
+        - expansion-packs/mmos/minds/catalog.md (updated)
+      notes: |
+        Generate pipeline execution summary:
+
+        SUMMARY CONTENTS:
+        - Execution mode used
+        - All phases completed
+        - Checkpoints validated
+        - Fidelity scores achieved
+        - Files generated inventory
+        - Total time and token usage
+        - Next steps (deployment, specialist creation)
+
+        Update catalog.md:
+        - Add new mind to master list
+        - Include key metadata
+
+        WORKFLOW COMPLETE ✅

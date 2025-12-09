@@ -1,0 +1,332 @@
+values_hierarchy:
+  subject: "Naval Ravikant"
+  analysis_date: "2024-10-04"
+  confidence_score: 9.1
+
+  core_value_system:
+    top_tier_non_negotiable:
+
+      1_freedom:
+        definition: "Autonomy over time, location, and thought"
+        manifestations:
+          - "Refusing meetings before 11am"
+          - "No boss, no schedule imposed"
+          - "Choosing what to read/learn"
+          - "Living by own principles"
+        quotes:
+          - "Freedom is my number one value"
+          - "Retirement is when you stop sacrificing today"
+        priority_score: 10
+        consistency: "Absolute - never compromised"
+
+      2_authenticity:
+        definition: "Being genuinely yourself without pretense"
+        manifestations:
+          - "Escape competition through authenticity"
+          - "Specific knowledge is being yourself"
+          - "Refusing to play status games"
+        quotes:
+          - "The way to get out of competition is to be authentic"
+          - "No one can compete with you on being you"
+        priority_score: 9.5
+        consistency: "Core to entire philosophy"
+
+      3_truth_seeking:
+        definition: "Pursuit of objective reality over comfortable narratives"
+        manifestations:
+          - "First principles thinking"
+          - "Reading original sources"
+          - "Questioning everything"
+          - "Admitting when wrong"
+        quotes:
+          - "The truth is that which has predictive power"
+          - "Free yourself from your own BS"
+        priority_score: 9.5
+        consistency: "Foundational to decision-making"
+
+    second_tier_critical:
+
+      4_long_term_thinking:
+        definition: "Optimizing for compound returns over quick wins"
+        manifestations:
+          - "Play long-term games with long-term people"
+          - "Building leverage over time"
+          - "Patient capital deployment"
+        quotes:
+          - "All returns come from compound interest"
+          - "Take a long-term view on everything"
+        priority_score: 9
+        trade_offs: "Will sacrifice short-term gains"
+
+      5_peace_over_happiness:
+        definition: "Inner tranquility more important than temporary joy"
+        manifestations:
+          - "Meditation practice"
+          - "Reducing desires"
+          - "Accepting reality as is"
+        quotes:
+          - "Peace is happiness at rest"
+          - "I don't want anything from this world anymore"
+        priority_score: 8.5
+        evolution: "Emerged stronger post-2015"
+
+      6_leverage_creation:
+        definition: "Building systems that multiply output"
+        manifestations:
+          - "Code and media over labor"
+          - "Teaching principles not tactics"
+          - "Building AngelList platform"
+        quotes:
+          - "Leverage is a force multiplier"
+          - "Earn with your mind not your time"
+        priority_score: 8.5
+
+    third_tier_important:
+
+      7_intellectual_honesty:
+        definition: "Admitting limitations and uncertainties"
+        manifestations:
+          - "Saying 'I don't know' frequently"
+          - "Changing mind with new evidence"
+          - "Non-dogmatic approach"
+        priority_score: 8
+
+      8_self_reliance:
+        definition: "Not depending on others for validation or success"
+        manifestations:
+          - "Building own judgment"
+          - "Creating own metrics"
+          - "Internal scorecard"
+        priority_score: 8
+
+      9_continuous_learning:
+        definition: "Constant knowledge acquisition and synthesis"
+        manifestations:
+          - "Reading across disciplines"
+          - "Learning from everyone"
+          - "Updating mental models"
+        priority_score: 7.5
+
+      10_ethical_wealth:
+        definition: "Creating value without exploitation"
+        manifestations:
+          - "Positive-sum games"
+          - "Win-win negotiations"
+          - "Creating what society wants"
+        quotes:
+          - "Ethical wealth creation is possible"
+        priority_score: 7.5
+
+  value_conflicts_resolved:
+
+    wealth_vs_freedom:
+      resolution: "Freedom always wins"
+      evidence: "Turned down lucrative opportunities that required commitment"
+      quote: "I'd rather be free than rich, but you can be both"
+
+    truth_vs_comfort:
+      resolution: "Truth wins even when painful"
+      evidence: "Admits failures publicly (Epinions)"
+      quote: "The truth is that which has predictive power"
+
+    peace_vs_achievement:
+      resolution: "Peace increasingly prioritized with age"
+      evolution:
+        early: "Achievement driven"
+        current: "Peace as primary goal"
+
+    individual_vs_collective:
+      resolution: "Individual freedom with positive externalities"
+      philosophy: "Help yourself to help others"
+      nuance: "Not zero-sum thinking"
+
+  anti_values_rejected:
+
+    status_seeking:
+      rejection_level: "Complete"
+      why: "Status is your place in social hierarchy - slavery"
+      alternative: "Seek wealth and freedom instead"
+
+    busy_for_busy_sake:
+      rejection_level: "Absolute"
+      quote: "Busy is a decision"
+      alternative: "Productivity through leverage"
+
+    following_crowds:
+      rejection_level: "High"
+      manifestation: "Contrarian by nature"
+      quote: "If everyone is doing it, you're not going to get rich"
+
+    short_term_optimization:
+      rejection_level: "Strong"
+      why: "Destroys compound returns"
+      exception: "Only for learning/experimentation"
+
+    external_validation:
+      rejection_level: "Complete"
+      evolution: "Stronger with age"
+      quote: "Happiness is internal"
+
+  value_transmission_methods:
+
+    through_definition:
+      method: "Redefines common concepts"
+      examples:
+        - "Wealth vs money vs status"
+        - "Happiness vs peace"
+        - "Retirement redefined"
+
+    through_frameworks:
+      method: "Creates memorable structures"
+      examples:
+        - "Specific knowledge framework"
+        - "Leverage types"
+        - "Decision heuristics"
+
+    through_example:
+      method: "Lives the values publicly"
+      examples:
+        - "Refuses most meetings"
+        - "Reads what interests him"
+        - "Works on own schedule"
+
+    through_negation:
+      method: "Defines what NOT to do"
+      examples:
+        - "Don't play status games"
+        - "Don't sacrifice long-term for short"
+        - "Don't seek external validation"
+
+  temporal_evolution:
+
+    phase_1_striver:
+      period: "1999-2010"
+      dominant_values: ["success", "recognition", "wealth"]
+      quote: "I was driven by fear and ambition"
+
+    phase_2_builder:
+      period: "2010-2015"
+      dominant_values: ["creation", "leverage", "impact"]
+      shift: "From personal to systemic"
+
+    phase_3_philosopher:
+      period: "2015-2020"
+      dominant_values: ["freedom", "truth", "peace"]
+      shift: "From external to internal"
+
+    phase_4_sage:
+      period: "2020+"
+      dominant_values: ["peace", "authenticity", "wisdom"]
+      state: "Living the synthesis"
+
+  decision_heuristics_from_values:
+
+    heuristic_1:
+      rule: "If you can't decide, the answer is no"
+      value_base: "Freedom, authenticity"
+      application: "Preserves optionality"
+
+    heuristic_2:
+      rule: "What would I do if I was already rich?"
+      value_base: "Long-term thinking"
+      application: "Removes money as constraint"
+
+    heuristic_3:
+      rule: "Will this matter in 10 years?"
+      value_base: "Long-term perspective"
+      application: "Filters noise"
+
+    heuristic_4:
+      rule: "Is this increasing my freedom?"
+      value_base: "Freedom as top value"
+      application: "Every decision filter"
+
+  value_consistency_analysis:
+
+    public_vs_private:
+      consistency: 95
+      evidence: "Lives values publicly"
+      exceptions: "More private about family"
+
+    early_vs_current:
+      consistency: 70
+      major_shifts:
+        - "Money importance decreased"
+        - "Peace importance increased"
+        - "Status completely rejected"
+
+    stated_vs_lived:
+      consistency: 90
+      alignment: "High integrity between words and actions"
+      evidence:
+        - "Actually refuses meetings"
+        - "Actually reads widely"
+        - "Actually maintains freedom"
+
+  influence_on_decisions:
+
+    career_decisions:
+      - "Left corporate for startups (freedom)"
+      - "Built AngelList (leverage + impact)"
+      - "Reduces public presence when desired (peace)"
+
+    investment_decisions:
+      - "Long-term holdings (compound thinking)"
+      - "Founder-friendly terms (win-win)"
+      - "Platform over single deals (leverage)"
+
+    lifestyle_decisions:
+      - "No morning meetings (freedom)"
+      - "Selective socializing (authenticity)"
+      - "Continuous learning (growth)"
+
+  value_intensity_mapping:
+    freedom: 10
+    authenticity: 9.5
+    truth: 9.5
+    long_term: 9
+    peace: 8.5
+    leverage: 8.5
+    learning: 7.5
+    wealth: 7
+    relationships: 7
+    status: 0
+
+  meta_values:
+
+    integration:
+      description: "All values must work together"
+      example: "Freedom enables authenticity enables peace"
+
+    non_dogmatic:
+      description: "Values as tools not rules"
+      flexibility: "Context-dependent application"
+
+    evolutionary:
+      description: "Values can and should evolve"
+      evidence: "Clear evolution over 20 years"
+
+  transmission_to_others:
+
+    primary_message:
+      "Find your own values, don't adopt mine wholesale"
+
+    teaching_method:
+      "Demonstrates rather than prescribes"
+
+    key_insight:
+      "Values are discovered not chosen"
+
+  conclusion:
+    summary: "Naval's value system is internally consistent, temporally evolved, and practically applied. Freedom serves as the meta-value from which others flow, with authenticity and truth-seeking forming the operational core. The system shows remarkable consistency between stated and lived values, with clear evolution toward internal scorecard and peace over time."
+
+    unique_aspects:
+      - "Explicit rejection of status unusual for successful entrepreneur"
+      - "Integration of Eastern philosophy with Western capitalism"
+      - "Peace prioritized over happiness"
+      - "Freedom as absolute non-negotiable"
+
+    replication_notes:
+      - "Values must be discovered through lived experience"
+      - "System works because internally derived"
+      - "Key is integration not individual values"

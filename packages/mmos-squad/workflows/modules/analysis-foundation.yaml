@@ -1,0 +1,88 @@
+module:
+  id: analysis-foundation
+  name: DNA Mental™ Foundation Layers (1-5)
+  description: >-
+    Observable patterns and mental models that form the foundation of cognitive analysis.
+    These layers extract behavioral patterns, communication style, routines, recognition
+    patterns, and mental models without requiring human validation checkpoints.
+  version: 1.0.0
+  created: 2025-10-25
+  shared_by:
+    - greenfield-mind
+    - brownfield-mind
+
+phases:
+  # ============================================================================
+  # LAYER 1-4: Observable Patterns (Foundation)
+  # ============================================================================
+  - agent: analyst
+    phase: analysis
+    creates: cognitive-analysis-layers-1-4
+    task: cognitive-analysis
+    task_mode: layers_1_4
+    prerequisites:
+      - sources_master.yaml complete
+      - Minimum source requirements met
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/artifacts/behavioral_patterns.md
+      - expansion-packs/mmos/minds/{slug}/artifacts/writing_style.md
+      - expansion-packs/mmos/minds/{slug}/artifacts/routine_analysis.md
+      - expansion-packs/mmos/minds/{slug}/artifacts/recognition_patterns.yaml
+    parallel_execution: true
+    notes: |
+      DNA Mental™ LAYERS 1-4: Observable Patterns (Foundation)
+
+      Execute in PARALLEL (4 concurrent analyses):
+
+      LAYER 1: Behavioral Patterns
+      - Observable actions and decisions
+      - Recurring behavior patterns
+      - Response to situations
+
+      LAYER 2: Communication Style
+      - Linguistic patterns and vocabulary
+      - Signature phrases and metaphors
+      - Writing/speaking style forensics
+
+      LAYER 3: Routine & Habits
+      - Temporal patterns
+      - Daily/weekly/monthly routines
+      - Work habits and rituals
+
+      LAYER 4: Recognition Patterns (Mental Radars)
+      - What they notice (and ignore)
+      - Pattern recognition capabilities
+      - Filters and attention mechanisms
+
+      No human checkpoint required - foundational observables.
+
+      OUTPUT: 4 artifact files documenting observable patterns
+
+  # ============================================================================
+  # LAYER 5: Mental Models & Frameworks
+  # ============================================================================
+  - agent: analyst
+    phase: analysis
+    creates: cognitive-analysis-layer-5
+    task: cognitive-analysis
+    task_mode: layer_5
+    prerequisites:
+      - Layers 1-4 complete
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/artifacts/mental_models.md
+    triangulation: required
+    notes: |
+      DNA Mental™ LAYER 5: Mental Models & Frameworks
+
+      Extract thinking frameworks:
+      - How they interpret reality
+      - Frameworks they apply to problems
+      - Conceptual models they use
+      - Reasoning patterns
+
+      TRIANGULATION REQUIRED:
+      - Cross-reference against Layers 1-4
+      - Validate consistency across sources
+      - Document evidence trail
+
+      OUTPUT: Mental models catalog

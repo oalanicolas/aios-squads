@@ -1,0 +1,151 @@
+# ETL Collector - Batch 1 Sources for Yuval Harari
+# Compatible with parallel-collector.js
+
+sources:
+  # === YOUTUBE SOURCES ===
+
+  - id: source_005
+    type: youtube
+    title: "Lex Fridman #390 - Human Nature, Intelligence, Power, Conspiracies"
+    url: "https://www.youtube.com/watch?v=L_Guz73e6fw"
+    date: "2023-07-17"
+    priority: 1
+    layers: [4, 5, 6, 7, 8]
+    notes: "CRITICAL - Layer 5-8 goldmine"
+
+  - id: source_010
+    type: youtube
+    title: "Frontiers Forum - AI and the Future of Humanity"
+    url: "https://www.youtube.com/results?search_query=Yuval+Harari+Frontiers+Forum+AI"
+    date: "2023"
+    priority: 1
+    layers: [5, 6, 7, 8]
+    notes: "Major AI keynote"
+
+  - id: source_011
+    type: youtube
+    title: "TED: What Explains the Rise of Humans?"
+    url: "https://www.youtube.com/watch?v=nzj7Wg4DAbs"
+    date: "2015-07"
+    priority: 1
+    layers: [2, 4, 5]
+    notes: "Foundation frameworks"
+
+  - id: source_012
+    type: youtube
+    title: "TED: Why Fascism is So Tempting"
+    url: "https://www.youtube.com/watch?v=IEFAhFX5M5I"
+    date: "2018-05"
+    priority: 1
+    layers: [5, 6, 7]
+    notes: "Democracy + AI themes"
+
+  - id: source_008
+    type: youtube
+    title: "CBS 60 Minutes - Power of Data, AI, Future"
+    url: "https://www.youtube.com/results?search_query=CBS+60+Minutes+Yuval+Harari+2021"
+    date: "2021-10-31"
+    priority: 1
+    layers: [5, 6, 7]
+    notes: "Mainstream media"
+
+  # === PODCAST SOURCES ===
+
+  - id: source_006
+    type: podcast
+    title: "Tim Ferriss Show #477 - Sapiens, Awareness"
+    url: "https://traffic.megaphone.fm/GLT9459025150.mp3"
+    date: "2020-10-30"
+    priority: 1
+    layers: [2, 3, 5, 6, 7]
+    notes: "Meditation practice, Layer 3 routine"
+
+  - id: source_007
+    type: podcast
+    title: "IMF Podcast - AI Revolution"
+    url: "https://www.imf.org/en/News/Podcasts/All-Podcasts/2024/10/01/yuval-noah-harari"
+    date: "2024-10-01"
+    priority: 1
+    layers: [6, 7, 8]
+    notes: "MOST RECENT - Oct 2024"
+
+  # === BLOG/WEB SOURCES ===
+
+  - id: source_009
+    type: blog
+    title: "GZERO Media - AI Social Weapon"
+    url: "https://www.gzeromedia.com/gzero-world-clips/yuval-noah-harari-ai-is-a-social-weapon-of-mass-destruction-to-humanity"
+    date: "2024"
+    priority: 1
+    layers: [6, 7, 8]
+    notes: "Layer 8 paradox evidence"
+
+  - id: source_017
+    type: blog
+    title: "Guardian - Ukraine War (Most-Read Opinion)"
+    url: "https://www.theguardian.com/commentisfree/2022/feb/28/putin-ukraine-war-europe"
+    date: "2022-02-28"
+    priority: 2
+    layers: [2, 5, 6]
+    notes: "Storytelling peak"
+
+  - id: source_018
+    type: blog
+    title: "Guardian - How to Live Well in Difficult Times"
+    url: "https://www.theguardian.com/commentisfree/2024/oct/04/advice-live-good-life-difficult-times"
+    date: "2024-10-04"
+    priority: 2
+    layers: [6, 7]
+    notes: "Recent October 2024"
+
+  # === BOOKS ===
+  # Note: Books require manual purchase/library access
+  # These are placeholders for ETL to skip or flag
+
+  - id: source_001
+    type: book
+    title: "Nexus: Information Networks from Stone Age to AI"
+    url: "https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X"
+    date: "2024-09"
+    priority: 1
+    layers: [4, 5, 6, 7, 8]
+    notes: "CRITICAL - Requires purchase or library (Libby app recommended)"
+    manual_collection: true
+
+  - id: source_002
+    type: book
+    title: "Sapiens: A Brief History of Humankind"
+    url: "https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095"
+    date: "2014-02"
+    priority: 1
+    layers: [2, 4, 5, 6, 7]
+    notes: "Foundation frameworks - manual collection"
+    manual_collection: true
+
+  - id: source_003
+    type: book
+    title: "Homo Deus: A Brief History of Tomorrow"
+    url: "https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464310"
+    date: "2016-09"
+    priority: 1
+    layers: [5, 6, 7, 8]
+    notes: "Future thinking - manual collection"
+    manual_collection: true
+
+  - id: source_004
+    type: book
+    title: "21 Lessons for the 21st Century"
+    url: "https://www.amazon.com/Lessons-21st-Century-Yuval-Harari/dp/0525512179"
+    date: "2018-08"
+    priority: 1
+    layers: [3, 5, 6, 7]
+    notes: "Values evidence - manual collection"
+    manual_collection: true
+
+metadata:
+  mind_name: "Yuval Noah Harari"
+  batch: 1
+  total_sources: 15
+  automated_sources: 11
+  manual_sources: 4
+  estimated_time: "2-3 hours (automated only)"

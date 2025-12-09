@@ -1,0 +1,341 @@
+---
+# Dependencies Mapper for Gary Halbert Mind Clone
+# Generated: 2025-10-22
+# MMOS Version: 3.0 - DNA Mental™
+
+dependencies:
+  mmos_framework:
+    version: "3.0"
+    methodology: "DNA Mental™ 8-Layer Cognitive Analysis"
+    pack: "mmos-mind-mapper"
+    location: "expansion-packs/mmos-mind-mapper"
+    
+  llm_target:
+    primary: "Claude Sonnet 4.5"
+    alternatives:
+      - "GPT-4"
+      - "Claude Opus"
+      - "Gemini Pro"
+    context_window: "200K tokens minimum (for long sales pages)"
+    required_capabilities:
+      - "Long-form context handling"
+      - "Instruction following (complex system prompts)"
+      - "Style replication"
+      - "Portuguese language support"
+      - "Creative generation + analytical critique"
+  
+  source_dependencies:
+    critical_sources:
+      tier_1_required:
+        - name: "The Boron Letters"
+          type: "book"
+          criticality: "ESSENTIAL"
+          reason: "Primary source for Layers 6-8 (values, obsessions, paradoxes)"
+          format: "text"
+          estimated_size: "~200 pages"
+          
+        - name: "The Gary Halbert Letter (Newsletter Archive)"
+          type: "newsletter collection"
+          criticality: "ESSENTIAL"
+          reason: "Backbone of project - 100+ editions of teaching and examples"
+          format: "text (HTML/PDF)"
+          estimated_size: "~500K-1M words"
+          source_url: "thegaryhalbertletter.com"
+          
+        - name: "Famous Sales Letters Collection"
+          type: "copywriting examples"
+          criticality: "HIGH"
+          reason: "Real-world applications, pattern extraction, proven frameworks"
+          examples:
+            - "Coat of Arms letter"
+            - "Tova Borgnine letter"
+            - "Prime Herbal letter"
+          format: "text"
+    
+    nice_to_have:
+      tier_2_supplemental:
+        - "Shortcut Copywriting Secrets (course)"
+        - "Seminar recordings (if available)"
+        - "Interviews with peers (Dan Kennedy, etc.)"
+        - "Tributes and retrospectives"
+      
+      tier_3_validation:
+        - "Student testimonials"
+        - "Peer commentary and analysis"
+        - "Modern applications of his principles"
+        - "Case studies of his work"
+    
+    minimum_requirements:
+      total_sources: 15
+      high_confidence_sources: 5
+      source_type_diversity: 3
+      temporal_coverage_years: 40
+      
+    confidence_level: "HIGH"
+    notes: "The Boron Letters + Newsletter Archive alone provide comprehensive material. Tier 1 sources expected to exceed minimums."
+
+  technical_dependencies:
+    tools:
+      required:
+        - name: "ETL Data Collector"
+          purpose: "Parallel source collection, multimedia transcription"
+          location: "expansion-packs/etl"
+          integration: "Phase 2: Research Collection"
+          
+        - name: "Web Search"
+          purpose: "Source discovery, validation"
+          access: "Required throughout pipeline"
+          
+        - name: "File System"
+          purpose: "Storage, organization, version control"
+          structure: "expansion-packs/mmos/minds/gary_halbert/"
+      
+      optional:
+        - name: "Vector Database"
+          purpose: "RAG implementation for KB chunks"
+          integration: "Post-pipeline deployment"
+          
+        - name: "Fine-tuning Pipeline"
+          purpose: "Optional model fine-tuning with KB"
+          integration: "Post-pipeline optimization"
+    
+    apis:
+      transcription: "AssemblyAI (if audio sources available)"
+      web_scraping: "Built-in scrapers in ETL pack"
+      llm_api: "Claude API / OpenAI API (for prompt execution)"
+    
+    storage_requirements:
+      sources: "~500MB (text, PDFs)"
+      artifacts: "~50MB (YAML, MD files)"
+      system_prompts: "~5MB (text files)"
+      kb_chunks: "~100MB (optimized for RAG)"
+      total_estimate: "~700MB"
+
+  human_dependencies:
+    subject_matter_expert:
+      required: false
+      nice_to_have: true
+      role: "Validate copywriting frameworks, cultural adaptation"
+      examples: "Brazilian copywriter familiar with Halbert"
+      
+    domain_reviewer:
+      required: false
+      nice_to_have: true
+      role: "Review Layer 6-8 extraction accuracy"
+      examples: "Copywriting coach, marketing expert"
+      
+    testing_participants:
+      required: true
+      count: "3-5 testers"
+      role: "Blind testing for fidelity validation (Phase 6)"
+      profile: "Mix of copywriting experience levels"
+    
+    user_checkpoints:
+      required: true
+      count: 6
+      checkpoints:
+        - "Phase 1: GO/NO-GO decision ✅"
+        - "Phase 3: Layer 6 validation"
+        - "Phase 3: Layer 7 validation"
+        - "Phase 3: Layer 8 validation"
+        - "Phase 5: System prompt review"
+        - "Phase 6: Production approval"
+      notes: "Non-negotiable. Human validation critical for authenticity."
+
+  timeline_dependencies:
+    blocking_phases:
+      - phase: "Phase 1: Viability"
+        blocks: "All subsequent phases"
+        status: "✅ COMPLETE"
+        
+      - phase: "Phase 2: Research"
+        blocks: "Phase 3 (Analysis) - cannot analyze without sources"
+        status: "🔄 IN PROGRESS"
+        
+      - phase: "Phase 3: Layers 1-5"
+        blocks: "Phase 3: Layers 6-8 (build on foundation)"
+        status: "⏳ PENDING"
+        
+      - phase: "Phase 3: Layer 6-8 validations"
+        blocks: "Phase 4 (Synthesis) - cannot synthesize without validated core"
+        status: "⏳ PENDING"
+        
+      - phase: "Phase 4: Synthesis"
+        blocks: "Phase 5 (Implementation) - need frameworks for prompt"
+        status: "⏳ PENDING"
+        
+      - phase: "Phase 5: System Prompt v1.0"
+        blocks: "Phase 6 (Validation) - cannot validate without prompt"
+        status: "⏳ PENDING"
+    
+    parallel_opportunities:
+      research_phase:
+        - "Tier 1, 2, 3 source collection (can run simultaneously)"
+        - "Multiple source types in parallel (books, newsletters, interviews)"
+      
+      analysis_phase:
+        - "Layers 1-4 can run in parallel (independent observables)"
+        - "Layer 5-8 must be sequential (build on each other)"
+      
+      synthesis_phase:
+        - "Framework extraction + KB chunking can run simultaneously"
+        - "Communication templates + signature phrases can run simultaneously"
+      
+      validation_phase:
+        - "Test cases can run in parallel"
+        - "Multiple validator types simultaneously"
+    
+    estimated_duration:
+      greenfield_total: "8-10 hours wall time"
+      with_parallelization: "6-8 hours possible"
+      human_checkpoint_time: "2-3 hours cumulative (user review time)"
+
+integration_points:
+  memory_layer:
+    enabled: true
+    purpose: "Store pipeline execution metadata, conversation history"
+    collections:
+      - "mmos_pipelines (execution tracking)"
+      - "mmos_viability (assessment results)"
+      - "gary_halbert_conversations (user interactions)"
+    
+  rag_system:
+    enabled: true
+    purpose: "Knowledge base access for clone responses"
+    implementation: "KB chunks with semantic search"
+    vector_db: "To be determined (post-pipeline)"
+    
+  fine_tuning:
+    enabled: false
+    reason: "System prompt approach sufficient, fine-tuning optional enhancement"
+    future_consideration: true
+    notes: "Can fine-tune later if needed for specific performance optimization"
+
+  creator_os_integration:
+    enabled: true
+    use_cases:
+      - "Task execution: copywriting projects"
+      - "Copy critique workflow"
+      - "Teaching and mentorship"
+    task_templates:
+      - "review-copy.md (apply Halbert critique)"
+      - "generate-headlines.md (use Halbert formulas)"
+      - "beat-control.md (A/B test optimization)"
+
+adaptation_requirements:
+  cultural_adaptation:
+    source_culture: "American (1960s-2007)"
+    target_culture: "Brazilian (2024)"
+    adaptations_needed:
+      - "Replace American cultural references with Brazilian equivalents"
+      - "Adapt idioms and slang"
+      - "Maintain copywriting principles (universal)"
+      - "Preserve authentic voice and personality"
+    complexity: "LOW (principles are universal)"
+    
+  temporal_adaptation:
+    source_era: "1960s-2007 (print direct mail)"
+    target_era: "2024 (digital marketing)"
+    adaptations_needed:
+      - "Print letters → Web sales pages"
+      - "Direct mail → Email sequences"
+      - "Newspaper ads → Facebook/Instagram ads"
+      - "Catalogs → VSLs (Video Sales Letters)"
+      - "Add digital-specific tactics (SEO, social algorithms)"
+    complexity: "MEDIUM (same psychology, different formats)"
+    
+  language_adaptation:
+    source_language: "English"
+    target_language: "Portuguese (Brazilian)"
+    adaptations_needed:
+      - "Translate principles and frameworks"
+      - "Preserve conversational tone in Portuguese"
+      - "Adapt examples to Brazilian market"
+      - "Maintain authenticity (don't over-formalize)"
+    complexity: "MEDIUM (LLM handles translation, human validates tone)"
+
+risk_mitigation:
+  risk_1_limited_modern_media:
+    risk: "Gary Halbert died 2007, no social media/video"
+    impact: "LOW"
+    mitigation: "Newsletter archive is comprehensive, text is primary medium for copywriting"
+    
+  risk_2_cultural_mismatch:
+    risk: "American 1970s context → Brazilian 2024"
+    impact: "MEDIUM"
+    mitigation: "Focus on universal principles, explicit adaptation instructions in prompt"
+    
+  risk_3_no_validation_from_subject:
+    risk: "Cannot verify with Gary Halbert (deceased)"
+    impact: "MEDIUM"
+    mitigation: "Rely on peer commentary, student testimonials, documented track record"
+    
+  risk_4_print_to_digital_gap:
+    risk: "Print era techniques may not translate"
+    impact: "LOW"
+    mitigation: "Modern copywriters already apply his principles to digital - proven transferability"
+    
+  risk_5_aggressive_style:
+    risk: "Halbert's direct style may offend modern sensibilities"
+    impact: "LOW"
+    mitigation: "Preserve authenticity, add context warnings, let users opt into 'unfiltered mode'"
+
+success_dependencies:
+  must_have:
+    - "Access to The Boron Letters (complete)"
+    - "Access to Gary Halbert Letter archive (100+ editions)"
+    - "User engagement in 6 human checkpoints"
+    - "8-10 hours pipeline execution time"
+    - "2-2.5M tokens LLM capacity"
+    
+  should_have:
+    - "Famous sales letters (Coat of Arms, etc.)"
+    - "Course materials (Shortcut Copywriting Secrets)"
+    - "Interview and seminar content"
+    - "Subject matter expert consultation"
+    
+  nice_to_have:
+    - "Audio/video content"
+    - "Student testimonials"
+    - "Modern application examples"
+    - "Fine-tuning pipeline"
+
+deployment_dependencies:
+  production_requirements:
+    - "System prompt v1.0 (>94% fidelity)"
+    - "Operational manual"
+    - "Testing protocol executed"
+    - "Production approval from user"
+    - "Catalog entry created"
+    
+  integration_requirements:
+    - "LLM API access (Claude/GPT-4)"
+    - "Storage for conversation history"
+    - "Optional: RAG system for KB access"
+    - "Optional: Fine-tuning pipeline"
+    
+  maintenance_requirements:
+    - "Periodic validation testing"
+    - "User feedback collection"
+    - "Version iteration (v1.1, v1.2, etc.)"
+    - "Continuous improvement pipeline"
+
+metadata:
+  document_version: "1.0"
+  created: "2025-10-22"
+  status: "active"
+  next_review: "Phase 7 (Post-production)"
+  notes: |
+    This dependencies map ensures all requirements are identified upfront.
+    High confidence in successful execution due to:
+    - Comprehensive source availability (Tier 1 sources accessible)
+    - Clear adaptation path (print → digital is proven)
+    - Strong APEX + ICP scores (91% + 96%)
+    - Adequate resources allocated (8-10 hours, 2-2.5M tokens)
+    
+    Primary dependency risk: User availability for 6 human checkpoints (CRITICAL).
+---
+
+
+
+

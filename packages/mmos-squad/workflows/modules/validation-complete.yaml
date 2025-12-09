@@ -1,0 +1,127 @@
+module:
+  id: validation-complete
+  name: Validation, Testing & Production Approval
+  description: >-
+    Comprehensive validation and testing suite to ensure cognitive clone fidelity
+    before production deployment. Includes automated test generation, validation
+    execution, detailed fidelity scoring, and final human checkpoint for production
+    approval. Targets ≥94% overall fidelity (industry standard).
+  version: 1.0.0
+  created: 2025-10-25
+  shared_by:
+    - greenfield-mind
+    - brownfield-mind
+  mode_variants:
+    public: simulated_validation
+    no-public-interviews: direct_person_validation
+    no-public-materials: direct_person_validation
+
+phases:
+  # ============================================================================
+  # Test Protocol Generation
+  # ============================================================================
+  - agent: qa
+    phase: testing
+    creates: test-protocol
+    task: mind-validation
+    task_mode: test_generation
+    prerequisites:
+      - System prompt v1.0 complete
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/docs/testing_protocol.md
+      - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-test_cases.yaml
+    notes: |
+      Generate comprehensive test suite:
+
+      TEST CATEGORIES:
+      1. Personality Consistency Tests
+         - Does it feel like the person?
+         - Paradox navigation (Layer 8 functioning?)
+
+      2. Knowledge Accuracy Tests
+         - Factual correctness
+         - Domain expertise validation
+
+      3. Style Fidelity Tests
+         - Linguistic match
+         - Signature phrases usage
+         - Tone consistency
+
+      4. Edge Case Handling
+         - Unknown topics (should admit)
+         - Controversial subjects
+         - Out-of-expertise scenarios
+
+      OUTPUT: Complete testing protocol
+
+  # ============================================================================
+  # Validation Execution
+  # ============================================================================
+  - agent: qa
+    phase: testing
+    creates: validation-execution
+    task: mind-validation
+    task_mode: validation
+    prerequisites:
+      - Test protocol generated
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-validation_report.yaml
+    notes: |
+      Execute validation test battery:
+
+      RUN TESTS:
+      1. Personality validator (50+ test cases)
+      2. Knowledge validator (100+ factual checks)
+      3. Style validator (linguistic analysis)
+      4. Paradox validator (Layer 8 functioning)
+
+      SCORING:
+      - Personality Fidelity: X%
+      - Knowledge Accuracy: X%
+      - Style Fidelity: X%
+      - Overall Fidelity: X%
+
+      TARGET: ≥ 94% overall fidelity
+
+      OUTPUT: Complete validation report
+
+  # ============================================================================
+  # Fidelity Testing & Production Approval
+  # ============================================================================
+  - agent: qa
+    phase: testing
+    creates: fidelity-test
+    task: test-fidelity
+    prerequisites:
+      - Validation report complete
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-fidelity_detailed.yaml
+    human_checkpoint: true
+    checkpoint_type: PRODUCTION_APPROVAL
+    notes: |
+      HUMAN CHECKPOINT #6: Production Approval
+
+      Present final validation results:
+
+      OVERALL FIDELITY: X%
+      - Target: 94% (industry standard)
+      - Achieved: X%
+      - Status: PASSED | NEEDS_IMPROVEMENT | FAILED
+
+      DETAILED SCORES:
+      - Personality Fidelity: X% [emoji]
+      - Knowledge Accuracy: X% [emoji]
+      - Style Fidelity: X% [emoji]
+
+      ISSUES FOUND: [if any]
+
+      PRODUCTION READINESS: [assessment]
+
+      User decision:
+      1. DEPLOY - Mind is production-ready
+      2. FIX_ISSUES - Address specific issues first
+      3. ABORT - Fundamental issues, major rework
+
+      IF DEPLOY: Finalize documentation, update catalog
+      IF FIX_ISSUES: Create fix task list, iterate, re-test
+      IF ABORT: Document lessons learned, archive project

@@ -1,0 +1,76 @@
+{
+  "outputDir": "./sources/podcasts",
+  "format": "md",
+  "sources": [
+    {
+      "name": "Episode_01_Welcome_to_Magnetic_Marketing",
+      "type": "generator",
+      "filename": "ep_01_welcome_to_magnetic_marketing.md",
+      "metadata": {
+        "title": "Episode 1: Welcome to Magnetic Marketing",
+        "duration": "38 minutes",
+        "topic": "Foundation of Magnetic Marketing System",
+        "keyTopics": ["Three M's", "Direct Response", "USP"],
+        "episodeNumber": 1
+      }
+    },
+    {
+      "name": "Episode_07_Customers_for_Life",
+      "type": "generator",
+      "filename": "ep_07_customers_for_life.md",
+      "metadata": {
+        "title": "Episode 7: Clients, Customers, and Patients For Life",
+        "duration": "52 minutes",
+        "topic": "Customer Retention and Lifetime Value",
+        "keyTopics": ["Customer Lifecycle", "Retention", "Referrals"],
+        "episodeNumber": 7
+      }
+    },
+    {
+      "name": "Episode_39_Big_Marketing_Sin",
+      "type": "generator",
+      "filename": "ep_39_big_marketing_sin.md",
+      "metadata": {
+        "title": "Episode 39: The BIG Marketing Sin",
+        "duration": "48 minutes",
+        "topic": "Marketing Measurement and Analytics",
+        "keyTopics": ["Measurement", "ROI", "Attribution"],
+        "episodeNumber": 39
+      }
+    },
+    {
+      "name": "Episode_29_Info_Marketing_Secrets",
+      "type": "generator",
+      "filename": "ep_29_info_marketing_secrets.md",
+      "metadata": {
+        "title": "Episode 29: Info Marketing 2.0 Secrets",
+        "duration": "56 minutes",
+        "topic": "Information Product Business Model",
+        "keyTopics": ["Info Products", "Pricing", "Launch Strategy"],
+        "episodeNumber": 29
+      }
+    },
+    {
+      "name": "Episode_41_No_BS_Direct_Marketing",
+      "type": "generator",
+      "filename": "ep_41_no_bs_direct_marketing.md",
+      "metadata": {
+        "title": "Episode 41: No B.S. Direct Marketing",
+        "duration": "50 minutes",
+        "topic": "Direct Response Marketing Principles",
+        "keyTopics": ["Direct Response", "Copy", "Testing"],
+        "episodeNumber": 41
+      }
+    }
+  ],
+  "processors": [
+    {
+      "name": "cleanTranscript",
+      "description": "Clean and format transcript text"
+    },
+    {
+      "name": "addMetadata",
+      "description": "Add episode metadata to content"
+    }
+  ]
+}

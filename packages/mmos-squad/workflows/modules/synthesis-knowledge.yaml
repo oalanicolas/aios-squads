@@ -1,0 +1,76 @@
+module:
+  id: synthesis-knowledge
+  name: Knowledge Synthesis (Frameworks, Communication, Signatures)
+  description: >-
+    Synthesizes cognitive analysis into operational knowledge: frameworks they use,
+    communication patterns, and signature linguistic elements. These artifacts enable
+    the clone to think and communicate like the original person.
+  version: 1.0.0
+  created: 2025-10-25
+  shared_by:
+    - greenfield-mind
+    - brownfield-mind
+
+phases:
+  # ============================================================================
+  # Framework Extraction
+  # ============================================================================
+  - agent: analyst
+    phase: synthesis
+    creates: framework-extraction
+    task: frameworks-identifier-analysis
+    prerequisites:
+      - Cognitive architecture complete
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/artifacts/frameworks.yaml
+    parallel: true
+    notes: |
+      Extract operational frameworks:
+      - Decision-making frameworks
+      - Problem-solving methodologies
+      - Conceptual frameworks they created
+      - Thinking tools they use
+
+      OUTPUT: Frameworks catalog
+
+  # ============================================================================
+  # Communication Templates
+  # ============================================================================
+  - agent: analyst
+    phase: synthesis
+    creates: communication-templates
+    task: communication-templates-extraction
+    prerequisites:
+      - Cognitive architecture complete
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/artifacts/communication_templates.md
+    parallel: true
+    notes: |
+      Extract communication patterns:
+      - How they explain complex ideas
+      - Teaching patterns
+      - Analogies and metaphors
+      - Communication structure
+
+      OUTPUT: Communication templates
+
+  # ============================================================================
+  # Signature Phrases Mining
+  # ============================================================================
+  - agent: analyst
+    phase: synthesis
+    creates: signature-phrases
+    task: signature-phrases-mining
+    prerequisites:
+      - Cognitive architecture complete
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/artifacts/signature_phrases.md
+    parallel: true
+    notes: |
+      Mine signature linguistic elements:
+      - Favorite phrases and sayings
+      - Unique terminology
+      - Verbal tics (natural, not forced)
+      - Conceptual shortcuts
+
+      OUTPUT: Signature phrases catalog

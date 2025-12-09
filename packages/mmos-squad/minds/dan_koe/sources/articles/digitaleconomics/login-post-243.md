@@ -1,0 +1,533 @@
+#  Intelligent Imitation  [ __](javascript:void\(0\); "Add to my favorites")
+
+I am a big fan of EDM (electronic dance music), why?
+
+Because there are hundreds (if not thousands) of genres and subgenres.
+
+My favorite is bass music, which can be broken down into:
+
+  * Dubstep
+  * Riddim
+  * Drum N Bass
+  * Future bass
+  * Melodic bass
+
+The list can go on for another 20-30+ subgenres.
+
+ _Why should you care?_
+
+Because that’s exactly what the creator economy is.
+
+Traditional music was limited by physical instruments.
+
+Traditional business was limited by physical environment.
+
+Digital music has no limits. We are creating new sounds which open up room for
+entirely new and innovative music.
+
+Not to mention how often the artists remix each other and completely change
+the song.
+
+People are attracted to the unique combination of sounds, synths, rhythm,
+repetition, tone, and everything else that makes up a subgenre or “niche.”
+
+When EDM producers go to create a song, they have a library of sounds,
+textures, synths, plugins, and other things that allow them to be creative
+with their production. They develop their unique sound over time.
+
+I can’t get enough of Space Laces while others despise the screechy sounds he
+produces.
+
+Since I love and trust that his music will give me a specific feeling — I will
+buy almost anything he creates outside of music (especially if it's something
+I will use in my day-to-day life… be it information, a physical tool, gadget,
+apparel, or anything else).
+
+Even MORE bonus points if he creates a compelling argument as to why and how I
+can implement it in my daily life.
+
+As a content creator, it is your job to create, produce, and remix from a
+database of content, quotes, anecdotes, metaphors, problems, benefits, topics,
+ideas, words, and other things that will lead to you creating truly unique
+content.
+
+Over time, your voice develops.
+
+Your “live shows” attract more fans.
+
+You attract more opportunities from “record labels.”
+
+People start talking about your “music.”
+
+They eventually keep your “music” in a regular rotation. It becomes a part of
+their life.
+
+You spread your name by leveraging other people's listener base by doing
+collaborations and sharing each other's creations.
+
+This is what Intelligent Imitation is. Curating and developing an arsenal of
+mental weapons to shoot your addictive creations out into the world.
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/29057772_1656420369s3iIntelligent_Imitation.png)
+
+Throughout this module, we will be turning you into an EDM DJ — but for
+content production instead of dance music.
+
+You are speaking about what you learn through the lens of your vision, values,
+mindset, experience, and expertise — that alone will attract the right people
+to you.
+
+If you want to read the original Intelligent Imitation article and the theory
+behind it, [here it is.](https://thedankoe.com/how-to-copy-your-way-to-
+success-instead-of-mediocrity/)
+
+ **Cornerstone Curiosity — Don't Consume, Research.**
+
+ **I can guarantee one thing:**
+
+If you aren’t consuming (or “researching”) quality information, you aren’t
+producing quality information.
+
+That is the underlying problem of most engagement, writer's block, and
+creative problems.
+
+Cars need the right fuel to operate correctly.
+
+Your job is to become an Epistemic Researcher.
+
+In other words, a knowledge researcher.
+
+The first step is pursuing your curiosity (your Domain Of Mastery should allow
+room for pursuing your curiosity within the depths of those interest areas.
+They run deeper than you think. Each interest is an iceberg that connect with
+everything else).
+
+While diving deep into this Interest Iceberg, you will be taking note of
+ideas, content, inspiration, and anything else that can apply to a project you
+are working on.
+
+These “projects” are:
+
+  * Your weekly newsletter outline
+  * Your content as a whole (noting content ideas)
+  * Anything relating to the Creator Command Center (relating to your vision, life’s work, values, etc)
+
+Everything you are developing in your life is a project (you can think of it
+as a science project).
+
+Everything you consume (or research) now has practical application. Which
+areas of your life can it apply to? You will only know this if you are
+intentional when improving your personal and professional life — life itself
+is inspiration.
+
+This will be dependent on what works best for you — so again… you need to
+treat this as a project itself.
+
+Create a consumption habit and routine for yourself, observe problems that
+come up, experiment with new ways of doing it, and slowly create a system you
+can stick with.
+
+We will talk about creating a content synthesis system in the next section.
+
+For now, understand that you **MUST be curious** about what you are consuming.
+
+ _ **Read things that make it hard to keep your mouth shut. You should feel
+compelled to take notes and talk about it with those select few people that
+“get you” (your eventual audience).**_
+
+If what you are reading is boring and not sparking excitement in you — your
+content will be boring and not spark excitement in others.
+
+Even if you want to post about business, you will write better business
+content when _whatever_ you are researching gives you inspiration and energy.
+Even if its something as “unrelated” as web development.
+
+ **(Hint: it’s still related. Everything is and can be used as firepower for
+stories, metaphors, analogies, etc — like how I talked about EDM above to
+bring a unique angle to this post.)**
+
+I will often cycle through different audiobooks, physical books, summaries,
+YouTube lectures, and everything else based on what I _feel_ will interest me
+at the time.
+
+This may seem counter-intuitive. Don’t question it yet. Try it out and tell me
+it doesn’t increase the impact and energy of your content (relating to ANY
+topic).
+
+Pursue your curiosity.
+
+__
+
+Don't Know What To Consume?
+
+Start with your favorite book.
+
+I guarantee the second time you read it you will get new insights, ideas, and
+be able to make more out of it with this process.
+
+**Writing Down High-Signal Information**
+
+We are finally getting to the good stuff.
+
+“The Queue” inside your Notion Command Center is where ALL of the magic
+begins.
+
+This is where ideas with high potential energy are stored before they are
+moved to anywhere else in your Command Center.
+
+For this module, we are focused on content ideas.
+
+When content ideas are put in The Queue, we need to run them through a process
+to dissect them, develop them, store them, and start creating a database of
+Genius Ideas we can pull from through our creative endeavors.
+
+This entire process is how you actualize your life’s work in a fun, unique,
+and impactful way.
+
+ **When you are researching information that interests you, look for:**
+
+  * Words and better vocabulary
+  * Examples and metaphors
+  * Stories or anecdotes
+  * Ideas and concepts
+  * Interesting facts
+  * Advice that hits just right
+  * Novel perspectives
+  * “Aha!” moments that give you clarity
+
+It doesn’t matter what you read.
+
+Most of the time, the inspiration you need comes from a random string of words
+that sparks the right idea in your head.
+
+This brings up 2 important points:
+
+  *  **You need a project to apply your learning to** — otherwise, you won’t pick up on random information that has the potential to apply to the project you are working on. A project can be as simple as a tweet in this case.
+  *  **You need to consume information from a congruent voice** — you won’t read or listen intently if you aren’t interested in it. You will miss crucial pieces of information that could be woven into your newsletters, tweets, or content in general as new perspectives.
+
+It’s less about _what_ you consume and more about _who_ you consume it from.
+Do you understand what you are listening to? Is it challenging your
+understanding and potentially kicking you into flow?
+
+![](https://d1aettbyeyfilo.cloudfront.net/powershift/29057836_1656420695zmbFlow_Channel.png)
+
+ **What you are reading should have a balance of challenge and skill to make
+your brain light up with ideas and potential connections.**
+
+This alone shows that it doesn’t matter what you are consuming, as long as you
+are curious.
+
+Consuming something that makes little sense to you will close your mind off to
+potential connections and make it difficult to formulate novel perspectives.
+
+If I study spirituality, but I am writing an article on business, a lot can
+transfer over.
+
+If what I am reading says “Stop worrying about the future, focus on the
+present” (as a bad example).
+
+I can use that in a business article about creating content. I can introduce
+the source I got it from, start to write a story, and help people “stop
+worrying about how well their content will do, focus on writing highly
+impactful content.”
+
+Another example:
+
+I am listening to The Social Matrix by Actualized.org right now.
+
+I LOVE these kinds of visionary concepts. They make my brain light up with
+excitement and make me want to put the ideas to use.
+
+Leo (the creator) paints a picture of society as a whole and how it is
+interconnected.
+
+I want to apply this concept to the creator economy… how there is a “school
+system,” government, indoctrination process, and more.
+
+If you are a web developer — could you spin that concept to describe developer
+culture? Maybe freelance culture?
+
+ANY of the points that he brings up can be applied to any domain.
+
+If you are talking about health — you could use his example of how the school
+system raises people to have poor conditioned health views. If that was an
+introduction to your newsletter, you would get your point across 10x quicker
+than the next health account.
+
+It’s about _applying what you learn to what you write._
+
+It’s not about learning what to write itself.
+
+This will continue to make sense as you experience it.
+
+What can you start consuming right now?
+
+Information related to the principles, mentors, or sub-topics of your
+interests inside the Domain Of Mastery.
+
+Once you have fully immersed yourself in that domain, you can start consuming
+anything you want.
+
+At that point, you are just generating building blocks and new perspectives to
+attack your Domain Of Mastery from.
+
+ _Let’s talk about where and how we research and capture information._
+
+Delete for good?
+
+No, keep it
+
+Yes, delete
+
+__ Previous post
+
+{teaser_countdown_previous}  {/teaser_countdown_previous}
+
+{teaser_modal_previous}
+
+100%
+
+100%
+
+100%
+
+Completed
+
+Finish  __
+
+{teaser_countdown_next}  {/teaser_countdown_next}
+
+{teaser_modal_next}
+
+×
+
+### Profile
+
+Cancel Save
+
+______
+
+![userfile]()
+
+Username
+
+Password
+
+__
+
+First name
+
+Last name
+
+Email
+
+Country code Select country code... United States (+1) Canada (+1) United
+Kingdom (+44) Australia (+61) Afghanistan (+93) Akrotiri (+357) Aland Islands
+(+358) Albania (+355) Algeria (+213) Andorra (+376) Angola (+244) Argentina
+(+54) Armenia (+374) Aruba (+297) Ascension Island (+247) Australia (+61)
+Austria (+43) Azerbaijan (+994) Bahrain (+973) Bangladesh (+880) Belarus
+(+375) Belgium (+32) Belize (+501) Benin (+229) Bhutan (+975) Bolivia (+591)
+Bosnia and Herzegovina (+387) Botswana (+267) Brazil (+55) British Indian
+Ocean Territory (+246) Brunei Darussalam (+673) Bulgaria (+359) Burkina Faso
+(+226) Burundi (+257) Cambodia (+855) Cameroon (+237) Canada (+1) Canary
+Islands (+34) Cape Verde (+238) Central African Republic (+236) Ceuta and
+Melilla (+34) Chad (+235) Chile (+56) China (+86) Christmas Island (+61) Cocos
+(Keeling) Island (+61) Colombia (+57) Comoros (+269) Congo (+242) Congo -
+Democratic Republic of the Congo (+243) Cook Islands (+682) Costa Rica (+506)
+Côte D'Ivoire (+225) Croatia (+385) Cuba (+53) Cyprus (+357) Cyprus - Turkish
+Republic of Northern Cyprus (+90) Czech Republic (+420) Denmark (+45) Dhekelia
+(+357) Djibouti (+253) Ecuador (+593) Egypt (+20) El Salvador (+503)
+Equatorial Guinea (+240) Eritrea (+291) Estonia (+372) Ethiopia (+251)
+Falkland Islands (+500) Faroe Islands (+298) Fiji (+679) Finland (+358) France
+(+33) French Guiana (+594) French Polynesia (+689) French Southern and
+Antarctic Lands (+262) Gabon (+241) Gambia (+220) Georgia (+995) Germany (+49)
+Ghana (+233) Gibraltar (+350) Greece (+30) Greenland (+299) Guadeloupe (+590)
+Guatemala (+502) Guinea (+224) Guinea-Bissau (+245) Guyana (+592) Haiti (+509)
+Holy See (Vatican City State) (+39) Honduras (+504) Hong Kong (+852) Hungary
+(+36) Iceland (+354) India (+91) Indonesia (+62) Iran, Islamic Republic Of
+Iran (+98) Iraq (+964) Ireland (+353) Israel (+972) Italy (+39) Jamaica (+1)
+Japan (+81) Jordan (+962) Kazakhstan (+7) Kenya (+254) Kiribati (+686) Korea,
+Democratic People's Republic Of Korea (+850) Korea, Republic of Korea (+82)
+Kosovo (+383) Kuwait (+965) Kyrgyz Republic (+996) Laos (+856) Latvia (+371)
+Lebanon (+961) Lesotho (+266) Liberia (+231) Libya (+218) Liechtenstein (+423)
+Lithuania (+370) Luxembourg (+352) Macao (+853) Macedonia (+389) Madagascar
+(+261) Malawi (+265) Malaysia (+60) Maldives (+960) Mali (+223) Malta (+356)
+Marshall Islands (+692) Martinique (+596) Mauritania (+222) Mauritius (+230)
+Mayotte (+269) Mexico (+52) Micronesia (+691) Moldova (+373) Monaco (+377)
+Mongolia (+976) Montenegro (+382) Morocco (+212) Mozambique (+258) Myanmar
+(+95) Namibia (+264) Nauru (+674) Nepal (+977) Netherlands (+31) Netherlands
+Antilles (+599) New Caledonia (+687) New Zealand (+64) Nicaragua (+505) Niger
+(+227) Nigeria (+234) Niue (+683) Norfolk Island (+672) Norway (+47) Oman
+(+968) Pakistan (+92) Palau (+680) Palestine (+970) Panama (+507) Papua New
+Guinea (+675) Paracel Islands (+86) Paraguay (+595) Peru (+51) Philippines
+(+63) Poland (+48) Portugal (+351) Qatar (+974) Réunion (+262) Romania (+40)
+Russian Federation (+7) Rwanda (+250) Saint Helena (+290) Saint Pierre and
+Miquelon (+508) Samoa (+685) San Marino (+378) São Tome and Principe (+239)
+Saudi Arabia (+966) Senegal (+221) Serbia (+381) Seychelles (+248) Sierra
+Leone (+232) Singapore (+65) Slovakia (+421) Slovenia (+386) Solomon Islands
+(+677) Somalia (+252) Somaliland (+252) South Africa (+27) South Sudan (+211)
+Spain (+34) Sri Lanka (+94) Sudan (+249) Suriname (+597) Svalbard and Jan
+Mayen (+47) Swaziland (+268) Sweden (+46) Switzerland (+41) Syria (+963)
+Taiwan (+886) Tajikistan (+992) Tanzania (+255) Thailand (+66) Timor-Leste
+(+670) Togo (+228) Tokelau (+690) Tonga (+676) Tristan da Cunha (+290) Tunisia
+(+216) Turkey (+90) Turkmenistan (+993) Tuvalu (+688) Uganda (+256) Ukraine
+(+380) United Arab Emirates (+971) United Kingdom (+44) United States (+1)
+United States Minor Outlying Islands (+699) Uruguay (+598) Uzbekistan (+998)
+Vanuatu (+678) Venezuela (+58) Viet Nam (+84) Wallis and Futuna Islands (+681)
+Western Sahara (+212) Yemen (+967) Zambia (+260) Zimbabwe (+263)
+
+Phone number
+
+Address
+
+Language Afrikaans Arabic Bulgarian Chinese Czech Danish Dutch English Finnish
+French German Hebrew Hindi Italian Malay Norwegian Polish Portuguese Romanian
+Russian Slovak Spanish Swedish Thai
+
+Company
+
+Sales tax ID
+
+City
+
+Postal code
+
+Country United States Canada United Kingdom Australia Afghanistan Akrotiri
+Åland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antigua
+and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas
+Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan
+Bolivia Bonaire, Sint Eustatius and Saba Bosnia and Herzegovina Botswana
+Bouvet Island Brazil British Indian Ocean Territory Brunei Bulgaria Burkina
+Faso Burundi Cabo Verde Cambodia Cameroon Canada Cayman Islands Central
+African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands
+Colombia Comoros Congo Congo, Democratic Rep Cook Islands Costa Rica Côte
+D'Ivoire Croatia Cuba Curaçao Cyprus Czech Republic Denmark Dhekelia Djibouti
+Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea
+Eritrea Estonia Eswatini Ethiopia Falkland Islands Faroe Islands Fiji Finland
+France French Guiana French Polynesia French Southern and Antarctic Lands
+Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada
+Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard
+Island and McDonald Islands Holy See Honduras Hong Kong Hungary Iceland India
+Indonesia Iran Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jersey
+Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon
+Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macau Madagascar
+Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania
+Mauritius Mayotte Mexico Micronesia Moldova Monaco Mongolia Montenegro
+Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands
+Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue
+Norfolk Island North Korea North Macedonia Northern Mariana Islands Norway
+Oman Pakistan Palau Palestine Panama Papua New Guinea Paracel Islands Paraguay
+Peru Philippines Pitcairn Islands Poland Portugal Puerto Rico Qatar Réunion
+Romania Russia Rwanda Saint Barthélemy Saint Helena Saint Kitts And Nevis
+Saint Lucia Saint Martin Saint Pierre and Miquelon Saint Vincent and the
+Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia
+Seychelles Sierra Leone Singapore Sint Maarten Slovakia Slovenia Solomon
+Islands Somalia South Africa South Georgia South Korea South Sudan Spain Sri
+Lanka Sudan Suriname Svalbard and Jan Mayen Sweden Switzerland Syria Taiwan
+Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad and
+Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda
+Ukraine United Arab Emirates United Kingdom United States Uruguay US Minor
+Islands Uzbekistan Vanuatu Venezuela Vietnam Virgin Islands, British Virgin
+Islands, U.S. Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe
+
+State Select country first...
+
+______
+
+Your time zone Select the time zone... Pacific Time (US and Canada) Mountain
+Time (US and Canada) Central Time (US and Canada) Eastern Time (US and Canada)
+Dublin, Edinburgh, Lisbon, London Brussels, Copenhagen, Madrid, Paris
+International Date Line West Midway Island, Samoa Hawaii Alaska Chihuahua,
+Mazatlan Arizona Saskatchewan Guadalajara, Mexico City, Monterrey Central
+America Indiana (East) Bogota, Lima, Quito Atlantic Time (Canada) Caracas, La
+Paz, Georgetown Santiago Newfoundland and Labrador Brasilia Buenos Aires
+Greenland Mid-Atlantic Azores, Monrovia, Dakar Cape Verde Islands Casablanca
+Canary Islands Belgrade, Bratislava, Budapest, Ljubljana, Prague Sarajevo,
+Skopje, Warsaw, Zagreb Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna West
+Central Africa Bucharest Cairo Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius
+Athens, Istanbul, Minsk Jerusalem Harare, Pretoria Moscow, St. Petersburg,
+Volgograd Kuwait, Riyadh Nairobi Baghdad Tehran Abu Dhabi, Muscat Baku,
+Tbilisi, Yerevan Kabul Ekaterinburg Islamabad, Karachi, Tashkent Chennai,
+Kolkata, Mumbai, New Delhi Kathmandu Astana, Dhaka Sri Jayawardenepura Almaty
+Yangon Rangoon Bangkok, Hanoi, Jakarta, Novosibirsk Krasnoyarsk Beijing,
+Chongqing, Hong Kong SAR, Urumqi Kuala Lumpur, Singapore Taipei Perth Irkutsk,
+Ulaanbaatar Seoul Osaka, Sapporo, Tokyo Yakutsk Darwin Adelaide Canberra,
+Melbourne, Sydney Brisbane Hobart Vladivostok Guam, Port Moresby Magadan,
+Solomon Islands, New Caledonia Fiji Islands, Kamchatka, Marshall Islands
+Auckland, Wellington Nuku'alofa
+
+______
+
+Your time zone Select the time zone... Pacific Time (US and Canada) Mountain
+Time (US and Canada) Central Time (US and Canada) Eastern Time (US and Canada)
+Dublin, Edinburgh, Lisbon, London Brussels, Copenhagen, Madrid, Paris
+International Date Line West Midway Island, Samoa Hawaii Alaska Chihuahua,
+Mazatlan Arizona Saskatchewan Guadalajara, Mexico City, Monterrey Central
+America Indiana (East) Bogota, Lima, Quito Atlantic Time (Canada) Caracas, La
+Paz, Georgetown Santiago Newfoundland and Labrador Brasilia Buenos Aires
+Greenland Mid-Atlantic Azores, Monrovia, Dakar Cape Verde Islands Casablanca
+Canary Islands Belgrade, Bratislava, Budapest, Ljubljana, Prague Sarajevo,
+Skopje, Warsaw, Zagreb Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna West
+Central Africa Bucharest Cairo Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius
+Athens, Istanbul, Minsk Jerusalem Harare, Pretoria Moscow, St. Petersburg,
+Volgograd Kuwait, Riyadh Nairobi Baghdad Tehran Abu Dhabi, Muscat Baku,
+Tbilisi, Yerevan Kabul Ekaterinburg Islamabad, Karachi, Tashkent Chennai,
+Kolkata, Mumbai, New Delhi Kathmandu Astana, Dhaka Sri Jayawardenepura Almaty
+Yangon Rangoon Bangkok, Hanoi, Jakarta, Novosibirsk Krasnoyarsk Beijing,
+Chongqing, Hong Kong SAR, Urumqi Kuala Lumpur, Singapore Taipei Perth Irkutsk,
+Ulaanbaatar Seoul Osaka, Sapporo, Tokyo Yakutsk Darwin Adelaide Canberra,
+Melbourne, Sydney Brisbane Hobart Vladivostok Guam, Port Moresby Magadan,
+Solomon Islands, New Caledonia Fiji Islands, Kamchatka, Marshall Islands
+Auckland, Wellington Nuku'alofa
+
+______
+
+×
+
+### Your profile information was updated successfully!
+
+Close
+
+Profile updated
+
+×
+
+### Change password
+
+Cancel Change
+
+Your current password
+
+Required
+
+Your new password
+
+8 to 16 characters
+
+Required
+
+Retype new password
+
+Required
+
+Your password has been updated successfully!
+
+×
+
+×
+
+Cookies
+
+We use cookies to improve our service, track analytics, remember preferences,
+etc. By using our site, you consent to these cookies.
+
+[Privacy policy]() [Cookie policy]()
+
+Accept all cookies
+
+Only essential cookies
+
+Save
+
+ 
+---

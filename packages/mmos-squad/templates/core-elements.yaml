@@ -1,0 +1,98 @@
+# Core Elements Output
+# Agent: synthesis-expert (Charlie)
+# Task: core-essence-extraction
+# Version: 3.5.0
+# Methodology: Core Essence Distillation (First-Principles)
+
+core_elements:
+  metadata:
+    mind_path: "@{mind}"
+    analysis_date: ""
+    analyst: "synthesis-expert"
+    methodology: "Core Essence Distillation (First Principles → Persistence → Differentiation → Generative Testing)"
+    sources_analyzed: []
+    persistence_confidence: ""
+    differentiation_score: ""
+
+  cognitive_nucleus:
+    primary_operating_system:
+      dominant_mental_model: ""
+      evidence_chain: []  # quotes / decisions / patterns
+      atomic_components: []  # irreducible axioms
+      inversion_test: ""  # what breaks if removed
+
+    information_processing_core:
+      filter_mechanism: ""
+      selection_criteria:
+        priority_1: ""
+        priority_2: ""
+        ignored: []
+      cross_domain_validation:
+        personal: ""
+        professional: ""
+        creative: ""
+
+  emotional_motivational_nucleus:
+    prime_mover:
+      nuclear_motivation: ""
+      false_attributions: []
+      actual_driver: ""
+      because: ""
+      evidence:
+        sacrifices: []
+        persistence_patterns: []
+        energy_patterns: []
+
+    stress_response_core:
+      default_state: ""
+      escalation_path: []
+      recovery_mechanism: ""
+      contradictions_triggered: []
+
+  differentiation_map:
+    reference_class: ""
+    comparative_traits:
+      uncommon: []
+      unique: []
+      shared: []
+    uniqueness_statement: ""
+
+  generative_structure:
+    patterns_generated:
+      - pattern: ""
+        domain: ""
+        evidence: []
+        generative_power: ""
+    decision_algorithms:
+      - name: ""
+        inputs: []
+        logic: []
+        outputs: []
+    paradox_interfaces:
+      - contradiction_id: ""
+        navigation_rule: ""
+        authenticity_value: ""
+
+  identity_integrity_tests:
+    persistence_validation:
+      timeline:
+        - period: ""
+          evidence: []
+      score: ""
+      notes: ""
+    inversion_results:
+      - scenario: ""
+        impact: ""
+    failure_modes:
+      - mode: ""
+        prevention: ""
+
+identity_blueprint_summary:
+  essence_statement: ""
+  non_negotiables: []
+  adaptive_range: ""
+  clone_implications:
+    personality: []
+    decisioning: []
+    communication: []
+    guardrails: []

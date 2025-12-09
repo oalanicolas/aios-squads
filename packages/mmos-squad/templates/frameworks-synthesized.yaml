@@ -1,0 +1,236 @@
+# Mental Frameworks Latticework Template
+# Agent: synthesis-expert (Charlie)
+# Task: frameworks-identifier-analysis
+# Version: 3.5.0
+# Methodology: Munger Latticework Construction
+
+frameworks_latticework:
+  metadata:
+    mind_path: "@{mind}"
+    analysis_date: ""
+    analyst: "synthesis-expert"
+    methodology: "Munger Latticework Construction (5-step framework extraction)"
+    sources_analyzed: []
+    observation_period: ""
+
+  methodology_summary:
+    step_1: "Pattern Hunting - Extract repeating mental structures"
+    step_2: "Cross-Domain Mapping - Validate frameworks work in 2+ domains"
+    step_3: "First-Principles Decomposition - Reduce to atomic axioms"
+    step_4: "Interconnection Building - Weave latticework (not list)"
+    step_5: "Usability Testing - Validate predictive and action-guidance power"
+
+  frameworks:  # 8-15 frameworks minimum
+    - framework_id: "fw_01"
+      name: ""
+      type: ""  # cause-effect / decision / constraint / optimization / pattern / heuristic
+
+      description:
+        summary: ""  # 2-3 sentences explaining how it works
+        when_to_use: ""  # Contexts where this framework applies
+        when_not_to_use: ""  # Known failure contexts
+        examples_from_sources: []  # Specific instances of usage
+
+      evidence:
+        frequency: ""  # constant / high / medium
+        source_count: 0  # Minimum 3 required
+        usage_contexts: []
+        documented_applications:
+          - source: ""
+            context: ""
+            application: ""
+            outcome: ""
+
+      cross_domain_validation:
+        original_domain: ""
+        tested_domains:
+          - domain: ""
+            works: true/false
+            example: ""
+            limitations: ""
+        applicability_score: 0.0  # 0-1.0 (how broadly applicable)
+        boundary_conditions:
+          - condition: ""
+            impact: ""
+
+      first_principles_decomposition:
+        core_axioms:
+          - ""  # Irreducible truth #1
+          - ""  # Irreducible truth #2
+          - ""  # Irreducible truth #3
+
+        necessary_conditions:
+          - ""  # What must be true for this to work?
+          - ""
+
+        inversion_insights:
+          question: "How would this framework fail catastrophically?"
+          failure_modes:
+            - mode: ""
+              consequence: ""
+          critical_dependencies:
+            - ""
+          false_assumptions_to_avoid:
+            - ""
+
+        abstraction_level: ""  # Domain-specific language removed
+        logical_structure: ""  # How axioms connect
+
+      latticework_connections:
+        complements:  # Frameworks that enhance this one
+          - framework_id: ""
+            synergy: ""
+            combined_power: ""  # 1+1=3 lollapalooza effects
+
+        contradicts:  # Frameworks that conflict
+          - framework_id: ""
+            contradiction_type: ""  # temporal/contextual/stakeholder/scale/domain
+            resolution: ""  # Meta-framework explaining when X vs not-X
+
+        prerequisites:  # What must be understood first
+          - framework_id: ""
+            dependency_reason: ""
+
+        enhances:  # What this framework makes more powerful
+          - framework_id: ""
+            enhancement_mechanism: ""
+
+        domain_bridges:  # Which disparate fields this connects
+          - from_domain: ""
+            to_domain: ""
+            connection_insight: ""
+
+      usability_validation:
+        prediction_test:
+          novel_scenario: ""
+          predicted_outcome: ""
+          real_world_validation: ""
+          result: ""  # PASS / FAIL
+
+        explanation_test:
+          mystery: ""  # What previously inexplicable pattern?
+          framework_explanation: ""
+          explanatory_power: ""  # HIGH / MEDIUM / LOW
+          result: ""
+
+        action_guidance:
+          situation: ""
+          framework_recommendation: ""
+          non_obviousness: ""  # How counter-intuitive is the action?
+          result: ""
+
+        error_prevention:
+          failure_mode: ""  # What common mistake does this prevent?
+          prevention_mechanism: ""
+          effectiveness: ""  # HIGH / MEDIUM / LOW
+          result: ""
+
+        overall_usability_score:
+          prediction_power: ""  # HIGH / MEDIUM / LOW
+          explanation_power: ""
+          action_guidance: ""
+          error_prevention: ""
+
+  latticework_map:
+    nodes:
+      - id: ""
+        name: ""
+        type: ""
+        centrality: 0.0  # How connected is this framework?
+
+    edges:
+      - from: ""
+        to: ""
+        relationship: ""  # complementary_pair / contradiction / sequential_dependency / domain_bridge / validation_check
+        strength: 0.0  # 0-1.0
+        description: ""
+
+  meta_analysis:
+    framework_statistics:
+      total_frameworks: 0
+      by_type:
+        cause_effect: 0
+        decision: 0
+        constraint: 0
+        optimization: 0
+        pattern: 0
+        heuristic: 0
+
+      cross_domain_validated: 0
+      single_domain_only: 0
+      average_evidence_per_framework: 0.0
+
+    dominant_framework_types:
+      - type: ""
+        count: 0
+        insight: ""  # What does this concentration reveal?
+
+    cross_domain_champions:  # Frameworks that work in 3+ domains
+      - framework_id: ""
+        domain_count: 0
+        domains: []
+        universal_principle: ""
+
+    context_sensitive:  # Frameworks needing careful boundary management
+      - framework_id: ""
+        sensitivity_type: ""  # temporal/situational/scale-dependent
+        management_rules: []
+
+    lollapalooza_combinations:  # Framework pairs/triplets that compound
+      - combination:
+          frameworks: []
+          compound_effect: ""  # Why 1+1+1 = 10 not 3
+          example_application: ""
+
+    munger_quality_metrics:
+      latticework_density: 0.0  # Edges per node ratio
+      first_principles_rigor: 0.0  # How many decomposed to axioms
+      cross_domain_breadth: 0.0  # Average domains per framework
+      usability_power: 0.0  # Average prediction + action scores
+      inversion_application: 0.0  # How many tested via inversion
+
+  cognitive_signature:
+    dominant_thinking_style: ""
+    framework_preference_pattern: ""
+    multi_model_thinker_score: 0.0  # 0-1.0 (latticework vs single-lens)
+    cross_pollination_ability: ""  # How well they apply models across domains
+    circle_of_competence_awareness: ""  # Do they know their boundaries?
+
+  validation_report:
+    munger_gates_passed:
+      - gate: "Latticework vs List"
+        status: ""  # PASS / FAIL
+      - gate: "First-Principles Decomposition"
+        status: ""
+      - gate: "Cross-Domain Validation"
+        status: ""
+      - gate: "Predictive Power"
+        status: ""
+      - gate: "Inversion Applied"
+        status: ""
+      - gate: "Context Boundaries Defined"
+        status: ""
+      - gate: "Lollapalooza Identified"
+        status: ""
+      - gate: "Multi-Model Thinking"
+        status: ""
+
+    gaps_identified: []
+    areas_for_deeper_analysis: []
+    confidence_score: 0.0  # 0-1.0
+
+  recommendations:
+    specialist_variants:  # Which specialist prompts would benefit from these frameworks?
+      - specialist: ""
+        frameworks_to_emphasize: []
+        reason: ""
+
+    framework_development:  # Frameworks partially formed that need more data
+      - emerging_framework: ""
+        current_evidence: ""
+        needed_validation: ""
+
+    knowledge_architecture_design:  # How to chunk knowledge based on these frameworks
+      foundational_frameworks: []  # Teach these first
+      advanced_frameworks: []  # Build on foundations
+      integration_frameworks: []  # Meta-frameworks tying everything together

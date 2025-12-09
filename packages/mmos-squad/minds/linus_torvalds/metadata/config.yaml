@@ -1,0 +1,9 @@
+workflow_type: greenfield
+mode: public
+slug: linus_torvalds
+person_name: Linus Torvalds
+started_at: "2025-01-14T23:30:00Z"
+pipeline_version: "2.0"
+detection_log:
+  - "✓ Mind directory not found → greenfield"
+  - "✓ Web search found content for 'Linus Torvalds' → public mode"

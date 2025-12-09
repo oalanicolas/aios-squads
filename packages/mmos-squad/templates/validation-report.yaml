@@ -1,0 +1,658 @@
+# ==============================================================================
+# TEMPLATE METADATA: validation_report | v1.0.0 | format: yaml | MMOS Pipeline
+# ==============================================================================
+# Validation Report - [Nome do Mind]
+# Fidelity Testing & Production Readiness Assessment
+
+mind_name: "[NOME_COMPLETO]"
+validation_version: "1.0"
+test_date: "YYYYMMDD-HHMM"
+qa_lead: "[NOME_QA]"
+status: "[IN_PROGRESS/COMPLETE/BLOCKED]"
+
+# =============================================================================
+# EXECUTIVE SUMMARY
+# =============================================================================
+
+summary:
+  overall_fidelity_score: 0.0  # [0.0-1.0 or 0-100%]
+  pass_fail: "[PASS/FAIL/CONDITIONAL_PASS]"
+
+  recommendation: "[PRODUCTION_READY/NEEDS_REVISION/REJECT]"
+
+  confidence_level: 0  # [0-100%]
+
+  test_coverage:
+    total_test_cases: 0
+    passed: 0
+    failed: 0
+    inconclusive: 0
+
+  critical_issues: 0
+  minor_issues: 0
+
+  executive_summary: |
+    [2-3 paragraph summary of testing results, key findings, and recommendation]
+
+# =============================================================================
+# TEST METHODOLOGY
+# =============================================================================
+
+methodology:
+  testing_approach: "[BLIND_TESTING/EXPERT_REVIEW/AUTOMATED/MIXED]"
+
+  evaluators:
+    - name: "[Evaluator 1]"
+      role: "[Role]"
+      expertise: "[Area]"
+      bias_disclosure: "[Any relevant biases]"
+
+    - name: "[Evaluator 2]"
+      role: "[Role]"
+      expertise: "[Area]"
+      bias_disclosure: "[Disclosure]"
+
+  testing_period:
+    start_date: "YYYYMMDD"
+    end_date: "YYYYMMDD"
+    duration_days: 0
+
+  versions_tested:
+    - version: "v1.0"
+      system_prompt: "[Path to prompt]"
+      kb_version: "[Version]"
+      test_date: "YYYYMMDD"
+
+  comparison_baseline:
+    method: "[ORIGINAL_CONTENT/EXPERT_OPINION/PEER_MINDS]"
+    description: "[What was used as ground truth]"
+
+# =============================================================================
+# FIDELITY TESTING - DNA MENTAL™ LAYERS
+# =============================================================================
+
+layer_testing:
+
+  layer_1_sensory_inputs:
+    score: 0.0  # [0.0-1.0]
+    pass: false
+
+    test_cases:
+      - case_id: "L1-001"
+        description: "[Test description]"
+        input: "[Test input]"
+        expected: "[Expected behavior based on documented patterns]"
+        actual: "[Actual behavior]"
+        match: "[EXACT/CLOSE/PARTIAL/MISS]"
+        score: 0.0
+        notes: null
+
+    findings: |
+      [Summary of Layer 1 testing results]
+
+    issues: []
+
+  layer_2_recognition_patterns:
+    score: 0.0
+    pass: false
+
+    test_cases:
+      - case_id: "L2-001"
+        description: "[Test primary radar X]"
+        input: "[Input that should trigger radar]"
+        expected: "[Expected pattern detection]"
+        actual: "[Actual response]"
+        match: "[match level]"
+        score: 0.0
+        notes: null
+
+    findings: |
+      [Layer 2 results]
+
+    issues: []
+
+  layer_3_mental_models:
+    score: 0.0
+    pass: false
+
+    test_cases:
+      - case_id: "L3-001"
+        description: "[Test framework X application]"
+        input: "[Scenario requiring framework]"
+        expected: "[Expected framework application]"
+        actual: "[Actual application]"
+        match: "[match]"
+        score: 0.0
+        notes: null
+
+    findings: |
+      [Layer 3 results]
+
+    issues: []
+
+  layer_4_belief_systems:
+    score: 0.0
+    pass: false
+
+    test_cases:
+      - case_id: "L4-001"
+        description: "[Test core belief X]"
+        input: "[Challenge to belief]"
+        expected: "[Expected value-consistent response]"
+        actual: "[Actual response]"
+        match: "[match]"
+        score: 0.0
+        notes: null
+
+    findings: |
+      [Layer 4 results]
+
+    issues: []
+
+  layer_5_decision_architecture:
+    score: 0.0
+    pass: false
+
+    test_cases:
+      - case_id: "L5-001"
+        description: "[Test decision process]"
+        input: "[Decision scenario]"
+        expected: "[Expected decision pipeline]"
+        actual: "[Actual decision process]"
+        match: "[match]"
+        score: 0.0
+        notes: null
+
+    findings: |
+      [Layer 5 results]
+
+    issues: []
+
+  layer_6_core_obsessions:
+    score: 0.0
+    pass: false
+
+    test_cases:
+      - case_id: "L6-001"
+        description: "[Test obsession manifestation]"
+        input: "[Trigger for obsession]"
+        expected: "[Expected obsession-driven response]"
+        actual: "[Actual response]"
+        match: "[match]"
+        score: 0.0
+        notes: null
+
+    findings: |
+      [Layer 6 results]
+
+    issues: []
+
+  layer_7_unique_algorithm:
+    score: 0.0
+    pass: false
+
+    test_cases:
+      - case_id: "L7-001"
+        description: "[Test signature cognitive move]"
+        input: "[Complex scenario]"
+        expected: "[Expected unique processing]"
+        actual: "[Actual cognitive pattern]"
+        match: "[match]"
+        score: 0.0
+        notes: null
+
+    findings: |
+      [Layer 7 results]
+
+    issues: []
+
+  layer_8_integrative_synthesis:
+    score: 0.0
+    pass: false
+
+    test_cases:
+      - case_id: "L8-001"
+        description: "[Test full system integration]"
+        input: "[Multi-dimensional scenario]"
+        expected: "[Expected integrated response using multiple layers]"
+        actual: "[Actual integrated response]"
+        match: "[match]"
+        score: 0.0
+        notes: null
+
+    findings: |
+      [Layer 8 results]
+
+    issues: []
+
+# =============================================================================
+# PERSONALITY FIDELITY TESTING
+# =============================================================================
+
+personality_testing:
+
+  communication_style:
+    score: 0.0
+    pass: false
+
+    metrics:
+      tone_consistency: 0.0
+      vocabulary_accuracy: 0.0
+      signature_phrases: 0.0
+      sentence_structure: 0.0
+      storytelling_style: 0.0
+
+    test_cases:
+      - case_id: "COM-001"
+        description: "[Test tone in context X]"
+        expected: "[Expected communication style]"
+        actual: "[Actual style]"
+        match: "[match]"
+        score: 0.0
+
+    findings: |
+      [Communication testing results]
+
+    issues: []
+
+  values_consistency:
+    score: 0.0
+    pass: false
+
+    test_cases:
+      - case_id: "VAL-001"
+        description: "[Test value trade-off]"
+        scenario: "[Scenario forcing value choice]"
+        expected: "[Expected value prioritization]"
+        actual: "[Actual choice]"
+        match: "[match]"
+        score: 0.0
+
+    findings: |
+      [Values testing results]
+
+    issues: []
+
+  paradox_handling:
+    score: 0.0
+    pass: false
+
+    test_cases:
+      - case_id: "PAR-001"
+        description: "[Test paradox X resolution]"
+        trigger: "[Scenario activating paradox]"
+        expected: "[Expected both-and handling]"
+        actual: "[Actual resolution]"
+        match: "[match]"
+        score: 0.0
+
+    findings: |
+      [Paradox testing results]
+
+    issues: []
+
+# =============================================================================
+# EDGE CASE TESTING
+# =============================================================================
+
+edge_cases:
+
+  - case_id: "EDGE-001"
+    description: "[Unusual situation]"
+    category: "[OUT_OF_DOMAIN/ETHICAL_DILEMMA/CONTRADICTORY_INPUT/OTHER]"
+    input: "[Test input]"
+    expected: "[Expected handling]"
+    actual: "[Actual response]"
+    passed: false
+    notes: null
+
+  - case_id: "EDGE-002"
+    description: "[Edge case 2]"
+    category: "[category]"
+    input: "[input]"
+    expected: "[expected]"
+    actual: "[actual]"
+    passed: false
+    notes: null
+
+# =============================================================================
+# BLIND TESTING RESULTS (If Applicable)
+# =============================================================================
+
+blind_testing:
+  conducted: false  # true/false
+
+  methodology: |
+    [Description of blind test methodology if conducted]
+
+  results:
+    total_evaluators: 0
+    correctly_identified_as_authentic: 0
+    misidentified_as_ai: 0
+    uncertain: 0
+
+    accuracy_rate: 0.0  # [0.0-1.0]
+
+  evaluator_feedback:
+    - evaluator_id: "[ID]"
+      assessment: "[AUTHENTIC/AI/UNCERTAIN]"
+      confidence: 0  # [0-100%]
+      reasoning: "[Why they chose this]"
+      tell_tale_signs: "[What gave it away if applicable]"
+
+  analysis: |
+    [Analysis of blind testing results]
+
+# =============================================================================
+# CONSISTENCY TESTING
+# =============================================================================
+
+consistency_testing:
+
+  across_sessions:
+    test_method: "[Same question multiple times]"
+    samples: 0
+    consistency_score: 0.0  # [0.0-1.0]
+
+    variations_found: []
+
+    findings: |
+      [Consistency analysis]
+
+  across_contexts:
+    test_method: "[Same topic, different contexts]"
+    samples: 0
+    consistency_score: 0.0
+
+    context_dependent_variations: []
+
+    findings: |
+      [Context consistency analysis]
+
+  over_long_conversations:
+    test_method: "[Extended dialogue]"
+    conversation_length: 0  # turns
+    consistency_score: 0.0
+
+    drift_observed: false
+    drift_description: null
+
+    findings: |
+      [Long conversation analysis]
+
+# =============================================================================
+# SPECIALIST TESTING (If Applicable)
+# =============================================================================
+
+specialist_testing:
+
+  specialists_tested:
+    - specialist_name: "[Domain Specialist]"
+      test_cases: 0
+      passed: 0
+      failed: 0
+      score: 0.0
+
+      key_findings: |
+        [Specialist testing results]
+
+      issues: []
+
+# =============================================================================
+# ISSUE TRACKING
+# =============================================================================
+
+issues:
+
+  critical:
+    - issue_id: "CRIT-001"
+      severity: "CRITICAL"
+      category: "[FIDELITY/CONSISTENCY/SAFETY/TECHNICAL]"
+      description: "[Detailed issue description]"
+      impact: "[How this affects production readiness]"
+      observed_in:
+        - "[Test case ID]"
+        - "[Test case ID]"
+      root_cause: "[Analysis of why this is happening]"
+      recommended_fix: "[How to resolve]"
+      priority: "[HIGH/MEDIUM/LOW]"
+      status: "[OPEN/IN_PROGRESS/RESOLVED]"
+
+  major:
+    - issue_id: "MAJ-001"
+      severity: "MAJOR"
+      category: "[category]"
+      description: "[description]"
+      impact: "[impact]"
+      observed_in: []
+      root_cause: "[cause]"
+      recommended_fix: "[fix]"
+      priority: "[priority]"
+      status: "[status]"
+
+  minor:
+    - issue_id: "MIN-001"
+      severity: "MINOR"
+      category: "[category]"
+      description: "[description]"
+      impact: "[impact]"
+      observed_in: []
+      recommended_fix: "[fix]"
+      priority: "[priority]"
+      status: "[status]"
+
+# =============================================================================
+# PERFORMANCE METRICS
+# =============================================================================
+
+performance:
+
+  response_quality:
+    relevance: 0.0  # [0.0-1.0]
+    depth: 0.0
+    accuracy: 0.0
+    helpfulness: 0.0
+    overall: 0.0
+
+  technical_performance:
+    average_response_time: 0.0  # seconds
+    kb_retrieval_accuracy: 0.0
+    context_maintenance: 0.0
+
+  user_experience:
+    clarity: 0.0
+    engagement: 0.0
+    authenticity_perception: 0.0
+
+# =============================================================================
+# COMPARATIVE ANALYSIS
+# =============================================================================
+
+comparative_analysis:
+
+  vs_original_content:
+    method: "[How compared]"
+    samples_compared: 0
+    match_rate: 0.0
+
+    findings: |
+      [Comparison results]
+
+  vs_similar_minds:
+    compared_to:
+      - mind_name: "[Similar Mind]"
+        differentiation_score: 0.0  # [0.0-1.0 - how different]
+        notes: "[How this mind differs]"
+
+    findings: |
+      [Comparative findings]
+
+  vs_generic_ai:
+    method: "[Testing method]"
+    samples: 0
+    differentiation_score: 0.0  # [0.0-1.0 - how different from generic]
+
+    findings: |
+      [How this mind differs from generic AI]
+
+# =============================================================================
+# PRODUCTION READINESS ASSESSMENT
+# =============================================================================
+
+production_readiness:
+
+  criteria:
+    - criterion: "Layer fidelity ≥ 85%"
+      met: false
+      actual: 0.0
+      notes: null
+
+    - criterion: "Communication style ≥ 90%"
+      met: false
+      actual: 0.0
+      notes: null
+
+    - criterion: "Values consistency 100%"
+      met: false
+      actual: 0.0
+      notes: null
+
+    - criterion: "Zero critical issues"
+      met: false
+      actual: 0
+      notes: null
+
+    - criterion: "Blind test accuracy ≥ 85%"
+      met: false
+      actual: 0.0
+      notes: null
+
+    - criterion: "Edge case handling ≥ 80%"
+      met: false
+      actual: 0.0
+      notes: null
+
+  overall_readiness: 0.0  # [0.0-1.0]
+
+  recommendation: "[PRODUCTION_READY/NEEDS_MINOR_FIXES/NEEDS_MAJOR_REVISION/REJECT]"
+
+  blocking_issues: []
+
+  pre_production_requirements:
+    - "[Requirement 1 before launch]"
+    - "[Requirement 2]"
+
+# =============================================================================
+# RECOMMENDATIONS
+# =============================================================================
+
+recommendations:
+
+  immediate_actions:
+    - action: "[Action 1]"
+      priority: "[HIGH/MEDIUM/LOW]"
+      rationale: "[Why this is needed]"
+      estimated_effort: "[hours/days]"
+
+    - action: "[Action 2]"
+      priority: "[priority]"
+      rationale: "[rationale]"
+      estimated_effort: "[effort]"
+
+  system_prompt_improvements:
+    - improvement: "[Specific change to system prompt]"
+      reason: "[Why this would help]"
+      expected_impact: "[What this would improve]"
+
+  kb_improvements:
+    - improvement: "[KB enhancement]"
+      reason: "[Why needed]"
+      expected_impact: "[Impact]"
+
+  further_testing_needed:
+    - area: "[What needs more testing]"
+      reason: "[Why]"
+      test_plan: "[How to test]"
+
+# =============================================================================
+# LESSONS LEARNED
+# =============================================================================
+
+lessons_learned:
+
+  what_worked_well:
+    - "[Success 1]"
+    - "[Success 2]"
+
+  what_needs_improvement:
+    - "[Issue 1]"
+    - "[Issue 2]"
+
+  surprises:
+    - "[Unexpected finding 1]"
+    - "[Unexpected finding 2]"
+
+  for_future_minds:
+    - "[Lesson 1 for other minds]"
+    - "[Lesson 2]"
+
+# =============================================================================
+# METADATA & TRACKING
+# =============================================================================
+
+metadata:
+  qa_lead: "[QA Lead Name]"
+  test_team: []
+  created_at: "YYYYMMDD-HHMM"
+  completed_at: "YYYYMMDD-HHMM"
+
+  version_history:
+    - version: "1.0"
+      date: "YYYYMMDD-HHMM"
+      changes: "Initial validation report"
+      author: "[Name]"
+
+  related_documents:
+    - "minds/[mind_name]/system_prompts/v1.0-generalista.md"
+    - "minds/[mind_name]/docs/COGNITIVE_SPEC.md"
+    - "minds/[mind_name]/docs/MIND_BRIEF.md"
+    - "minds/[mind_name]/docs/PRD.md"
+
+  sign_off:
+    qa_approved: false
+    qa_date: null
+    pm_approved: false
+    pm_date: null
+    final_approval: false
+    approval_date: null
+
+# =============================================================================
+# PRODUCTION DEPLOYMENT
+# =============================================================================
+
+deployment:
+  approved: false
+  approval_date: null
+  deployment_date: null
+
+  deployment_checklist:
+    - item: "All critical issues resolved"
+      complete: false
+    - item: "System prompt finalized"
+      complete: false
+    - item: "KB optimized"
+      complete: false
+    - item: "Documentation complete"
+      complete: false
+    - item: "Monitoring in place"
+      complete: false
+
+  post_deployment_monitoring:
+    - metric: "[Metric to monitor]"
+      target: "[Target value]"
+      frequency: "[How often to check]"
+
+  regression_testing_schedule: "[When to retest]"
+
+  continuous_improvement_plan: |
+    [How this mind will be improved over time]

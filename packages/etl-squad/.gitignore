@@ -1,0 +1,162 @@
+# API Keys and Credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.secret
+*-secret.*
+*_secret.*
+credentials.json
+credentials.yaml
+credentials.yml
+secrets.json
+secrets.yaml
+secrets.yml
+config/credentials.*
+config/secrets.*
+auth.json
+auth.yaml
+
+# Z-Library Credentials
+zlib-credentials.*
+.zlib-session
+.zlib-cookies
+zlibrary-session.*
+
+# API Keys in various formats
+*_api_key*
+*-api-key*
+*-apikey*
+*_apikey*
+api-keys.*
+apikeys.*
+API_KEY*
+APIKEY*
+*.token
+*-token.*
+*_token.*
+bearer-token.*
+
+# Social Media Auth
+twitter-auth.*
+twitter-bearer-token.*
+linkedin-cookies.*
+linkedin-session.*
+reddit-credentials.*
+reddit-auth.*
+facebook-token.*
+instagram-credentials.*
+
+# AssemblyAI
+assemblyai.key
+assemblyai-*.json
+assemblyai_key*
+ASSEMBLYAI_*
+
+# Whisper API
+whisper-api-key.*
+whisper-key.*
+openai-api-key.*
+openai-key.*
+OPENAI_*
+
+# Other AI/ML API Keys
+anthropic-key.*
+ANTHROPIC_*
+google-api-key.*
+GOOGLE_API_*
+azure-key.*
+AZURE_*
+
+# Downloaded Data (can be large)
+downloads/
+processed/
+outputs/
+temp/
+tmp/
+.cache/
+
+# Collection Logs (contain potentially sensitive URLs)
+COLLECTION_LOG_*.md
+COLLECTION_SUMMARY_*.yaml
+collection-state.json
+.etl-task-state.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS Files
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Test outputs
+test-output/
+test-downloads/
+
+# Personal notes (may contain sensitive info)
+notes.txt
+notes.md
+TODO-personal.md
+TODO-private.md
+SCRATCH.md
+NOTES-*.md
+*-private.*
+*_private.*
+private-*
+Private-*
+
+# Backup files
+*.bak
+*.backup
+*.old
+*~.nib
+*.swp
+*.swo
+
+# Database files (may contain cached sensitive data)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Sensitive output files
+export-*.json
+export-*.yaml
+backup-*.tar.gz
+archive-*.zip
+*-export-*.csv
+
+# User-specific configuration
+.user.config
+user-config.*
+local-config.*
+.local/

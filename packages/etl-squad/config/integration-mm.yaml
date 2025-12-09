@@ -1,0 +1,56 @@
+integration:
+  name: "MMOS ↔️ ETL Data Collector"
+  description: "Configuração que habilita o MMOS Mind Mapper a invocar o pack ETL para coleta paralela."
+  version: "1.0.0"
+
+  orchestrators:
+    research_collection:
+      entrypoint: "expansion-packs/etl/scripts/orchestrator/parallel-collector.js"
+      default_args:
+        maxConcurrent: 5
+        allowResume: true
+        progressRefresh: 2000
+      expected_inputs:
+        - name: sources
+          description: "Arquivo YAML com lista de fontes (compatível com MMOS)."
+        - name: output_dir
+          description: "Diretório base onde artefatos serão salvos."
+      outputs:
+        - name: report
+          path: "{output_dir}/etl-report.json"
+        - name: downloads
+          path: "{output_dir}/downloads"
+
+  hooks:
+    pre_collection:
+      - name: "sync-download-rules"
+        description: "Garante que download-rules.yaml está alinhado com preferências do mind."
+        script: "scripts/hooks/sync-download-rules.js"
+    post_collection:
+      - name: "update-sources-master"
+        description: "Atualiza sources_master.yaml do MMOS com resultados da coleta."
+        script: "scripts/hooks/update-sources-master.js"
+
+  mmos_tasks:
+    research-collection:
+      mode_mapping:
+        discovery: "run-mm-discovery"
+        collection: "node {orchestrators.research_collection.entrypoint} --sources {sources} --output {output_dir}"
+        master_compilation: "node scripts/hooks/update-sources-master.js --mind {mind_name}"
+        full: |
+          node scripts/hooks/run-full-research.js \
+            --mind {mind_name} \
+            --sources {sources} \
+            --output {output_dir} \
+            --config {integration_config}
+
+  env_requirements:
+    - ASSEMBLYAI_API_KEY
+    - TWITTER_BEARER_TOKEN
+    - REDDIT_CLIENT_ID
+    - REDDIT_CLIENT_SECRET
+
+  notes:
+    - "MMOS deve garantir PRD e TODO atualizados antes de acionar o ETL."
+    - "Ao retomar execução, reusar o mesmo output_dir para aproveitar checkpoint/resume."
+    - "Hooks opcionais podem ser desativados conforme necessidade do mind."

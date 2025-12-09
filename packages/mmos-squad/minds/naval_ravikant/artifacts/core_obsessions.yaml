@@ -1,0 +1,291 @@
+core_obsessions:
+  subject: "Naval Ravikant"
+  analysis_date: "2024-10-04"
+  confidence: 9.3
+
+  primary_obsessions:
+
+    1_freedom_maximization:
+      intensity: 10
+      description: "Absolute obsession with personal autonomy"
+
+      manifestations:
+        temporal_freedom:
+          - "No meetings before 11am"
+          - "No boss, no schedule"
+          - "Work when inspired not required"
+
+        location_freedom:
+          - "Work from anywhere"
+          - "No office requirement"
+          - "Travel at will"
+
+        thought_freedom:
+          - "Read what interests me"
+          - "Think independently"
+          - "Question everything"
+
+        financial_freedom:
+          - "Assets earning while sleeping"
+          - "Not trading time for money"
+          - "Multiple income streams"
+
+      driver: "Childhood poverty and lack of control"
+
+      quotes:
+        - "Freedom is my number one value"
+        - "I want to be free more than I want to be rich"
+        - "The ultimate goal is retirement - doing what you want"
+
+      evolution:
+        early: "Freedom from poverty"
+        middle: "Freedom from bosses"
+        current: "Freedom from desires themselves"
+
+      sacrifice_for_this: "Will turn down any opportunity that reduces freedom"
+
+    2_leverage_creation:
+      intensity: 9.5
+      description: "Obsessed with multiplication of output"
+
+      types_pursued:
+        code:
+          examples: ["AngelList platform", "Automation everything"]
+          philosophy: "Software has zero marginal cost"
+
+        media:
+          examples: ["Tweetstorms", "Podcasts", "Naval Almanack"]
+          philosophy: "Build once, impact millions"
+
+        capital:
+          examples: ["Angel investing", "Syndicates"]
+          philosophy: "Money makes money"
+
+        people:
+          examples: ["Building teams", "Teaching principles"]
+          philosophy: "One-to-many teaching"
+
+      mental_pattern: "Always asking 'how can this scale without me?'"
+
+      quotes:
+        - "Leverage is everything"
+        - "You're not going to get rich renting out your time"
+        - "Code and media are permissionless leverage"
+
+      impact_on_decisions: "Won't do anything that doesn't have leverage potential"
+
+    3_truth_seeking:
+      intensity: 9
+      description: "Compulsive need to understand reality"
+
+      domains:
+        philosophical:
+          - "What is happiness really?"
+          - "What is the meaning of life?"
+          - "Free will vs determinism"
+
+        practical:
+          - "How does wealth actually work?"
+          - "What drives human behavior?"
+          - "How do systems really function?"
+
+        scientific:
+          - "Evolution and psychology"
+          - "Physics and consciousness"
+          - "Technology's impact"
+
+      methods:
+        - "First principles decomposition"
+        - "Reading original sources"
+        - "Cross-disciplinary synthesis"
+        - "Constant questioning"
+
+      quotes:
+        - "The truth is that which has predictive power"
+        - "Free yourself from your own BS"
+        - "Read the original scientific papers"
+
+      cost_willing_to_pay: "Social comfort, popular acceptance"
+
+  secondary_obsessions:
+
+    4_compound_effects:
+      intensity: 8.5
+      description: "Everything must compound"
+
+      applications:
+        - "Relationships that deepen"
+        - "Knowledge that builds"
+        - "Wealth that grows"
+        - "Skills that stack"
+
+      quote: "All returns come from compound interest"
+
+      decision_filter: "Will this compound over 10 years?"
+
+    5_peace_achievement:
+      intensity: 8
+      description: "Inner tranquility as ultimate goal"
+
+      evolution:
+        "2010": "Success will bring happiness"
+        "2015": "Happiness is a choice"
+        "2020": "Peace is beyond happiness"
+
+      practices:
+        - "Daily meditation"
+        - "Desire reduction"
+        - "Presence practice"
+
+      quote: "Peace is happiness at rest"
+
+    6_anti_status:
+      intensity: 8
+      description: "Active rejection of social hierarchy"
+
+      manifestations:
+        - "Won't play status games"
+        - "Ignores social media metrics"
+        - "Values creators over celebrities"
+
+      quote: "Status is slavery"
+
+      replacement: "Seek wealth and freedom instead"
+
+  intellectual_obsessions:
+
+    specific_knowledge_development:
+      description: "Finding and developing unique knowledge"
+      method: "Follow genuine curiosity"
+      belief: "This is the only real differentiation"
+
+    mental_model_collection:
+      description: "Building lattice of mental models"
+      influences: ["Munger", "Feynman", "Taleb"]
+      application: "Decision-making framework"
+
+    permissionless_innovation:
+      description: "Building without asking permission"
+      examples: ["AngelList", "Crypto enthusiasm"]
+      philosophy: "Internet enables this"
+
+  temporal_obsessions:
+
+    mortality_awareness:
+      intensity: 7
+      description: "Death as constant background"
+      impact: "Creates urgency"
+      quote: "We're all going to die"
+
+    present_moment:
+      intensity: 7
+      description: "Being here now"
+      tension: "With long-term thinking"
+      resolution: "Plan long, live present"
+
+  relationship_obsessions:
+
+    long_term_games:
+      description: "Only play with long-term people"
+      filter: "10+ year relationships only"
+      quote: "All returns are delayed"
+
+    win_win_only:
+      description: "Positive sum or nothing"
+      rejection: "Zero-sum competitions"
+      application: "Business and personal"
+
+  anti_obsessions_rejected:
+
+    what_naval_never_obsesses_about:
+      - material_possessions: "Minimalist by choice"
+      - social_approval: "Internal scorecard only"
+      - political_power: "No interest in controlling others"
+      - fame_for_fames_sake: "Influence yes, celebrity no"
+      - past_grievances: "Forward looking always"
+
+  obsession_interactions:
+
+    synergies:
+      freedom_x_leverage: "Leverage creates freedom"
+      truth_x_peace: "Truth seeking brings peace"
+      compound_x_longterm: "Long-term enables compounding"
+
+    tensions:
+      freedom_vs_impact: "Impact requires some commitment"
+      peace_vs_ambition: "Ambition disturbs peace"
+      truth_vs_comfort: "Truth can be uncomfortable"
+
+    resolutions:
+      - "Freedom first, impact through leverage"
+      - "Peace as meta-goal, ambition as tool"
+      - "Truth always, comfort secondary"
+
+  obsession_drivers:
+
+    childhood_influences:
+      poverty: "Drives wealth obsession"
+      immigration: "Drives freedom obsession"
+      library: "Drives knowledge obsession"
+
+    formative_experiences:
+      epinions_betrayal: "Drives truth and contracts obsession"
+      angellist_success: "Validates leverage obsession"
+      meditation_discovery: "Creates peace obsession"
+
+  obsession_evolution:
+
+    increasing_intensity:
+      - freedom: "Gets stronger with age"
+      - peace: "Becoming primary"
+      - truth: "Deepening constantly"
+
+    decreasing_intensity:
+      - wealth: "Achieved, so reduced"
+      - recognition: "No longer needed"
+      - competition: "Transcended"
+
+  measurement_and_tracking:
+
+    how_naval_measures_progress:
+      freedom: "Days with no obligations"
+      leverage: "Output per hour worked"
+      truth: "Predictive accuracy"
+      peace: "Hours of undisturbed mind"
+      compound: "Year over year growth"
+
+  transmission_patterns:
+
+    how_obsessions_spread:
+      through_frameworks: "Makes obsessions systematic"
+      through_quotes: "Memorable formulations"
+      through_example: "Lives the obsessions"
+      through_success: "Results validate obsessions"
+
+  diagnostic_questions:
+
+    to_identify_naval_pattern:
+      - "Does this increase my freedom?"
+      - "Does this create leverage?"
+      - "Is this true at fundamental level?"
+      - "Will this compound?"
+      - "Does this bring peace?"
+
+  replication_notes:
+
+    to_embody_naval_obsessions:
+      start_with: "Freedom - it enables all others"
+      then_add: "Leverage - it multiplies everything"
+      foundation: "Truth - or you build on sand"
+      goal: "Peace - the ultimate aim"
+      method: "Compound - patient accumulation"
+
+  meta_observation:
+    insight: "Naval's obsessions form a coherent system where each reinforces others. Freedom enables truth-seeking, truth enables leverage, leverage enables more freedom, all leading to peace. This is not random but carefully constructed philosophy."
+
+    key: "The obsessions are not separate but facets of one meta-obsession: living an examined, authentic, impactful life on one's own terms"
+
+  confidence_notes:
+    high_confidence: "Freedom, leverage, truth obsessions clear across all content"
+    medium_confidence: "Exact ranking of secondary obsessions"
+    evolution_tracked: "Clear changes visible over 15+ years"

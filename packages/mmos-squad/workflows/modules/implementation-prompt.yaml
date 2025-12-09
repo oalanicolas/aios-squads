@@ -1,0 +1,83 @@
+module:
+  id: implementation-prompt
+  name: System Prompt & Operational Manual Creation
+  description: >-
+    Compiles complete general-purpose system prompt integrating all 8 DNA Mental
+    layers, knowledge base, and operational constraints. Includes human checkpoint
+    for prompt review and iteration. Generates operational manual for end users.
+  version: 1.0.0
+  created: 2025-10-25
+  shared_by:
+    - greenfield-mind
+    - brownfield-mind
+
+phases:
+  # ============================================================================
+  # System Prompt Creation (Generalista)
+  # ============================================================================
+  - agent: architect
+    phase: implementation
+    creates: system-prompt-generalista
+    task: system-prompt-creation
+    task_mode: generalista
+    prerequisites:
+      - identity_core.yaml complete
+      - All 8 layers validated
+      - Knowledge base chunks ready
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/system_prompts/{timestamp}-v1.0-generalista.md
+    human_checkpoint: true
+    checkpoint_type: SYSTEM_PROMPT_REVIEW
+    notes: |
+      Compile complete general-purpose system prompt:
+
+      PROMPT STRUCTURE:
+      1. Identity Section (Layer 8 paradoxes integrated)
+      2. Values & Principles (Layer 6 embedded)
+      3. Mental Models (Layer 5 as reasoning patterns)
+      4. Communication Style (Layer 2 as voice)
+      5. Knowledge Integration (KB reference)
+      6. Behavioral Instructions (Layers 1-4)
+      7. Limitations (from LIMITATIONS.md)
+
+      HUMAN CHECKPOINT #5: System Prompt Review
+
+      Present compiled prompt:
+      - Token count statistics
+      - Key characteristics encoded
+      - Preview snippet (first 200 lines)
+
+      User decision:
+      1. APPROVE - Proceed to testing
+      2. ITERATE - Request specific changes
+      3. MAJOR_REVISION - Significant rework needed
+
+      If ITERATE: Apply changes, increment version, re-present
+      If MAJOR_REVISION: Return to synthesis, identify gaps
+
+      OUTPUT: Production system prompt v1.0
+
+  # ============================================================================
+  # Operational Manual Generation
+  # ============================================================================
+  - agent: architect
+    phase: implementation
+    creates: operational-manual
+    task: system-prompt-creation
+    task_mode: operational_manual
+    prerequisites:
+      - System prompt approved
+    outputs:
+      - expansion-packs/mmos/minds/{slug}/docs/operational_manual.md
+    notes: |
+      Generate operational manual:
+
+      MANUAL CONTENTS:
+      - How to use the mind clone
+      - Optimal use cases
+      - Known limitations
+      - Troubleshooting guide
+      - Version history
+      - Best practices
+
+      OUTPUT: Complete user manual

@@ -1,0 +1,163 @@
+temporal_context:
+  subject: "Naval Ravikant"
+  birth_year: 1974
+  birth_place: "New Delhi, India"
+  moved_to_usa: 1985 # Age 9
+
+  life_phases:
+
+    early_life:
+      period: "1974-1995"
+      description: "Childhood in India, immigration to USA, education"
+      key_events:
+        - "Born in New Delhi, India"
+        - "Moved to Queens, NY at age 9"
+        - "Raised by single mother"
+        - "Studied Computer Science and Economics at Dartmouth"
+      available_sources: "Minimal - occasional references in interviews"
+
+    entrepreneurial_awakening:
+      period: "1996-2003"
+      description: "First startup experience with Epinions"
+      key_events:
+        - "1999: Co-founded Epinions (product review site)"
+        - "2000: Epinions merger with Dealtime -> Shopping.com"
+        - "2003: eBay acquisition for $620M"
+        - "Legal battles over equity dilution"
+      mindset: "Learning harsh lessons about equity, control, and trust"
+      available_sources: "Some interviews, court documents"
+
+    venture_building:
+      period: "2003-2010"
+      description: "Angel investing and building investment thesis"
+      key_events:
+        - "2007: Started Venture Hacks blog with Nivi"
+        - "Early investments in Twitter, Uber"
+        - "Developing thesis on consumer internet"
+      mindset: "Democratizing startup knowledge"
+      available_sources: "Venture Hacks archives, early blog posts"
+
+    angellist_revolution:
+      period: "2010-2015"
+      description: "Building AngelList, transforming startup funding"
+      key_events:
+        - "2010: Launched AngelList"
+        - "2013: Introduced Syndicates"
+        - "2014: Raised $24M from CSC Venture Capital"
+        - "Platform grows to thousands of startups"
+      mindset: "Democratizing access to capital, removing gatekeepers"
+      available_sources: "TechCrunch coverage, blog posts, early interviews"
+
+    philosophical_emergence:
+      period: "2015-2018"
+      description: "Shift toward philosophy and public thinking"
+      key_events:
+        - "2015-2017: Active on Periscope"
+        - "2016: First Tim Ferriss podcast appearances"
+        - "2017: Started sharing philosophy tweets"
+        - "2018: 'How to Get Rich' tweetstorm goes viral"
+      mindset: "Wealth is freedom, happiness is peace"
+      available_sources: "Rich - Periscope archives, podcasts, tweets"
+
+    peak_influence:
+      period: "2018-2020"
+      description: "Maximum public influence and thought leadership"
+      key_events:
+        - "2019: Joe Rogan appearance"
+        - "2020: The Almanack of Naval Ravikant published"
+        - "Multiple viral tweetstorms"
+        - "Becomes 'The Angel Philosopher'"
+      mindset: "Synthesis of business and philosophy complete"
+      available_sources: "Abundant - podcasts, interviews, compiled works"
+
+    selective_presence:
+      period: "2021-2024"
+      description: "More selective public engagement"
+      key_events:
+        - "2021: Reduced Twitter activity"
+        - "2022: Focus on Airchat and new ventures"
+        - "2023: Occasional profound threads"
+        - "2024: Maintaining influence through ideas not presence"
+      mindset: "Living the philosophy, not just teaching it"
+      available_sources: "Moderate - selective appearances"
+
+  thought_evolution:
+
+    on_wealth:
+      early_2000s: "Money as goal, traditional Silicon Valley success"
+      mid_2010s: "Wealth as freedom, equity over salary"
+      late_2010s: "Wealth creation as ethical duty"
+      2020s: "Wealth as byproduct of value creation"
+
+    on_happiness:
+      early: "Success will bring happiness"
+      middle: "Happiness is a choice and skill"
+      current: "Happiness is peace, lack of desire"
+
+    on_work:
+      early: "Work hard, hustle culture"
+      middle: "Work smart, leverage over hours"
+      current: "Work on what feels like play"
+
+    on_technology:
+      consistent: "Technology as liberation force"
+      evolution: "From specific tools to broader implications"
+
+    on_crypto:
+      2013: "Interesting experiment"
+      2017: "Revolutionary potential"
+      2021: "Fundamental to future of money"
+      current: "Important but not everything"
+
+  influential_relationships:
+    business_partners:
+      - "Nivi (Babak Nivi) - Venture Hacks, AngelList co-founder"
+      - "Balaji Srinivasan - Friend, fellow thinker"
+
+    intellectual_influences:
+      - "Charlie Munger - Mental models"
+      - "Richard Feynman - Clear thinking"
+      - "Buddha - Philosophy of desire"
+      - "Nassim Taleb - Antifragility, skin in the game"
+      - "Krishnamurti - Consciousness, awareness"
+      - "Kapil Gupta - Direct truth, non-prescriptive wisdom"
+
+    recurring_podcast_hosts:
+      - "Tim Ferriss - Multiple deep conversations"
+      - "Shane Parrish - Knowledge Project"
+      - "Joe Rogan - Mainstream philosophy bridge"
+
+  content_density_by_period:
+    "2007-2010": "Low - Focused on building"
+    "2011-2014": "Medium - Blog posts and essays"
+    "2015-2018": "High - Periscope era"
+    "2018-2020": "Very High - Peak content creation"
+    "2021-2024": "Medium - Quality over quantity"
+
+  key_ideas_timeline:
+    2010: "Democratizing startup funding"
+    2014: "Permissionless leverage"
+    2016: "Specific knowledge concept"
+    2018: "How to Get Rich framework"
+    2019: "Happiness as lack of desire"
+    2020: "Complete philosophy synthesized"
+
+  gaps_in_record:
+    - "1996-1999: Pre-Epinions career"
+    - "2003-2007: Post-Epinions, pre-AngelList"
+    - "Personal life: Deliberately private"
+    - "Investment decision process: Proprietary"
+    - "Daily routine: Only glimpses shared"
+
+  contradiction_notes:
+    - "Work hard vs. work smart: Evolution not contradiction"
+    - "Money matters vs. money doesn't: Context dependent"
+    - "Be present vs. think long-term: Both true at different levels"
+    - "Happiness is a choice vs. genetics matter: Nuanced position"
+
+  metadata:
+    last_updated: "2024-10-04"
+    confidence_level: "High for 2010-2020, Medium for other periods"
+    primary_sources: 35
+    total_years_covered: 28 # Active public presence
+    peak_documentation: "2018-2020"

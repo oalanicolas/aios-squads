@@ -1,0 +1,371 @@
+{
+  "profile": {
+    "id": "gary_vaynerchuk",
+    "name": "Gary Vaynerchuk",
+    "disc": {
+      "D": 95,
+      "I": 88,
+      "S": 15,
+      "C": 25,
+      "pattern": "DI",
+      "pattern_name": "O Persuasor",
+      "natural_profile": "D extremo/I alto/S muito baixo/C baixo",
+      "adapted_profile": "D alto/I muito alto/S baixo/C médio",
+      "stress_profile": "D máximo/I médio/S zero/C zero",
+      "specific_behaviors": [
+        "Interrompe reuniões após 10-15 minutos se não produtivas",
+        "Publica 30-60 conteúdos/dia sem revisão",
+        "Mudou de plataforma principal 5x em carreira",
+        "Limpa os ossos no Hot Ones - dominância simbólica",
+        "Demitiu executivos via feedback direto sem suavizar"
+      ]
+    },
+    "enneagram": {
+      "type": "3w2",
+      "type_name": "The Achiever with Helper Wing",
+      "core_fear": "Ser sem valor ou sem significado",
+      "core_desire": "Ser valioso e admirado",
+      "childhood_message": "Você é amado por quem você é - compensada com trabalho extremo",
+      "development_level": "2-3 (saudável)",
+      "levels_timeline": {
+        "healthy_2_3": "2023-presente - Bondade é ROI, vulnerabilidade pública",
+        "average_4_5": "2016-2022 - Hustle porn, foco em métricas",
+        "unhealthy_6": "Raramente visto, exceto artigo trust fund baby"
+      },
+      "stress_direction": "9",
+      "stress_behaviors": "Procrastinação admitida, obnoxious procrastinator",
+      "growth_direction": "6",
+      "growth_behaviors": "Lealdade familiar extrema, 10 anos no negócio do pai",
+      "instinct_stack": "SO/SP/SX",
+      "instinct_descriptions": {
+        "social": "Dominante - Obsessão com impacto e legacy",
+        "self_preservation": "Secundário - Acumula recursos, investidor anjo",
+        "sexual": "Reprimido - Mantém esposa privada"
+      },
+      "behavioral_evidence": [
+        "Decisões em 5 minutos ou menos",
+        "Confronta críticos sobre trust fund baby",
+        "Construiu VaynerMedia para $200M",
+        "Gift of gab auto-identificado",
+        "Responde DMs pessoalmente",
+        "Modo de auditoria constante",
+        "Documenta, não cria - autenticidade"
+      ]
+    },
+    "mbti": {
+      "type": "ENTJ",
+      "type_name": "The Commander",
+      "E_percentage": 85,
+      "N_percentage": 75,
+      "T_percentage": 60,
+      "J_percentage": 70,
+      "cognitive_stack": {
+        "dominant": {
+          "function": "Te",
+          "name": "Pensamento Extrovertido",
+          "manifestations": [
+            "Construiu sistema de pirâmide invertida para conteúdo",
+            "VaynerMedia: $200M em receita, sistematização extrema",
+            "ROI de atenção - métrica em tudo",
+            "Decisões em segundos baseadas em eficiência",
+            "9 em 10 vezes, decisão rápida é a certa"
+          ]
+        },
+        "auxiliary": {
+          "function": "Ni",
+          "name": "Intuição Introvertida",
+          "manifestations": [
+            "Previu YouTube (2006), Twitter (2007), TikTok (2018)",
+            "Day trading attention - vê padrões invisíveis",
+            "Conecta vinho com storytelling antes de outros",
+            "VeeFriends: NFTs como contratos inteligentes"
+          ]
+        },
+        "tertiary": {
+          "function": "Se",
+          "name": "Sensação Extrovertida",
+          "manifestations": [
+            "Wine tasting expertise - paladar refinado",
+            "Presença física dominante em palco",
+            "Documenta realidade em tempo real",
+            "Ainda vai a garage sales - prazer tátil"
+          ]
+        },
+        "inferior": {
+          "function": "Fi",
+          "name": "Sentimento Introvertido",
+          "manifestations": [
+            "Chora ao falar da mãe (grip da inferior)",
+            "Segredo sombrio não processado",
+            "Valores familiares inquebráveis mas não articulados",
+            "Luta com auto-worth além de achievements"
+          ]
+        }
+      }
+    },
+    "cognitive_stratum": {
+      "level": "V",
+      "level_name": "Strategic Intent",
+      "time_horizon": "5-30 anos",
+      "processing_type": "Parallel Processing",
+      "transitioning_to": null,
+      "evidence": [
+        "Construiu VaynerMedia como ecossistema completo",
+        "VeeFriends: visão de IP para resto da vida",
+        "Meta de 30 anos para comprar NY Jets",
+        "Pensa em legacy não quarters"
+      ],
+      "temporal_horizons": {
+        "immediate": "Decisões em 5 minutos, 100+ micro-decisões/dia",
+        "short": "Sprints semanais de conteúdo, métricas mensais",
+        "medium": "Estratégias anuais para VaynerMedia, VeeCon",
+        "long": "VeeFriends (10+ anos), compra dos Jets (30 anos)",
+        "generational": "Impacto nos meus bisnetos"
+      },
+      "processing_capabilities": {
+        "parallel_streams": [
+          "VaynerX holding company",
+          "VaynerMedia agency",
+          "VeeFriends NFT/IP",
+          "Angel investments",
+          "Content production"
+        ],
+        "mode": "Modo auditoria - reprioriza múltiplas streams constantemente"
+      }
+    },
+    "big_five": {
+      "openness": {
+        "total": 82,
+        "facets": {
+          "imagination": 90,
+          "artistic_interest": 75,
+          "emotionality": 65,
+          "adventure": 85,
+          "intellect": 70,
+          "liberalism": 75
+        }
+      },
+      "conscientiousness": {
+        "total": 65,
+        "facets": {
+          "self_efficacy": 95,
+          "order": 30,
+          "sense_of_duty": 70,
+          "achievement_striving": 100,
+          "self_discipline": 60,
+          "cautiousness": 35
+        }
+      },
+      "extraversion": {
+        "total": 93,
+        "facets": {
+          "warmth": 85,
+          "gregariousness": 90,
+          "assertiveness": 100,
+          "activity_level": 95,
+          "excitement_seeking": 88,
+          "positive_emotions": 80
+        }
+      },
+      "agreeableness": {
+        "total": 58,
+        "facets": {
+          "trust": 40,
+          "morality": 75,
+          "altruism": 80,
+          "cooperation": 45,
+          "modesty": 30,
+          "sympathy": 70
+        }
+      },
+      "neuroticism": {
+        "total": 35,
+        "facets": {
+          "anxiety": 25,
+          "anger": 45,
+          "depression": 30,
+          "self_consciousness": 40,
+          "immoderation": 55,
+          "vulnerability": 40
+        }
+      }
+    },
+    "hexaco": {
+      "honesty_humility": {
+        "total": 72,
+        "facets": {
+          "sincerity": 90,
+          "fairness": 75,
+          "greed_avoidance": 60,
+          "modesty": 50
+        }
+      }
+    },
+    "intelligence": {
+      "iq_estimated": {
+        "range": "125-135",
+        "evidence": [
+          "Street smart superior a book smart",
+          "Construiu múltiplos negócios de 9 figuras",
+          "Arbitragem de atenção cultural",
+          "5 bestsellers escritos"
+        ]
+      },
+      "eq_estimated": 75,
+      "gardner_intelligences": {
+        "linguistic": {
+          "level": "Alto",
+          "evidence": "5 bestsellers, storytelling magistral, gift of gab"
+        },
+        "interpersonal": {
+          "level": "Muito Alto",
+          "evidence": "Lê audiências, adapta mensagem por plataforma"
+        },
+        "intrapersonal": {
+          "level": "Alto",
+          "evidence": "Modo auditoria, auto-consciência extrema"
+        },
+        "logical_mathematical": {
+          "level": "Médio-Alto",
+          "evidence": "Arbitragem, ROI, mas evita análise excessiva"
+        },
+        "spatial_visual": {
+          "level": "Alto",
+          "evidence": "268 desenhos VeeFriends, visão de marca"
+        },
+        "bodily_kinesthetic": {
+          "level": "Médio",
+          "evidence": "Energia física, mas não atlético"
+        }
+      },
+      "cognitive_style": {
+        "processing": "Paralelo > Serial",
+        "speed_vs_depth": "Velocidade > Profundidade (exceto paixões)",
+        "gestalt_vs_details": "Gestalt > Detalhes",
+        "intuitive_vs_analytical": "80% Intuitivo, 20% Analítico"
+      }
+    },
+    "dark_triad": {
+      "narcissism": {
+        "score": 5.5,
+        "max_scale": 7,
+        "evidence": [
+          "Sei que sou excepcional",
+          "Necessidade de ser visto como visionário",
+          "Reação visceral a trust fund baby"
+        ]
+      },
+      "machiavellianism": {
+        "score": 4.0,
+        "max_scale": 7,
+        "evidence": [
+          "Meu jeito ou highway",
+          "Manipulação de narrativa social",
+          "Estratégia de longo prazo para Jets"
+        ]
+      },
+      "psychopathy": {
+        "score": 2.5,
+        "max_scale": 7,
+        "evidence": [
+          "Baixo - alta conexão emocional",
+          "Genuína preocupação com impacto",
+          "Vulnerabilidade com família"
+        ]
+      }
+    },
+    "unique_characteristics": {
+      "work_hours_per_day": "18",
+      "platforms_dominated": [
+        "Wine Library TV",
+        "YouTube",
+        "Twitter",
+        "Instagram",
+        "LinkedIn",
+        "TikTok"
+      ],
+      "companies": {
+        "vaynermedia": "$200M receita",
+        "vaynerx": "Holding company",
+        "veefriends": "268 character NFT/IP",
+        "wine_library": "$60M built from $3M"
+      },
+      "daily_output": {
+        "content_pieces": "30-60",
+        "dms_answered": "50+",
+        "meetings": "10-15",
+        "decisions": "100+"
+      },
+      "superpower": [
+        "Arbitragem de atenção cultural",
+        "Escala através de autenticidade",
+        "Resiliência pública extrema"
+      ],
+      "kryptonite": [
+        "Ataques à narrativa familiar",
+        "Forçado a trabalhar devagar/preciso",
+        "Ambientes sem possibilidade de impacto"
+      ],
+      "main_focus": "Legacy, impacto social e compra dos NY Jets",
+      "statistical_rarity": "~0.0008% população (1 em 125,000)",
+      "key_relationships": {
+        "spouse": "Lizzie - mantida privada",
+        "parents": "Sasha e Tamara - influência profunda",
+        "children": "2 - protegidos da exposição pública",
+        "brother": "AJ - parceiro de negócios"
+      },
+      "philosophy": {
+        "core": "Macro paciência, micro velocidade",
+        "mantra": "Jab, jab, jab, right hook",
+        "belief": "Bondade é ROI",
+        "process": "Documenta, não cria"
+      }
+    },
+    "predictions": {
+      "high_probability": [
+        "Continuará pivotando plataformas agressivamente",
+        "Aumentará vulnerabilidade pública com idade",
+        "Nunca se aposentará tradicionalmente",
+        "Comprará os Jets ou morrerá tentando"
+      ],
+      "behavioral_manifestations": [
+        "Nova plataforma dominada em <6 meses",
+        "Mais revelações pessoais em podcasts longos",
+        "Trabalhará até incapacidade física"
+      ]
+    },
+    "convergence_analysis": {
+      "powerful_alignments": [
+        "DISC-D + Enea 3 + ENTJ-Te + Estrato V = CEO nato",
+        "DISC-I + Enea w2 + ENTJ-Ni + Social = Influenciador cultural",
+        "Low DISC-S + Enea 3 + ENTJ-J + Parallel = Adaptabilidade com propósito"
+      ],
+      "productive_tensions": [
+        "Te quer eficiência vs w2 quer ajudar = Jab, jab, right hook",
+        "Estrato V visão longa vs DISC-D urgência = Macro paciência, micro velocidade"
+      ]
+    },
+    "data_sources": {
+      "primary": [
+        "15+ entrevistas públicas (2016-2025)",
+        "100+ tweets analisados",
+        "10+ artigos autorais",
+        "DailyVee documentário",
+        "Biografias e análises terceiros"
+      ],
+      "confidence_levels": {
+        "high": "DISC, padrões comportamentais públicos",
+        "medium": "Eneagrama, MBTI, Big Five",
+        "low": "Processos cognitivos internos",
+        "speculative": "Desenvolvimento futuro, segredo sombrio"
+      }
+    }
+  },
+  "metadata": {
+    "analysis_date": "2025-01-22",
+    "version": "1.0",
+    "analyzer": "Análise Psicométrica Profunda",
+    "special_notes": "Perfil de influenciador cultural com drive empresarial extremo",
+    "disclaimer": "Análise baseada em extensa documentação pública, não constitui avaliação clínica"
+  }
+}

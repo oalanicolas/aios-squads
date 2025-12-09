@@ -1,0 +1,252 @@
+# Signature Phrases Output
+# Agent: synthesis-expert (Charlie)
+# Task: signature-phrases-mining
+# Version: 3.5.0
+# Methodology: Cognitive Pattern Analysis (3-Phase)
+
+linguistic_fingerprints:
+  metadata:
+    mind_path: "@{mind}"
+    analysis_date: ""
+    analyst: "synthesis-expert"
+    methodology: "Cognitive Pattern Analysis (Frequency Mining → Cognitive Analysis → Contextual Mapping)"
+    sources_analyzed: []
+    temporal_period: ""
+
+  methodology_summary:
+    phase_1: "Frequency Mining - Statistical signature phrase identification"
+    phase_2: "Cognitive Pattern Analysis - What does phrase reveal about thinking"
+    phase_3: "Contextual Mapping - When does phrase activate"
+
+  tier_1_signature_phrases:  # 10-15 high-frequency or unique phrases
+    - phrase_id: "phr_01"
+      exact_phrase: ""  # Exact wording or pattern template
+
+      frequency_data:
+        documented_uses: 0  # Minimum 5 OR unique coinage
+        first_use:
+          date: ""
+          source: ""
+          context: ""
+
+        last_use:
+          date: ""
+          source: ""
+          context: ""
+
+        temporal_span: ""  # How long this phrase has been used
+        usage_trend: ""  # Increasing/Stable/Decreasing
+
+      cognitive_reveal:
+        underlying_framework: ""  # What mental model this exposes
+        assumptions_embedded: []  # What's taken as given
+        values_signaled: []  # What priorities are shown
+
+        thinking_pattern_exposed:
+          type: ""  # e.g., "Inversion thinking", "First-principles"
+          description: ""
+          implications: ""
+
+      contextual_mapping:
+        usage_contexts:
+          - situation_type: ""
+            trigger: ""
+            example: ""
+            source: ""
+            date: ""
+
+          - situation_type: ""
+            trigger: ""
+            example: ""
+            source: ""
+            date: ""
+
+          - situation_type: ""
+            trigger: ""
+            example: ""
+            source: ""
+            date: ""
+
+        activation_patterns:
+          emotional_states: []  # When this phrase tends to appear
+          situational_triggers: []  # What situations prompt it
+          audience_dependencies: []  # Does it change per audience
+
+        communicative_function:
+          primary_purpose: ""  # What this accomplishes
+          secondary_effects: []
+          rhetorical_strategy: ""
+
+      variations:
+        - variant: ""
+          difference: ""
+          when_used: ""
+          frequency: 0
+
+      evolution_over_time:
+        early_period: ""  # How phrase was used initially
+        middle_period: ""
+        current_usage: ""
+        trajectory: ""  # Stable/Evolving/Phasing out
+
+  tier_2_thinking_patterns:  # Structural linguistic patterns
+    - pattern_id: "pat_01"
+      pattern_type: ""  # e.g., "Rhetorical question style", "Analogy construction"
+
+      structural_template: ""  # Pattern formula
+
+      examples:
+        - example: ""
+          source: ""
+          context: ""
+
+        - example: ""
+          source: ""
+          context: ""
+
+      frequency: ""  # How often this pattern appears
+
+      cognitive_mechanism_revealed:
+        thinking_style: ""  # What this reveals about cognition
+        mental_operation: ""  # What cognitive process
+        framework_connection: ""  # Links to which mental models
+
+      situational_deployment:
+        when_used: []
+        when_avoided: []
+        effectiveness: ""
+
+  linguistic_style_analysis:
+    vocabulary_patterns:
+      preferred_words:
+        - word: ""
+          frequency: 0
+          contexts: []
+          reveals: ""
+
+      avoided_words:
+        - word: ""
+          reason: ""
+          implications: ""
+
+      coined_terms:
+        - term: ""
+          definition: ""
+          first_use: ""
+          adoption_rate: ""
+
+    syntactic_patterns:
+      sentence_structures:
+        - pattern: ""
+          frequency: ""
+          function: ""
+
+      punctuation_style:
+        em_dashes: ""  # Usage pattern
+        semicolons: ""
+        ellipses: ""
+        other_distinctive: ""
+
+      paragraph_rhythm: ""  # Long/short variation
+
+    metaphor_analysis:
+      dominant_metaphor_types:
+        - type: ""  # e.g., "Military", "Biological", "Architectural"
+          examples: []
+          reveals: ""
+
+      metaphor_sources:  # Where analogies come from
+        - domain: ""
+          frequency: 0
+          insight: ""
+
+    tone_markers:
+      formal_indicators: []
+      casual_indicators: []
+      technical_indicators: []
+      emotional_indicators: []
+
+  phrase_interaction_patterns:
+    sequential_phrases:  # Phrases that often follow each other
+      - phrase_a: ""
+        phrase_b: ""
+        relationship: ""
+
+    complementary_phrases:  # Phrases used together
+      - phrase_set: []
+        context: ""
+        combined_effect: ""
+
+    contextual_clusters:  # Phrases grouped by situation
+      - context: ""
+        phrase_cluster: []
+        reveals: ""
+
+  meta_analysis:
+    linguistic_statistics:
+      total_tier_1_phrases: 0
+      total_tier_2_patterns: 0
+      average_phrase_frequency: 0.0
+      temporal_persistence_score: 0.0  # How long phrases last
+
+    dominant_linguistic_features:
+      - feature: ""
+        manifestation: ""
+        cognitive_insight: ""
+
+    evolution_trajectory:
+      early_linguistic_style: ""
+      current_linguistic_style: ""
+      direction_of_change: ""
+
+    audience_adaptation:
+      - audience_type: ""
+        linguistic_adjustments: []
+        phrase_selection_changes: []
+
+    cognitive_signature_from_language:
+      thinking_style_revealed: ""
+      mental_model_indicators: []
+      value_system_signals: []
+      emotional_patterns: []
+
+  munger_quality_metrics:
+    frequency_score: 0.0  # Average frequency per phrase
+    cognitive_depth_score: 0.0  # How well phrases reveal mental models
+    temporal_persistence_score: 0.0  # How long phrases persist
+    context_variation_score: 0.0  # Breadth of usage contexts
+    predictive_power_score: 0.0  # Can we predict when phrases appear
+
+  validation_report:
+    munger_gates_passed:
+      - gate: "Frequency (5+ uses OR unique coinage)"
+        status: ""  # PASS / FAIL
+      - gate: "Cognitive Depth (reveals mental model)"
+        status: ""
+      - gate: "Temporal Persistence (spans time period)"
+        status: ""
+      - gate: "Context Variation (multiple situations)"
+        status: ""
+      - gate: "Predictive (can anticipate when used)"
+        status: ""
+
+    quality_issues: []
+    areas_for_deeper_analysis: []
+    confidence_score: 0.0  # 0-1.0
+
+  recommendations:
+    specialist_variants:  # Which specialist prompts should emphasize these phrases
+      - specialist: ""
+        phrases_to_emphasize: []
+        reason: ""
+
+    phrase_development:  # Emerging phrases needing more validation
+      - emerging_phrase: ""
+        current_evidence: ""
+        needed_validation: ""
+
+    communication_integration:  # How to integrate with communication templates
+      template_phrase_mappings:
+        - template: ""
+          associated_phrases: []
+          usage_pattern: ""

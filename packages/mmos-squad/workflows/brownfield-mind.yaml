@@ -1,0 +1,273 @@
+workflow:
+  id: brownfield-mind
+  name: Brownfield Mind Clone Update
+  description: >-
+    Incremental workflow for updating existing mind clones with new sources, refining cognitive
+    architectures, or fixing gaps without reprocessing everything from scratch. Consolidated
+    workflow supporting three update modes: public figure updates, private incremental updates,
+    and private migrations. Implements rollback safety and regression testing.
+  type: brownfield
+  project_types:
+    - mind-update
+    - source-addition
+    - gap-filling
+    - architecture-refinement
+    - specialist-addition
+
+  prerequisites:
+    - Existing mind in expansion-packs/mmos/minds/{slug}/
+    - Previous version validated and documented
+    - Clear reason for update documented
+
+  modes:
+    public-update:
+      description: "Update existing public figure clone with new sources"
+      research_method: web_scraping_incremental
+      validation_method: simulated
+      estimated_duration: "2-4 hours"
+      estimated_tokens: "500K-1M tokens"
+
+    no-public-incremental:
+      description: "Incremental update with new private materials"
+      research_method: provided_materials_incremental
+      validation_method: direct_person
+      estimated_duration: "2-3 hours"
+      estimated_tokens: "300K-700K tokens"
+
+    no-public-migration:
+      description: "Migrate private individual from scratch (legacy)"
+      research_method: provided_materials_full
+      validation_method: direct_person
+      estimated_duration: "4-6 hours"
+      estimated_tokens: "1-2M tokens"
+
+  sequence:
+    # ========================================================================
+    # PHASE 0: MODE DETECTION & BROWNFIELD ASSESSMENT
+    # ========================================================================
+    - agent: pm
+      phase: assessment
+      creates: mode-detection-and-backup
+      task: detect-workflow-mode
+      outputs:
+        - expansion-packs/mmos/minds/{slug}/metadata/mode.yaml
+        - expansion-packs/mmos/minds/{slug}/.backup-{timestamp}/ (complete backup)
+        - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-brownfield_start.md
+        - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-brownfield_plan.yaml
+      notes: |
+        STEP 1: Detect brownfield mode
+
+        MODE DETECTION LOGIC:
+        - Check existing metadata/mode.yaml
+        - Check sources/ for public vs private materials
+        - Prompt user if ambiguous
+
+        MODES:
+        1. public-update: Existing public clone, add new web sources
+        2. no-public-incremental: Existing private clone, add materials
+        3. no-public-migration: Convert legacy private (rare)
+
+        STEP 2: Create mandatory backup (NON-NEGOTIABLE)
+
+        cp -r expansion-packs/mmos/minds/{slug} expansion-packs/mmos/minds/{slug}/.backup-{timestamp}/
+
+        STEP 3: Document current state
+        - System Prompt Version
+        - KB Chunks count
+        - Last update date
+        - Known limitations
+
+        STEP 4: Read existing documentation
+        MANDATORY reading:
+        - docs/PRD.md or MIND_BRIEF.md
+        - artifacts/cognitive_architecture.yaml
+        - docs/LIMITATIONS.md
+        - system_prompts/ (current version)
+
+        STEP 5: Create brownfield plan
+        - Update scope (incremental/refactoring/major)
+        - Areas affected
+        - New sources to add
+        - Gaps to fill
+        - Validation requirements
+
+    # ========================================================================
+    # PHASE 1: INCREMENTAL RESEARCH (Mode-Specific)
+    # ========================================================================
+    - agent: analyst
+      phase: research
+      creates: incremental-sources
+      task: research-collection
+      task_mode: "{mode}_incremental"
+      outputs:
+        - expansion-packs/mmos/minds/{slug}/sources/sources_master.yaml (updated)
+        - expansion-packs/mmos/minds/{slug}/sources/{type}/* (new sources only)
+        - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-new_sources.yaml
+      notes: |
+        MODE-SPECIFIC INCREMENTAL RESEARCH:
+
+        public-update:
+          - Search for new content since last update
+          - Check temporal context (new books, interviews since X date)
+          - Add to existing sources/
+          - Update sources_master.yaml (append, don't replace)
+
+        no-public-incremental:
+          - Process newly provided materials
+          - Add to sources/ (interviews/, documents/, etc.)
+          - Update sources_master.yaml incrementally
+
+        no-public-migration:
+          - Full research like greenfield no-public-materials
+          - But preserve existing artifacts if valid
+
+        OUTPUT: Updated source inventory with new materials cataloged
+
+    # ========================================================================
+    # PHASE 2: SELECTIVE RE-ANALYSIS
+    # ========================================================================
+    - agent: analyst
+      phase: re-analysis
+      creates: delta-analysis
+      task: brownfield-delta-analysis
+      prerequisites:
+        - New sources added
+        - Brownfield plan approved
+      outputs:
+        - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-delta_analysis.yaml
+        - expansion-packs/mmos/minds/{slug}/artifacts/*.yaml (updated only if changed)
+      notes: |
+        SMART RE-ANALYSIS (not full re-run):
+
+        1. Identify what needs re-analysis:
+           - New sources impact which layers?
+           - Which artifacts have gaps being filled?
+
+        2. Selective layer re-processing:
+           - If new sources = same temporal period: Update relevant layers only
+           - If new sources = new topics: May require Layer 5-8 updates
+           - If fixing gap: Re-run specific layer
+
+        3. Preserve validated content:
+           - Don't re-analyze what's already validated
+           - Append to existing artifacts
+           - Document what changed in delta_analysis.yaml
+
+        OUTPUT: Delta analysis showing exactly what changed
+
+    # ========================================================================
+    # PHASES 3-7: SHARED PIPELINE (Import Modules - Selective)
+    # ========================================================================
+    # Note: In brownfield, modules are executed SELECTIVELY based on brownfield_plan.yaml
+    # Only re-run phases where delta_analysis indicates changes
+
+    - import: "modules/analysis-foundation.yaml"
+      # DNA Mental™ Layers 1-5
+      # Executed only if: delta_analysis.layers_affected includes 1-5
+
+    - import: "modules/analysis-critical.yaml"
+      # DNA Mental™ Layers 6-8 + Checkpoints
+      # Executed only if: delta_analysis.layers_affected includes 6-8
+      # If re-run: Present delta to user for validation
+
+    - import: "modules/synthesis-knowledge.yaml"
+      # Frameworks, communication, signatures
+      # Executed only if: delta_analysis.synthesis_affected = true
+
+    - import: "modules/synthesis-kb.yaml"
+      # KB chunking + specialists
+      # ALWAYS re-run to incorporate new sources into KB
+
+    - import: "modules/implementation-identity.yaml"
+      # Identity core
+      # Executed only if: delta_analysis.identity_affected = true
+
+    - import: "modules/implementation-prompt.yaml"
+      # System prompt creation (ALWAYS re-run, increment version)
+
+    # ========================================================================
+    # PHASE 8: REGRESSION TESTING
+    # ========================================================================
+    - agent: qa
+      phase: regression
+      creates: regression-test
+      task: brownfield-regression
+      prerequisites:
+        - New system prompt generated
+      outputs:
+        - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-regression_report.yaml
+        - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-before_after_comparison.md
+      notes: |
+        CRITICAL: Regression testing to ensure no degradation
+
+        1. Load previous validation results
+           - Read last validation_report.yaml
+           - Extract previous fidelity scores
+
+        2. Run validation on NEW system prompt
+           - Same test battery as original
+
+        3. Compare before vs after:
+           - Personality Fidelity: X% → Y%
+           - Knowledge Accuracy: X% → Y%
+           - Style Fidelity: X% → Y%
+
+        4. Regression detection:
+           - If ANY score drops > 2%: FLAG regression
+           - If overall drops: ABORT, rollback recommended
+
+        5. Improvement detection:
+           - Document score improvements
+           - Validate gaps were filled
+
+        OUTPUT: Regression report with go/no-go decision
+
+    - import: "modules/validation-complete.yaml"
+      # Full validation suite (post-regression)
+      # Mode-specific validation methods apply
+
+    # ========================================================================
+    # PHASE 9: ROLLBACK OR COMMIT DECISION
+    # ========================================================================
+    - agent: pm
+      phase: finalization
+      creates: commit-or-rollback
+      task: brownfield-finalize
+      prerequisites:
+        - Regression test complete
+        - Validation passed
+      outputs:
+        - expansion-packs/mmos/minds/{slug}/docs/logs/{timestamp}-brownfield_summary.md
+        - expansion-packs/mmos/minds/{slug}/metadata/version_history.yaml (updated)
+      human_checkpoint: true
+      checkpoint_type: COMMIT_ROLLBACK_DECISION
+      notes: |
+        HUMAN CHECKPOINT: Commit or Rollback?
+
+        Present update summary:
+        - Sources added: X new sources
+        - Artifacts changed: [list]
+        - System prompt: v{old} → v{new}
+        - Fidelity change: {old}% → {new}%
+        - Regression detected: YES/NO
+
+        User decision:
+        1. COMMIT - Accept changes, archive backup
+        2. ROLLBACK - Restore from backup, document lessons
+        3. ITERATE - Adjust and re-test
+
+        IF COMMIT:
+          - Update version_history.yaml
+          - Archive .backup-{timestamp}/ for safety
+          - Update catalog.md
+
+        IF ROLLBACK:
+          - rm -rf expansion-packs/mmos/minds/{slug}/*
+          - cp -r .backup-{timestamp}/* expansion-packs/mmos/minds/{slug}/
+          - Document why rollback in logs/
+
+        IF ITERATE:
+          - Keep current state
+          - Return to re-analysis phase
+
+        WORKFLOW COMPLETE ✅

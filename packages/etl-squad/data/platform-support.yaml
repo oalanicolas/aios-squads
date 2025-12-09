@@ -1,0 +1,31 @@
+# Supported Platforms
+
+platforms:
+  wordpress:
+    extractor: WordPressExtractor
+    detection: meta[name="generator"] contains "WordPress"
+    quality: high
+    selectors:
+      - .entry-content
+      - .post-content
+
+  medium:
+    extractor: MediumExtractor
+    detection: URL contains "medium.com"
+    quality: high
+    selectors:
+      - article
+      - .postArticle-content
+
+  substack:
+    extractor: GenericExtractor
+    detection: URL contains "substack.com"
+    quality: medium
+    selectors:
+      - .post-content
+
+  generic:
+    extractor: GenericExtractor
+    detection: fallback
+    quality: medium
+    method: readability

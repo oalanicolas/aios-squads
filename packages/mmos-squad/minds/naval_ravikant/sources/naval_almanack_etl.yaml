@@ -1,0 +1,13 @@
+sources:
+  - id: naval-almanack
+    type: book
+    title: "The Almanack of Naval Ravikant"
+    query: "The Almanack of Naval Ravikant"
+    language: en
+    tier: 1
+    priority: highest
+    tags:
+      - book
+      - wealth
+      - happiness
+    notes: "Triggers Z-Library collector to fetch the primary Naval book."

@@ -1,0 +1,76 @@
+{
+  "persona": "Dan Kennedy",
+  "source": "Magnetic Marketing Podcast",
+  "episodes": [
+    {
+      "number": 1,
+      "file": "ep_01_complete_transcript.md",
+      "duration_minutes": 38,
+      "word_count": 2884,
+      "topic": "Three M's (Market, Message, Media), Direct Response Marketing, USP, Pricing Strategy"
+    },
+    {
+      "number": 1,
+      "file": "ep_01_welcome_to_magnetic_marketing.md",
+      "duration_minutes": 0,
+      "word_count": 1513,
+      "topic": "Marketing"
+    },
+    {
+      "number": 7,
+      "file": "ep_07_clients_customers_patients_for_life.md",
+      "duration_minutes": 0,
+      "word_count": 1845,
+      "topic": "Marketing"
+    },
+    {
+      "number": 7,
+      "file": "ep_07_complete_transcript.md",
+      "duration_minutes": 52,
+      "word_count": 4174,
+      "topic": "Customer Lifetime Value, Three Levels of Relationship, Newsletter Strategy, Customer Astonishment, Referral Systems, Lost Customer Reactivation"
+    },
+    {
+      "number": 29,
+      "file": "ep_29_complete_transcript.md",
+      "duration_minutes": 56,
+      "word_count": 4497,
+      "topic": "Marketing"
+    },
+    {
+      "number": 29,
+      "file": "ep_29_info_marketing_secrets.md",
+      "duration_minutes": 0,
+      "word_count": 2038,
+      "topic": "Marketing"
+    },
+    {
+      "number": 39,
+      "file": "ep_39_complete_transcript.md",
+      "duration_minutes": 48,
+      "word_count": 3664,
+      "topic": "The critical importance of measurement in marketing"
+    },
+    {
+      "number": 39,
+      "file": "ep_39_the_big_marketing_sin.md",
+      "duration_minutes": 0,
+      "word_count": 1923,
+      "topic": "Marketing"
+    },
+    {
+      "number": 41,
+      "file": "ep_41_no_bs_direct_marketing.md",
+      "duration_minutes": 0,
+      "word_count": 2142,
+      "topic": "Marketing"
+    }
+  ],
+  "statistics": {
+    "total_episodes": 9,
+    "total_minutes": 194,
+    "total_words": 24680,
+    "average_words_per_episode": 2742
+  },
+  "collection_date": "2025-09-28T21:10:09.300Z"
+}

@@ -1,0 +1,21 @@
+# AssemblyAI for transcription with speaker diarization
+assemblyai>=0.17.0
+
+# YouTube download (fallback)
+yt-dlp>=2024.1.0
+
+# OCR for scanned PDFs
+pytesseract>=0.3.10
+pdf2image>=1.16.3
+
+# Web scraping
+beautifulsoup4>=4.12.0
+lxml>=4.9.3
+requests>=2.31.0
+
+# PDF processing
+PyPDF2>=3.0.0
+pdfminer.six>=20221105
+
+# Audio processing
+pydub>=0.25.1

@@ -1,0 +1,595 @@
+# ==============================================================================
+# TEMPLATE METADATA: sources_master | v1.0.0 | format: yaml | MMOS Pipeline
+# ==============================================================================
+# Sources Master Inventory - [Nome do Mind]
+# Complete source catalog for DNA Mental™ mapping
+
+mind_name: "[NOME_COMPLETO]"
+inventory_version: "1.0"
+created_date: "YYYYMMDD-HHMM"
+last_updated: "YYYYMMDD-HHMM"
+research_specialist: "[NOME]"
+status: "[DRAFT/COMPLETE/APPROVED]"
+
+# =============================================================================
+# EXECUTIVE SUMMARY
+# =============================================================================
+
+summary:
+  total_sources: 0
+  total_content_hours: 0.0
+  total_pages: 0
+  temporal_coverage:
+    start_year: 0
+    end_year: 0
+    coverage_percentage: 0  # [0-100%]
+
+  quality_distribution:
+    high_quality: 0  # sources rated 8-10
+    medium_quality: 0  # sources rated 5-7
+    low_quality: 0  # sources rated 1-4
+
+  source_types:
+    books: 0
+    interviews: 0
+    podcasts: 0
+    videos: 0
+    articles: 0
+    social_media: 0
+    academic: 0
+    other: 0
+
+  accessibility:
+    immediate: 0
+    purchased: 0
+    requires_process: 0
+    difficult: 0
+
+  dna_mental_coverage:
+    layer_1_sensory: "[EXCELLENT/GOOD/FAIR/POOR]"
+    layer_2_recognition: "[EXCELLENT/GOOD/FAIR/POOR]"
+    layer_3_models: "[EXCELLENT/GOOD/FAIR/POOR]"
+    layer_4_beliefs: "[EXCELLENT/GOOD/FAIR/POOR]"
+    layer_5_decisions: "[EXCELLENT/GOOD/FAIR/POOR]"
+    layer_6_obsessions: "[EXCELLENT/GOOD/FAIR/POOR]"
+    layer_7_algorithm: "[EXCELLENT/GOOD/FAIR/POOR]"
+    layer_8_synthesis: "[EXCELLENT/GOOD/FAIR/POOR]"
+
+# =============================================================================
+# TIER 1: ESSENTIAL SOURCES (Must Process)
+# =============================================================================
+
+tier_1_essential:
+  description: "Critical sources that provide deep cognitive insights. Must be processed for viable mind."
+  minimum_required: 5
+  priority: "CRITICAL"
+
+  sources:
+    - id: "T1-001"
+      title: "[Title]"
+      author: "[Author]"
+      type: "[book/interview/podcast/video/article]"
+      year: 0
+
+      quality_score: 0  # [1-10]
+      credibility: "[PRIMARY/SECONDARY/TERTIARY]"
+
+      access:
+        status: "[IMMEDIATE/PURCHASED/REQUIRES_PROCESS/DIFFICULT]"
+        url: null
+        location: "[Physical/Digital location]"
+        cost: 0.0
+
+      content:
+        duration_hours: 0.0  # for audio/video
+        pages: 0  # for text
+        format: "[text/audio/video/mixed]"
+        language: "[Language]"
+        transcription_available: false
+
+      coverage:
+        time_period: "[YYYY-YYYY or specific period]"
+        domains_covered: []
+        life_phases: []
+
+      dna_mental_layers:
+        layer_1: "[EXCELLENT/GOOD/FAIR/POOR/NONE]"
+        layer_2: "[rating]"
+        layer_3: "[rating]"
+        layer_4: "[rating]"
+        layer_5: "[rating]"
+        layer_6: "[rating]"
+        layer_7: "[rating]"
+        layer_8: "[rating]"
+
+      key_insights:
+        - "[Insight 1]"
+        - "[Insight 2]"
+        - "[Insight 3]"
+
+      unique_value: "[What this source provides that others don't]"
+
+      processing_status: "[NOT_STARTED/IN_PROGRESS/COMPLETE]"
+      processed_date: null
+      processed_by: null
+
+      notes: null
+
+# =============================================================================
+# TIER 2: IMPORTANT SOURCES (Should Process)
+# =============================================================================
+
+tier_2_important:
+  description: "Valuable sources that add depth and breadth. Recommended for comprehensive mind."
+  target_count: 15
+  priority: "HIGH"
+
+  sources:
+    - id: "T2-001"
+      title: "[Title]"
+      author: "[Author]"
+      type: "[type]"
+      year: 0
+      quality_score: 0
+      credibility: "[level]"
+      access:
+        status: "[status]"
+        url: null
+        location: "[location]"
+        cost: 0.0
+      content:
+        duration_hours: 0.0
+        pages: 0
+        format: "[format]"
+        language: "[language]"
+        transcription_available: false
+      coverage:
+        time_period: "[period]"
+        domains_covered: []
+        life_phases: []
+      dna_mental_layers:
+        layer_1: "[rating]"
+        layer_2: "[rating]"
+        layer_3: "[rating]"
+        layer_4: "[rating]"
+        layer_5: "[rating]"
+        layer_6: "[rating]"
+        layer_7: "[rating]"
+        layer_8: "[rating]"
+      key_insights: []
+      unique_value: "[value]"
+      processing_status: "[status]"
+      processed_date: null
+      processed_by: null
+      notes: null
+
+# =============================================================================
+# TIER 3: COMPLEMENTARY SOURCES (Nice to Have)
+# =============================================================================
+
+tier_3_complementary:
+  description: "Supplementary sources for additional context and validation."
+  target_count: 30
+  priority: "MEDIUM"
+
+  sources:
+    - id: "T3-001"
+      title: "[Title]"
+      author: "[Author]"
+      type: "[type]"
+      year: 0
+      quality_score: 0
+      credibility: "[level]"
+      access:
+        status: "[status]"
+        url: null
+      content:
+        duration_hours: 0.0
+        pages: 0
+        format: "[format]"
+      coverage:
+        time_period: "[period]"
+        domains_covered: []
+      dna_mental_layers:
+        layer_1: "[rating]"
+        layer_2: "[rating]"
+        layer_3: "[rating]"
+        layer_4: "[rating]"
+        layer_5: "[rating]"
+        layer_6: "[rating]"
+        layer_7: "[rating]"
+        layer_8: "[rating]"
+      unique_value: "[value]"
+      processing_status: "[status]"
+      notes: null
+
+# =============================================================================
+# TIER 4: BACKGROUND SOURCES (Optional)
+# =============================================================================
+
+tier_4_background:
+  description: "Background and contextual sources. Process only if time/budget permits."
+  estimated_count: 50
+  priority: "LOW"
+
+  sources:
+    - id: "T4-001"
+      title: "[Title]"
+      type: "[type]"
+      year: 0
+      quality_score: 0
+      access:
+        status: "[status]"
+        url: null
+      notes: "[Brief description]"
+
+# =============================================================================
+# SOURCE CATEGORIES
+# =============================================================================
+
+by_category:
+
+  books:
+    authored:
+      - id: "[Source ID]"
+        title: "[Title]"
+        year: 0
+        tier: "[1/2/3/4]"
+
+    biographies:
+      - id: "[Source ID]"
+        title: "[Title]"
+        author: "[Author]"
+        year: 0
+        tier: "[tier]"
+
+    about_subject:
+      - id: "[Source ID]"
+        title: "[Title]"
+        tier: "[tier]"
+
+  interviews:
+    video:
+      - id: "[Source ID]"
+        title: "[Title]"
+        platform: "[YouTube/Vimeo/etc]"
+        duration_hours: 0.0
+        year: 0
+        tier: "[tier]"
+
+    audio:
+      - id: "[Source ID]"
+        title: "[Title]"
+        platform: "[Podcast name]"
+        duration_hours: 0.0
+        year: 0
+        tier: "[tier]"
+
+    text:
+      - id: "[Source ID]"
+        title: "[Title]"
+        publication: "[Publication]"
+        year: 0
+        tier: "[tier]"
+
+  podcasts:
+    - id: "[Source ID]"
+      show: "[Show name]"
+      episode: "[Episode]"
+      duration_hours: 0.0
+      year: 0
+      tier: "[tier]"
+
+  videos:
+    talks:
+      - id: "[Source ID]"
+        title: "[Title]"
+        event: "[Event name]"
+        year: 0
+        tier: "[tier]"
+
+    documentaries:
+      - id: "[Source ID]"
+        title: "[Title]"
+        year: 0
+        tier: "[tier]"
+
+    other:
+      - id: "[Source ID]"
+        title: "[Title]"
+        tier: "[tier]"
+
+  articles:
+    authored:
+      - id: "[Source ID]"
+        title: "[Title]"
+        publication: "[Publication]"
+        year: 0
+        tier: "[tier]"
+
+    about_subject:
+      - id: "[Source ID]"
+        title: "[Title]"
+        publication: "[Publication]"
+        year: 0
+        tier: "[tier]"
+
+  social_media:
+    twitter:
+      username: "[handle]"
+      archive_url: null
+      coverage_period: "[YYYY-YYYY]"
+      estimated_tweets: 0
+      tier: "[tier]"
+
+    blog:
+      url: "[URL]"
+      coverage_period: "[YYYY-YYYY]"
+      estimated_posts: 0
+      tier: "[tier]"
+
+    other:
+      - platform: "[Platform]"
+        url: "[URL]"
+        tier: "[tier]"
+
+  academic:
+    papers:
+      - id: "[Source ID]"
+        title: "[Title]"
+        journal: "[Journal]"
+        year: 0
+        tier: "[tier]"
+
+    dissertations:
+      - id: "[Source ID]"
+        title: "[Title]"
+        university: "[University]"
+        year: 0
+        tier: "[tier]"
+
+  other:
+    - id: "[Source ID]"
+      type: "[Type]"
+      description: "[Description]"
+      tier: "[tier]"
+
+# =============================================================================
+# TEMPORAL COVERAGE MAP
+# =============================================================================
+
+temporal_coverage:
+
+  by_decade:
+    - decade: "[1960s]"
+      sources_count: 0
+      coverage_quality: "[EXCELLENT/GOOD/FAIR/POOR/NONE]"
+      key_sources: []
+      gaps: []
+
+    - decade: "[1970s]"
+      sources_count: 0
+      coverage_quality: "[quality]"
+      key_sources: []
+      gaps: []
+
+  by_life_phase:
+    - phase: "Early Life/Education"
+      years: "[YYYY-YYYY]"
+      sources_count: 0
+      coverage_quality: "[quality]"
+      key_sources: []
+      gaps: []
+
+    - phase: "Early Career"
+      years: "[YYYY-YYYY]"
+      sources_count: 0
+      coverage_quality: "[quality]"
+      key_sources: []
+      gaps: []
+
+    - phase: "Peak Years"
+      years: "[YYYY-YYYY]"
+      sources_count: 0
+      coverage_quality: "[quality]"
+      key_sources: []
+      gaps: []
+
+    - phase: "Later Career/Legacy"
+      years: "[YYYY-YYYY]"
+      sources_count: 0
+      coverage_quality: "[quality]"
+      key_sources: []
+      gaps: []
+
+# =============================================================================
+# GAPS & MISSING COVERAGE
+# =============================================================================
+
+gaps:
+
+  temporal_gaps:
+    - period: "[YYYY-YYYY]"
+      severity: "[HIGH/MEDIUM/LOW]"
+      description: "[What's missing]"
+      impact_on_mind: "[How this affects the mapping]"
+      mitigation_strategy: "[How to work around this]"
+
+  domain_gaps:
+    - domain: "[Domain/Topic]"
+      severity: "[severity]"
+      description: "[What's missing]"
+      impact_on_mind: "[Impact]"
+      mitigation_strategy: "[Strategy]"
+
+  perspective_gaps:
+    - perspective: "[Type of perspective missing]"
+      severity: "[severity]"
+      description: "[What's missing]"
+      impact_on_mind: "[Impact]"
+      mitigation_strategy: "[Strategy]"
+
+  layer_gaps:
+    - layer: "[DNA Mental Layer X]"
+      severity: "[severity]"
+      description: "[What's missing]"
+      impact_on_mind: "[Impact]"
+      mitigation_strategy: "[Strategy]"
+
+# =============================================================================
+# CONTRADICTIONS & CONFLICTS
+# =============================================================================
+
+contradictions:
+
+  identified_conflicts:
+    - contradiction_id: "C-001"
+      description: "[What contradicts what]"
+      sources_involved: []
+      severity: "[HIGH/MEDIUM/LOW]"
+      resolution_strategy: "[How to handle]"
+      notes: null
+
+  evolution_vs_inconsistency:
+    - topic: "[Topic where views changed]"
+      early_position: "[Position in early sources]"
+      late_position: "[Position in late sources]"
+      interpretation: "[EVOLUTION/INCONSISTENCY/CONTEXT_DEPENDENT]"
+      sources: []
+
+# =============================================================================
+# PRIORITY MATRIX & ACQUISITION STRATEGY
+# =============================================================================
+
+acquisition_strategy:
+
+  immediate_access:
+    sources: []
+    estimated_hours: 0.0
+    estimated_cost: 0.0
+
+  requires_purchase:
+    sources: []
+    estimated_hours: 0.0
+    estimated_cost: 0.0
+    priority_order: []
+
+  requires_process:
+    sources: []
+    estimated_days: 0
+    estimated_cost: 0.0
+    strategy: "[How to acquire]"
+
+  difficult_to_access:
+    sources: []
+    estimated_days: 0
+    alternative_sources: []
+    proceed_without: false
+
+# =============================================================================
+# PROCESSING PLAN
+# =============================================================================
+
+processing_plan:
+
+  phase_1_foundation:
+    sources: []  # IDs from Tier 1
+    estimated_hours: 0
+    target_completion: null  # "YYYYMMDD"
+
+  phase_2_depth:
+    sources: []  # IDs from Tier 2
+    estimated_hours: 0
+    target_completion: null
+
+  phase_3_breadth:
+    sources: []  # IDs from Tier 3
+    estimated_hours: 0
+    target_completion: null
+
+  phase_4_polish:
+    sources: []  # IDs from Tier 4
+    estimated_hours: 0
+    target_completion: null
+
+  total_estimated_effort:
+    research_hours: 0
+    analysis_hours: 0
+    total_hours: 0
+    total_cost: 0.0
+
+# =============================================================================
+# QUALITY METRICS
+# =============================================================================
+
+quality_metrics:
+
+  triangulation:
+    traits_with_3plus_sources: 0
+    traits_with_2_sources: 0
+    traits_with_1_source: 0
+    triangulation_score: 0.0  # [0.0-1.0]
+
+  source_credibility:
+    primary_sources_percentage: 0.0
+    secondary_sources_percentage: 0.0
+    tertiary_sources_percentage: 0.0
+
+  temporal_completeness:
+    decades_covered: 0
+    decades_available: 0
+    completeness_score: 0.0  # [0.0-1.0]
+
+  layer_coverage:
+    layers_excellent: 0
+    layers_good: 0
+    layers_fair: 0
+    layers_poor: 0
+    overall_coverage_score: 0.0  # [0.0-1.0]
+
+# =============================================================================
+# NOTES & OBSERVATIONS
+# =============================================================================
+
+notes:
+
+  research_specialist_notes: |
+    [Observations about source quality, gaps, challenges, recommendations]
+
+  special_considerations: |
+    [Any unique aspects of this source collection]
+
+  recommended_priorities: |
+    [Which sources to focus on first and why]
+
+  brownfield_update_strategy: |
+    [How to monitor for new sources and update this mind incrementally]
+
+# =============================================================================
+# METADATA & TRACKING
+# =============================================================================
+
+metadata:
+  created_by: "[Research Specialist Name]"
+  created_at: "YYYYMMDD-HHMM"
+  last_updated_by: "[Name]"
+  last_updated_at: "YYYYMMDD-HHMM"
+
+  version_history:
+    - version: "1.0"
+      date: "YYYYMMDD-HHMM"
+      changes: "Initial sources inventory"
+      author: "[Name]"
+
+  related_documents:
+    - "minds/[mind_name]/docs/viability_output.yaml"
+    - "minds/[mind_name]/docs/MIND_BRIEF.md"
+    - "minds/[mind_name]/docs/PRD.md"
+
+  review_status:
+    reviewed_by: []
+    approved_by: null
+    approved_date: null
+
+  next_review_date: null  # "YYYYMMDD"
+  update_frequency: "[quarterly/semi-annual/annual/as-needed]"

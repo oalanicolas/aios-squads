@@ -1,0 +1,39 @@
+{
+  "name": "@aios/squads",
+  "version": "2.1.0",
+  "description": "AIOS Squads - Modular AI Agent Teams",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "eslint . --cache --cache-location .eslintcache"
+  },
+  "keywords": [
+    "aios",
+    "ai-agents",
+    "squads",
+    "etl",
+    "creator",
+    "mmos",
+    "automation"
+  ],
+  "author": "AllFluence Inc.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allfluence/aios-squads.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allfluence/aios-core/discussions"
+  },
+  "homepage": "https://github.com/allfluence/aios-squads#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "@aios/core": ">=2.0.0"
+  }
+}

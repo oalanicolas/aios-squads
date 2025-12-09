@@ -1,0 +1,217 @@
+# Values Hierarchy Template (Layer 6 - DNA Mental™)
+# Agent: identity-analyst
+# Task: values-hierarchy-analysis
+# Version: 3.5.0
+# Human Validation: REQUIRED
+
+values_hierarchy:
+  metadata:
+    mind_name: ""
+    analysis_date: ""
+    analyst: "identity-analyst"
+    layer: 6
+    layer_name: "Values Hierarchy"
+    sources_analyzed: []
+    decisions_catalogued: 0
+    observation_period_years: 0
+    human_validated: false
+    validator_name: ""
+    validation_date: ""
+    validation_decision: ""  # APPROVE / REVISE / RE-ANALYZE
+    confidence_score: 0.0
+
+  methodology:
+    validation_method: "Triangulation: Words + Actions + Consequences Accepted"
+    evidence_threshold: 3  # Minimum evidences per value
+    triangulation_threshold: 0.70
+    ranking_criteria:
+      - "Intensity: 1-10 (willingness to sacrifice)"
+      - "Immutability: Never violated / Rare exceptions / Contextual"
+      - "Consistency across time and contexts"
+      - "Sacrifices documented (gave up X to preserve Y)"
+
+  core_values:  # Ranked 1-15
+    - rank: 1
+      name: ""
+      description: ""
+      intensity: 10  # 1-10
+      immutability: ""  # never_violated / rare_exceptions / contextual
+
+      evidences:  # MINIMUM 3 REQUIRED
+        - evidence_id: 1
+          date: ""
+          context: ""
+          sacrifice: ""  # What gave up
+          preservation: ""  # What protected
+          opportunity_cost: ""  # Value of what sacrificed
+          quote: ""
+          justification: ""
+          consequences: ""
+          source: ""
+          source_type: ""  # interview/document/behavior/observation
+
+        - evidence_id: 2
+          date: ""
+          context: ""
+          sacrifice: ""
+          preservation: ""
+          opportunity_cost: ""
+          quote: ""
+          justification: ""
+          consequences: ""
+          source: ""
+          source_type: ""
+
+        - evidence_id: 3
+          date: ""
+          context: ""
+          sacrifice: ""
+          preservation: ""
+          opportunity_cost: ""
+          quote: ""
+          justification: ""
+          consequences: ""
+          source: ""
+          source_type: ""
+
+      triangulation:
+        words: ""  # What they SAY about this value
+        actions: ""  # What they DO when tested
+        consequences_accepted: ""  # What they PAY to preserve it
+        alignment: 0.0  # 0.0-1.0 (how well words/actions/consequences align)
+
+      language:
+        keywords: []  # Terms they use when discussing
+        metaphors: []  # How they conceptualize it
+        emotional_tone: ""  # How their tone changes
+        frequency: ""  # How often mentioned
+
+      extreme_test:
+        limit_situation: ""  # When went to extreme for this
+        would_die_for: false  # Based on documented evidence
+        violations_count: 0
+        violations_contexts: []  # If any violations, explain context
+
+      tensions:
+        conflicts_with_values: []  # Other values it conflicts with
+        conflicts_with_people: []  # People/groups opposed
+        recurring_cost: ""  # What they always pay for this value
+        unresolved_tensions: []
+
+      origin:
+        formative_event: ""
+        formative_event_date: ""
+        influence_person: ""
+        influence_philosophy: ""
+        crystallization_age: 0
+        evolution: ""  # How this value evolved over time
+
+  anti_values:  # Visceral rejections (as important as values!)
+    - anti_value_id: 1
+      name: ""
+      description: ""
+      rejection_intensity: 10  # 1-10
+
+      manifestations:
+        identification_signals: []  # How they spot it
+        physical_response: ""  # Body reactions documented
+        verbal_response: []  # Typical phrases of rejection
+        behavioral_response: ""  # What they do when encounter
+
+      embodiments:
+        - person: ""
+          reason: ""  # Why this person embodies anti-value
+        - person: ""
+          reason: ""
+
+      energy_spent_combating:
+        hours_per_week: 0
+        percent_of_public_discourse: 0
+        resources_invested: ""
+
+      cost_of_rejection:
+        opportunities_lost: []
+        relationships_lost: []
+        energy_wasted: ""  # Could have used to create instead
+
+      exceptions:
+        - situation: ""
+          reason: ""  # Why tolerated in this case
+
+  trade_offs:  # Documented choice patterns
+    - trade_off_id: 1
+      pattern: ""  # "Always chooses {A} over {B}"
+      value_chosen: ""
+      value_sacrificed: ""
+
+      examples:
+        - date: ""
+          situation: ""
+          choice_made: ""
+          cost_accepted: ""
+          rationalization: ""
+
+        - date: ""
+          situation: ""
+          choice_made: ""
+          cost_accepted: ""
+          rationalization: ""
+
+        - date: ""
+          situation: ""
+          choice_made: ""
+          cost_accepted: ""
+          rationalization: ""
+
+      exceptions: []  # If exists, when and why
+
+      pattern_strength: ""  # always / usually / sometimes
+
+  temporal_evolution:
+    - phase_id: 1
+      age_range: ""  # "0-18", "18-30", etc
+      period: ""
+      life_context: ""
+
+      dominant_values:
+        - value: ""
+          intensity: 0  # 1-10
+          manifestation: ""
+
+        - value: ""
+          intensity: 0
+          manifestation: ""
+
+        - value: ""
+          intensity: 0
+          manifestation: ""
+
+      transition_event:
+        event: ""
+        date: ""
+        impact: ""
+        values_before: []
+        values_after: []
+        values_unchanged: []  # Immutable across transition
+
+  validation_report:
+    total_values_identified: 0
+    values_with_3plus_evidences: 0
+    average_evidences_per_value: 0.0
+    triangulation_scores: []
+    average_triangulation: 0.0
+
+    gaps_identified: []
+    uncertainties: []
+
+    human_validation_questions:
+      - question: "Does this ranking feel authentic?"
+        answer: ""
+      - question: "Any values missing that should be top 5?"
+        answer: ""
+      - question: "Any values ranked too high or too low?"
+        answer: ""
+      - question: "Do anti-values resonate?"
+        answer: ""
+
+    reviewer_notes: ""

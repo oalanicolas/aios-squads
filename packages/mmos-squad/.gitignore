@@ -1,0 +1,126 @@
+# API Keys and Credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.secret
+*-secret.*
+*_secret.*
+credentials.json
+credentials.yaml
+secrets.json
+secrets.yaml
+config/credentials.*
+config/secrets.*
+auth.json
+auth.yaml
+
+# AssemblyAI & Transcription API Keys
+assemblyai.key
+assemblyai-*.json
+ASSEMBLYAI_*
+whisper-api-key.*
+openai-key.*
+OPENAI_*
+
+# Social Media API Keys
+twitter-auth.*
+twitter-bearer-token.*
+linkedin-cookies.*
+reddit-credentials.*
+facebook-token.*
+
+# Z-Library Credentials (from ETL pack integration)
+zlib-credentials.*
+.zlib-session
+zlibrary-session.*
+
+# Mind Data (can be large and sensitive)
+docs/minds/*/sources/downloads/
+docs/minds/*/sources/processed/
+docs/minds/*/analysis/drafts/
+docs/minds/*/synthesis/working/
+docs/minds/*/brownfield/rollback/
+
+# Collection Logs (may contain sensitive URLs or sources)
+docs/minds/*/sources/COLLECTION_LOG_*.md
+docs/minds/*/sources/COLLECTION_SUMMARY_*.yaml
+
+# Temporary Working Files
+temp/
+tmp/
+.cache/
+working/
+drafts/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS Files
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Database files (cognitive architecture caching)
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Personal notes (may contain sensitive mind insights)
+notes.txt
+notes.md
+TODO-personal.md
+TODO-private.md
+SCRATCH.md
+NOTES-*.md
+*-private.*
+*_private.*
+private-*
+Private-*
+
+# Exports (may contain proprietary mind architectures)
+export-*.json
+export-*.yaml
+backup-*.tar.gz
+archive-*.zip
+*-export-*.csv
+
+# User-specific configuration
+.user.config
+user-config.*
+local-config.*
+.local/
+
+# Mind-specific sensitive files
+docs/minds/*/viability/*-internal.md
+docs/minds/*/analysis/*-confidential.*
+docs/minds/*/system_prompts/*-draft-*.md

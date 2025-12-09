@@ -1,0 +1,267 @@
+# ETL Data Collector - Download Rules
+# Defines what content to download and what to ignore
+
+version: 1.0.0
+
+# Global rules applied to all source types
+global:
+  save_images: false              # Never save images
+  save_videos: false              # Never save full videos
+  save_audio_after_transcription: false  # Delete audio after transcript generated
+  output_format: markdown         # Always output as clean markdown
+  max_file_size_mb: 100          # Skip files larger than 100MB
+  timeout_seconds: 300            # 5 minute timeout per download
+  user_agent: "AIOS-ETL-Collector/1.0 (Educational/Research)"
+
+# YouTube-specific rules
+youtube:
+  download_strategy: audio_only   # Only download audio, not video
+
+  video:
+    download: false               # Don't download video
+    save_thumbnail: false         # Don't save thumbnails
+
+  audio:
+    download: true
+    format: mp3
+    quality: 192k                 # Good quality for transcription
+    delete_after_transcription: true  # Save disk space
+    save_path: downloads/youtube/{source_id}/
+
+  transcript:
+    method: assemblyai            # Primary transcription method
+    fallback: youtube-api         # Try YouTube captions if AssemblyAI fails
+    include_timestamps: true      # Include timestamp markers
+    speaker_diarization: true     # Identify different speakers
+    filter_target_speaker: true   # Only keep target speaker utterances
+    save_full_transcript: true    # Also save full transcript with all speakers
+    format: markdown
+    save_path: downloads/youtube/{source_id}/
+
+  metadata:
+    extract_description: true
+    extract_comments: false       # Don't scrape comments
+    extract_chapters: true        # Auto-chapters if available
+
+# Podcast-specific rules
+podcasts:
+  download_audio: true
+  audio_format: mp3
+  audio_quality: 192k
+  transcribe: true                # Always transcribe podcasts
+  delete_audio_after: true        # Save space
+  speaker_diarization: true       # Identify host vs guest
+
+  rss:
+    max_episodes: 50              # Max episodes to fetch from RSS
+    prefer_latest: true           # Start with newest episodes
+
+  transcript:
+    method: assemblyai
+    filter_target_speaker: true   # Focus on guest, not host
+    include_timestamps: true
+    format: markdown
+
+# Blog/Article-specific rules
+blogs:
+  extraction_method: platform_specific  # Try specific extractor first
+  fallback: readability                 # Use Readability if platform unknown
+
+  # Elements to remove (common boilerplate)
+  remove_elements:
+    - nav
+    - header
+    - footer
+    - aside
+    - sidebar
+    - ".sidebar"
+    - ".widget"
+    - ".social-share"
+    - ".related-posts"
+    - ".comments"
+    - ".cookie-notice"
+    - ".advertisement"
+    - "[class*='ad-']"
+    - "[class*='banner']"
+    - "[id*='sidebar']"
+    - script
+    - style
+    - iframe
+    - noscript
+
+  # What to preserve
+  preserve:
+    links: true                   # Keep hyperlinks
+    code_blocks: true             # Keep code snippets
+    tables: true                  # Keep tables (as markdown)
+    lists: true                   # Keep bullet/numbered lists
+    blockquotes: true             # Keep quotes
+
+  images:
+    download: false
+    keep_alt_text: true           # Replace <img> with [Image: alt text]
+    placeholder_format: "*[Image: {alt}]*"
+
+  output:
+    format: markdown
+    include_frontmatter: true     # Add YAML frontmatter
+    max_content_length: 50000     # Skip articles over 50k words (likely not articles)
+    min_content_length: 100       # Skip if less than 100 words
+
+# PDF/eBook-specific rules
+pdf:
+  extract_text_only: true
+  extract_images: false           # Don't extract embedded images
+  extract_tables: as_markdown     # Convert tables to markdown tables
+  ocr_if_scanned: true           # Use OCR for scanned PDFs
+
+  ocr:
+    engine: tesseract             # OCR engine
+    language: eng                 # English (can be overridden per source)
+    quality_threshold: 80         # Min OCR confidence %
+
+  structure:
+    detect_chapters: true         # Try to detect chapter boundaries
+    split_by_chapters: true       # Save each chapter as separate file
+    preserve_headings: true       # Maintain heading hierarchy
+
+  output:
+    format: markdown
+    save_raw_text: true           # Also save plain text version
+
+# Social Media-specific rules
+social:
+  download_media: false           # Don't download images/videos from posts
+  preserve_urls: true             # Keep links in posts
+  format_threads: markdown        # Format thread as markdown
+  apify:
+    enabled: true
+    timeout_seconds: 300
+    twitter_actor: apify/twitter-scraper
+    reddit_actor: apify/reddit-scraper
+    linkedin_actor: apify/linkedin-profile-scraper
+
+  twitter:
+    max_tweets_per_thread: 100
+    include_replies: false        # Don't include reply chains
+    include_retweets: false       # Don't include RTs
+    extract_links: true           # Extract links from tweets
+
+  linkedin:
+    max_posts: 10                 # Conservative limit
+    public_only: true             # Only public posts
+    include_comments: false
+    prefer_apify: true            # Use Apify actor first if available
+
+  reddit:
+    max_comments: 1000            # Max comments per submission
+    include_op_only: false        # Include all comments, not just OP
+    format: markdown
+    prefer_apify: true
+
+# Platform-specific extractors
+platforms:
+  wordpress:
+    content_selectors:
+      - ".entry-content"
+      - ".post-content"
+      - ".article-content"
+      - "article .content"
+      - "#content article"
+
+    remove_classes:
+      - "sidebar"
+      - "widget"
+      - "social-share"
+      - "related-posts"
+      - "wp-block-navigation"
+
+  medium:
+    content_selectors:
+      - "article"
+      - ".postArticle-content"
+      - "section[data-field='body']"
+
+    remove_elements:
+      - "aside"
+      - ".metabar"
+      - ".footer"
+
+  substack:
+    content_selectors:
+      - ".post-content"
+      - ".body"
+      - "article"
+
+    remove_elements:
+      - ".subscribe-widget"
+      - ".footer"
+
+  ghost:
+    content_selectors:
+      - ".post-content"
+      - ".gh-content"
+      - "article"
+
+# Quality standards
+quality:
+  transcript:
+    min_quality_score: 85         # Min transcript quality %
+    flag_below_threshold: true    # Flag for manual review if below
+
+  article:
+    min_word_count: 100
+    max_word_count: 50000
+    require_title: true
+
+  pdf:
+    min_text_extraction_rate: 0.7  # At least 70% of pages must have text
+
+# Error handling
+errors:
+  max_retries: 3
+  retry_delay_seconds: 5
+  exponential_backoff: true
+  skip_on_final_failure: true     # Continue with other sources
+  log_errors: true
+
+# Rate limiting
+rate_limits:
+  youtube:
+    requests_per_minute: 30
+    concurrent_downloads: 3
+
+  web:
+    requests_per_minute: 60
+    requests_per_domain_per_minute: 10
+    concurrent_requests: 5
+
+  assemblyai:
+    concurrent_transcriptions: 5
+    check_quota: true
+
+  social:
+    twitter_requests_per_15min: 100
+    reddit_requests_per_minute: 60
+
+# Book download rules (Z-Library)
+books:
+  provider: zlibrary
+  verify_official_url_on_start: true
+  twitter_url: "https://x.com/Z_Lib_official"
+  max_results_per_query: 3
+  delay_between_downloads: 2      # seconds
+  output:
+    save_path: downloads/books/{source_id}/
+    metadata_filename: metadata.json
+  retry:
+    max_attempts: 3
+    backoff_seconds: 5
+
+# Storage
+storage:
+  base_path: downloads/
+  organize_by_type: true          # downloads/youtube/, downloads/blogs/, etc
+  organize_by_source_id: true     # downloads/youtube/{source_id}/
+  compress_old_files: false       # Don't compress (markdown is already small)
+  cleanup_failed_downloads: true  # Remove partial downloads on failure

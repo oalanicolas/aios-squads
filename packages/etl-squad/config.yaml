@@ -1,0 +1,113 @@
+name: etl
+version: 2.0.0
+short-title: ETL - Blog Collection Utilities
+description: >-
+  Lightweight blog collection utilities with proven 100% success rate.
+  Smart discovery rules, platform-specific extraction (WordPress, Medium, Substack),
+  and speaker diarization for transcript filtering.
+
+author: Academia Lendar[IA] (Alan Nicolas)
+slashPrefix: etl
+
+tags:
+  - blog-collection
+  - web-scraping
+  - content-discovery
+  - speaker-diarization
+  - proven-utilities
+
+requires:
+  node: ">=18.0.0"
+  aios: ">=2.0.0"
+
+status:
+  production_ready: true
+  success_rate: "100% (9/9 blog posts validated)"
+  refactored: "2025-10-27 (deprecated orchestration, focused on proven utilities)"
+
+# ACTIVE SCRIPTS (Proven in Production)
+scripts:
+  discovery:
+    - scripts/utils/blog-discovery.js       # Smart blog post discovery
+
+  collection:
+    - scripts/collectors/web-collector.js   # WordPress, Medium, generic blogs
+    - bin/collect-blog.js                   # End-to-end blog collection
+
+  transformers:
+    - scripts/transformers/speaker-filter.js  # Speaker diarization
+    - scripts/transformers/clean-transcript.js
+
+  validators:
+    - scripts/validators/check-completeness.js
+
+  future:
+    - scripts/collectors/zlibrary-collector.js  # Book collection (manual mode)
+
+# DEPRECATED (Moved to deprecated/ folder)
+deprecated:
+  orchestration:
+    - deprecated/orchestrator/parallel-collector.js
+    - deprecated/orchestrator/task-manager.js
+    - deprecated/orchestrator/progress-tracker.js
+    reason: "Overhead not justified (650 LOC for 12 sources in 42s)"
+
+  collectors:
+    - deprecated/collectors/youtube-collector.js  # 0% success (yt-dlp HTTP 403)
+    - deprecated/collectors/pdf-collector.js      # Never tested, MCP alternative
+    - deprecated/collectors/podcast-collector.js  # Never tested
+    - deprecated/collectors/social-collector.js   # Never tested
+    reason: "Zero production usage or known failures"
+
+  agents:
+    - deprecated/agents/*  # All 6 agents
+    reason: "AIOS overhead without proven value"
+
+  tasks:
+    - deprecated/tasks/*  # All 8 tasks
+    reason: "AIOS overhead without proven value"
+
+  timeline:
+    deprecated_date: "2025-10-27"
+    grace_period_days: 30
+    removal_date: "2025-12-27"
+
+dependencies:
+  node:
+    - "@mozilla/readability"
+    - "cheerio"
+    - "puppeteer"
+    - "axios"
+    - "turndown"
+    - "js-yaml"
+
+  python: []  # None required for active components
+
+mcps:
+  recommended_alternatives:
+    youtube: "youtube-transcript MCP"
+    pdf: "pdf-reader MCP"
+    web: "web-fetch MCP"
+
+integration:
+  mmos:
+    hook: research-collection
+    input: blog_url or sources_list
+    output: sources/blogs/{slug}.md
+
+  standalone:
+    input: blog_url
+    output: ./blogs/{slug}.md
+
+proven_track_record:
+  mind: "sam_altman"
+  sources: 9
+  success_rate: "100%"
+  duration: "42 seconds"
+  date: "2025-10-11"
+
+migration_notes: >-
+  Version 2.0.0 refactored based on real-world usage validation across 14 minds.
+  Only 1/14 (7%) used ETL orchestration. Focused on proven blog utilities with
+  100% success rate. Deprecated complex orchestration and untested collectors.
+  See deprecated/README.md for migration guide.

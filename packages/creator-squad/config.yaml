@@ -1,0 +1,9 @@
+name: expansion-creator
+version: 1.0.0
+short-title: Expansion Pack Creator
+description: >-
+  This expansion pack provides tools and agents to create custom AIOS-FULLSTACK
+  expansion packs. It automates the process of creating agents, tasks, templates,
+  workflows, and all necessary components for new domain-specific expansion packs.
+author: AIOS Team
+slashPrefix: expansionCreator
