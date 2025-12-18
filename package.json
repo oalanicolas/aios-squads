@@ -1,7 +1,7 @@
 {
-  "name": "@aios/squads",
+  "name": "@aios-squads/monorepo",
   "version": "2.1.0",
-  "description": "AIOS Squads - Modular AI Agent Teams",
+  "description": "AIOS Squads - Equipes de AI agents trabalhando com você",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -13,27 +13,27 @@
   },
   "keywords": [
     "aios",
+    "synkra",
     "ai-agents",
     "squads",
     "etl",
     "creator",
-    "mmos",
     "automation"
   ],
-  "author": "AllFluence Inc.",
+  "author": "SynkraAI",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allfluence/aios-squads.git"
+    "url": "git+https://github.com/SynkraAI/aios-squads.git"
   },
   "bugs": {
-    "url": "https://github.com/allfluence/aios-core/discussions"
+    "url": "https://github.com/SynkraAI/aios-core/discussions"
   },
-  "homepage": "https://github.com/allfluence/aios-squads#readme",
+  "homepage": "https://github.com/SynkraAI/aios-squads#readme",
   "engines": {
     "node": ">=18.0.0"
   },
   "peerDependencies": {
-    "@aios/core": ">=2.0.0"
+    "@aios-fullstack/core": ">=2.0.0"
   }
 }

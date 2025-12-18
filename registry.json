@@ -1,0 +1,83 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SynkraAI/aios-squads/main/schemas/registry-schema.json",
+  "version": "1.0.0",
+  "updated": "2025-12-18T00:00:00Z",
+  "description": "AIOS Squads Registry - Official index of available squads",
+  "repository": "https://github.com/SynkraAI/aios-squads",
+  "squads": {
+    "official": [
+      {
+        "name": "etl-squad",
+        "version": "2.0.0",
+        "path": "packages/etl-squad",
+        "description": "Lightweight blog collection utilities with proven 100% success rate",
+        "author": "Academia Lendar[IA] (Alan Nicolas)",
+        "status": "production",
+        "tags": ["blog-collection", "web-scraping", "content-discovery", "speaker-diarization"],
+        "requires": {
+          "node": ">=18.0.0",
+          "aios": ">=2.0.0"
+        },
+        "agents": [
+          "data-collector",
+          "document-specialist",
+          "social-specialist",
+          "web-specialist",
+          "youtube-specialist",
+          "zlibrary-harvester"
+        ],
+        "scripts": {
+          "discovery": ["scripts/utils/blog-discovery.js"],
+          "collection": ["scripts/collectors/web-collector.js", "bin/collect-blog.js"],
+          "transformers": ["scripts/transformers/speaker-filter.js", "scripts/transformers/clean-transcript.js"]
+        }
+      },
+      {
+        "name": "creator-squad",
+        "version": "1.0.0",
+        "path": "packages/creator-squad",
+        "description": "Tool for creating new expansion packs and custom AIOS extensions",
+        "author": "AIOS Team",
+        "status": "production",
+        "tags": ["expansion-pack", "creator", "scaffolding", "templates"],
+        "requires": {
+          "node": ">=18.0.0",
+          "aios": ">=2.0.0"
+        },
+        "agents": [
+          "expansion-creator"
+        ],
+        "tasks": [
+          "create-expansion-agent",
+          "create-expansion-pack",
+          "create-expansion-task",
+          "create-expansion-template",
+          "install-expansion-commands"
+        ]
+      }
+    ],
+    "community": []
+  },
+  "private": {
+    "note": "Private squads are not listed here. See SynkraAI/mmos and SynkraAI/certified-partners.",
+    "repositories": [
+      {
+        "name": "mmos",
+        "description": "Mind Mapping Operating System",
+        "url": "https://github.com/SynkraAI/mmos",
+        "visibility": "private"
+      },
+      {
+        "name": "certified-partners",
+        "description": "Premium partner packs and portal",
+        "url": "https://github.com/SynkraAI/certified-partners",
+        "visibility": "private"
+      }
+    ]
+  },
+  "contributing": {
+    "guide": "https://github.com/SynkraAI/aios-core/blob/main/CONTRIBUTING.md",
+    "squadsGuide": "https://github.com/SynkraAI/aios-core/blob/main/docs/guides/squads-guide.md",
+    "submitProcess": "Create a PR to add your squad to packages/community/{your-username}/{squad-name}/"
+  }
+}

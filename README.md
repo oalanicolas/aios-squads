@@ -1,6 +1,6 @@
 # AIOS Squads
 
-> Modular AI Agent Teams for AIOS
+> Equipes de AI agents trabalhando com você - Modular AI Agent Teams for Synkra AIOS
 
 ## What are Squads?
 
@@ -13,43 +13,40 @@ Squads are specialized teams of AI agents that work together to accomplish domai
 
 ## Available Squads
 
-### ETL Squad
-Data extraction, transformation, and loading operations.
-- YouTube transcript extraction
-- Blog/article scraping
-- Social media collection
+### ETL Squad (v2.0.0) - Production Ready
+Lightweight blog collection utilities with proven 100% success rate.
+- Smart blog post discovery
+- Platform-specific extraction (WordPress, Medium, Substack)
+- Speaker diarization for transcript filtering
 - Data chunking and indexing
 
-### Creator Squad
-Content creation and course development.
-- Course generation with pedagogical frameworks
-- Blog post writing
-- Content optimization
+### Creator Squad (v1.0.0) - Production Ready
+Expansion pack creator tool for building custom AIOS extensions.
+- Automated expansion pack scaffolding
+- Agent, task, and template creation
+- Checklist and workflow generation
 
-### MMOS Squad
-Mind Mapping Operating System integration.
-- Cognitive clone activation
-- Mind synthesis and compilation
-- Fidelity testing
+### MMOS Squad (Private)
+Mind Mapping Operating System integration - Available in private repository.
 
 ## Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/allfluence/aios-squads.git
+git clone https://github.com/SynkraAI/aios-squads.git
 cd aios-squads
 
 # Install dependencies
 npm install
 
 # Link to local aios-core (for development)
-npm link @aios/core
+npm link @aios-fullstack/core
 ```
 
 ## Requirements
 
 - Node.js 18+
-- [@aios/core](https://github.com/allfluence/aios-core) >=2.0.0
+- [@aios-fullstack/core](https://github.com/SynkraAI/aios-core) >=2.0.0
 
 ## Usage
 
@@ -57,19 +54,21 @@ Squads are loaded dynamically by AIOS core:
 
 ```javascript
 // In your AIOS project
-const { loadSquad } = require('@aios/core');
+const { loadSquad } = require('@aios-fullstack/core');
 
 const etlSquad = await loadSquad('etl');
-await etlSquad.executeTask('collect-youtube', { url: 'https://...' });
+await etlSquad.executeTask('collect-blog', { url: 'https://...' });
 ```
 
 ## Documentation
 
-For detailed documentation, visit [AIOS Core Discussions](https://github.com/allfluence/aios-core/discussions).
+For detailed documentation, visit:
+- [AIOS Core Discussions](https://github.com/SynkraAI/aios-core/discussions)
+- [Squads Guide](https://github.com/SynkraAI/aios-core/blob/main/docs/guides/squads-guide.md)
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](https://github.com/allfluence/aios-core/blob/main/CONTRIBUTING.md).
+We welcome contributions! Please see our [Contributing Guide](https://github.com/SynkraAI/aios-core/blob/main/CONTRIBUTING.md).
 
 ## License
 
@@ -77,4 +76,4 @@ MIT License - see [LICENSE](./LICENSE)
 
 ---
 
-Part of the [AIOS Framework](https://github.com/allfluence/aios-core)
+Part of the [Synkra AIOS Framework](https://github.com/SynkraAI/aios-core)
