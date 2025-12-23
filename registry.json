@@ -13,7 +13,12 @@
         "description": "Lightweight blog collection utilities with proven 100% success rate",
         "author": "Academia Lendar[IA] (Alan Nicolas)",
         "status": "production",
-        "tags": ["blog-collection", "web-scraping", "content-discovery", "speaker-diarization"],
+        "tags": [
+          "blog-collection",
+          "web-scraping",
+          "content-discovery",
+          "speaker-diarization"
+        ],
         "requires": {
           "node": ">=18.0.0",
           "aios": ">=2.0.0"
@@ -27,9 +32,17 @@
           "zlibrary-harvester"
         ],
         "scripts": {
-          "discovery": ["scripts/utils/blog-discovery.js"],
-          "collection": ["scripts/collectors/web-collector.js", "bin/collect-blog.js"],
-          "transformers": ["scripts/transformers/speaker-filter.js", "scripts/transformers/clean-transcript.js"]
+          "discovery": [
+            "scripts/utils/blog-discovery.js"
+          ],
+          "collection": [
+            "scripts/collectors/web-collector.js",
+            "bin/collect-blog.js"
+          ],
+          "transformers": [
+            "scripts/transformers/speaker-filter.js",
+            "scripts/transformers/clean-transcript.js"
+          ]
         }
       },
       {
@@ -39,7 +52,12 @@
         "description": "Tool for creating new expansion packs and custom AIOS extensions",
         "author": "AIOS Team",
         "status": "production",
-        "tags": ["expansion-pack", "creator", "scaffolding", "templates"],
+        "tags": [
+          "expansion-pack",
+          "creator",
+          "scaffolding",
+          "templates"
+        ],
         "requires": {
           "node": ">=18.0.0",
           "aios": ">=2.0.0"
@@ -56,7 +74,14 @@
         ]
       }
     ],
-    "community": []
+    "community": [
+      {
+        "name": "auth-test-squad",
+        "version": "1.0.0",
+        "description": "Test",
+        "author": "Test"
+      }
+    ]
   },
   "private": {
     "note": "Private squads are not listed here. See SynkraAI/mmos and SynkraAI/certified-partners.",
