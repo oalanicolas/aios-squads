@@ -1,3 +1,0 @@
-"""
-MMOS Tests Package
-"""
